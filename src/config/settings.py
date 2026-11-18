@@ -18,20 +18,24 @@ def _load_local_env(path: str = ".env") -> None:
 
 @dataclass
 class AppConfig:
-    search_strategy: str = "chroma"
+    #search_strategy: str = "chroma"
+    search_strategy: str = "hybrid_reranker"  # updated default or supported option
+    reranker_model: str = "BAAI/bge-reranker-base" # or large
     rag_strategy: str = "auto"
     prompt_strategy: str = "simple"
-    answer_strategy: str = "dataset"
+    answer_strategy: str = "llm"
     memory_strategy: str = "conversation"
     evaluator_strategy: str = "simple"
-    chunking_strategy: str = "whole"
-    embedder_strategy: str = "hashing"
-    embedding_model_name: str = "sentence-transformers/all-MiniLM-L6-v2"
+    chunking_strategy: str = "parent_child"
+    embedder_strategy: str = "bge_api"
+    #embedding_model_name: str = "sentence-transformers/all-MiniLM-L6-v2"
+    embedding_model_name: str = "bge-small-en-v1.5"
     chroma_path: str = "data/processed/chroma"
-    chroma_collection: str = "finance_sample"
+    #chroma_collection: str = "finance_sample"
+    chroma_collection: str = "finance_sample_500_parent_child"
     metrics_db_path: str = "data/processed/metrics.sqlite3"
-    chunk_size: int = 800
-    chunk_overlap: int = 100
+    chunk_size: int = 1200
+    chunk_overlap: int = 150
     retrieval_limit: int = 4
 
     @classmethod

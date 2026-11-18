@@ -1,0 +1,483 @@
+{
+    "analysis_summary": {
+        "total_qa_pairs": 103,
+        "eligible_qa_pairs": 100,
+        "excluded_qa_pairs": 3,
+        "analyzed_qa_pairs": 100,
+        "failed_qa_pairs": 8,
+        "clean_qa_pairs": 92,
+        "retrieval_strategy": "dense",
+        "embedder": "bge-small-en-v1.5",
+        "top_k": 5
+    },
+    "failure_records": [
+        {
+            "doc_id": "175.jpeg",
+            "question_id": "q7",
+            "question": "What is the total budget proposed in the document?",
+            "gold_answer": "$36,693.00",
+            "relevant_chunk_ids": [
+                "175.jpeg:1",
+                "175.jpeg:2"
+            ],
+            "retrieved_chunks": [
+                {
+                    "rank": 1,
+                    "chunk_id": "1559.jpeg:0",
+                    "doc_id": "1559.jpeg",
+                    "score": 0.7204469442367554,
+                    "text": "### Document Type\nThis is a budget document for promotional and operational expenses related to club nights and concerts.",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 2,
+                    "chunk_id": "175.jpeg:3",
+                    "doc_id": "175.jpeg",
+                    "score": 0.7162656188011169,
+                    "text": "**Insights and Observations:**\n- **Efficiency and Resource Utilization:** The memo outlines a strategic move to optimize the use of an expensive piece of equipment (Electron Microscope) by relocating it to a department where it is more needed.\n- **Financial Planning:** Detailed and itemized budget planning is evident, which helps in transparent financial management and accountability.\n- **Project Coordination:** The memo indicates a coordinated approach involving multiple departments and highlights the necessity for immediate action to ensure continuity in research activities.\n\nThis document is crucial for understanding budget allocation and resource management strategies within research projects at educational institutions.",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 3,
+                    "chunk_id": "1466.jpeg:1",
+                    "doc_id": "1466.jpeg",
+                    "score": 0.6833803653717041,
+                    "text": "### Insights and Observations\n- **Budget Tracking**: This document appears to track advertising expenses for a specific product (Alpine 85 S) for a set period.\n- **Client and Campaign Details**: Provides specifics such as client name and dates, which are crucial for tracking campaign budgets and performance.\n- **Historical Data Usage**: The date suggests this document serves as a historical financial record, useful for analyzing budget trends or auditing past finances.\n- **Potential Financial Review Points**:\n  - Based on the 'revised' tag on the estimate number, consider checking earlier estimates for discrepancies or updates.\n  - Ensure that all future expenses align with the budget allocations illustrated in this and other similar documents.",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 4,
+                    "chunk_id": "532.jpeg:1",
+                    "doc_id": "532.jpeg",
+                    "score": 0.6783506274223328,
+                    "text": "### Insights and Observations\n- **Campaign Finance**: The document highlights a financial contribution towards a political campaign, which is regulated under specific legal statutes ensuring transparency and compliance.\n- **Contribution Usage**: It specifies that the funds are directed towards the re-election of Jay C. Hoffman, indicating an ongoing political campaign.\n- **Document Formality**: The form includes structured fields and official signatures, suggesting a formal request for campaign funds compliant with regulatory standards.\n- **Historical Context**: The date on the document shows it is from the late 1990s, which could be relevant in understanding the political and regulatory environment of that period.",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 5,
+                    "chunk_id": "1007.jpeg:3",
+                    "doc_id": "1007.jpeg",
+                    "score": 0.6740217208862305,
+                    "text": "- **Document Usage**: This type of document likely serves both for budgetary review and adjustment purposes, as well as for compliance and reporting within corporate financial management structures.",
+                    "is_relevant": false
+                }
+            ],
+            "retrieved_relevant_chunk_ids": [],
+            "missed_relevant_chunk_ids": [
+                "175.jpeg:1",
+                "175.jpeg:2"
+            ],
+            "failure_type": "complete_retrieval_failure",
+            "retrieved_count": 5,
+            "relevant_retrieved_count": 0
+        },
+        {
+            "doc_id": "175.jpeg",
+            "question_id": "q8",
+            "question": "How much are personal services allocated in the budget?",
+            "gold_answer": "$20,070.00",
+            "relevant_chunk_ids": [
+                "175.jpeg:1"
+            ],
+            "retrieved_chunks": [
+                {
+                    "rank": 1,
+                    "chunk_id": "5104.jpeg:3",
+                    "doc_id": "5104.jpeg",
+                    "score": 0.6666487455368042,
+                    "text": "### Insights and Observations:\n- **High Travel Expenses**: Travel expenses constitute a significant portion of the charges, signifying perhaps frequent or expensive trips made on behalf of the client.\n- **Variety of Services Charged**: The statement includes charges for a wide range of services from duplicating to telecommunications and catering, indicating a comprehensive legal service that may involve complex cases or many meetings (noted \"fire-safe meetings\").\n- **Prompt Payment Indication**: The noted instruction at the bottom \"PLEASE RETURN ONE COPY WITH PAYMENT\" suggests an expectation of prompt payment for these services.",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 2,
+                    "chunk_id": "1559.jpeg:4",
+                    "doc_id": "1559.jpeg",
+                    "score": 0.6393074989318848,
+                    "text": "- **Observation on Allocation Consistency**: The budget allocation for Advertising ROP remains consistent at $375,000 across both years, indicating a steady commitment to this area of advertising.\n  \nThis budget review highlights areas where financial adjustments have been made year over year, which can influence strategic planning and operational execution of the events.",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 3,
+                    "chunk_id": "8267.jpeg:1",
+                    "doc_id": "8267.jpeg",
+                    "score": 0.6336248517036438,
+                    "text": "### Insights and Observations\n- The billing summary shows a significant expense or advance of $20,735.38, which is also reflected as the current bill. This suggests that the charges might be linked to a specific event or series of services rendered recently.\n- The reference to “Arizona” suggests that the legal services or matters being billed are related to issues within or concerning the State of Arizona.\n- Given the substantial amount in the billing summary, it would be advisable for the client to review the detailed billing for a breakdown of services to verify the charges and for better financial tracking. \n\nThis document would typically require further scrutiny by the client or the client's financial team to ensure the alignment of the charges with the services rendered.",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 4,
+                    "chunk_id": "1559.jpeg:2",
+                    "doc_id": "1559.jpeg",
+                    "score": 0.622710645198822,
+                    "text": "- **Media Days**:\n    - 1993: $25,000\n    - 1992: $15,000\n  - **Press Event**:\n    - 1993: $15,000\n    - 1992: $13,000\n  - **Photography**:\n    - 1993: $5,000\n    - 1992: $7,000\n  - **Club/Concert**:\n    - 1993: $2,030,000\n    - 1992: $2,095,000\n  - **Sampling Agency**:\n    - 1993: $60,000\n    - 1992: $59,000\n  - **Total Budget**:\n    - 1993: $3,400,000\n    - 1992: $3,452,000",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 5,
+                    "chunk_id": "1559.jpeg:0",
+                    "doc_id": "1559.jpeg",
+                    "score": 0.6209555864334106,
+                    "text": "### Document Type\nThis is a budget document for promotional and operational expenses related to club nights and concerts.",
+                    "is_relevant": false
+                }
+            ],
+            "retrieved_relevant_chunk_ids": [],
+            "missed_relevant_chunk_ids": [
+                "175.jpeg:1"
+            ],
+            "failure_type": "complete_retrieval_failure",
+            "retrieved_count": 5,
+            "relevant_retrieved_count": 0
+        },
+        {
+            "doc_id": "3348.jpeg",
+            "question_id": "q1",
+            "question": "What is the company name mentioned in the document?",
+            "gold_answer": "Mallard Media Services",
+            "relevant_chunk_ids": [
+                "3348.jpeg:0",
+                "3348.jpeg:2"
+            ],
+            "retrieved_chunks": [
+                {
+                    "rank": 1,
+                    "chunk_id": "1466.jpeg:0",
+                    "doc_id": "1466.jpeg",
+                    "score": 0.7046785354614258,
+                    "text": "### Document Type\nThe image depicts an \"Estimate Recap\" document from an advertising agency.\n\n### Key Details\n- **Agency**: Leo Burnett U.S.A.\n- **Division**: A division of Leo Burnett Company, Inc.\n- **Client**: P.M. Inc.\n- **Document Reference**:\n  - Estimate Number: 1093 Revised Estimate Dated 07/03/91\n  - Description: \"772A ALPINE OUT OF POCKET - 30 SHEET\"\n  - Office: 10\n  - Zone: 06\n  - Period: 01/01/1991 to 12/31/1991\n- **Date of Document**: 03/06/1992\n- **Financial Information**:\n  - Showing for Product/Month: Alpine 85 S\n  - Period: February 1991\n  - Gross Amount: $20,860.90",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 2,
+                    "chunk_id": "5104.jpeg:0",
+                    "doc_id": "5104.jpeg",
+                    "score": 0.7005912065505981,
+                    "text": "### Document Type:\nThis is a financial statement from the law firm Covington & Burling to American Brands, Inc. and its associated companies, detailing various disbursements and other charges.",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 3,
+                    "chunk_id": "803.jpeg:0",
+                    "doc_id": "803.jpeg",
+                    "score": 0.6808103322982788,
+                    "text": "### Document Type\nThis image shows a handwritten **Cost Estimate Report** for various industrial or construction equipment and operations.\n\n### Key Details\n- **Document Features**\n  - Three main columns: \"Item No.\", \"Description\", and columns for costs labeled \"Equip. Material Cost\" and \"Estylvant Man/Hrs.\"\n  - Pages labeled: Page 1 of 3\n  - Various notes, calculations, and figures are handwritten.",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 4,
+                    "chunk_id": "1007.jpeg:0",
+                    "doc_id": "1007.jpeg",
+                    "score": 0.6787867546081543,
+                    "text": "### Document Type\nThis is an advertising estimate recap document from Leo Burnett USA, detailing newspaper advertising expenses for a client over various periods in 1988.\n\n### Key Details\n- **Client Information**: \n  - Company: Leo Burnett USA\n  - Client Name: Not explicitly mentioned, references a project number \"703 VIRGINIA SLIMS LIGHTS BLACK ROP\"\n  - Document Date: 09/08/89\n  - Reporting Period: 01/01/88 to 12/31/88",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 5,
+                    "chunk_id": "175.jpeg:0",
+                    "doc_id": "175.jpeg",
+                    "score": 0.6624144315719604,
+                    "text": "### Document Analysis\n\n**Document Type:**\nThe document is a recommendation memo from the University of Kentucky's Tobacco and Health Research Institute, addressed to the Kentucky Tobacco Research Board.",
+                    "is_relevant": false
+                }
+            ],
+            "retrieved_relevant_chunk_ids": [],
+            "missed_relevant_chunk_ids": [
+                "3348.jpeg:0",
+                "3348.jpeg:2"
+            ],
+            "failure_type": "complete_retrieval_failure",
+            "retrieved_count": 5,
+            "relevant_retrieved_count": 0
+        },
+        {
+            "doc_id": "4573.jpeg",
+            "question_id": "q1",
+            "question": "What is the purpose of the check request form?",
+            "gold_answer": "The purpose of the check request form is confidential and related to Minnesota Tobacco Litigation.",
+            "relevant_chunk_ids": [
+                "4573.jpeg:1"
+            ],
+            "retrieved_chunks": [
+                {
+                    "rank": 1,
+                    "chunk_id": "4573.jpeg:0",
+                    "doc_id": "4573.jpeg",
+                    "score": 0.7256653308868408,
+                    "text": "**Document Type**: Check Request Form",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 2,
+                    "chunk_id": "4573.jpeg:3",
+                    "doc_id": "4573.jpeg",
+                    "score": 0.646415650844574,
+                    "text": "**Insights and Observations**:\n- The form indicates a significant expenditure for a public awareness initiative, correlating with public service announcements which suggests an active role in community engagement or legal compliance.\n- The associated project seems to be tied into broader litigation matters involving tobacco, highlighting the organization's involvement in public health or legal matters against tobacco usage.\n- Documentation and approval processes are clearly followed, as evident from designated approval signatures, which suggests a well-structured financial governance within the organization.\n- The designation of the payment as possibly involving \"Use Tax\" indicates a compliance element that may affect tax reporting for the organization.",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 3,
+                    "chunk_id": "4573.jpeg:2",
+                    "doc_id": "4573.jpeg",
+                    "score": 0.6458050608634949,
+                    "text": "- **Instruction for Mailing Check**: To be mailed as soon as possible",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 4,
+                    "chunk_id": "5104.jpeg:3",
+                    "doc_id": "5104.jpeg",
+                    "score": 0.627495288848877,
+                    "text": "### Insights and Observations:\n- **High Travel Expenses**: Travel expenses constitute a significant portion of the charges, signifying perhaps frequent or expensive trips made on behalf of the client.\n- **Variety of Services Charged**: The statement includes charges for a wide range of services from duplicating to telecommunications and catering, indicating a comprehensive legal service that may involve complex cases or many meetings (noted \"fire-safe meetings\").\n- **Prompt Payment Indication**: The noted instruction at the bottom \"PLEASE RETURN ONE COPY WITH PAYMENT\" suggests an expectation of prompt payment for these services.",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 5,
+                    "chunk_id": "532.jpeg:1",
+                    "doc_id": "532.jpeg",
+                    "score": 0.6072003841400146,
+                    "text": "### Insights and Observations\n- **Campaign Finance**: The document highlights a financial contribution towards a political campaign, which is regulated under specific legal statutes ensuring transparency and compliance.\n- **Contribution Usage**: It specifies that the funds are directed towards the re-election of Jay C. Hoffman, indicating an ongoing political campaign.\n- **Document Formality**: The form includes structured fields and official signatures, suggesting a formal request for campaign funds compliant with regulatory standards.\n- **Historical Context**: The date on the document shows it is from the late 1990s, which could be relevant in understanding the political and regulatory environment of that period.",
+                    "is_relevant": false
+                }
+            ],
+            "retrieved_relevant_chunk_ids": [],
+            "missed_relevant_chunk_ids": [
+                "4573.jpeg:1"
+            ],
+            "failure_type": "complete_retrieval_failure",
+            "retrieved_count": 5,
+            "relevant_retrieved_count": 0
+        },
+        {
+            "doc_id": "4573.jpeg",
+            "question_id": "q4",
+            "question": "What is the explanation for the check request?",
+            "gold_answer": "The explanation is for payment of postage charges associated with the distribution of the third series of the Family COURSE Consortium television public service announcements.",
+            "relevant_chunk_ids": [
+                "4573.jpeg:1"
+            ],
+            "retrieved_chunks": [
+                {
+                    "rank": 1,
+                    "chunk_id": "4573.jpeg:0",
+                    "doc_id": "4573.jpeg",
+                    "score": 0.6856261491775513,
+                    "text": "**Document Type**: Check Request Form",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 2,
+                    "chunk_id": "4573.jpeg:2",
+                    "doc_id": "4573.jpeg",
+                    "score": 0.6793742179870605,
+                    "text": "- **Instruction for Mailing Check**: To be mailed as soon as possible",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 3,
+                    "chunk_id": "5104.jpeg:3",
+                    "doc_id": "5104.jpeg",
+                    "score": 0.6514558792114258,
+                    "text": "### Insights and Observations:\n- **High Travel Expenses**: Travel expenses constitute a significant portion of the charges, signifying perhaps frequent or expensive trips made on behalf of the client.\n- **Variety of Services Charged**: The statement includes charges for a wide range of services from duplicating to telecommunications and catering, indicating a comprehensive legal service that may involve complex cases or many meetings (noted \"fire-safe meetings\").\n- **Prompt Payment Indication**: The noted instruction at the bottom \"PLEASE RETURN ONE COPY WITH PAYMENT\" suggests an expectation of prompt payment for these services.",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 4,
+                    "chunk_id": "4573.jpeg:3",
+                    "doc_id": "4573.jpeg",
+                    "score": 0.63088059425354,
+                    "text": "**Insights and Observations**:\n- The form indicates a significant expenditure for a public awareness initiative, correlating with public service announcements which suggests an active role in community engagement or legal compliance.\n- The associated project seems to be tied into broader litigation matters involving tobacco, highlighting the organization's involvement in public health or legal matters against tobacco usage.\n- Documentation and approval processes are clearly followed, as evident from designated approval signatures, which suggests a well-structured financial governance within the organization.\n- The designation of the payment as possibly involving \"Use Tax\" indicates a compliance element that may affect tax reporting for the organization.",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 5,
+                    "chunk_id": "532.jpeg:1",
+                    "doc_id": "532.jpeg",
+                    "score": 0.6130383014678955,
+                    "text": "### Insights and Observations\n- **Campaign Finance**: The document highlights a financial contribution towards a political campaign, which is regulated under specific legal statutes ensuring transparency and compliance.\n- **Contribution Usage**: It specifies that the funds are directed towards the re-election of Jay C. Hoffman, indicating an ongoing political campaign.\n- **Document Formality**: The form includes structured fields and official signatures, suggesting a formal request for campaign funds compliant with regulatory standards.\n- **Historical Context**: The date on the document shows it is from the late 1990s, which could be relevant in understanding the political and regulatory environment of that period.",
+                    "is_relevant": false
+                }
+            ],
+            "retrieved_relevant_chunk_ids": [],
+            "missed_relevant_chunk_ids": [
+                "4573.jpeg:1"
+            ],
+            "failure_type": "complete_retrieval_failure",
+            "retrieved_count": 5,
+            "relevant_retrieved_count": 0
+        },
+        {
+            "doc_id": "5104.jpeg",
+            "question_id": "q2",
+            "question": "What is the account number mentioned in the financial statement?",
+            "gold_answer": "11,486",
+            "relevant_chunk_ids": [
+                "5104.jpeg:1"
+            ],
+            "retrieved_chunks": [
+                {
+                    "rank": 1,
+                    "chunk_id": "1466.jpeg:0",
+                    "doc_id": "1466.jpeg",
+                    "score": 0.6741617321968079,
+                    "text": "### Document Type\nThe image depicts an \"Estimate Recap\" document from an advertising agency.\n\n### Key Details\n- **Agency**: Leo Burnett U.S.A.\n- **Division**: A division of Leo Burnett Company, Inc.\n- **Client**: P.M. Inc.\n- **Document Reference**:\n  - Estimate Number: 1093 Revised Estimate Dated 07/03/91\n  - Description: \"772A ALPINE OUT OF POCKET - 30 SHEET\"\n  - Office: 10\n  - Zone: 06\n  - Period: 01/01/1991 to 12/31/1991\n- **Date of Document**: 03/06/1992\n- **Financial Information**:\n  - Showing for Product/Month: Alpine 85 S\n  - Period: February 1991\n  - Gross Amount: $20,860.90",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 2,
+                    "chunk_id": "8267.jpeg:0",
+                    "doc_id": "8267.jpeg",
+                    "score": 0.6599966287612915,
+                    "text": "### Document Type\nThis image appears to be a billing summary from an attorney or law firm to a client.\n\n### Key Details\n- **Law Firm**: Haubens & Coleman, L.P.\n- **Location of Law Firm**: 1301 Fifth Avenue, Suite 2929, Seattle, WA 98101\n- **Contact Information**: Telephone (206) 632-7272, Facsimile (206) 632-2594\n- **Date of Document**: February 24, 1999\n- **Client Number**: 001129 02\n- **Invoice Number**: 97556A\n- **Matter Concerning**: Arizona\n- **Billing Summary**:\n  - Expenses and Advances: $20,735.38\n  - Current Bill: $20,735.38",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 3,
+                    "chunk_id": "5104.jpeg:0",
+                    "doc_id": "5104.jpeg",
+                    "score": 0.6510617733001709,
+                    "text": "### Document Type:\nThis is a financial statement from the law firm Covington & Burling to American Brands, Inc. and its associated companies, detailing various disbursements and other charges.",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 4,
+                    "chunk_id": "1007.jpeg:1",
+                    "doc_id": "1007.jpeg",
+                    "score": 0.6474470496177673,
+                    "text": "- **Financial Breakdown by Product/Month**:\n  - Product: 16-V.S. LIGHTS\n  - The document breaks down the gross amount spent and the changes month by month for the year 1988.\n  - **Quarterly Details**:\n    - **Q1 Total**: $91,564.14 \n    - **Q2 Total**: $87,029.14\n    - **Q3 Total**: $82,610.92\n    - **Q4 Total**: $179,658.52\n  - **Annual Total**:\n    - **Gross Amount**: $536,152.89\n    - **Gross Less C/D**: $527,299.08",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 5,
+                    "chunk_id": "5104.jpeg:3",
+                    "doc_id": "5104.jpeg",
+                    "score": 0.6437652707099915,
+                    "text": "### Insights and Observations:\n- **High Travel Expenses**: Travel expenses constitute a significant portion of the charges, signifying perhaps frequent or expensive trips made on behalf of the client.\n- **Variety of Services Charged**: The statement includes charges for a wide range of services from duplicating to telecommunications and catering, indicating a comprehensive legal service that may involve complex cases or many meetings (noted \"fire-safe meetings\").\n- **Prompt Payment Indication**: The noted instruction at the bottom \"PLEASE RETURN ONE COPY WITH PAYMENT\" suggests an expectation of prompt payment for these services.",
+                    "is_relevant": false
+                }
+            ],
+            "retrieved_relevant_chunk_ids": [],
+            "missed_relevant_chunk_ids": [
+                "5104.jpeg:1"
+            ],
+            "failure_type": "complete_retrieval_failure",
+            "retrieved_count": 5,
+            "relevant_retrieved_count": 0
+        },
+        {
+            "doc_id": "5104.jpeg",
+            "question_id": "q3",
+            "question": "What is the period covered in the financial statement?",
+            "gold_answer": "Posted through September 30, 1990",
+            "relevant_chunk_ids": [
+                "5104.jpeg:1"
+            ],
+            "retrieved_chunks": [
+                {
+                    "rank": 1,
+                    "chunk_id": "1007.jpeg:1",
+                    "doc_id": "1007.jpeg",
+                    "score": 0.6947598457336426,
+                    "text": "- **Financial Breakdown by Product/Month**:\n  - Product: 16-V.S. LIGHTS\n  - The document breaks down the gross amount spent and the changes month by month for the year 1988.\n  - **Quarterly Details**:\n    - **Q1 Total**: $91,564.14 \n    - **Q2 Total**: $87,029.14\n    - **Q3 Total**: $82,610.92\n    - **Q4 Total**: $179,658.52\n  - **Annual Total**:\n    - **Gross Amount**: $536,152.89\n    - **Gross Less C/D**: $527,299.08",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 2,
+                    "chunk_id": "1007.jpeg:3",
+                    "doc_id": "1007.jpeg",
+                    "score": 0.6628024578094482,
+                    "text": "- **Document Usage**: This type of document likely serves both for budgetary review and adjustment purposes, as well as for compliance and reporting within corporate financial management structures.",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 3,
+                    "chunk_id": "532.jpeg:1",
+                    "doc_id": "532.jpeg",
+                    "score": 0.6441715359687805,
+                    "text": "### Insights and Observations\n- **Campaign Finance**: The document highlights a financial contribution towards a political campaign, which is regulated under specific legal statutes ensuring transparency and compliance.\n- **Contribution Usage**: It specifies that the funds are directed towards the re-election of Jay C. Hoffman, indicating an ongoing political campaign.\n- **Document Formality**: The form includes structured fields and official signatures, suggesting a formal request for campaign funds compliant with regulatory standards.\n- **Historical Context**: The date on the document shows it is from the late 1990s, which could be relevant in understanding the political and regulatory environment of that period.",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 4,
+                    "chunk_id": "1466.jpeg:2",
+                    "doc_id": "1466.jpeg",
+                    "score": 0.6358141899108887,
+                    "text": "This document is an essential part of financial and compliance archival for the advertising campaign's expenditure tracking. It could be cross-referenced with campaign outcomes to evaluate financial efficiency and ROI.",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 5,
+                    "chunk_id": "1466.jpeg:1",
+                    "doc_id": "1466.jpeg",
+                    "score": 0.6352128982543945,
+                    "text": "### Insights and Observations\n- **Budget Tracking**: This document appears to track advertising expenses for a specific product (Alpine 85 S) for a set period.\n- **Client and Campaign Details**: Provides specifics such as client name and dates, which are crucial for tracking campaign budgets and performance.\n- **Historical Data Usage**: The date suggests this document serves as a historical financial record, useful for analyzing budget trends or auditing past finances.\n- **Potential Financial Review Points**:\n  - Based on the 'revised' tag on the estimate number, consider checking earlier estimates for discrepancies or updates.\n  - Ensure that all future expenses align with the budget allocations illustrated in this and other similar documents.",
+                    "is_relevant": false
+                }
+            ],
+            "retrieved_relevant_chunk_ids": [],
+            "missed_relevant_chunk_ids": [
+                "5104.jpeg:1"
+            ],
+            "failure_type": "complete_retrieval_failure",
+            "retrieved_count": 5,
+            "relevant_retrieved_count": 0
+        },
+        {
+            "doc_id": "532.jpeg",
+            "question_id": "q6",
+            "question": "What is the purpose of the contribution mentioned in the document?",
+            "gold_answer": "Re-election if Office listed",
+            "relevant_chunk_ids": [
+                "532.jpeg:0"
+            ],
+            "retrieved_chunks": [
+                {
+                    "rank": 1,
+                    "chunk_id": "1007.jpeg:3",
+                    "doc_id": "1007.jpeg",
+                    "score": 0.760816216468811,
+                    "text": "- **Document Usage**: This type of document likely serves both for budgetary review and adjustment purposes, as well as for compliance and reporting within corporate financial management structures.",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 2,
+                    "chunk_id": "532.jpeg:1",
+                    "doc_id": "532.jpeg",
+                    "score": 0.7380619645118713,
+                    "text": "### Insights and Observations\n- **Campaign Finance**: The document highlights a financial contribution towards a political campaign, which is regulated under specific legal statutes ensuring transparency and compliance.\n- **Contribution Usage**: It specifies that the funds are directed towards the re-election of Jay C. Hoffman, indicating an ongoing political campaign.\n- **Document Formality**: The form includes structured fields and official signatures, suggesting a formal request for campaign funds compliant with regulatory standards.\n- **Historical Context**: The date on the document shows it is from the late 1990s, which could be relevant in understanding the political and regulatory environment of that period.",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 3,
+                    "chunk_id": "4573.jpeg:3",
+                    "doc_id": "4573.jpeg",
+                    "score": 0.6999149918556213,
+                    "text": "**Insights and Observations**:\n- The form indicates a significant expenditure for a public awareness initiative, correlating with public service announcements which suggests an active role in community engagement or legal compliance.\n- The associated project seems to be tied into broader litigation matters involving tobacco, highlighting the organization's involvement in public health or legal matters against tobacco usage.\n- Documentation and approval processes are clearly followed, as evident from designated approval signatures, which suggests a well-structured financial governance within the organization.\n- The designation of the payment as possibly involving \"Use Tax\" indicates a compliance element that may affect tax reporting for the organization.",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 4,
+                    "chunk_id": "1466.jpeg:2",
+                    "doc_id": "1466.jpeg",
+                    "score": 0.6944006681442261,
+                    "text": "This document is an essential part of financial and compliance archival for the advertising campaign's expenditure tracking. It could be cross-referenced with campaign outcomes to evaluate financial efficiency and ROI.",
+                    "is_relevant": false
+                },
+                {
+                    "rank": 5,
+                    "chunk_id": "175.jpeg:3",
+                    "doc_id": "175.jpeg",
+                    "score": 0.6680407524108887,
+                    "text": "**Insights and Observations:**\n- **Efficiency and Resource Utilization:** The memo outlines a strategic move to optimize the use of an expensive piece of equipment (Electron Microscope) by relocating it to a department where it is more needed.\n- **Financial Planning:** Detailed and itemized budget planning is evident, which helps in transparent financial management and accountability.\n- **Project Coordination:** The memo indicates a coordinated approach involving multiple departments and highlights the necessity for immediate action to ensure continuity in research activities.\n\nThis document is crucial for understanding budget allocation and resource management strategies within research projects at educational institutions.",
+                    "is_relevant": false
+                }
+            ],
+            "retrieved_relevant_chunk_ids": [],
+            "missed_relevant_chunk_ids": [
+                "532.jpeg:0"
+            ],
+            "failure_type": "complete_retrieval_failure",
+            "retrieved_count": 5,
+            "relevant_retrieved_count": 0
+        }
+    ]
+}

@@ -95,7 +95,12 @@ class PipelineTests(unittest.TestCase):
             prompts.append(prompt)
             return {
                 "answer": "Test answer",
-                "citations": [{"doc_id": "invoice-1"}],
+                "citations": [
+                    {
+                        "doc_id": "invoice-1",
+                        "chunk_id": "invoice-1:0",
+                    }
+                ],
                 "should_refuse": False,
                 "reason": "",
             }

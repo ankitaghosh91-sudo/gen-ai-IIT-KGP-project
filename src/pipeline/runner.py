@@ -3,6 +3,7 @@
 from dataclasses import dataclass, field
 from typing import Any, Callable
 
+
 from src.models import Document, Evidence
 from src.strategies import (
     AnswerStrategyBase,
@@ -17,6 +18,10 @@ from src.strategies import (
     SimplePrompt,
 )
 
+import logging
+from time import perf_counter
+
+logger = logging.getLogger(__name__)
 
 @dataclass
 class PipelineStrategies:
@@ -71,6 +76,8 @@ def run_pipeline(
     expected_answer: str | None = None,
     image: Any = None,
     strategies: PipelineStrategies | None = None,
+    scope: str = "global",
+    doc_id: str | None = None,
 ) -> dict:
     """Run validate → route → memory → retrieve → answer → evaluate → validate."""
     choices = strategies or PipelineStrategies()
@@ -79,10 +86,60 @@ def run_pipeline(
     router = choices.router or route_request
 
     validate(question)
+    logger.info(
+        "PIPELINE_STARTED | session_id=%s | scope=%s | doc_id=%s",
+        session_id,
+        scope,
+        doc_id,
+    )
     route = router(question, image)
     history = choices.memory.get(session_id)
-    evidence = choices.rag.retrieve(question, documents, image)
-    answer = choices.answerer.answer(question, evidence, choices.prompt, history)
+    evidence = choices.rag.retrieve(
+        question,
+        documents,
+        image,
+        scope=scope,
+        doc_id=doc_id,
+    )
+    logger.info(
+        "RETRIEVAL_COMPLETED | count=%d | chunks=%s",
+        len(evidence),
+        [
+            {
+                "doc_id": item.doc_id,
+                "chunk_id": item.chunk_id,
+                "score": round(item.score, 4),
+            }
+            for item in evidence
+        ],
+    )
+    logger.info(
+        "ANSWER_GENERATION_STARTED | strategy=%s | evidence_count=%d",
+        type(choices.answerer).__name__,
+        len(evidence),
+    )
+
+    answer_started = perf_counter()
+
+    try:
+        answer = choices.answerer.answer(
+            question=question,
+            evidence=evidence,
+            prompt=choices.prompt,
+            history=history,
+            documents=documents,
+        )
+    except Exception:
+        logger.exception("ANSWER_GENERATION_FAILED")
+        raise
+    
+    logger.info(
+        "ANSWER_GENERATION_COMPLETED | duration_ms=%.2f | refused=%s | citations=%s",
+        (perf_counter() - answer_started) * 1000,
+        answer.get("should_refuse"),
+        answer.get("citations"),
+    )
+
     metrics = choices.evaluator.evaluate(answer, evidence, expected_answer)
     answer = response_check(answer, evidence)
     choices.memory.add(session_id, question, answer["answer"])

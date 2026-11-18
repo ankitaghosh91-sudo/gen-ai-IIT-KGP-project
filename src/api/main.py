@@ -24,6 +24,11 @@ from .schemas import (
     RagSetupRequest,
 )
 
+import logging
+import time
+
+logger = logging.getLogger(__name__)
+
 
 @asynccontextmanager
 async def lifespan(_app: FastAPI):
@@ -63,14 +68,44 @@ def _ensure_state() -> None:
 
 def startup():
     config = AppConfig.from_env()
+    logger.info(
+        "APP_STARTUP_CONFIG | search=%s | embedder=%s | model=%s | collection=%s",
+        config.search_strategy,
+        config.embedder_strategy,
+        config.embedding_model_name,
+        config.chroma_collection,
+    )
     app.state.config = config
-    app.state.strategies = build_strategies_from_config(config)
+    model_callable = None
+    if config.answer_strategy == "llm":
+        from src.generate.generate_answer import build_model_callable
+
+        model_callable = build_model_callable()
+
+    app.state.strategies = build_strategies_from_config(
+        config,
+        model_callable=model_callable,
+    )
     app.state.metrics_store = MetricsStore(config.metrics_db_path)
+
     try:
         app.state.documents = load_saved_sample()
+
+        if config.search_strategy == "chroma":
+            app.state.strategies.rag.text.search.index_documents(
+                app.state.documents
+            )
+
     except FileNotFoundError as exc:
         raise RuntimeError(
-            "Missing data/sample/documents.json. Run `uv run python -m scripts.download_sample`."
+            "Missing data/sample/documents.json. "
+            "Run `uv run python -m scripts.download_sample`."
+        ) from exc
+
+    except Exception as exc:
+        raise RuntimeError(
+            "Failed to initialize document retrieval index. "
+            "Check ChromaDB configuration, embedding model and collection."
         ) from exc
 
 
@@ -156,7 +191,22 @@ def config():
     return _strategy_snapshot(app.state.config)
 
 
-@app.post("/api/query", response_model=QueryResponse)
+@app.post(
+    "/api/query",
+    response_model=QueryResponse,
+    responses={
+        400: {
+            "description": "Invalid query scope, missing document ID, or unknown document ID.",
+            "content": {
+                "application/json": {
+                    "example": {
+                        "detail": "doc_id is required for document scope"
+                    }
+                }
+            },
+        }
+    },
+)
 def query(payload: QueryRequest):
     _ensure_state()
     started = perf_counter()
@@ -166,6 +216,8 @@ def query(payload: QueryRequest):
             documents=app.state.documents,
             session_id=payload.session_id,
             strategies=app.state.strategies,
+            scope=payload.scope,
+            doc_id=payload.doc_id,
         )
     except ValueError as exc:
         raise HTTPException(status_code=400, detail=str(exc)) from exc

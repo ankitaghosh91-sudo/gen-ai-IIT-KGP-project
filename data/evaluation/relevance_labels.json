@@ -1,0 +1,943 @@
+[
+  {
+    "doc_id": "175.jpeg",
+    "question_id": "q1",
+    "question": "What is the purpose of Recommendation No. 6?",
+    "gold_answer": "The purpose is to grant approval for specific project funding and budget approval.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "175.jpeg",
+    "question_id": "q2",
+    "question": "What equipment does the memo recommend approving funds for?",
+    "gold_answer": "The memo recommends approving funds for renovating space and relocating an Electron Microscope within the Department of Anatomy.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "175.jpeg",
+    "question_id": "q3",
+    "question": "What is the total direct cost recommended in the budget?",
+    "gold_answer": "$25,380.00",
+    "relevant_chunks": [
+      "175.jpeg:1"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "175.jpeg",
+    "question_id": "q4",
+    "question": "How much are indirect costs proposed to be allocated?",
+    "gold_answer": "$6,345.00",
+    "relevant_chunks": [
+      "175.jpeg:1",
+      "175.jpeg:2"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "175.jpeg",
+    "question_id": "q5",
+    "question": "What is the main reason for relocating the Electron Microscope according to the memo?",
+    "gold_answer": "To maximize resources by using facilities more efficiently and provide consistent access to necessary equipment.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "175.jpeg",
+    "question_id": "q6",
+    "question": "Who is the intended audience of Recommendation No. 6?",
+    "gold_answer": "The Kentucky Tobacco Research Board.",
+    "relevant_chunks": [
+      "175.jpeg:0"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "175.jpeg",
+    "question_id": "q7",
+    "question": "What is the total budget proposed in the document?",
+    "gold_answer": "$36,693.00",
+    "relevant_chunks": [
+      "175.jpeg:1",
+      "175.jpeg:2"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "175.jpeg",
+    "question_id": "q8",
+    "question": "How much are personal services allocated in the budget?",
+    "gold_answer": "$20,070.00",
+    "relevant_chunks": [
+      "175.jpeg:1"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "175.jpeg",
+    "question_id": "q9",
+    "question": "What is the purpose of approving the 1972-1973 budget for the project?",
+    "gold_answer": "To ensure continuity in research activities.",
+    "relevant_chunks": [
+      "175.jpeg:3"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "175.jpeg",
+    "question_id": "q10",
+    "question": "What insight can be gained from this document about financial planning?",
+    "gold_answer": "Detailed and itemized budget planning helps in transparent financial management and accountability.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "3348.jpeg",
+    "question_id": "q1",
+    "question": "What is the company name mentioned in the document?",
+    "gold_answer": "Mallard Media Services",
+    "relevant_chunks": [
+      "3348.jpeg:0",
+      "3348.jpeg:2"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "3348.jpeg",
+    "question_id": "q2",
+    "question": "What is the location of Mallard Media Services?",
+    "gold_answer": "One Park Avenue, New York, NY 10016-5895",
+    "relevant_chunks": [
+      "3348.jpeg:0"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "3348.jpeg",
+    "question_id": "q3",
+    "question": "What is the period of advertisement mentioned in the document?",
+    "gold_answer": "January 1, 1995, to December 31, 1995",
+    "relevant_chunks": [
+      "3348.jpeg:0"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "3348.jpeg",
+    "question_id": "q4",
+    "question": "What is the job number associated with the advertisement?",
+    "gold_answer": "63649",
+    "relevant_chunks": [
+      "3348.jpeg:0"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "3348.jpeg",
+    "question_id": "q5",
+    "question": "What is the brand being advertised?",
+    "gold_answer": "NEM",
+    "relevant_chunks": [
+      "3348.jpeg:0"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "3348.jpeg",
+    "question_id": "q6",
+    "question": "What is the size of the billboard advertisement?",
+    "gold_answer": "3750.0 sq. ft.",
+    "relevant_chunks": [
+      "3348.jpeg:0"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "3348.jpeg",
+    "question_id": "q7",
+    "question": "What is the monthly rate for the billboard advertisement?",
+    "gold_answer": "$3750.00 per month",
+    "relevant_chunks": [
+      "3348.jpeg:0"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "3348.jpeg",
+    "question_id": "q8",
+    "question": "How many billboards were advertised each month?",
+    "gold_answer": "1.00",
+    "relevant_chunks": [
+      "3348.jpeg:0"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "3348.jpeg",
+    "question_id": "q9",
+    "question": "What is the total amount invoiced for the year?",
+    "gold_answer": "$45,000.00",
+    "relevant_chunks": [
+      "3348.jpeg:1"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "3348.jpeg",
+    "question_id": "q10",
+    "question": "Is there any change in the overall cost throughout the year?",
+    "gold_answer": "No, the cost remains consistent throughout the year.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "3348.jpeg",
+    "question_id": "q11",
+    "question": "What does the uniformity in pricing and quantity suggest about the advertising expenditure?",
+    "gold_answer": "It suggests a stable and predictable advertising expenditure.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "3348.jpeg",
+    "question_id": "q12",
+    "question": "What type of contract is likely reflected in the advertisement placement agreement?",
+    "gold_answer": "A fixed-price contract for the duration of the advertisement placement.",
+    "relevant_chunks": [
+      "3348.jpeg:1"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "3348.jpeg",
+    "question_id": "q13",
+    "question": "What does the structured and uniform invoicing suggest about the client's advertising plan?",
+    "gold_answer": "It suggests strong budgeting and forecasting in their advertising plan.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "1466.jpeg",
+    "question_id": "q1",
+    "question": "What is the client name mentioned in the document?",
+    "gold_answer": "The client name mentioned in the document is P.M. Inc.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "1466.jpeg",
+    "question_id": "q2",
+    "question": "What is the product being advertised according to the document?",
+    "gold_answer": "According to the document, the product being advertised is Alpine 85 S",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "1466.jpeg",
+    "question_id": "q3",
+    "question": "What is the estimated gross amount for the period February 1991 as per the document?",
+    "gold_answer": "$20,860.90",
+    "relevant_chunks": [
+      "1466.jpeg:0"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "1466.jpeg",
+    "question_id": "q4",
+    "question": "What division of Leo Burnett Company, Inc. is involved in this project?",
+    "gold_answer": "The division involved is a division of Leo Burnett U.S.A.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "1466.jpeg",
+    "question_id": "q5",
+    "question": "What is the date range covered by the financial information in the document?",
+    "gold_answer": "The financial information covers January 1st, 1991 to December 31st, 1991",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "1466.jpeg",
+    "question_id": "q6",
+    "question": "Why does this document appear important for historical and auditing purposes?",
+    "gold_answer": "This document appears important as it provides a historical financial record, useful for analyzing budget trends or auditing past finances",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "1466.jpeg",
+    "question_id": "q7",
+    "question": "What is the potential consequence of not cross-referencing this document with campaign outcomes?",
+    "gold_answer": "The potential consequence could be a lack of evaluation on financial efficiency and ROI",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "1466.jpeg",
+    "question_id": "q8",
+    "question": "Why does the estimate number have a 'revised' tag?",
+    "gold_answer": "The estimate number has a 'revised' tag because it appears to track changes or updates in advertising expenses for a specific product",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "4573.jpeg",
+    "question_id": "q1",
+    "question": "What is the purpose of the check request form?",
+    "gold_answer": "The purpose of the check request form is confidential and related to Minnesota Tobacco Litigation.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "4573.jpeg",
+    "question_id": "q2",
+    "question": "Who is the payee for the check request?",
+    "gold_answer": "The payee is Goodwill Communications, located at 6107 Greenlawn Court, Springfield, VA 22152.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "4573.jpeg",
+    "question_id": "q3",
+    "question": "What is the amount requested for the check?",
+    "gold_answer": "The amount requested is $3,840.00.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "4573.jpeg",
+    "question_id": "q4",
+    "question": "What is the explanation for the check request?",
+    "gold_answer": "The explanation is for payment of postage charges associated with the distribution of the third series of the Family COURSE Consortium television public service announcements.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "4573.jpeg",
+    "question_id": "q5",
+    "question": "How many television outlets will the public service announcements be distributed to?",
+    "gold_answer": "The public service announcements will be distributed to 1,200 television outlets.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "4573.jpeg",
+    "question_id": "q6",
+    "question": "What is the cost center number for the check request?",
+    "gold_answer": "The cost center number is 1308.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "4573.jpeg",
+    "question_id": "q7",
+    "question": "Who approved the check request?",
+    "gold_answer": "The check request was approved by Carol Hrycaj.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "4573.jpeg",
+    "question_id": "q8",
+    "question": "What is the significance of the 'Use Tax' indication in the amount section?",
+    "gold_answer": "The 'Use Tax' indication suggests that the payment may be subject to use tax, which could affect the organization's tax reporting.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "4573.jpeg",
+    "question_id": "q9",
+    "question": "What does the document suggest about the organization's involvement in public health or legal matters?",
+    "gold_answer": "The document suggests that the organization is involved in public health or legal matters against tobacco usage, as indicated by the Minnesota Tobacco Litigation purpose.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "4573.jpeg",
+    "question_id": "q10",
+    "question": "What does the documentation and approval process suggest about the organization's financial governance?",
+    "gold_answer": "The documentation and approval process suggests that the organization has a well-structured financial governance, with designated approval signatures and clear procedures.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "4573.jpeg",
+    "question_id": "q11",
+    "question": "What is the instruction for mailing the check?",
+    "gold_answer": "The instruction is to mail the check as soon as possible.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "5104.jpeg",
+    "question_id": "q1",
+    "question": "What is the address of the law firm Covington & Burling?",
+    "gold_answer": "1201 Pennsylvania Avenue, N.W., Washington, D.C. 20044",
+    "relevant_chunks": [
+      "5104.jpeg:1"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "5104.jpeg",
+    "question_id": "q2",
+    "question": "What is the account number mentioned in the financial statement?",
+    "gold_answer": "11,486",
+    "relevant_chunks": [
+      "5104.jpeg:1"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "5104.jpeg",
+    "question_id": "q3",
+    "question": "What is the period covered in the financial statement?",
+    "gold_answer": "Posted through September 30, 1990",
+    "relevant_chunks": [
+      "5104.jpeg:1"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "5104.jpeg",
+    "question_id": "q4",
+    "question": "How many client companies are listed in the financial statement?",
+    "gold_answer": "6",
+    "relevant_chunks": [
+      "5104.jpeg:1",
+      "5104.jpeg:2"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "5104.jpeg",
+    "question_id": "q5",
+    "question": "What is the total travel cost mentioned in the financial statement?",
+    "gold_answer": "$5,301.25",
+    "relevant_chunks": [
+      "5104.jpeg:2"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "5104.jpeg",
+    "question_id": "q6",
+    "question": "What is the highest travel expense category?",
+    "gold_answer": "Air travel, with a cost of $3,413.95",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "5104.jpeg",
+    "question_id": "q7",
+    "question": "What is the purpose of the financial statement, based on the variety of services charged?",
+    "gold_answer": "The financial statement suggests that the law firm provided comprehensive legal services, possibly involving complex cases or many meetings.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "5104.jpeg",
+    "question_id": "q8",
+    "question": "What instruction is given at the bottom of the financial statement?",
+    "gold_answer": "PLEASE RETURN ONE COPY WITH PAYMENT, indicating an expectation of prompt payment for the services.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "5104.jpeg",
+    "question_id": "q9",
+    "question": "What percentage of the total expenses are travel expenses?",
+    "gold_answer": "Travel expenses constitute approximately 63% of the total expenses.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "5104.jpeg",
+    "question_id": "q10",
+    "question": "How does the law firm's billing practice contribute to financial transparency?",
+    "gold_answer": "The detailed listing of expenses helps in tracking and analyzing the law firm's services, ensuring accurate billing and financial transparency.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "5104.jpeg",
+    "question_id": "q11",
+    "question": "What might be the reason for the high travel expenses, based on the client companies listed?",
+    "gold_answer": "The high travel expenses might be due to frequent or expensive trips made on behalf of the tobacco companies, possibly for litigation or business meetings.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "803.jpeg",
+    "question_id": "q1",
+    "question": "What type of report is this?",
+    "gold_answer": "This is a Cost Estimate Report for various industrial or construction equipment and operations.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "803.jpeg",
+    "question_id": "q2",
+    "question": "What are the three main columns in the report?",
+    "gold_answer": "The three main columns are: 'Item No.', 'Description', and columns for costs labeled 'Equip. Material Cost' and 'Estylvant Man/Hrs.'.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "803.jpeg",
+    "question_id": "q3",
+    "question": "What is the estimated cost of conduit, rigid, galvanized 3/4",
+    "gold_answer": "$275.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "803.jpeg",
+    "question_id": "q4",
+    "question": "How many units are needed for the field start/stop push button for new dilution pump?",
+    "gold_answer": "4 units.",
+    "relevant_chunks": [
+      "803.jpeg:1"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "803.jpeg",
+    "question_id": "q5",
+    "question": "What is the estimated cost per unit of pull wire, 14 AWG stranded copper from MCC-T002 to SR-2/600, S.P. switch to new HZD mag meter at position tank (30AHC)?",
+    "gold_answer": "$75 each for 8 units.",
+    "relevant_chunks": [
+      "803.jpeg:1"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "803.jpeg",
+    "question_id": "q6",
+    "question": "Why are there separate labor and material costs listed in most entries?",
+    "gold_answer": "This suggests a detailed cost management approach, potentially for a large project where budget accuracy is crucial.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "803.jpeg",
+    "question_id": "q7",
+    "question": "What is the purpose of installing flange wiring terminations, equipment installation to be covered under mechanical labor?",
+    "gold_answer": "The purpose is likely to ensure compliance with existing setups and specifications.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "803.jpeg",
+    "question_id": "q8",
+    "question": "How does this report help in industrial projects?",
+    "gold_answer": "This report provides crucial information for precise budgeting and planning in industrial projects, ensuring all associated costs are accounted for accurately.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "803.jpeg",
+    "question_id": "q9",
+    "question": "What does the document reveal about the methodological breakdown of each task?",
+    "gold_answer": "The document reveals that tasks are broken down into components like labor hours and materials, suggesting a detailed cost management approach.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "803.jpeg",
+    "question_id": "q10",
+    "question": "Why is the estimate structured to provide clarity in cost calculations per unit?",
+    "gold_answer": "This structure aids in scaling the estimates based on operational requirements or project changes.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "8267.jpeg",
+    "question_id": "q1",
+    "question": "What is the name of the law firm that issued the billing summary?",
+    "gold_answer": "Haubens & Coleman, L.P.",
+    "relevant_chunks": [
+      "8267.jpeg:0"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "8267.jpeg",
+    "question_id": "q2",
+    "question": "What is the address of the law firm?",
+    "gold_answer": "1301 Fifth Avenue, Suite 2929, Seattle, WA 98101",
+    "relevant_chunks": [
+      "8267.jpeg:0"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "8267.jpeg",
+    "question_id": "q3",
+    "question": "What is the client number associated with this billing summary?",
+    "gold_answer": "001129 02",
+    "relevant_chunks": [
+      "8267.jpeg:0"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "8267.jpeg",
+    "question_id": "q4",
+    "question": "What is the invoice number for this billing summary?",
+    "gold_answer": "97556A",
+    "relevant_chunks": [
+      "8267.jpeg:0"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "8267.jpeg",
+    "question_id": "q5",
+    "question": "What is the total amount of expenses and advances listed in the billing summary?",
+    "gold_answer": "$20,735.38",
+    "relevant_chunks": [
+      "8267.jpeg:0",
+      "8267.jpeg:1"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "8267.jpeg",
+    "question_id": "q6",
+    "question": "What is the current bill amount listed in the billing summary?",
+    "gold_answer": "$20,735.38",
+    "relevant_chunks": [
+      "8267.jpeg:0",
+      "8267.jpeg:1"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "8267.jpeg",
+    "question_id": "q7",
+    "question": "What is the matter concerning, according to the billing summary?",
+    "gold_answer": "Arizona",
+    "relevant_chunks": [
+      "8267.jpeg:0",
+      "8267.jpeg:1"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "8267.jpeg",
+    "question_id": "q8",
+    "question": "Why is it advisable for the client to review the detailed billing?",
+    "gold_answer": "To verify the charges and for better financial tracking.",
+    "relevant_chunks": [
+      "8267.jpeg:1"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "8267.jpeg",
+    "question_id": "q9",
+    "question": "What might be the reason for the significant expense or advance of $20,735.38?",
+    "gold_answer": "It might be linked to a specific event or series of services rendered recently.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "8267.jpeg",
+    "question_id": "q10",
+    "question": "What is the implication of the reference to 'Arizona' in the billing summary?",
+    "gold_answer": "The legal services or matters being billed are related to issues within or concerning the State of Arizona.",
+    "relevant_chunks": [
+      "8267.jpeg:1"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "8267.jpeg",
+    "question_id": "q11",
+    "question": "What would be the next step for the client after receiving this billing summary?",
+    "gold_answer": "To review the detailed billing for a breakdown of services and to verify the charges.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "1559.jpeg",
+    "question_id": "q1",
+    "question": "What is the total budget for club nights and concerts in 1993?",
+    "gold_answer": "$3,400,000",
+    "relevant_chunks": [
+      "1559.jpeg:2"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "1559.jpeg",
+    "question_id": "q2",
+    "question": "How many markets were covered by the events in 1993?",
+    "gold_answer": "14",
+    "relevant_chunks": [
+      "1559.jpeg:1"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "1559.jpeg",
+    "question_id": "q3",
+    "question": "What was the total budget for incentives in 1992?",
+    "gold_answer": "$75,000",
+    "relevant_chunks": [
+      "1559.jpeg:1",
+      "1559.jpeg:3",
+      "1559.jpeg:4"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "1559.jpeg",
+    "question_id": "q4",
+    "question": "What is the primary reason for the decrease in total budget from 1992 to 1993?",
+    "gold_answer": "A slight decrease of $52,000",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "1559.jpeg",
+    "question_id": "q5",
+    "question": "How much did the budget for creative/production expenses decrease from 1992 to 1993?",
+    "gold_answer": "$95,000",
+    "relevant_chunks": [
+      "1559.jpeg:1",
+      "1559.jpeg:2",
+      "1559.jpeg:3"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "1559.jpeg",
+    "question_id": "q6",
+    "question": "What is the largest category in terms of budget allocation in 1993?",
+    "gold_answer": "Club/Concert ($2,030,000)",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "1559.jpeg",
+    "question_id": "q7",
+    "question": "How much did the budget for P.R. agency expenses increase from 1992 to 1993?",
+    "gold_answer": "$85,000",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "1559.jpeg",
+    "question_id": "q8",
+    "question": "What is the primary difference between the 1992 and 1993 budgets?",
+    "gold_answer": "A decrease in incentives budget and a slight decrease in total budget",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "1559.jpeg",
+    "question_id": "q9",
+    "question": "How much did the budget for staging expenses change from 1992 to 1993?",
+    "gold_answer": "No significant change ($41,000 vs. $75,000)",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "1559.jpeg",
+    "question_id": "q10",
+    "question": "What is the trend in promotional materials expenditure over the two years?",
+    "gold_answer": "An increase of $72,000 ($153,000 in 1992 to $225,000 in 1993)",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "1007.jpeg",
+    "question_id": "q1",
+    "question": "What is the client name mentioned in the document?",
+    "gold_answer": "The client name is not explicitly mentioned, but references a project number '703 VIRGINIA SLIMS LIGHTS BLACK ROP'.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "1007.jpeg",
+    "question_id": "q2",
+    "question": "What was the total advertising expense for 1988?",
+    "gold_answer": "$536,152.89",
+    "relevant_chunks": [
+      "1007.jpeg:1"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "1007.jpeg",
+    "question_id": "q3",
+    "question": "How much was spent on 16-V.S. Lights in Q2?",
+    "gold_answer": "$87,029.14",
+    "relevant_chunks": [
+      "1007.jpeg:1"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "1007.jpeg",
+    "question_id": "q4",
+    "question": "What is the noticeable increase in advertising spending observed in the document?",
+    "gold_answer": "A significant increase of $179,658.52 compared to other quarters, potentially indicating a seasonal marketing push or product launch.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "1007.jpeg",
+    "question_id": "q5",
+    "question": "How much was spent on 16-V.S. Lights during Q4?",
+    "gold_answer": "$179,658.52",
+    "relevant_chunks": [
+      "1007.jpeg:1",
+      "1007.jpeg:2"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "1007.jpeg",
+    "question_id": "q6",
+    "question": "What is the annual total gross less C/D?",
+    "gold_answer": "$527,299.08",
+    "relevant_chunks": [
+      "1007.jpeg:1"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "1007.jpeg",
+    "question_id": "q7",
+    "question": "What is a possible reason for the spike in advertising spending in Q4?",
+    "gold_answer": "A seasonal marketing push or product launch.",
+    "relevant_chunks": [
+      "1007.jpeg:2"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "1007.jpeg",
+    "question_id": "q8",
+    "question": "What is the purpose of this type of document?",
+    "gold_answer": "This type of document likely serves both for budgetary review and adjustment purposes, as well as for compliance and reporting within corporate financial management structures.",
+    "relevant_chunks": [
+      "1007.jpeg:3"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "1007.jpeg",
+    "question_id": "q9",
+    "question": "How does the spending pattern across quarters appear in the document?",
+    "gold_answer": "The spending is fairly consistent across the first three quarters but spikes in the fourth, suggesting strategic financial planning or market conditions influencing expenditure.",
+    "relevant_chunks": [
+      "1007.jpeg:2"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "532.jpeg",
+    "question_id": "q1",
+    "question": "What is the recipient's name mentioned in the document?",
+    "gold_answer": "Jay C. Hoffman",
+    "relevant_chunks": [
+      "532.jpeg:0",
+      "532.jpeg:1"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "532.jpeg",
+    "question_id": "q2",
+    "question": "What was the date of the request for campaign contribution?",
+    "gold_answer": "December 30, 1997",
+    "relevant_chunks": [
+      "532.jpeg:0"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "532.jpeg",
+    "question_id": "q3",
+    "question": "Who was the current office held by Jay C. Hoffman at the time of the request?",
+    "gold_answer": "Representative",
+    "relevant_chunks": [
+      "532.jpeg:0"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "532.jpeg",
+    "question_id": "q4",
+    "question": "Which party was represented by Jay C. Hoffman in his re-election bid?",
+    "gold_answer": "Democratic",
+    "relevant_chunks": [
+      "532.jpeg:0"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "532.jpeg",
+    "question_id": "q5",
+    "question": "What was the amount contributed to the campaign?",
+    "gold_answer": "$200.00",
+    "relevant_chunks": [
+      "532.jpeg:0"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "532.jpeg",
+    "question_id": "q6",
+    "question": "What is the purpose of the contribution mentioned in the document?",
+    "gold_answer": "Re-election if Office listed",
+    "relevant_chunks": [
+      "532.jpeg:0"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "532.jpeg",
+    "question_id": "q7",
+    "question": "Who approved the contribution request?",
+    "gold_answer": "Regional Vice President's signature and Senior Vice President’s signature",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "532.jpeg",
+    "question_id": "q8",
+    "question": "What committee was the contribution directed towards?",
+    "gold_answer": "Committee to Elect Jay C. Hoffman",
+    "relevant_chunks": [
+      "532.jpeg:0"
+    ],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "532.jpeg",
+    "question_id": "q9",
+    "question": "What is the significance of the document in terms of campaign finance regulations?",
+    "gold_answer": "It highlights a financial contribution towards a political campaign, which is regulated under specific legal statutes ensuring transparency and compliance.",
+    "relevant_chunks": [],
+    "label_method": "normalized_exact_match"
+  },
+  {
+    "doc_id": "532.jpeg",
+    "question_id": "q10",
+    "question": "In what year did the request for campaign contribution take place?",
+    "gold_answer": "1997",
+    "relevant_chunks": [
+      "532.jpeg:0"
+    ],
+    "label_method": "normalized_exact_match"
+  }
+]

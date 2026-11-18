@@ -22,6 +22,7 @@ from src.strategies import (
     NoMemory,
     ParagraphChunking,
     SentenceTransformerEmbedder,
+    BGEAPIEmbedder,
     SimpleEvaluator,
     SimplePrompt,
     SimpleRAG,
@@ -31,8 +32,17 @@ from src.strategies import (
     WholeDocumentChunking,
     ZeroShotPrompt,
     LimitedSearch,
+    RecursiveChunking,
+    ParentChildChunker,
+    BM25Search,
+    HybridSearch
+    
 )
 
+import logging
+import time
+
+logger = logging.getLogger(__name__)
 
 def _build_chunker(config: AppConfig):
     if config.chunking_strategy == "whole":
@@ -41,30 +51,102 @@ def _build_chunker(config: AppConfig):
         return FixedSizeChunking(size=config.chunk_size, overlap=config.chunk_overlap)
     if config.chunking_strategy == "paragraph":
         return ParagraphChunking()
+    if config.chunking_strategy == "recursive":
+        return RecursiveChunking(
+            chunk_size=config.chunk_size,
+            overlap=config.chunk_overlap
+        )
+    if config.chunking_strategy == "parent_child":
+        return ParentChildChunker(
+            parent_size=1200,
+            parent_overlap=150,
+            child_size=config.chunk_size,      # e.g., 300 from your config
+            child_overlap=config.chunk_overlap,  # e.g., 50 from your config
+        )
     raise ValueError(f"Unknown chunking strategy: {config.chunking_strategy}")
 
 
 def _build_embedder(config: AppConfig):
     if config.embedder_strategy == "hashing":
+        logger.info(
+            "EMBEDDER_INITIALIZED | strategy=%s | model=%s",
+            config.embedder_strategy,
+            config.embedding_model_name,
+        )
         return HashingEmbedder()
     if config.embedder_strategy == "sentence_transformer":
+        logger.info(
+            "EMBEDDER_INITIALIZED | strategy=%s | model=%s",
+            config.embedder_strategy,
+            config.embedding_model_name,
+        )
         return SentenceTransformerEmbedder(config.embedding_model_name)
+    if config.embedder_strategy == "bge_api":
+        logger.info(
+            "EMBEDDER_INITIALIZED | strategy=%s | model=%s",
+            config.embedder_strategy,
+            config.embedding_model_name,
+        )
+        return BGEAPIEmbedder(
+            model_name=config.embedding_model_name
+        )
     raise ValueError(f"Unknown embedder strategy: {config.embedder_strategy}")
 
 
 def _build_search(config: AppConfig):
-    base = None
+    chunker = _build_chunker(config)
+    embedder = _build_embedder(config)
+
     if config.search_strategy == "keyword":
-        base = KeywordSearch()
+        base = KeywordSearch(chunker=chunker)
+    elif config.search_strategy == "bm25":
+        base = BM25Search(chunker=chunker)
     elif config.search_strategy == "chroma":
         base = ChromaSearch(
             path=config.chroma_path,
             collection_name=config.chroma_collection,
-            embedder=_build_embedder(config),
-            chunker=_build_chunker(config),
+            embedder=embedder,
+            chunker=chunker,
         )
-    if base is None:
+    elif config.search_strategy == "hybrid":
+        chroma_base = ChromaSearch(
+            path=config.chroma_path,
+            collection_name=config.chroma_collection,
+            embedder=embedder,
+            chunker=chunker,
+        )
+        bm25_base = BM25Search(chunker=chunker)
+        # Hybrid search combines dense vectors with sparse BM25 keywords via RRF
+        base = HybridSearch(
+            dense_search=chroma_base,
+            sparse_search=bm25_base,
+            rrf_k=60,
+        )
+    elif config.search_strategy in ("hybrid_reranker", "hybrid-reranker"):
+        chroma_base = ChromaSearch(
+            path=config.chroma_path,
+            collection_name=config.chroma_collection,
+            embedder=embedder,
+            chunker=chunker,
+        )
+        bm25_base = BM25Search(chunker=chunker)
+        hybrid_base = HybridSearch(
+            dense_search=chroma_base,
+            sparse_search=bm25_base,
+            rrf_k=60,
+        )
+        limited_base = LimitedSearch(hybrid_base, config.retrieval_limit)
+        
+        # Wrap with BGE Reranker
+        base = BGERerankerWrapper(
+            search_strategy=limited_base,
+            model_name=config.reranker_model,
+            top_k=5
+        )
+        return base
+    else:
         raise ValueError(f"Unknown search strategy: {config.search_strategy}")
+
     return LimitedSearch(base, config.retrieval_limit)
 
 

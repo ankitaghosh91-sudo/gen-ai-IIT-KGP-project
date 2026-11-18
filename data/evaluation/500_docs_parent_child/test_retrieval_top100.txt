@@ -1,0 +1,1377 @@
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the location of Mallard Media Services?
+Total indexed chunks: 4119
+Requested TOP_K: 100
+Actual TOP_K: 100
+Expected document: 3348.jpeg
+Correct document retrieved: True
+Expected chunk: 3348.jpeg:child:0:1
+Exact target chunk retrieved: True
+Matching document ranks: [1, 2]
+
+========== ALL RETRIEVED CHUNKS ==========
+
+Rank: 1
+Chunk ID: 3348.jpeg:child:0:1
+Metadata: {'doc_id': '3348.jpeg', 'chunk_index': 1, 'parent_text': '**Document Type:**\nThis is an outdoor media advertising invoice from Mallard Media Services for billboard advertisements.\n\n**Key Details:**\n- **Company Name:** Mallard Media Services\n- **Location:** One Park Avenue, New York, NY 10016-5895\n- **Period of Advertisement:** January 1, 1995, to December 31, 1995\n- **Invoice Date:** June 19, 1995\n- **Job Number:** 63649\n- **Details of Advertisement:**\n  - **Brand:** NEM\n  - **Size:** 3750.0 sq. ft.\n  - **Monthly Rate:** $3750.00 per month, consistent across all months from January to December\n  - **Quantity:** Each month consistently lists billboard quantities of 1.00', 'parent_id': '3348.jpeg:parent:0'}
+Distance: 0.2136
+Similarity: 0.7864
+Content:
+**Key Details:**
+- **Company Name:** Mallard Media Services
+- **Location:** One Park Avenue, New York, NY 10016-5895
+- **Period of Advertisement:** January 1, 1995, to December 31, 1995
+- **Invoice Date:** June 19, 1995
+- **Job Number:** 63649
+- **Details of Advertisement:**
+  - **Brand:** NEM
+  - **Size:** 3750.0 sq. ft.
+--------------------------------------------------------------------------------
+
+Rank: 2
+Chunk ID: 3348.jpeg:child:0:0
+Metadata: {'doc_id': '3348.jpeg', 'parent_text': '**Document Type:**\nThis is an outdoor media advertising invoice from Mallard Media Services for billboard advertisements.\n\n**Key Details:**\n- **Company Name:** Mallard Media Services\n- **Location:** One Park Avenue, New York, NY 10016-5895\n- **Period of Advertisement:** January 1, 1995, to December 31, 1995\n- **Invoice Date:** June 19, 1995\n- **Job Number:** 63649\n- **Details of Advertisement:**\n  - **Brand:** NEM\n  - **Size:** 3750.0 sq. ft.\n  - **Monthly Rate:** $3750.00 per month, consistent across all months from January to December\n  - **Quantity:** Each month consistently lists billboard quantities of 1.00', 'chunk_index': 0, 'parent_id': '3348.jpeg:parent:0'}
+Distance: 0.3198
+Similarity: 0.6802
+Content:
+**Document Type:**
+This is an outdoor media advertising invoice from Mallard Media Services for billboard advertisements.
+--------------------------------------------------------------------------------
+
+Rank: 3
+Chunk ID: 3336.jpeg:child:0:1
+Metadata: {'doc_id': '3336.jpeg', 'parent_id': '3336.jpeg:parent:0', 'chunk_index': 1, 'parent_text': '### Document Type:\nThis image represents an Invoice for media services.\n\n### Key Details:\n- **Vendor Information:**\n  - Name: Colorful Media Services\n  - Address: One Park Avenue, New York, NY, 10016-5805\n- **Client Information:**\n  - Not specifically mentioned, but directed towards Metro News Media or similar entity.\n- **Invoice Details:**\n  - Advertising period: 11/1/94 - 12/31/94\n  - Invoice date: 12/16/94\n  - Contract status: Issue renewal contract\n  - Contract period: 2/16/94 - 1/15/95\n  - Levy/status: 1356-C renewal\n- **Financials:**\n  - Monthly charges from Jan 1995 to Dec 1995: $8065.67 each month\n  - Total due for the year: $96,848.10'}
+Distance: 0.4202
+Similarity: 0.5798
+Content:
+### Key Details:
+- **Vendor Information:**
+  - Name: Colorful Media Services
+  - Address: One Park Avenue, New York, NY, 10016-5805
+- **Client Information:**
+  - Not specifically mentioned, but directed towards Metro News Media or similar entity.
+- **Invoice Details:**
+  - Advertising period: 11/1/94 - 12/31/94
+  - Invoice date: 12/16/94
+--------------------------------------------------------------------------------
+
+Rank: 4
+Chunk ID: 7767.jpeg:child:0:1
+Metadata: {'chunk_index': 1, 'parent_text': '### Document Type\nThe image depicts a "Production Estimate" for advertising/marketing needs, dated from 1987.\n\n### Key Details\n- **Client:** R.J. Reynolds Tobacco Co.\n- **Product:** MAGNA\n- **Media:** Transit\n- **Job Description:** MALL DISPLAY 50"x40" - EARTHQUAKE\n- **Date of Estimate:** 10/21/87\n- **Estimate No.:** 77MSC02M0R1\n- **Job Number:** 8984\n- **Location:** Long, Haymes & Carr Inc., 140 Charlois Blvd., Winston-Salem, NC 27103\n\n#### Financial Details\n- **Original Total Estimate:** $6,885.00\n- **Revised Total Estimate:** $7,135.00\n- **Actual Costs:** Columns are left blank (0.00 indicated)\n- **Difference:** +$250.00 (indicating an increase from the original estimate)\n\n#### Breakdown of Costs:\n- **Photostat:** $35.00\n- **Mechanical-Assembly:** Original Cost = $180.00, Revised = $150.00\n- **Mechanical-Type:** $150.00\n- **Printing-O&B:** Original Cost = $6,500.00, Revised = $6,750.00 (+$250.00)\n\n#### Comments Section:\n- **Reason for Revision:** R1-To include costs for 1/1/88 posting.\n  - **Printing-O&B:** Quantity 100\n- **Authorized by:** M. Simmons', 'parent_id': '7767.jpeg:parent:0', 'doc_id': '7767.jpeg'}
+Distance: 0.4336
+Similarity: 0.5664
+Content:
+### Key Details
+- **Client:** R.J. Reynolds Tobacco Co.
+- **Product:** MAGNA
+- **Media:** Transit
+- **Job Description:** MALL DISPLAY 50"x40" - EARTHQUAKE
+- **Date of Estimate:** 10/21/87
+- **Estimate No.:** 77MSC02M0R1
+- **Job Number:** 8984
+- **Location:** Long, Haymes & Carr Inc., 140 Charlois Blvd., Winston-Salem, NC 27103
+--------------------------------------------------------------------------------
+
+Rank: 5
+Chunk ID: 8990.jpeg:child:0:1
+Metadata: {'doc_id': '8990.jpeg', 'chunk_index': 1, 'parent_id': '8990.jpeg:parent:0', 'parent_text': '### Document Type\nThis image displays an invoice from a professional advertising services provider.\n\n### Key Details\n- **Company Name:** C.T. Levy Associates\n- **Address of Company:** P.O. Box 4601, Hialeah, Florida 33014-0601\n- **Phone Number:** (305) 825-2041\n- **Invoice Number:** 6677\n- **Date of Invoice:** March 29, 1985\n- **Client:** Lorillard Media Services, 666 Fifth Avenue, New York, NY, 10103\n- **Document Type:** Outdoor Advertising\n- **Contract Number:** QH-88A\n- **Line Item Details:**\n  - **Item Number:** 1157\n  - **Location:** W/S NN 27 Avenue/157 Street, NDI (14X48)\n  - **Description:** Advertisement space rental\n  - **Rental Period:** April 1, 1985, to May 1, 1985\n  - **Price Per Month:** $1,265.00\n  - **Agency Commission:** $210.83\n  - **Net Total:** $1,054.17\n- **Signatures and Authorization:** The document appears to be signed and authorized, with handwritten notations indicating adjustments or confirmations.'}
+Distance: 0.4359
+Similarity: 0.5641
+Content:
+### Key Details
+- **Company Name:** C.T. Levy Associates
+- **Address of Company:** P.O. Box 4601, Hialeah, Florida 33014-0601
+- **Phone Number:** (305) 825-2041
+- **Invoice Number:** 6677
+- **Date of Invoice:** March 29, 1985
+- **Client:** Lorillard Media Services, 666 Fifth Avenue, New York, NY, 10103
+- **Document Type:** Outdoor Advertising
+--------------------------------------------------------------------------------
+
+Rank: 6
+Chunk ID: 3345.jpeg:child:0:1
+Metadata: {'parent_text': '### Document Type\nThis image appears to be an advertising contract or invoice associated with outdoor media services.\n\n### Key Details\n- **Contracting Party**: Media Services, One Park Avenue, New York, NY 10016-5895\n- **Media Type**: Outdoor\n- **Contract Number**: 53757\n- **Revision Number**: 0\n- **Creative Option**: Standard Unit\n- **Size/Type**: 45\n- **Advertiser**: Neuville Industries\n- **Campaign Name**: Newport Park Spa, Neuville Lights Parking\n- **Contract Duration**: January 1, 1994, to December 31, 1994\n- **Monthly Impressions/Charges**: Consistently 4661.25 across each month from January to December\n- **Total Charges for the Year**: \\$55,735.00\n- **Plant Operator**: #33, Gateway Outdoor Ad, Charlotte, North Carolina\n- **Items Included in Billing**: Assn DCL X and Assn Unit X, both \\$1.00 each across each period', 'doc_id': '3345.jpeg', 'chunk_index': 1, 'parent_id': '3345.jpeg:parent:0'}
+Distance: 0.4390
+Similarity: 0.5610
+Content:
+### Key Details
+- **Contracting Party**: Media Services, One Park Avenue, New York, NY 10016-5895
+- **Media Type**: Outdoor
+- **Contract Number**: 53757
+- **Revision Number**: 0
+- **Creative Option**: Standard Unit
+- **Size/Type**: 45
+- **Advertiser**: Neuville Industries
+- **Campaign Name**: Newport Park Spa, Neuville Lights Parking
+--------------------------------------------------------------------------------
+
+Rank: 7
+Chunk ID: 4895.jpeg:child:0:2
+Metadata: {'chunk_index': 2, 'doc_id': '4895.jpeg', 'parent_text': '### Document Type\nThis image represents a **Production Bill** from Ted Bates & Company, Inc./Advertising.\n\n### Key Details\n- **Document Issuer and Header Information**: \n  - Issuer Name: Ted Bates & Company, Inc./Advertising\n  - Address: 1515 Broadway, New York, NY 10036, USA\n  - Date of the Bill: July 10, 1979\n  - Bill Number: P-07-9909 Page 1\n  - Due Date: July 24, 1979\n\n- **Client Information**: \n  - Client Name: Brown & Williamson Tobacco Corp\n  - Address: 1600 W Hill St, Louisville, KY 40201\n\n- **Project Details**:\n  - Product: Kool\n  - Job Name: Black Around the World\n  - Media Set Name: Estimate PB94157\n  - Job Number: K-78-2382\n\n- **List of Charges**:\n  - Description: Engravings-Offset\n  - Vendor Name: Verlin Reprod\n  - Net Amount: $240.00 (for each entry)\n  - Commission: $0.00 (no commission entered)\n  - Total for each entry: $240.00\n  - Work Code Totals (Shipping and Traffic): Each $60.00\n\n- **Payment Information**:\n  - Total Due Now: $381.60\n  - Previous Bills Total: $997.65\n\n- **Specific Notes/Instructions**:\n  - "Released Jul 30, 1979 by Adv. Dept."\n  - "Pay Above Amount"', 'parent_id': '4895.jpeg:parent:0'}
+Distance: 0.4433
+Similarity: 0.5567
+Content:
+- **Client Information**: 
+  - Client Name: Brown & Williamson Tobacco Corp
+  - Address: 1600 W Hill St, Louisville, KY 40201
+
+- **Project Details**:
+  - Product: Kool
+  - Job Name: Black Around the World
+  - Media Set Name: Estimate PB94157
+  - Job Number: K-78-2382
+--------------------------------------------------------------------------------
+
+Rank: 8
+Chunk ID: 7324.jpeg:child:0:2
+Metadata: {'doc_id': '7324.jpeg', 'parent_text': '### Document Type\nThe image shows a financial statement from Covington & Burling addressed to Philip Morris Management Corporation.\n\n### Key Details\n- **Issuer**: Covington & Burling\n- **Recipient**: Philip Morris Management Corporation\n- **Address of Issuer**: 1201 Pennsylvania Avenue, N.W., P.O. Box 7566, Washington, D.C. 20044\n- **Date of Statement**: August 26, 1991\n- **Telephone Number**: (202) 662-6000\n- **Employer Identification No.**: 53-0188411\n- **Statement Description**: To cover the statement of health/buildings international related to the final invoice of Fleishman Hillard Associates regarding the Belgium Harris media tour/seminar.\n- **Amount Owed**: $30,775.32\n- **Additional Annotations**: Handwritten notes include dates "9.30-10/2" and reference "h: Miscellaneous PR/Press Belgian European". Another note dated "9-14-91" by Henry Birts.\n- **Document Reception Info**: Received stamp marked "AUG 27 1991" with HQ1 Office and Voucher number details.', 'parent_id': '7324.jpeg:parent:0', 'chunk_index': 2}
+Distance: 0.4461
+Similarity: 0.5539
+Content:
+- **Employer Identification No.**: 53-0188411
+- **Statement Description**: To cover the statement of health/buildings international related to the final invoice of Fleishman Hillard Associates regarding the Belgium Harris media tour/seminar.
+- **Amount Owed**: $30,775.32
+--------------------------------------------------------------------------------
+
+Rank: 9
+Chunk ID: 4495.jpeg:child:0:1
+Metadata: {'doc_id': '4495.jpeg', 'parent_id': '4495.jpeg:parent:0', 'parent_text': '### Document Type\nThis is an invoice from Fleishman Hillard Inc., dated August 27, 1992, for services provided to the Tobacco Institute.\n\n### Key Details\n- **Issuer**: Fleishman Hillard Inc.\n- **Date of Invoice**: August 13, 1992\n- **Billing Period Ending**: August 31, 1992\n- **Recipient**: Tobacco Institute, care of Marty Gleason, 1875 I Street NW, Washington, DC 20006\n- **Invoice Number**: Appears to be TIMN 0164198\n- **Client Code**: 840001\n- **Description of Services and Charges**:\n  - TI/Advertising: $281.67\n  - TI/Youth Initiatives: $79.02\n  - TI/Youth Media Tour: $2,765.43\n  - TI/Miscellaneous Projects: Minus $398.22 adjusted, corrected total $572.79\n- **Total Charges**: $3,798.04\n- **Approval and Signatures**: The document displays approval annotations and signatures for the payment, though the signatures are indecipherable.\n- **Miscellaneous Notes**: Includes a note on standard agency commission and terms like "Payable upon receipt" and "Past due amounts subject to an interest charge."', 'chunk_index': 1}
+Distance: 0.4509
+Similarity: 0.5491
+Content:
+### Key Details
+- **Issuer**: Fleishman Hillard Inc.
+- **Date of Invoice**: August 13, 1992
+- **Billing Period Ending**: August 31, 1992
+- **Recipient**: Tobacco Institute, care of Marty Gleason, 1875 I Street NW, Washington, DC 20006
+- **Invoice Number**: Appears to be TIMN 0164198
+- **Client Code**: 840001
+--------------------------------------------------------------------------------
+
+Rank: 10
+Chunk ID: 8131.jpeg:child:0:1
+Metadata: {'chunk_index': 1, 'parent_text': '### Document Type\nThis image displays an invoice from Park Outdoor Advertising.\n\n### Key Details\n- **Invoice Issuer**: Park Outdoor Advertising\n- **Invoice Date**: June 1981\n- **Invoice Number**: 6-041-B\n- **Client**: Lorillard Media Services (LMS), 666 Fifth Avenue, New York, New York 10019\n- **Description**: Advertising services for multiple cigarette brands\n- **Service Locality**: Binghamton, N.Y. market\n- **Details of service**:\n  - Non-Illuminated Posters: 9 units\n  - Illuminated Posters: 10 units\n- **Period Covered**: 6/5/81\n- **Financial Summary**:\n  - Original Amount: $2640.00\n  - Discount 10%: -$264.00\n  - Adjusted Total: $2376.00\n  - Deduction for Early Payment (16 2/3%): -$396.00\n  - Final Total Due: $1980.00\n- **Payment Instruction**: "Please remit copy of invoice with payment"\n- **Payment Due Date**: Stamped "JUN 10 1981"', 'parent_id': '8131.jpeg:parent:0', 'doc_id': '8131.jpeg'}
+Distance: 0.4542
+Similarity: 0.5458
+Content:
+### Key Details
+- **Invoice Issuer**: Park Outdoor Advertising
+- **Invoice Date**: June 1981
+- **Invoice Number**: 6-041-B
+- **Client**: Lorillard Media Services (LMS), 666 Fifth Avenue, New York, New York 10019
+- **Description**: Advertising services for multiple cigarette brands
+- **Service Locality**: Binghamton, N.Y. market
+--------------------------------------------------------------------------------
+
+Rank: 11
+Chunk ID: 8141.jpeg:child:0:1
+Metadata: {'parent_id': '8141.jpeg:parent:0', 'doc_id': '8141.jpeg', 'parent_text': '### Document Type:\nThe image depicts a commercial invoice.\n\n### Key Details:\n- **Vendor Name:** Springfield Advertising Company\n- **Vendor Contact:** Tel. (413) 733-6601\n- **Mailing Address:** P.O Box 3557, Springfield, Mass. 01101\n- **Billing To:** Lorillard Media Services (LMS), 666 Fifth Avenue, New York, N.Y. 10019\n- **Contract Number:** #367\n- **Invoice Number:** #301\n- **Invoice Date:** March 1, 1981\n- **Terms:** Net Cash\n- **Item Described:** Advertising - Springfield/Holyoke Metro Market, Cigarettes Multi-brand Newport - "Hugh"\n- **Period of Service:** 3/1/81 - 4/1/81\n- **Total Amount Before Discount:** $5589.00\n- **Discount:** 16 2/3%, which amounts to $931.50\n- **Total Amount Due:** $4657.50\n- **Payment Due Date:** Not explicitly listed, typically aligns with invoicing terms\n- **Additional Info:** Locations for advertisement mentioned as "See attached list"', 'chunk_index': 1}
+Distance: 0.4617
+Similarity: 0.5383
+Content:
+### Key Details:
+- **Vendor Name:** Springfield Advertising Company
+- **Vendor Contact:** Tel. (413) 733-6601
+- **Mailing Address:** P.O Box 3557, Springfield, Mass. 01101
+- **Billing To:** Lorillard Media Services (LMS), 666 Fifth Avenue, New York, N.Y. 10019
+- **Contract Number:** #367
+- **Invoice Number:** #301
+--------------------------------------------------------------------------------
+
+Rank: 12
+Chunk ID: 8974.jpeg:child:0:1
+Metadata: {'doc_id': '8974.jpeg', 'chunk_index': 1, 'parent_id': '8974.jpeg:parent:0', 'parent_text': '### Document Type\nThis image shows a commercial invoice from The Aydar Corporation, an outdoor advertising company.\n\n### Key Details\n- **Company Name**: The Aydar Corporation\n- **Document Type**: Invoice\n- **Invoice Number:** 232063\n- **Invoice Date:** March 15, 1991\n- **P.O. Number:** 915-0128\n- **Billed To**: Lorillard Media Services, Attention: Betty Epperson, 666 Fifth Avenue, 12th Floor, New York, NY 10103\n- **Locations and Services**:\n   - Home Avenue: ClarksVille-ft Campbell Meter & Reg\n     - Locations: US 41A South Loc #3-P1, US 41A North Loc #7-P1, Cross Street Loc #2-P1\n     - Services: Advertising and media services with regard to specific street locations.\n- **Billing Details**:\n   - Gross Service Dates: Various specific dates for different services highlighted\n   - Total Gross: $36,401\n   - Commission: $6,876\n   - Net Due: $18,199\n- **Remarks**:\n   - Several handwritten notes indicating approvals and adjustments.\n   - Signatures for authorization.\n   - Stamp of payment due by September 15, 1985.'}
+Distance: 0.4620
+Similarity: 0.5380
+Content:
+### Key Details
+- **Company Name**: The Aydar Corporation
+- **Document Type**: Invoice
+- **Invoice Number:** 232063
+- **Invoice Date:** March 15, 1991
+- **P.O. Number:** 915-0128
+- **Billed To**: Lorillard Media Services, Attention: Betty Epperson, 666 Fifth Avenue, 12th Floor, New York, NY 10103
+- **Locations and Services**:
+--------------------------------------------------------------------------------
+
+Rank: 13
+Chunk ID: 8131.jpeg:child:1:2
+Metadata: {'chunk_index': 2, 'parent_id': '8131.jpeg:parent:1', 'doc_id': '8131.jpeg', 'parent_text': '### Insights and Observations\n- The invoice highlights a discount structure that rewards prompt payments, evident from the deduction for early payment (-$396). This financial incentive may encourage timely payments and improve cash flow for Park Outdoor Advertising.\n- The focus on multi-brand cigarette advertising suggests a significant business relationship with tobacco companies, specifically targeting markets in New York through both illuminated and non-illuminated outdoor advertising.\n- The address and nature of the client’s business (Lorillard Media Services focusing on cigarettes) suggest a targeted marketing strategy in densely populated areas to increase brand visibility.\n- Proper management of such invoices is crucial for maintaining financial accuracy and ensuring compliance with advertising and financial regulations, especially given the historical context and evolving legal landscape concerning tobacco advertising.'}
+Distance: 0.4627
+Similarity: 0.5373
+Content:
+- The address and nature of the client’s business (Lorillard Media Services focusing on cigarettes) suggest a targeted marketing strategy in densely populated areas to increase brand visibility.
+--------------------------------------------------------------------------------
+
+Rank: 14
+Chunk ID: 4021.jpeg:child:1:1
+Metadata: {'parent_text': '### Insights and Observations:\n- **Non-Negotiable Status**: The check is clearly marked as non-negotiable, which means it cannot be transferred or assigned; it is intended only for deposit by the payee.\n- **Payment for Services**: Given the payee\'s name "Missouri Press Clipping," this check likely represents payment for services related to media monitoring or press clipping, common for organizations looking to track their media presence or mentions.\n- **Document Condition**: The check appears to be in a typical format but has some visual artifacts on it which might be due to a scanning issue or physical aging, not affecting the readability of key information.\n- **Security and Accountability**: Features such as a unique check number, routing numbers, and precise payee designation help in preventing fraud and ensuring funds are appropriately tracked and disbursed.\n\nThis document is a snapshot of a specific transactional document crucial for accounting and financial tracking within corporate operations.', 'chunk_index': 1, 'doc_id': '4021.jpeg', 'parent_id': '4021.jpeg:parent:1'}
+Distance: 0.4643
+Similarity: 0.5357
+Content:
+- **Payment for Services**: Given the payee's name "Missouri Press Clipping," this check likely represents payment for services related to media monitoring or press clipping, common for organizations looking to track their media presence or mentions.
+--------------------------------------------------------------------------------
+
+Rank: 15
+Chunk ID: 9311.jpeg:child:0:2
+Metadata: {'parent_text': '### Document Type\nThis is an invoice from Video Monitoring Services of America, LP.\n\n### Key Details\n- **Invoice Number**: 10-120-0069582\n- **Date Issued**: November 25, 2002\n- **Due Date**: Terms indicate Net 10 Days from the invoice date.\n- **Vendor Details**: \n  - Name: Video Monitoring Services of America, LP\n  - Address: 30 West 24th Street, New York, NY 10036\n  - Federal ID: 13-3889971\n- **Client Details**: \n  - Name: Weber Shandwick (BSMG-CG)\n  - Address: 676 North St. Clair, Suite 1000, Chicago, IL, 60611\n  - Attn: Rebecca Fried\n- **Product/Service Provided**: Video Segment - "Dr. Michael Popkin/Take Ten+ News/Good Morning Maryland 11/20/02 WMAR-TV Baltimore"\n  - Duration: 5:00 AM - 00:03:34\n- **Amount Due**: $150.00\n- **Payment Information**: \n  - Date received: December 5, 2002\n  - Reference full invoice number or enclose \'Remittance Copy with your Payment.\'', 'parent_id': '9311.jpeg:parent:0', 'doc_id': '9311.jpeg', 'chunk_index': 2}
+Distance: 0.4665
+Similarity: 0.5335
+Content:
+- Federal ID: 13-3889971
+- **Client Details**: 
+  - Name: Weber Shandwick (BSMG-CG)
+  - Address: 676 North St. Clair, Suite 1000, Chicago, IL, 60611
+  - Attn: Rebecca Fried
+- **Product/Service Provided**: Video Segment - "Dr. Michael Popkin/Take Ten+ News/Good Morning Maryland 11/20/02 WMAR-TV Baltimore"
+  - Duration: 5:00 AM - 00:03:34
+--------------------------------------------------------------------------------
+
+Rank: 16
+Chunk ID: 4495.jpeg:child:0:0
+Metadata: {'doc_id': '4495.jpeg', 'parent_id': '4495.jpeg:parent:0', 'parent_text': '### Document Type\nThis is an invoice from Fleishman Hillard Inc., dated August 27, 1992, for services provided to the Tobacco Institute.\n\n### Key Details\n- **Issuer**: Fleishman Hillard Inc.\n- **Date of Invoice**: August 13, 1992\n- **Billing Period Ending**: August 31, 1992\n- **Recipient**: Tobacco Institute, care of Marty Gleason, 1875 I Street NW, Washington, DC 20006\n- **Invoice Number**: Appears to be TIMN 0164198\n- **Client Code**: 840001\n- **Description of Services and Charges**:\n  - TI/Advertising: $281.67\n  - TI/Youth Initiatives: $79.02\n  - TI/Youth Media Tour: $2,765.43\n  - TI/Miscellaneous Projects: Minus $398.22 adjusted, corrected total $572.79\n- **Total Charges**: $3,798.04\n- **Approval and Signatures**: The document displays approval annotations and signatures for the payment, though the signatures are indecipherable.\n- **Miscellaneous Notes**: Includes a note on standard agency commission and terms like "Payable upon receipt" and "Past due amounts subject to an interest charge."', 'chunk_index': 0}
+Distance: 0.4672
+Similarity: 0.5328
+Content:
+### Document Type
+This is an invoice from Fleishman Hillard Inc., dated August 27, 1992, for services provided to the Tobacco Institute.
+--------------------------------------------------------------------------------
+
+Rank: 17
+Chunk ID: 8997.jpeg:child:0:1
+Metadata: {'parent_id': '8997.jpeg:parent:0', 'doc_id': '8997.jpeg', 'chunk_index': 1, 'parent_text': '### Document Type\nThe image depicts an invoice related to outdoor advertising services.\n\n### Key Details\n- **Company Issuing Invoice**: WWL, Inc., an ET. Legg Company affiliate, based in Hialeah, Florida.\n- **Recipient**: Lorillard Media Services, 666 Fifth Avenue, New York, NY 10103.\n- **Invoice Number**: 0989\n- **Contract Number**: OH-885\n- **Invoice Date**: August 5, 1985\n- **Terms**: Not specified\n- **Item Information**: \n  - **Item No.**: 246\n  - **Description**: E/S NH 72 Ave/36 Street, SBI (14x48)\n  - **Service Period**: From September 1 to October 1\n  - **Price Per Month**: $1,265.00\n  - **Agency Commission**: -$210.83\n  - **Total Due**: $1,054.17\n- **Signatures**: Two signatures are visible, indicating approval or confirmation of the invoice details.\n- **Additional Note**: Date noted below the first signature “SEP 09 1985.”'}
+Distance: 0.4684
+Similarity: 0.5316
+Content:
+### Key Details
+- **Company Issuing Invoice**: WWL, Inc., an ET. Legg Company affiliate, based in Hialeah, Florida.
+- **Recipient**: Lorillard Media Services, 666 Fifth Avenue, New York, NY 10103.
+- **Invoice Number**: 0989
+- **Contract Number**: OH-885
+- **Invoice Date**: August 5, 1985
+- **Terms**: Not specified
+- **Item Information**:
+--------------------------------------------------------------------------------
+
+Rank: 18
+Chunk ID: 3339.jpeg:child:0:0
+Metadata: {'parent_text': '### Document Type\nThe image appears to be an advertising service invoice or contract outline from "Louthard Media Services".\n\n### Key Details\n- **Vendor**: Louthard Media Services, One Park Avenue, New York, NY 10016-5895\n- **Client Information**:\n  - **Contractor**: Outdoor\n  - **Market**: Flint, MI\n  - **Location of Plant**: Flint, MI\n  - **Plant Operator**: Gannett Outdoor Co., Flint MI\n- **Advertising Period**: 1/1/94 - 12/31/94\n- **Date Issued**: 2/10/94\n- **Est. Period 1**: 12/90\n- **Contract Start Date**: 1/1/94\n- **Contract End Date**: 12/31/94\n- **Contract Period**: K012\n- **Level/Status**: R85 - MA&E\n- **Size and Brand Details**:\n  - January to December 1994 for brand "M&M\'s"\n  - Size: 1106.67 February to December\n- **Monthly Exposure**:\n  - Each month shows 14 exposures for size 1106.67, totaling 132,800.04 for the year\n- **Revised Sections**:\n  - Split Creative Between March and April\n- **Cost Details**:\n  - Differential Amount: No change in overall cost\n  - Monthly unit rate and other costs typify an unchanged price structure throughout the contract period.', 'parent_id': '3339.jpeg:parent:0', 'doc_id': '3339.jpeg', 'chunk_index': 0}
+Distance: 0.4685
+Similarity: 0.5315
+Content:
+### Document Type
+The image appears to be an advertising service invoice or contract outline from "Louthard Media Services".
+--------------------------------------------------------------------------------
+
+Rank: 19
+Chunk ID: 9044.jpeg:child:0:1
+Metadata: {'parent_id': '9044.jpeg:parent:0', 'chunk_index': 1, 'parent_text': '### Document Type\nThis is an invoice from Metropolitan Sunday Newspapers, Inc.\n\n### Key Details\n- **Sender**: Metropolitan Sunday Newspapers, Inc., located at P.O. Box address in Grand Central Station, New York, NY.\n- **Recipient**: Lorillard Company, One Park Avenue 17th Floor, New York, NY.\n- **Invoice Number**: 64347\n- **Date Issued**: 10-06-88\n- **Terms Net Due Date**: 10-24-88\n- **Advertisements**:\n  - **Chicago Tribune**: Size 1/10 page, Rate Open, Date 10/04/88, Gross $6,518.00, Net $4,040.30\n  - **Philadelphia Inquirer**: Size 7/10 page, Rate Open, Date 10/04/88, Gross $15,091.75, Net $9,357.60\n  - **Westchester Herald News**: Size 2/10 page, Rate Open, Date 10/04/88, Gross $2,700.00, Net $1,674.50\n  - **San Francisco Examiner**: Size C¾ page, Rate Open, Date 10/04/88, Gross $26,793.50, Net $16,582.55\n- **Total Amount**: \n  - **Gross Total**: $51,103.25\n  - **Net Total**: $31,654.95\n- **Payment Information**: Payment instruction is to “Please pay Metro directly.”', 'doc_id': '9044.jpeg'}
+Distance: 0.4689
+Similarity: 0.5311
+Content:
+### Key Details
+- **Sender**: Metropolitan Sunday Newspapers, Inc., located at P.O. Box address in Grand Central Station, New York, NY.
+- **Recipient**: Lorillard Company, One Park Avenue 17th Floor, New York, NY.
+- **Invoice Number**: 64347
+- **Date Issued**: 10-06-88
+- **Terms Net Due Date**: 10-24-88
+- **Advertisements**:
+--------------------------------------------------------------------------------
+
+Rank: 20
+Chunk ID: 8178.jpeg:child:0:1
+Metadata: {'parent_id': '8178.jpeg:parent:0', 'parent_text': '**Document Type:**\nInvoice for Advertising Services\n\n**Key Details:**\n- **Issuer:** Whitmier & Ferris Co. Inc., Outdoor Advertising\n- **Address of Issuer:** 295 Maryland Street, P.O. Box 54, Buffalo, New York 14240\n- **Recipient:** Lorillard Media Services, 666 Fifth Avenue, New York, NY 10019\n- **Invoice Number:** 3-9\n- **Date:** March 7, 1981\n- **Your Contract Number:** #1004\n- **Design and Advertising Service:** Multi Brands\n- **Location of Advertising:** Buffalo Metro Market, 42 U.LL. 32 Reg.\n- **Service Duration and Amounts Charged:**\n  - **From March 1, to April 1, 1981:**\n    - Amount: $10,680.00\n  - **Amount Subtotal for Various Dates:**\n    - March 3 to March 17, 1981: $1,780.00\n    - Lead 16 2 3/3% variation: $890.00\n- **Payment Terms:** Cash\n- **Signatures and Approval Stamps:** Multiple signatures and approval dates, indicating processed payments.', 'chunk_index': 1, 'doc_id': '8178.jpeg'}
+Distance: 0.4708
+Similarity: 0.5292
+Content:
+**Key Details:**
+- **Issuer:** Whitmier & Ferris Co. Inc., Outdoor Advertising
+- **Address of Issuer:** 295 Maryland Street, P.O. Box 54, Buffalo, New York 14240
+- **Recipient:** Lorillard Media Services, 666 Fifth Avenue, New York, NY 10019
+- **Invoice Number:** 3-9
+- **Date:** March 7, 1981
+- **Your Contract Number:** #1004
+--------------------------------------------------------------------------------
+
+Rank: 21
+Chunk ID: 5301.jpeg:child:0:1
+Metadata: {'chunk_index': 1, 'doc_id': '5301.jpeg', 'parent_text': '### Document Type:\nThis is an invoice document.\n\n### Key Details:\n- **Company Name**: The HUBEN H. DONNELLEY CORPORATION\n- **Address**: Directory Publishers & Representatives Marketing Services, 230 East Sandford Blvd., Mount Vernon, New York 10550\n- **Date of Invoice**: August 1989\n- **Invoice Number**: 1252\n- **Client**: American, 635 Fifth Ave., New York, NY 10017\n- **Attention**: Mr. F. Cummings\n- **Listed Transactions**: \n  - 821160 Reynolds Regular (9 months): $938.01\n  - 10-1/2” Trim-Z (or equivalent): $17.75\n  - 9-3/4” 20 lbs. Cuts - Continuous: $27.33\n  - **Total for listed products**: $983.09\n- **Subtotal of Invoice**: $50,103.09\n- **General Supplies Charge**: $732.11\n- **Previous Balance**: $12,353.65\n- **Total Due**: $13,772.35', 'parent_id': '5301.jpeg:parent:0'}
+Distance: 0.4725
+Similarity: 0.5275
+Content:
+### Key Details:
+- **Company Name**: The HUBEN H. DONNELLEY CORPORATION
+- **Address**: Directory Publishers & Representatives Marketing Services, 230 East Sandford Blvd., Mount Vernon, New York 10550
+- **Date of Invoice**: August 1989
+- **Invoice Number**: 1252
+- **Client**: American, 635 Fifth Ave., New York, NY 10017
+--------------------------------------------------------------------------------
+
+Rank: 22
+Chunk ID: 9078.jpeg:child:0:1
+Metadata: {'chunk_index': 1, 'parent_id': '9078.jpeg:parent:0', 'parent_text': '### Document Type\nThis image portrays a billing statement from the Press Enterprise Company for Lorillard Media Services.\n\n### Key Details\n- **Company Name:** Press Enterprise Company\n- **Customer:** Lorillard Media Services, Attn: Eileen Antonello\n- **Invoice/Statement Type:** National\n- **Invoice Date:** Not clearly visible (possibly 12/31/1967)\n- **Product Information:** True Cigarettes, Product Number 1362\n- **Detailed Charges:**\n  - Balance Forward: $617.45\n  - Agency Commission: $67.85\n  - Net Cash Finding & Agency Discount: $925.90 (each)\n  - Previous Amount Owed: $1740.25\n  - Cash Adjustments This Period: $0.00\n  - Credit Adjustments This Period: $0.00\n- **Total Amount Due:** $1760.25\n- **Terms of Sale:** Commission to automatic agencies. 15% cash payment in 15 days.\n- **Payment Details:** Make payment to Press Enterprise Company.\n- **Office Details:** Riverside, California', 'doc_id': '9078.jpeg'}
+Distance: 0.4730
+Similarity: 0.5270
+Content:
+### Key Details
+- **Company Name:** Press Enterprise Company
+- **Customer:** Lorillard Media Services, Attn: Eileen Antonello
+- **Invoice/Statement Type:** National
+- **Invoice Date:** Not clearly visible (possibly 12/31/1967)
+- **Product Information:** True Cigarettes, Product Number 1362
+- **Detailed Charges:**
+  - Balance Forward: $617.45
+--------------------------------------------------------------------------------
+
+Rank: 23
+Chunk ID: 3345.jpeg:child:0:0
+Metadata: {'parent_text': '### Document Type\nThis image appears to be an advertising contract or invoice associated with outdoor media services.\n\n### Key Details\n- **Contracting Party**: Media Services, One Park Avenue, New York, NY 10016-5895\n- **Media Type**: Outdoor\n- **Contract Number**: 53757\n- **Revision Number**: 0\n- **Creative Option**: Standard Unit\n- **Size/Type**: 45\n- **Advertiser**: Neuville Industries\n- **Campaign Name**: Newport Park Spa, Neuville Lights Parking\n- **Contract Duration**: January 1, 1994, to December 31, 1994\n- **Monthly Impressions/Charges**: Consistently 4661.25 across each month from January to December\n- **Total Charges for the Year**: \\$55,735.00\n- **Plant Operator**: #33, Gateway Outdoor Ad, Charlotte, North Carolina\n- **Items Included in Billing**: Assn DCL X and Assn Unit X, both \\$1.00 each across each period', 'parent_id': '3345.jpeg:parent:0', 'doc_id': '3345.jpeg', 'chunk_index': 0}
+Distance: 0.4731
+Similarity: 0.5269
+Content:
+### Document Type
+This image appears to be an advertising contract or invoice associated with outdoor media services.
+--------------------------------------------------------------------------------
+
+Rank: 24
+Chunk ID: 8449.jpeg:child:0:1
+Metadata: {'doc_id': '8449.jpeg', 'parent_id': '8449.jpeg:parent:0', 'parent_text': '**Document Type:**\nThis is an advertising invoice.\n\n**Key Details:**\n- **Invoice Issuer**: Vending Times, 545 Eighth Avenue, New York, NY 10018\n- **Invoice Recipient**: Lorillard Media Services, One Park Avenue, New York, NY 10016, Attention: Betty Epperson\n- **Invoice Date**: January 31, 2003\n- **Invoice Number**: 100043\n- **Contract Number**: 1004318812\n- **Cover Date**: January 1988\n- **Terms**: Net 10 days\n- **Description of Advertising**: \n  - **Order Number**: 7X10\n  - **Color**: B&W\n  - **Cost**: $1,445.00\n  - **Less 15% Agency Commission**: $216.75\n- **Net Total**: $1,228.25\n- **Other Information**:\n  - **Production and Misc. Costs**: Not applied\n  - **Guaranteed Position**: No\n  - **Page**: 36\n  - **Space, subtotal**: $1,445.00', 'chunk_index': 1}
+Distance: 0.4741
+Similarity: 0.5259
+Content:
+**Key Details:**
+- **Invoice Issuer**: Vending Times, 545 Eighth Avenue, New York, NY 10018
+- **Invoice Recipient**: Lorillard Media Services, One Park Avenue, New York, NY 10016, Attention: Betty Epperson
+- **Invoice Date**: January 31, 2003
+- **Invoice Number**: 100043
+- **Contract Number**: 1004318812
+- **Cover Date**: January 1988
+--------------------------------------------------------------------------------
+
+Rank: 25
+Chunk ID: 4817.jpeg:child:0:1
+Metadata: {'parent_text': '### Document Type\nThis is a commercial invoice document.\n\n### Key Details\n- **Invoice Date:** October 10, 1978\n- **Issue To:** Brown & Williamson Tobacco Corp, 1600 West Hill Street, Louisville, Kentucky; Attn: Sue Finley\n- **Order Number:** 2421\n- **Vendor Information:** MEDIA 4 INC., 2701 Taylorsville Road, Louisville, Kentucky\n- **Payment Terms:** Net 10\n- **Amount Due:** $1102.00\n- **Description of Charges:**\n  - Quantity: 350\n  - Description of items:\n    - Each of 4 Kool Test Ads (Spreads)\n    - Brown Wheel/Spread (K-M-77-46)\n    - Yellow Cupola/Spread (K-M-77-47)\n    - Majestic Falls/Spread (K-M-78-30)\n    - Profile Man/Spread (K-M-78-29)\n- **Received Date:** October 12, 1978\n- **Special Note:** "PLEASE PAY FROM THIS INVOICE. NO STATEMENT WILL BE SENT."', 'doc_id': '4817.jpeg', 'chunk_index': 1, 'parent_id': '4817.jpeg:parent:0'}
+Distance: 0.4754
+Similarity: 0.5246
+Content:
+### Key Details
+- **Invoice Date:** October 10, 1978
+- **Issue To:** Brown & Williamson Tobacco Corp, 1600 West Hill Street, Louisville, Kentucky; Attn: Sue Finley
+- **Order Number:** 2421
+- **Vendor Information:** MEDIA 4 INC., 2701 Taylorsville Road, Louisville, Kentucky
+- **Payment Terms:** Net 10
+- **Amount Due:** $1102.00
+--------------------------------------------------------------------------------
+
+Rank: 26
+Chunk ID: 8178.jpeg:child:1:1
+Metadata: {'parent_id': '8178.jpeg:parent:1', 'doc_id': '8178.jpeg', 'chunk_index': 1, 'parent_text': '**Insights and Observations:**\n- **High Advertising Costs:** The advertising costs are significant, especially for the 1980s, reflecting possibly extensive or high-value advertising campaigns.\n- **Specific Location Targeting:** The advertising is specifically located in the Buffalo Metro Market, which may indicate targeted marketing strategies towards that geographical audience.\n- **Contract Agreement:** The presence of a specific contract number (#1004) suggests an ongoing business relationship and possibly customized service agreements between Lorillard Media Services and Whitmier & Ferris Co.\n- **Older Document:** Given the date (1981), this document provides a historical perspective on advertising costs and strategies employed during that time, useful for trends analysis in media and advertising sectors.\n- **Physical Condition:** The document shows signs of physical wear and manual processing (e.g., multiple signatures, handwritten notes), typical of business practices before digital records became mainstream.'}
+Distance: 0.4759
+Similarity: 0.5241
+Content:
+- **Specific Location Targeting:** The advertising is specifically located in the Buffalo Metro Market, which may indicate targeted marketing strategies towards that geographical audience.
+--------------------------------------------------------------------------------
+
+Rank: 27
+Chunk ID: 6582.jpeg:child:1:0
+Metadata: {'doc_id': '6582.jpeg', 'parent_text': '**Insights and Observations:**\n- **Type of Service:** The statement pertains to public relations and distribution services provided for a magazine publication, indicating a focus on media and public outreach activities by Philip Morris Management Corporation during that period.\n- **Payment Processing:** The handwritten note indicating "Please return one copy with payment" suggests the requirement for a receipt confirmation upon payment, which is a common practice for maintaining financial records and ensuring accountability.\n- **Document Date Relevance:** The date marked on the document shows it was issued in 1991, which could be crucial for historical financial analysis or auditing purposes related to company expenditure during that period.\n\nThis detailed understanding of the statement helps in assessing the financial commitments and services utilized by the Philip Morris Management Corporation at that time, providing insights into their operational expenses and vendor relationships.', 'chunk_index': 0, 'parent_id': '6582.jpeg:parent:1'}
+Distance: 0.4766
+Similarity: 0.5234
+Content:
+**Insights and Observations:**
+- **Type of Service:** The statement pertains to public relations and distribution services provided for a magazine publication, indicating a focus on media and public outreach activities by Philip Morris Management Corporation during that period.
+--------------------------------------------------------------------------------
+
+Rank: 28
+Chunk ID: 2248.jpeg:child:0:5
+Metadata: {'parent_text': '### Document Type:\nThis is an Estimate Payment Approval document, likely related to construction or infrastructure projects.\n\n### Key Details:\n- **Document Date**: April 11, 1997\n- **Estimates Descriptions**: Lists various projects including bulletins, transit, and special media.\n- **Financial Overview**:\n  - **Bulletins**:\n    - Various projects listed with descriptions such as "Hamiliton, SC - 9 lights" and "Raleigh Double Stack," with various approval and expenditure statuses from different dates in January and April 1997.\n    - No changes in financial estimates noted as they remain $0.00 with total prior estimates aligning with current amounts shown.\n  - **Transit**: \n    - Projects listed under "WAMLINE MARL" with descriptions like "14th St. Transit - Bio Atlanta" and "Jimmy Carter Blvd Parking Garage."\n    - Reported expenditures total $2,942.71 on earlier dates, aligning with estimates from different agents.\n  - **Additional Sections**:\n    - "Not On Estimate" containing a "Mainline" project with a $12,000.00 allocation.\n    - A significant focus on the "Special Media" section targeted towards "Station Smoking Lounges," budgeted at $67,457,660.00.', 'parent_id': '2248.jpeg:parent:0', 'doc_id': '2248.jpeg', 'chunk_index': 5}
+Distance: 0.4775
+Similarity: 0.5225
+Content:
+- A significant focus on the "Special Media" section targeted towards "Station Smoking Lounges," budgeted at $67,457,660.00.
+--------------------------------------------------------------------------------
+
+Rank: 29
+Chunk ID: 8941.jpeg:child:0:1
+Metadata: {'chunk_index': 1, 'parent_id': '8941.jpeg:parent:0', 'parent_text': '### Document Type\nThis image shows an invoice.\n\n### Key Details\n- **Client/Advertiser**: Lorillard\n  - **Address**: Lorillard Media Services, 666 Fifth Avenue, New York, New York 10103\n- **Service Provider**: Imperial Outdoor Advertising\n  - **Address**: 1840 Cushman Drive, P.O. Box 2526, Lincoln, Nebraska 68502-0526\n- **Invoice Number**: 31853\n- **Date Issued**: July 1, 1985\n- **Product Advertised**: Newport\n- **Market/Design**: Hand Glasses - Kings\n- **Location of Advertisement**: I-180 & 8th & "X" Streets\n- **Contract Number**: 1070\n- **Display Period**: July 1, 1985, to July 31, 1985\n- **Gross Amount**: $1050.00\n- **Less Adjustments/Credits (Less A/C)**: $175.00\n- **Net Amount**: $875.00\n- **Due Date for Claims**: Within ten days from receipt of invoice\n- **Authorized Signature and Date**: (Signed) \'Sally\' - July 1, 1985', 'doc_id': '8941.jpeg'}
+Distance: 0.4783
+Similarity: 0.5217
+Content:
+### Key Details
+- **Client/Advertiser**: Lorillard
+  - **Address**: Lorillard Media Services, 666 Fifth Avenue, New York, New York 10103
+- **Service Provider**: Imperial Outdoor Advertising
+  - **Address**: 1840 Cushman Drive, P.O. Box 2526, Lincoln, Nebraska 68502-0526
+- **Invoice Number**: 31853
+- **Date Issued**: July 1, 1985
+--------------------------------------------------------------------------------
+
+Rank: 30
+Chunk ID: 7027.jpeg:child:0:2
+Metadata: {'parent_text': '### Document Type\nThis document is a commercial invoice.\n\n### Key Details\n- **Company Name:** SMT PR Duty Free, Inc.\n- **Invoice Number:** 0004220-IN\n- **Invoice Date:** August 28, 1998\n- **Customer Name:** Philip Morris Sales, Inc.\n- **Customer Number:** 20-PHILIP\n- **Payment Terms:** Net 30 Days\n- **Delivery Information:** \n  - Address: Paseo Concepción de Gracia, San Juan, PR 00901-1602\n  - Phone: (787) 725-6064\n- **Salesperson:** Hous\n- **Item Description:** \n  - Product: Sales Advertising Division - Light Box, Pier # 4 Inside\n  - Size: 21" W x 21" H\n  - Quantity: 4 units\n- **Invoice Details:**\n  - Amount for item: $3,000.00\n  - Freight: $0.00\n  - Sales Tax: $0.00\n  - Invoice Tax: $0.00\n  - Net Invoice Total: $3,000.00\n- **Contract Contact**: Mr. Jose Borgos\n- **Period Covered:** February 1, 1998 through January 31, 1999', 'parent_id': '7027.jpeg:parent:0', 'chunk_index': 2, 'doc_id': '7027.jpeg'}
+Distance: 0.4799
+Similarity: 0.5201
+Content:
+- Phone: (787) 725-6064
+- **Salesperson:** Hous
+- **Item Description:** 
+  - Product: Sales Advertising Division - Light Box, Pier # 4 Inside
+  - Size: 21" W x 21" H
+  - Quantity: 4 units
+- **Invoice Details:**
+  - Amount for item: $3,000.00
+  - Freight: $0.00
+  - Sales Tax: $0.00
+  - Invoice Tax: $0.00
+  - Net Invoice Total: $3,000.00
+--------------------------------------------------------------------------------
+
+Rank: 31
+Chunk ID: 9078.jpeg:child:0:0
+Metadata: {'parent_id': '9078.jpeg:parent:0', 'chunk_index': 0, 'doc_id': '9078.jpeg', 'parent_text': '### Document Type\nThis image portrays a billing statement from the Press Enterprise Company for Lorillard Media Services.\n\n### Key Details\n- **Company Name:** Press Enterprise Company\n- **Customer:** Lorillard Media Services, Attn: Eileen Antonello\n- **Invoice/Statement Type:** National\n- **Invoice Date:** Not clearly visible (possibly 12/31/1967)\n- **Product Information:** True Cigarettes, Product Number 1362\n- **Detailed Charges:**\n  - Balance Forward: $617.45\n  - Agency Commission: $67.85\n  - Net Cash Finding & Agency Discount: $925.90 (each)\n  - Previous Amount Owed: $1740.25\n  - Cash Adjustments This Period: $0.00\n  - Credit Adjustments This Period: $0.00\n- **Total Amount Due:** $1760.25\n- **Terms of Sale:** Commission to automatic agencies. 15% cash payment in 15 days.\n- **Payment Details:** Make payment to Press Enterprise Company.\n- **Office Details:** Riverside, California'}
+Distance: 0.4820
+Similarity: 0.5180
+Content:
+### Document Type
+This image portrays a billing statement from the Press Enterprise Company for Lorillard Media Services.
+--------------------------------------------------------------------------------
+
+Rank: 32
+Chunk ID: 3339.jpeg:child:0:1
+Metadata: {'parent_text': '### Document Type\nThe image appears to be an advertising service invoice or contract outline from "Louthard Media Services".\n\n### Key Details\n- **Vendor**: Louthard Media Services, One Park Avenue, New York, NY 10016-5895\n- **Client Information**:\n  - **Contractor**: Outdoor\n  - **Market**: Flint, MI\n  - **Location of Plant**: Flint, MI\n  - **Plant Operator**: Gannett Outdoor Co., Flint MI\n- **Advertising Period**: 1/1/94 - 12/31/94\n- **Date Issued**: 2/10/94\n- **Est. Period 1**: 12/90\n- **Contract Start Date**: 1/1/94\n- **Contract End Date**: 12/31/94\n- **Contract Period**: K012\n- **Level/Status**: R85 - MA&E\n- **Size and Brand Details**:\n  - January to December 1994 for brand "M&M\'s"\n  - Size: 1106.67 February to December\n- **Monthly Exposure**:\n  - Each month shows 14 exposures for size 1106.67, totaling 132,800.04 for the year\n- **Revised Sections**:\n  - Split Creative Between March and April\n- **Cost Details**:\n  - Differential Amount: No change in overall cost\n  - Monthly unit rate and other costs typify an unchanged price structure throughout the contract period.', 'doc_id': '3339.jpeg', 'chunk_index': 1, 'parent_id': '3339.jpeg:parent:0'}
+Distance: 0.4833
+Similarity: 0.5167
+Content:
+### Key Details
+- **Vendor**: Louthard Media Services, One Park Avenue, New York, NY 10016-5895
+- **Client Information**:
+  - **Contractor**: Outdoor
+  - **Market**: Flint, MI
+  - **Location of Plant**: Flint, MI
+  - **Plant Operator**: Gannett Outdoor Co., Flint MI
+- **Advertising Period**: 1/1/94 - 12/31/94
+- **Date Issued**: 2/10/94
+--------------------------------------------------------------------------------
+
+Rank: 33
+Chunk ID: 7075.jpeg:child:0:2
+Metadata: {'parent_text': "### Document Type\nThis is an invoice issued by Race Track Advertising Associates to Mr. James Thompson.\n\n### Key Details\n- **Issuer**: Race Track Advertising Associates, General Offices: Roosevelt Raceway, Westbury, N.Y. 11590\n- **Invoice Date**: December 1, 1982\n- **Recipient**: Mr. James Thompson, 100 Park Ave., New York, N.Y. 10017\n- **Service Description**: Tram advertising on the boardwalk, Wildwood, N.J., as per the contract dated July 31, 1981.\n- **Payment Due Date**: December 15, 1982\n- **Amount Due**: $30,000.00\n- **Invoice Remarks**: Please mail payment to our New York office: 295 Central Park West, New York, NY 10024\n- **Received Stamp**: Received by J.L. Thompson's office on December 2, 1982", 'doc_id': '7075.jpeg', 'chunk_index': 2, 'parent_id': '7075.jpeg:parent:0'}
+Distance: 0.4834
+Similarity: 0.5166
+Content:
+- **Service Description**: Tram advertising on the boardwalk, Wildwood, N.J., as per the contract dated July 31, 1981.
+- **Payment Due Date**: December 15, 1982
+- **Amount Due**: $30,000.00
+- **Invoice Remarks**: Please mail payment to our New York office: 295 Central Park West, New York, NY 10024
+--------------------------------------------------------------------------------
+
+Rank: 34
+Chunk ID: 1355.jpeg:child:1:0
+Metadata: {'doc_id': '1355.jpeg', 'chunk_index': 0, 'parent_id': '1355.jpeg:parent:1', 'parent_text': "**Insights and Observations:**\n- This financial document provides a breakdown of costs associated with a permanent outdoor advertising installation for Philip Morris Inc. The advertising was specifically located on interstates, indicating a strategy targeting vehicular traffic.\n- The document illustrates the seasonal billing cycles with a notable increase in expenditures in December due to added tax liabilities.\n- The significant disparity in tax between November and December suggests potentially variable taxing conditions or additional billing items in December that are not directly outlined in this document.\n- It is crucial to evaluate why there's a difference in vendor gross between November and December despite the same billboard being used—it suggests varying operational costs or additional services rendered in December.\n- Understanding the tax implications and how they apply to outdoor advertising costs could provide notable insights for budgeting and financial forecasts in similar ventures."}
+Distance: 0.4839
+Similarity: 0.5161
+Content:
+**Insights and Observations:**
+- This financial document provides a breakdown of costs associated with a permanent outdoor advertising installation for Philip Morris Inc. The advertising was specifically located on interstates, indicating a strategy targeting vehicular traffic.
+--------------------------------------------------------------------------------
+
+Rank: 35
+Chunk ID: 9106.jpeg:child:0:1
+Metadata: {'parent_id': '9106.jpeg:parent:0', 'parent_text': '### Document Type\nThe image shows an invoice issued by Life Magazine.\n\n### Key Details\n- **Invoice Number:** 876262\n- **Date of Invoice:** 08/20/84\n- **Payable To:** Life Magazine, Time & Life Building, Rockefeller Center, New York, NY 10020\n- **Bill To:** Lorillard Media Services, Attention: Mr Steve Molloy, 666 Fifth Avenue, New York, NY 10103.\n- **Shipping Address (If applicable):** P.O. Box 5979, Church Street Station, New York, NY 10249 and additionally to P.O. Box 93503, Chicago, IL 60676.\n- **Advertising Client:** True Cigarettes, Lorillard Division, Loews Corporation.\n- **Item line details:** \n  - Item Number: 01\n  - Date: 09/01/84\n  - Class: NAT\n  - Edition: 2YC\n  - Description: 1 Page 4C\n  - Product: Lew Tar\n  - Plan: 2 Year Plan & Agency Discount\n  - Card Rate: $38,395.00\n  - Net Amount: $30,677.60\n- **Total Amount Due:** $30,677.60\n- **Payment Terms:** Net 30 days', 'chunk_index': 1, 'doc_id': '9106.jpeg'}
+Distance: 0.4841
+Similarity: 0.5159
+Content:
+### Key Details
+- **Invoice Number:** 876262
+- **Date of Invoice:** 08/20/84
+- **Payable To:** Life Magazine, Time & Life Building, Rockefeller Center, New York, NY 10020
+- **Bill To:** Lorillard Media Services, Attention: Mr Steve Molloy, 666 Fifth Avenue, New York, NY 10103.
+--------------------------------------------------------------------------------
+
+Rank: 36
+Chunk ID: 515.jpeg:child:0:1
+Metadata: {'chunk_index': 1, 'parent_text': '### Document Type\nThe document is an invoice issued by ADP (Automatic Data Processing, Inc.) to a client.\n\n### Key Details\n- **Invoice Number:** #592617\n- **Date Issued:** January 12, 1996\n- **Vendor Information:** ADP, 8701 Mylan Lane, Towson MD 21204\n- **Customer Information:** Liz Fitzpatrick, TOBACCO INSTITUTE, 1875 K STREET, NW #800, WASHINGTON DC 20006-5409\n- **Main Services and Charges:**\n  - Autopay II: Processing charges for the period ending 01/08/96 and 01/15/96\n    - 97 Personnel Reporting Sys Base Chg: $7.15\n    - 18 Profile Cards: $5.76\n  - Base Charge: $35.00\n  - 59 Pays: $59.00\n  - 59 Direct Deposit: $29.43\n  - Special Accumulators On Stub: No charge\n  - Check Reconciliation: No charge\n  - 59 Tax Service: $17.16\n  - PF Delivery (Supply Delivery N/C): $5.30\n  - Management reports for period ending 01/15/96: $3.50\n  - Additional employee related reports: $40.00\n- **Total Due:** $241.65\n- **Payment Information:** Payments should be made payable to Automatic Data Processing, Inc., including the accounts receivable number (00052-R38008).', 'parent_id': '515.jpeg:parent:0', 'doc_id': '515.jpeg'}
+Distance: 0.4858
+Similarity: 0.5142
+Content:
+### Key Details
+- **Invoice Number:** #592617
+- **Date Issued:** January 12, 1996
+- **Vendor Information:** ADP, 8701 Mylan Lane, Towson MD 21204
+- **Customer Information:** Liz Fitzpatrick, TOBACCO INSTITUTE, 1875 K STREET, NW #800, WASHINGTON DC 20006-5409
+- **Main Services and Charges:**
+--------------------------------------------------------------------------------
+
+Rank: 37
+Chunk ID: 9071.jpeg:child:0:1
+Metadata: {'chunk_index': 1, 'parent_id': '9071.jpeg:parent:0', 'parent_text': '### Document Type\nThis is an invoice from U.S. Suburban Press, Inc.\n\n### Key Details\n- **Business Name:** U.S. Suburban Press, Inc.\n- **Address:** P.O. Box 95350, Schaumburg, Illinois 60195\n- **Date of Invoice:** 9/1/1986\n- **Invoice Number:** 54813\n- **Client:** Lorillard Tobacco\n- **Product:** True Cigarettes\n- **Caption:** "NEW SILVER PACK. SAME RICH TASTE!"\n- **Advertisement Placement**:\n  - Market: Phoenix Weekly\n  - Date of Insertion: Week of 9/08/1986\n  - Rate: $39.7600 (per thousand impressions)\n  - Size: 6 x 10\n  - Gross Amount: $51,041.32\n- **Additional Charge:**\n  - Commissionable Color Charge: $3.00\n- **Discounts and Deductions:**\n  - Agency Commission (15%): $756.23\n- **Net Total:** $41,285.12\n- **Payment Terms:** Net 30 Days\n- **Incentives:** 2% cash discount if paid within ten days of the invoice date', 'doc_id': '9071.jpeg'}
+Distance: 0.4859
+Similarity: 0.5141
+Content:
+### Key Details
+- **Business Name:** U.S. Suburban Press, Inc.
+- **Address:** P.O. Box 95350, Schaumburg, Illinois 60195
+- **Date of Invoice:** 9/1/1986
+- **Invoice Number:** 54813
+- **Client:** Lorillard Tobacco
+- **Product:** True Cigarettes
+- **Caption:** "NEW SILVER PACK. SAME RICH TASTE!"
+- **Advertisement Placement**:
+--------------------------------------------------------------------------------
+
+Rank: 38
+Chunk ID: 8990.jpeg:child:0:2
+Metadata: {'parent_id': '8990.jpeg:parent:0', 'parent_text': '### Document Type\nThis image displays an invoice from a professional advertising services provider.\n\n### Key Details\n- **Company Name:** C.T. Levy Associates\n- **Address of Company:** P.O. Box 4601, Hialeah, Florida 33014-0601\n- **Phone Number:** (305) 825-2041\n- **Invoice Number:** 6677\n- **Date of Invoice:** March 29, 1985\n- **Client:** Lorillard Media Services, 666 Fifth Avenue, New York, NY, 10103\n- **Document Type:** Outdoor Advertising\n- **Contract Number:** QH-88A\n- **Line Item Details:**\n  - **Item Number:** 1157\n  - **Location:** W/S NN 27 Avenue/157 Street, NDI (14X48)\n  - **Description:** Advertisement space rental\n  - **Rental Period:** April 1, 1985, to May 1, 1985\n  - **Price Per Month:** $1,265.00\n  - **Agency Commission:** $210.83\n  - **Net Total:** $1,054.17\n- **Signatures and Authorization:** The document appears to be signed and authorized, with handwritten notations indicating adjustments or confirmations.', 'doc_id': '8990.jpeg', 'chunk_index': 2}
+Distance: 0.4863
+Similarity: 0.5137
+Content:
+- **Document Type:** Outdoor Advertising
+- **Contract Number:** QH-88A
+- **Line Item Details:**
+  - **Item Number:** 1157
+  - **Location:** W/S NN 27 Avenue/157 Street, NDI (14X48)
+  - **Description:** Advertisement space rental
+  - **Rental Period:** April 1, 1985, to May 1, 1985
+  - **Price Per Month:** $1,265.00
+--------------------------------------------------------------------------------
+
+Rank: 39
+Chunk ID: 8178.jpeg:child:0:2
+Metadata: {'doc_id': '8178.jpeg', 'chunk_index': 2, 'parent_text': '**Document Type:**\nInvoice for Advertising Services\n\n**Key Details:**\n- **Issuer:** Whitmier & Ferris Co. Inc., Outdoor Advertising\n- **Address of Issuer:** 295 Maryland Street, P.O. Box 54, Buffalo, New York 14240\n- **Recipient:** Lorillard Media Services, 666 Fifth Avenue, New York, NY 10019\n- **Invoice Number:** 3-9\n- **Date:** March 7, 1981\n- **Your Contract Number:** #1004\n- **Design and Advertising Service:** Multi Brands\n- **Location of Advertising:** Buffalo Metro Market, 42 U.LL. 32 Reg.\n- **Service Duration and Amounts Charged:**\n  - **From March 1, to April 1, 1981:**\n    - Amount: $10,680.00\n  - **Amount Subtotal for Various Dates:**\n    - March 3 to March 17, 1981: $1,780.00\n    - Lead 16 2 3/3% variation: $890.00\n- **Payment Terms:** Cash\n- **Signatures and Approval Stamps:** Multiple signatures and approval dates, indicating processed payments.', 'parent_id': '8178.jpeg:parent:0'}
+Distance: 0.4888
+Similarity: 0.5112
+Content:
+- **Your Contract Number:** #1004
+- **Design and Advertising Service:** Multi Brands
+- **Location of Advertising:** Buffalo Metro Market, 42 U.LL. 32 Reg.
+- **Service Duration and Amounts Charged:**
+  - **From March 1, to April 1, 1981:**
+    - Amount: $10,680.00
+  - **Amount Subtotal for Various Dates:**
+    - March 3 to March 17, 1981: $1,780.00
+--------------------------------------------------------------------------------
+
+Rank: 40
+Chunk ID: 8141.jpeg:child:1:0
+Metadata: {'chunk_index': 0, 'parent_text': '### Insights and Observations:\n- This invoice details a significant advertising purchase by Lorillard Media Services, indicating a concerted marketing effort in the Springfield/Holyoke metropolitan area.\n- Significant discount granted (over 16%), suggesting a bulk or pre-negotiated deal which might be common for high-volume or repeat business.\n- The specific mention of the product advertisement (Cigarettes - Newport "Hugh") could reflect focused promotional strategies for this brand during the specified period.\n- Absence of detailed payment due date under "Net Cash" terms might require confirmation to ensure timely payment and avoid any penalties or misunderstandings.\n- The importance of attached documents is highlighted as they probably contain key information about advertisement locations, which are crucial for verifying the service delivery.\n\nThis invoice serves as a primary document for substantiating the financial transactions tied to specific advertising campaigns and should be meticulously recorded and monitored within financial management practices for compliance and budgeting reviews.', 'parent_id': '8141.jpeg:parent:1', 'doc_id': '8141.jpeg'}
+Distance: 0.4896
+Similarity: 0.5104
+Content:
+### Insights and Observations:
+- This invoice details a significant advertising purchase by Lorillard Media Services, indicating a concerted marketing effort in the Springfield/Holyoke metropolitan area.
+- Significant discount granted (over 16%), suggesting a bulk or pre-negotiated deal which might be common for high-volume or repeat business.
+--------------------------------------------------------------------------------
+
+Rank: 41
+Chunk ID: 9311.jpeg:child:0:1
+Metadata: {'doc_id': '9311.jpeg', 'parent_text': '### Document Type\nThis is an invoice from Video Monitoring Services of America, LP.\n\n### Key Details\n- **Invoice Number**: 10-120-0069582\n- **Date Issued**: November 25, 2002\n- **Due Date**: Terms indicate Net 10 Days from the invoice date.\n- **Vendor Details**: \n  - Name: Video Monitoring Services of America, LP\n  - Address: 30 West 24th Street, New York, NY 10036\n  - Federal ID: 13-3889971\n- **Client Details**: \n  - Name: Weber Shandwick (BSMG-CG)\n  - Address: 676 North St. Clair, Suite 1000, Chicago, IL, 60611\n  - Attn: Rebecca Fried\n- **Product/Service Provided**: Video Segment - "Dr. Michael Popkin/Take Ten+ News/Good Morning Maryland 11/20/02 WMAR-TV Baltimore"\n  - Duration: 5:00 AM - 00:03:34\n- **Amount Due**: $150.00\n- **Payment Information**: \n  - Date received: December 5, 2002\n  - Reference full invoice number or enclose \'Remittance Copy with your Payment.\'', 'chunk_index': 1, 'parent_id': '9311.jpeg:parent:0'}
+Distance: 0.4897
+Similarity: 0.5103
+Content:
+### Key Details
+- **Invoice Number**: 10-120-0069582
+- **Date Issued**: November 25, 2002
+- **Due Date**: Terms indicate Net 10 Days from the invoice date.
+- **Vendor Details**: 
+  - Name: Video Monitoring Services of America, LP
+  - Address: 30 West 24th Street, New York, NY 10036
+  - Federal ID: 13-3889971
+- **Client Details**:
+--------------------------------------------------------------------------------
+
+Rank: 42
+Chunk ID: 8436.jpeg:child:0:1
+Metadata: {'doc_id': '8436.jpeg', 'parent_id': '8436.jpeg:parent:0', 'parent_text': '### Financial Document Analysis\n\n**Document Type**: \n- This is an invoice.\n\n**Key Details**: \n- **Recipient**: LGLLARD MEDIA SERVICES, 07E PARK AVENUE, NEW YORK NY 11016\n- **Sender**: NIGHTLIFE Magazine, 1770 Deer Park Avenue, Deer Park, New York 11729\n- **Invoice Number**: 4664\n- **Date**: 05/14/84\n- **Description of Services**:\n  - Advertising services in NIGHTLIFE Magazine:\n    - Placement on "FINAL PAGE (2/3 Z/D LOWEST)".\n  - Issue: July\n  - Total Charges: $7481.00\n  - National Agency Discount: $1125.20\n  - Total Payments: $936.42\n- **Amount Due**: $4736.58', 'chunk_index': 1}
+Distance: 0.4904
+Similarity: 0.5096
+Content:
+**Key Details**: 
+- **Recipient**: LGLLARD MEDIA SERVICES, 07E PARK AVENUE, NEW YORK NY 11016
+- **Sender**: NIGHTLIFE Magazine, 1770 Deer Park Avenue, Deer Park, New York 11729
+- **Invoice Number**: 4664
+- **Date**: 05/14/84
+- **Description of Services**:
+  - Advertising services in NIGHTLIFE Magazine:
+--------------------------------------------------------------------------------
+
+Rank: 43
+Chunk ID: 4021.jpeg:child:0:2
+Metadata: {'parent_id': '4021.jpeg:parent:0', 'doc_id': '4021.jpeg', 'chunk_index': 2, 'parent_text': '### Document Type:\nThis is a corporate check issued by The Tobacco Institute.\n\n### Key Details:\n- **Issuer**: The Tobacco Institute, 1875 I Street, Northwest, Washington, DC 20006 \n- **Check Number**: 091616\n- **Date**: 07/14/92\n- **Amount**: $51.15\n- **Payee**: Missouri Press Clipping, Jigsaw & Locust, Columbia, MO 65201\n- **Bank**: National Bank, Check Processing Center\n- **Memo/Description**: The check is marked as "NON-NEGOTIABLE" and seems to relate to a service, possibly for press clipping services as identified by the payee\'s detail.\n- **Additional Identifiers**:\n  - Routing/Voucher Number: 1493-5491-0098\n  - Document Number: 399461'}
+Distance: 0.4909
+Similarity: 0.5091
+Content:
+- **Memo/Description**: The check is marked as "NON-NEGOTIABLE" and seems to relate to a service, possibly for press clipping services as identified by the payee's detail.
+- **Additional Identifiers**:
+  - Routing/Voucher Number: 1493-5491-0098
+  - Document Number: 399461
+--------------------------------------------------------------------------------
+
+Rank: 44
+Chunk ID: 3049.jpeg:child:1:1
+Metadata: {'parent_id': '3049.jpeg:parent:1', 'doc_id': '3049.jpeg', 'chunk_index': 1, 'parent_text': '### Insights and Observations:\n- **High Unallocated Funds:** A significant amount of budgeted funds remain unallocated, requiring attention to ensure the utilization of allocated funds for budgeted purposes.\n- **Media Spending:** There is a considerable budget set aside for media under Bozell, New York ($9,237,000), which suggests a major focus on media broadcasting and advertising.\n- **Expense Management:** There is a potential discrepancy in the allocation of expenses and billing, which highlights the importance of monitoring expenditures against budgeted amounts closely.\n- **Budget Utilization:** As of the document date, a large portion of the budget remains unused and unallocated. Strategic planning could be necessary to ensure the funds are efficiently utilized by the year-end.\n\nThis financial document provides a comprehensive overview of the budget allocation and expense tracking for the specified prevention program, pointing towards the need for careful management and review of allocated budgets against expenses.'}
+Distance: 0.4909
+Similarity: 0.5091
+Content:
+- **Media Spending:** There is a considerable budget set aside for media under Bozell, New York ($9,237,000), which suggests a major focus on media broadcasting and advertising.
+--------------------------------------------------------------------------------
+
+Rank: 45
+Chunk ID: 3336.jpeg:child:0:0
+Metadata: {'parent_text': '### Document Type:\nThis image represents an Invoice for media services.\n\n### Key Details:\n- **Vendor Information:**\n  - Name: Colorful Media Services\n  - Address: One Park Avenue, New York, NY, 10016-5805\n- **Client Information:**\n  - Not specifically mentioned, but directed towards Metro News Media or similar entity.\n- **Invoice Details:**\n  - Advertising period: 11/1/94 - 12/31/94\n  - Invoice date: 12/16/94\n  - Contract status: Issue renewal contract\n  - Contract period: 2/16/94 - 1/15/95\n  - Levy/status: 1356-C renewal\n- **Financials:**\n  - Monthly charges from Jan 1995 to Dec 1995: $8065.67 each month\n  - Total due for the year: $96,848.10', 'parent_id': '3336.jpeg:parent:0', 'doc_id': '3336.jpeg', 'chunk_index': 0}
+Distance: 0.4921
+Similarity: 0.5079
+Content:
+### Document Type:
+This image represents an Invoice for media services.
+--------------------------------------------------------------------------------
+
+Rank: 46
+Chunk ID: 9071.jpeg:child:0:0
+Metadata: {'chunk_index': 0, 'parent_id': '9071.jpeg:parent:0', 'parent_text': '### Document Type\nThis is an invoice from U.S. Suburban Press, Inc.\n\n### Key Details\n- **Business Name:** U.S. Suburban Press, Inc.\n- **Address:** P.O. Box 95350, Schaumburg, Illinois 60195\n- **Date of Invoice:** 9/1/1986\n- **Invoice Number:** 54813\n- **Client:** Lorillard Tobacco\n- **Product:** True Cigarettes\n- **Caption:** "NEW SILVER PACK. SAME RICH TASTE!"\n- **Advertisement Placement**:\n  - Market: Phoenix Weekly\n  - Date of Insertion: Week of 9/08/1986\n  - Rate: $39.7600 (per thousand impressions)\n  - Size: 6 x 10\n  - Gross Amount: $51,041.32\n- **Additional Charge:**\n  - Commissionable Color Charge: $3.00\n- **Discounts and Deductions:**\n  - Agency Commission (15%): $756.23\n- **Net Total:** $41,285.12\n- **Payment Terms:** Net 30 Days\n- **Incentives:** 2% cash discount if paid within ten days of the invoice date', 'doc_id': '9071.jpeg'}
+Distance: 0.4921
+Similarity: 0.5079
+Content:
+### Document Type
+This is an invoice from U.S. Suburban Press, Inc.
+--------------------------------------------------------------------------------
+
+Rank: 47
+Chunk ID: 2248.jpeg:child:1:1
+Metadata: {'doc_id': '2248.jpeg', 'chunk_index': 1, 'parent_id': '2248.jpeg:parent:1', 'parent_text': '### Insights and Observations:\n- **Budget Management**: This document demonstrates systematic tracking of estimated costs versus approved costs without adjustments on the current date. This shows financial monitoring and control.\n- **Project Focus**:\n  - Significant financial allocation towards the "Special Media" category indicates a likely priority or special initiative within the company\'s operations concerning station smoking lounges, potentially due to regulatory or public health mandates.\n- **Approval Status**: Each entry consistently notes approval status as "NO", implying either pending reviews or declines. This might be a critical point of action for project managers or financial controllers.\n\nThis document serves as a detailed internal control tool for managing and approving infrastructure-related expenditures, highlighting areas of large-scale investment and operational focus.'}
+Distance: 0.4929
+Similarity: 0.5071
+Content:
+- **Project Focus**:
+  - Significant financial allocation towards the "Special Media" category indicates a likely priority or special initiative within the company's operations concerning station smoking lounges, potentially due to regulatory or public health mandates.
+--------------------------------------------------------------------------------
+
+Rank: 48
+Chunk ID: 9152.jpeg:child:0:1
+Metadata: {'chunk_index': 1, 'parent_text': '### Document Type\nThe document is an invoice from Metropolitan Sunday Newspapers, Inc.\n\n### Key Details\n- **Invoice Number**: 533284\n- **Invoice Date**: 1/30/84\n- **Vendor**: Metropolitan Sunday Newspapers, Inc., P.O. Box 8188 Church Street Station, New York, NY 10008\n- **Customer**: Lorillard Company, 666 Fifth Avenue, New York, NY 10019, Attn: Ms. Betty Epperson\n- **Product/Service**: Advertising space in Boston Globe, 1 page, issue dated 1/15/84.\n- **Gross Amount**: $9,667.25\n- **Net Amount**: $8,217.25 (after discount)\n- **Payment Instruction**: Payment is due on receipt of the invoice, cash discount not applicable.\n- **Special Instructions/Notes**: "Tear sheet attached".', 'parent_id': '9152.jpeg:parent:0', 'doc_id': '9152.jpeg'}
+Distance: 0.4931
+Similarity: 0.5069
+Content:
+### Key Details
+- **Invoice Number**: 533284
+- **Invoice Date**: 1/30/84
+- **Vendor**: Metropolitan Sunday Newspapers, Inc., P.O. Box 8188 Church Street Station, New York, NY 10008
+- **Customer**: Lorillard Company, 666 Fifth Avenue, New York, NY 10019, Attn: Ms. Betty Epperson
+--------------------------------------------------------------------------------
+
+Rank: 49
+Chunk ID: 905.jpeg:child:0:1
+Metadata: {'parent_id': '905.jpeg:parent:0', 'parent_text': '### Document Type:\nThis is a financial document specifically an advertising expenditure recap from a newspaper for a client by Leo Burnett U.S.A.\n\n### Key Details:\n- **Client**: P.M. Inc.\n- **Office**: TQ\n- **Document ID**: 703 MARLBORO SPORTS\n- **Period Covered**: 01/01/1988 to 12/31/1988\n- **Date of Issue**: 10/13/1989\n- **Product**: Marlboro\n- **Advertising Details**:\n  - **Total Advertising Spend for 1988**: USD 186,840.02 and USD 196,294.77 (separate totals shown possibly indicating different categorizations or updates).\n  - **Quarterly Breakdown**:\n    - **Q1**:\n      - **January**: $9,654.75\n      - **February**: $27,998.46\n      - **March**: $18,900.50\n    - **Q2**:\n      - **April**: $9,345.71\n      - **May**: $18,934.76\n      - **June**: $19,367.86\n    - **Q3**:\n      - **July**: $10,429.50\n      - **August**: $31,279.50\n      - **September**: $10,429.50\n    - **Q4**:\n      - **October**: $10,426.50\n      - **November**: $10,426.50\n      - **December**: $30,238.85', 'chunk_index': 1, 'doc_id': '905.jpeg'}
+Distance: 0.4934
+Similarity: 0.5066
+Content:
+### Key Details:
+- **Client**: P.M. Inc.
+- **Office**: TQ
+- **Document ID**: 703 MARLBORO SPORTS
+- **Period Covered**: 01/01/1988 to 12/31/1988
+- **Date of Issue**: 10/13/1989
+- **Product**: Marlboro
+- **Advertising Details**:
+--------------------------------------------------------------------------------
+
+Rank: 50
+Chunk ID: 8870.jpeg:child:0:1
+Metadata: {'parent_id': '8870.jpeg:parent:0', 'chunk_index': 1, 'doc_id': '8870.jpeg', 'parent_text': '### Document Type:\nThis is an **Invoice** issued by Life Magazine.\n\n### Key Details:\n- **Invoice Number:** 313132\n- **Date Issued:** 12/30/82\n- **Payable To:** Life Magazine, Time & Life Building, Rockefeller Center, New York, NY 10020\n- **Payer:** Lorillard Media Services, 666 Fifth Avenue, New York, NY 10103\n- **Item Description:** 1 Page 4C BLD (presumably a 4-color building ad)\n- **Rate Type:** 40,094.75, with an agency discount applied resulting in a net amount of 34,080.54\n- **Amount Due:** $33,879.56 after adjustments\n- **Additional Notes:** Includes details on rate, discount, and calculations on the invoice margin.'}
+Distance: 0.4934
+Similarity: 0.5066
+Content:
+### Key Details:
+- **Invoice Number:** 313132
+- **Date Issued:** 12/30/82
+- **Payable To:** Life Magazine, Time & Life Building, Rockefeller Center, New York, NY 10020
+- **Payer:** Lorillard Media Services, 666 Fifth Avenue, New York, NY 10103
+- **Item Description:** 1 Page 4C BLD (presumably a 4-color building ad)
+--------------------------------------------------------------------------------
+
+Rank: 51
+Chunk ID: 9311.jpeg:child:0:0
+Metadata: {'parent_id': '9311.jpeg:parent:0', 'parent_text': '### Document Type\nThis is an invoice from Video Monitoring Services of America, LP.\n\n### Key Details\n- **Invoice Number**: 10-120-0069582\n- **Date Issued**: November 25, 2002\n- **Due Date**: Terms indicate Net 10 Days from the invoice date.\n- **Vendor Details**: \n  - Name: Video Monitoring Services of America, LP\n  - Address: 30 West 24th Street, New York, NY 10036\n  - Federal ID: 13-3889971\n- **Client Details**: \n  - Name: Weber Shandwick (BSMG-CG)\n  - Address: 676 North St. Clair, Suite 1000, Chicago, IL, 60611\n  - Attn: Rebecca Fried\n- **Product/Service Provided**: Video Segment - "Dr. Michael Popkin/Take Ten+ News/Good Morning Maryland 11/20/02 WMAR-TV Baltimore"\n  - Duration: 5:00 AM - 00:03:34\n- **Amount Due**: $150.00\n- **Payment Information**: \n  - Date received: December 5, 2002\n  - Reference full invoice number or enclose \'Remittance Copy with your Payment.\'', 'chunk_index': 0, 'doc_id': '9311.jpeg'}
+Distance: 0.4935
+Similarity: 0.5065
+Content:
+### Document Type
+This is an invoice from Video Monitoring Services of America, LP.
+--------------------------------------------------------------------------------
+
+Rank: 52
+Chunk ID: 8144.jpeg:child:0:1
+Metadata: {'parent_id': '8144.jpeg:parent:0', 'chunk_index': 1, 'parent_text': "### Document Type\nInvoice from Sunrise Outdoor Advertising Co. to Lorillard division of Loew's Inc.\n\n### Key Details\n- **Invoice Number**: 103\n- **Invoice Date**: February 2, 1981\n- **Due Date**: TERMS: NET TEN DAYS\n- **Recipient**: Mr. William Sands, Director of Media, Lorillard, 666 Fifth Avenue, New York, NY 10103\n- **Seller**: Sunrise Outdoor Advertising Co., 79 Washington Street, Hempstead, NY, 11550\n- **Description of Service**: Advertising for Multi-Brands Cigarettes\n- **Location**: New York, Nassau County\n- **Date of Posting**: February 1, 1981\n- **Number of Panels**: 4 Regular, 4 Illuminated, 2 Bonus\n- **Gross Cost**: $2,920.00\n- **Less Continuity Discount (10%)**: $292.00\n- **Subtotal after Discount**: $2,628.00\n- **Less Agency Commission**: $438.00\n- **Net Amount Due**: $2,190.00\n- **Additional Notes**: Location list attached.", 'doc_id': '8144.jpeg'}
+Distance: 0.4941
+Similarity: 0.5059
+Content:
+### Key Details
+- **Invoice Number**: 103
+- **Invoice Date**: February 2, 1981
+- **Due Date**: TERMS: NET TEN DAYS
+- **Recipient**: Mr. William Sands, Director of Media, Lorillard, 666 Fifth Avenue, New York, NY 10103
+- **Seller**: Sunrise Outdoor Advertising Co., 79 Washington Street, Hempstead, NY, 11550
+--------------------------------------------------------------------------------
+
+Rank: 53
+Chunk ID: 9436.jpeg:child:0:0
+Metadata: {'chunk_index': 0, 'parent_text': '### Document Type\nThe image depicts a financial document which is a vendor invoice.\n\n### Key Details\n- **Customer Information**: \n  - Customer No.: 2004706\n  - Company Sold To: Acme Markets Inc, 716 Arch Street, Philadelphia\n  - Ship To: Acme Markets Inc, 1000 Ranck Mill Road, Lancaster, PA\n\n- **Vendor and Date Information**:\n  - Vendor No.: 009033876\n  - Credit Date: 6/12/95\n\n- **Invoice Details**:\n  - This document is labeled as not a credit memo but includes a note "Check Attached."\n  - Items listed primarily include various types of cigarettes, each listed with quantity, brand name, and corresponding amount:\n    - For example, "KT III KS" with quantity "1116" at amount "$52,424.40", "NPT STR M" with quantity "2440" at amount "$109,286.00", etc.\n  - Total quantity of items in thousands: 10446\n\n- **Financial Totals**:\n  - Gross Amount: $15,379.00\n  - Net Amount: $3,579.80 (as indicated on the document)', 'parent_id': '9436.jpeg:parent:0', 'doc_id': '9436.jpeg'}
+Distance: 0.4960
+Similarity: 0.5040
+Content:
+### Document Type
+The image depicts a financial document which is a vendor invoice.
+
+### Key Details
+- **Customer Information**: 
+  - Customer No.: 2004706
+  - Company Sold To: Acme Markets Inc, 716 Arch Street, Philadelphia
+  - Ship To: Acme Markets Inc, 1000 Ranck Mill Road, Lancaster, PA
+--------------------------------------------------------------------------------
+
+Rank: 54
+Chunk ID: 4910.jpeg:child:1:0
+Metadata: {'parent_id': '4910.jpeg:parent:1', 'doc_id': '4910.jpeg', 'chunk_index': 0, 'parent_text': '#### Key Details\n- **Company**: Ted Bates & Company, Inc.\n- **Location**: New York, USA\n- **Client**: Brown & Williamson Tobacco Corp\n- **Job Title**: "Kool Wells"\n- **Media**: Public Record World\'s Fair\n- **Report Detail**: AC14\n- **Billing Type**: Progressive\n- **Job No**: KH-89-30-02\n  - **Billing Location**: Louisville, KY 40201\n- **Cost Codes & Estimates**:\n  - **Work Code 64 (Miscellaneous)**\n    - **Original Estimate**: $500.00\n    - **Present Estimate**: $500.00\n  \n#### Insights and Observations\n- **Consistency in Estimates**: The document shows a consistent estimate for miscellaneous costs, suggesting no changes or unforeseen expenses up to the current date.\n- **Progressive Billing**: Indicates that invoicing for this project is performed consistently through its stages, providing regular updates on expenditures which aids in maintaining financial oversight.\n- **Project Focus**: Considering the mention of "World\'s Fair", the project likely involves significant promotional activities by the tobacco company, focusing on a historical event attraction.\n  \n#### Additional Observations'}
+Distance: 0.4961
+Similarity: 0.5039
+Content:
+#### Key Details
+- **Company**: Ted Bates & Company, Inc.
+- **Location**: New York, USA
+- **Client**: Brown & Williamson Tobacco Corp
+- **Job Title**: "Kool Wells"
+- **Media**: Public Record World's Fair
+- **Report Detail**: AC14
+- **Billing Type**: Progressive
+- **Job No**: KH-89-30-02
+  - **Billing Location**: Louisville, KY 40201
+--------------------------------------------------------------------------------
+
+Rank: 55
+Chunk ID: 8398.jpeg:child:1:2
+Metadata: {'parent_id': '8398.jpeg:parent:1', 'chunk_index': 2, 'doc_id': '8398.jpeg', 'parent_text': '### Insights and Observations:\n- **Discount Application**: The invoice shows a 5% discount applied on ongoing expenses, which helps in reducing the total amount due.\n- **Stakeholder Information**: The invoice is addressed to a senior figure at Lorillard Tobacco Company, indicating a substantial business-to-business transaction.\n- **Expense Distribution**: The majority of costs arise from ongoing variable expenses, denoting significant operational investments.\n- **Payment Urgency**: The terms state payment is due within 10 days (Net 10 Days), suggesting a priority on swift payment processing to possibly maintain healthy cash flow or business relations.\n- **Company Locations**: Business operations span multiple regions, including Pittsburgh, New York, Boston, Chicago, Winston-Salem, Toronto, and the United Kingdom, indicating a broad operational base for Management Science Associates, Inc.\n\nThis invoice provides a detailed view of service-related expenses and payment expectations, emphasizing the importance of management and tracking in large corporate transactions.'}
+Distance: 0.4963
+Similarity: 0.5037
+Content:
+- **Company Locations**: Business operations span multiple regions, including Pittsburgh, New York, Boston, Chicago, Winston-Salem, Toronto, and the United Kingdom, indicating a broad operational base for Management Science Associates, Inc.
+--------------------------------------------------------------------------------
+
+Rank: 56
+Chunk ID: 9290.jpeg:child:0:2
+Metadata: {'chunk_index': 2, 'parent_id': '9290.jpeg:parent:0', 'doc_id': '9290.jpeg', 'parent_text': '### Document Type:\nThis is an invoice from Averett Free & Ginsberg, Inc. to Lorillard Tobacco Co.\n\n### Key Details:\n- **Vendor**: Averett Free & Ginsberg, Inc., 800 Third Avenue, New York, NY 10022\n- **Client**: Lorillard Tobacco Co., 1 Park Avenue 17th Floor, New York, NY 10016-SB96\n- **Invoice Date**: February 22, 1993\n- **Due Date**: April 01, 1993\n- **Invoice Number**: 04170\n- **Client Number**: 055\n- **Job/Estimate Number**: Not clearly visible\n- **Description of Service**: Production of standard page A/C full page ad - Blue pastel coupon version #1.0 "Off the New Pack in Town" to appear in consumer magazines in April-May 1993.\n- **Charges**:\n  - Typography/Lettering: $876.58\n  - Shipping/Handling: $325.15\n  - Non-Comm Amount: $325.15\n  - Sales Tax Incurred: $72.32\n  - Total Due for this Invoice: $1,274.05\n- **Payment Received Stamp**: March 24, 1993\n- **Year-to-Date Billings**: $12,127.00\n- **Balance On Estimate**: $10,853.03'}
+Distance: 0.4972
+Similarity: 0.5028
+Content:
+- **Client Number**: 055
+- **Job/Estimate Number**: Not clearly visible
+- **Description of Service**: Production of standard page A/C full page ad - Blue pastel coupon version #1.0 "Off the New Pack in Town" to appear in consumer magazines in April-May 1993.
+- **Charges**:
+  - Typography/Lettering: $876.58
+  - Shipping/Handling: $325.15
+--------------------------------------------------------------------------------
+
+Rank: 57
+Chunk ID: 7996.jpeg:child:0:1
+Metadata: {'parent_id': '7996.jpeg:parent:0', 'chunk_index': 1, 'parent_text': '### Document Type\nThis image shows a **Bill of Lading**, which is a detailed list of a shipment of goods in the form of a receipt given by the carrier to the person consigning the goods.\n\n### Key Details\n- **Document Identifier:** Bill of Lading, Document Number QM0210\n- **Shipper:** Reynolds Tobacco Co, Winston-Salem, NC 27102\n- **Consignee:** Oushi Brothers Company, Majuro, Marshall Islands\n- **Carrier Information:** \n  - Poseidon Freight Forwarders, FMC\n  - Address: 706 Dubuque Avenue, PO Box 591, San Francisco, CA 94124\n- **Freight Details:**\n  - Description: Cases Cigarettes\n  - Prepaid Terminal Charges\n  - Gross Weight: 3,028 kg\n- **Ports and Shipping:**\n  - Loading Port: Oakland, CA\n  - Receival Port: Majuro\n- **Cargo Details:**\n  - Containers Loaded: 1\n  - Seal Number: Not provided\n- **Dates:**\n  - Bill of Lading Date: November 2, 1987\n  - On Board Date: November 5, 1987\n- **Charges:**\n  - Total Charges: $482.23', 'doc_id': '7996.jpeg'}
+Distance: 0.4972
+Similarity: 0.5028
+Content:
+### Key Details
+- **Document Identifier:** Bill of Lading, Document Number QM0210
+- **Shipper:** Reynolds Tobacco Co, Winston-Salem, NC 27102
+- **Consignee:** Oushi Brothers Company, Majuro, Marshall Islands
+- **Carrier Information:** 
+  - Poseidon Freight Forwarders, FMC
+  - Address: 706 Dubuque Avenue, PO Box 591, San Francisco, CA 94124
+--------------------------------------------------------------------------------
+
+Rank: 58
+Chunk ID: 1711.jpeg:child:0:1
+Metadata: {'chunk_index': 1, 'parent_id': '1711.jpeg:parent:0', 'doc_id': '1711.jpeg', 'parent_text': "**Document Type**:\nThis image is a photograph of a professional financial estimate document for photography services, specifically a cost estimate proposal.\n\n**Key Details**:\n- **Date**: 3-9-83\n- **Company Name**: Jim Clemons Photography\n- **Address**: 148 West Illinois, Chicago IL 60610\n- **Contact Number**: 644-4466\n- **Client Name**: Orrin Bowers\n- **Project Description**: Photography estimate for Merit 'Head & Shoulders' involving people smoking situations.\n- **Detailed Costs**:\n  - **Photography Fee** (20 or more situations): $5000.00\n  - **Model Fees** (if required, on a test basis): $1200.00\n  - **Props**: $240.00\n  - **Location Fee** (if required): $225.00\n  - **Film and Processing**: $510.00\n  - **Stylist**: $450.00\n  - **Additional Stylist**: $765.00\n- **Total Estimate**: Details not fully visible, but the last visible total is $7625.00 for some combined services."}
+Distance: 0.4972
+Similarity: 0.5028
+Content:
+**Key Details**:
+- **Date**: 3-9-83
+- **Company Name**: Jim Clemons Photography
+- **Address**: 148 West Illinois, Chicago IL 60610
+- **Contact Number**: 644-4466
+- **Client Name**: Orrin Bowers
+- **Project Description**: Photography estimate for Merit 'Head & Shoulders' involving people smoking situations.
+- **Detailed Costs**:
+--------------------------------------------------------------------------------
+
+Rank: 59
+Chunk ID: 8441.jpeg:child:1:2
+Metadata: {'chunk_index': 2, 'parent_text': '### Insights and Observations:\n- **High Value Transaction**: The card rate for the advertisement is significantly high, suggesting a major investment in advertising space.\n- **Agency Discount Provided**: The agency discount significantly reduces the cost, showing a common practice in media buys where agencies receive discounted rates.\n- **Annotations and Revisions**: There are several hand-written notes and revisions on the document, reflecting adjustments or confirmations to the payment details and processes.\n- **Historical Context**: The document dates back to 1988, providing a historical snapshot of advertising costs and practices of the time.\n\nThis invoice highlights a financial transaction between a major magazine and a media service provider, with substantial costs involved showing the scale of advertising expenditures during the late 1980s.', 'parent_id': '8441.jpeg:parent:1', 'doc_id': '8441.jpeg'}
+Distance: 0.4973
+Similarity: 0.5027
+Content:
+This invoice highlights a financial transaction between a major magazine and a media service provider, with substantial costs involved showing the scale of advertising expenditures during the late 1980s.
+--------------------------------------------------------------------------------
+
+Rank: 60
+Chunk ID: 1434.jpeg:child:0:1
+Metadata: {'parent_id': '1434.jpeg:parent:0', 'chunk_index': 1, 'parent_text': '### Document Type\nThis image shows an "Estimate Recap" financial document from Leo Burnett U.S.A., a division of Leo Burnett Company, Inc. The document summarizes advertising expenditures.\n\n### Key Details\n- **Document Name:** Estimate Recap\n- **Client:** P.M. Inc.\n- **Office:** 10\n- **Estimate Number:** 7045\n- **Revision Date:** April 8, 1988\n- **Period Covered:** January 1, 1987, to December 31, 1987\n- **Campaign Description:** 771A Ethnic Black Paint Pool - 1987\n\n**Breakdown of Expenditures:**\n- **12-B&H Dlx Lts**:\n  - August 1987: $224,597.73\n  - Total for February to May 1987: $487,554.68\n\n- **12-B&H Lights**:\n  - February to March 1987: $232,815.00\n  - Total for February to May 1987: $467,553.22\n\n- **B&H Lights Box**:\n  - November to December 1987: $512,324.02\n\n- **16-V.S. Lights**:\n  - January to March 1987: $565,824.26\n  - July to October 1987: $464,746.46\n\n- **16-VS Ultra TS**:\n  - January to March 1987: $701,365.75\n\n- **Grand Total**: \n  - $2,713,644.02', 'doc_id': '1434.jpeg'}
+Distance: 0.4988
+Similarity: 0.5012
+Content:
+### Key Details
+- **Document Name:** Estimate Recap
+- **Client:** P.M. Inc.
+- **Office:** 10
+- **Estimate Number:** 7045
+- **Revision Date:** April 8, 1988
+- **Period Covered:** January 1, 1987, to December 31, 1987
+- **Campaign Description:** 771A Ethnic Black Paint Pool - 1987
+--------------------------------------------------------------------------------
+
+Rank: 61
+Chunk ID: 9266.jpeg:child:0:2
+Metadata: {'parent_text': '**Document Type**:  \nThis is a Debit Note issued by a law firm.\n\n**Key Details**:  \n- **Issuer**: Abelman Frayne Rezac & Schenck & Nab, Attorneys at Law, located in New York, NY.\n- **Recipient**: Lorillard, Inc., addressed to the attention of Ronald S. Goldbrenner, Esq., located at 666 Fifth Avenue, New York, NY 10019.\n- **Document Number**: UL 37702\n- **Date of Issue**: January 23, 1987\n- **Professional Services Rendered**: Limited Trademark License to Brown & Williamson in the United States.\n- **Details of Services**:\n  - Services and disbursements subsequent to the October 16, 1986, conference with Ronald S. Goldbrenner, Esq.\n  - Preparation of January 6, 1987 draft of Memorandum of Law.\n- **Amount**: $4,620.00\n- **Reference**: GMF/ms (likely indicating the initials of the responsible individual or clerk at the firm)', 'chunk_index': 2, 'doc_id': '9266.jpeg', 'parent_id': '9266.jpeg:parent:0'}
+Distance: 0.4988
+Similarity: 0.5012
+Content:
+- **Date of Issue**: January 23, 1987
+- **Professional Services Rendered**: Limited Trademark License to Brown & Williamson in the United States.
+- **Details of Services**:
+  - Services and disbursements subsequent to the October 16, 1986, conference with Ronald S. Goldbrenner, Esq.
+  - Preparation of January 6, 1987 draft of Memorandum of Law.
+--------------------------------------------------------------------------------
+
+Rank: 62
+Chunk ID: 7303.jpeg:child:0:2
+Metadata: {'doc_id': '7303.jpeg', 'parent_text': '### Document Type\nThe image shows a billing statement from a law firm.\n\n### Key Details\n- **Document Date**: March 29, 1995\n- **Law Firm**: Wachtell, Lipton, Rosen & Katz\n- **Client**: Philip Morris Companies Inc.\n- **Client Address**: 120 Park Avenue, New York, NY 10017\n- **Attention**: Charles R. Wall, Esq., Senior Vice President, Litigation\n- **Description of Services**: Legal services rendered in connection with Philip Morris/American Broadcasting Companies litigation for February 1995.\n- **Total Fees Billed for Services**:\n  - Original Fees: $668,077.25\n  - 10% Discount on $147,845.50: -$14,784.55\n  - 15% Discount on $520,231.75: -$78,034.76\n  - **Total Discounted Fees**: $575,257.94\n- **Disbursements for February 1995**:\n  - Initial Disbursements: $237,325.99\n  - Deductions: -$37,680.28\n  - **Total Billable Disbursements**: $199,645.71\n- **Total Amount Billed**: $774,903.65', 'parent_id': '7303.jpeg:parent:0', 'chunk_index': 2}
+Distance: 0.4989
+Similarity: 0.5011
+Content:
+- **Description of Services**: Legal services rendered in connection with Philip Morris/American Broadcasting Companies litigation for February 1995.
+- **Total Fees Billed for Services**:
+  - Original Fees: $668,077.25
+  - 10% Discount on $147,845.50: -$14,784.55
+  - 15% Discount on $520,231.75: -$78,034.76
+--------------------------------------------------------------------------------
+
+Rank: 63
+Chunk ID: 664.jpeg:child:1:0
+Metadata: {'parent_text': '### Key Details\n- **Schedule Number**: 11320 06-062\n- **Department**: Not clearly specified; labeled as "Department."\n- **Location**: Mr. Pierpoint\n- **Current Month Analysis**:\n  - **Salaries + Base Pay**: Actual this year: 12,083; Budget this year: 8,875; Variance with last year: 4,375\n  - **Salaries + Overtime Pay**: Actual this year: 8; Budget this year: 0; Variance with last year: 2*\n  - **Fringe Benefits + Salary**: Actual this year: 3,253; Budget this year: 276; Variance with last year: 1,489\n  - **Travel Expenses**: Actual this year: 666; Budget this year: 25; Variance with last year: 0\n  - **Miscellaneous**: Actual this year: 25; Budget this year: 0; Variance with last year: 0\n  - **Temporary Help**: Actual this year: 15,336; Budget this year: 451; Variance with last year: 5,664\n- **Year-to-Date Analysis**:\n  - **Total Salaries + Base Pay**: Actual: 61,875; Variance with last year: 8,478\n  - **Total Fringe Benefits + Salaries**: Actual: 14,415; Variance with last year: 4,203\n  - **Total Travel Expenses**: Actual: 3,753; Variance with last year: 2,337\n  - **Total Miscellaneous**: Actual: 8; Variance with last year: 4', 'chunk_index': 0, 'parent_id': '664.jpeg:parent:1', 'doc_id': '664.jpeg'}
+Distance: 0.4993
+Similarity: 0.5007
+Content:
+### Key Details
+- **Schedule Number**: 11320 06-062
+- **Department**: Not clearly specified; labeled as "Department."
+- **Location**: Mr. Pierpoint
+- **Current Month Analysis**:
+  - **Salaries + Base Pay**: Actual this year: 12,083; Budget this year: 8,875; Variance with last year: 4,375
+--------------------------------------------------------------------------------
+
+Rank: 64
+Chunk ID: 7325.jpeg:child:1:0
+Metadata: {'parent_id': '7325.jpeg:parent:1', 'chunk_index': 0, 'parent_text': '### Insights and Observations:\n- **High Service Fee:** The amount due of $45,000.00 suggests significant expenditure on the production services for the magazine, which may reflect the quality and scale of the production.\n- **Scheduling and Planning:** The mention of distribution scheduling indicates planning and coordination of publication in line with strategic timelines for the magazine.\n- **Potential Financial Impact:** The high cost of production for a single issue could have significant financial implications for the magazine depending on its circulation and revenue generation methods (e.g., through advertising, subscriptions).\n\nThis invoice provides crucial information regarding the financial obligations of the magazine related to its publication services and could be a key document for financial and budgeting reviews especially in the context of managing cash flows and assessing profitability in the publishing industry.', 'doc_id': '7325.jpeg'}
+Distance: 0.4999
+Similarity: 0.5001
+Content:
+### Insights and Observations:
+- **High Service Fee:** The amount due of $45,000.00 suggests significant expenditure on the production services for the magazine, which may reflect the quality and scale of the production.
+--------------------------------------------------------------------------------
+
+Rank: 65
+Chunk ID: 8144.jpeg:child:0:2
+Metadata: {'chunk_index': 2, 'parent_id': '8144.jpeg:parent:0', 'doc_id': '8144.jpeg', 'parent_text': "### Document Type\nInvoice from Sunrise Outdoor Advertising Co. to Lorillard division of Loew's Inc.\n\n### Key Details\n- **Invoice Number**: 103\n- **Invoice Date**: February 2, 1981\n- **Due Date**: TERMS: NET TEN DAYS\n- **Recipient**: Mr. William Sands, Director of Media, Lorillard, 666 Fifth Avenue, New York, NY 10103\n- **Seller**: Sunrise Outdoor Advertising Co., 79 Washington Street, Hempstead, NY, 11550\n- **Description of Service**: Advertising for Multi-Brands Cigarettes\n- **Location**: New York, Nassau County\n- **Date of Posting**: February 1, 1981\n- **Number of Panels**: 4 Regular, 4 Illuminated, 2 Bonus\n- **Gross Cost**: $2,920.00\n- **Less Continuity Discount (10%)**: $292.00\n- **Subtotal after Discount**: $2,628.00\n- **Less Agency Commission**: $438.00\n- **Net Amount Due**: $2,190.00\n- **Additional Notes**: Location list attached."}
+Distance: 0.5004
+Similarity: 0.4996
+Content:
+- **Description of Service**: Advertising for Multi-Brands Cigarettes
+- **Location**: New York, Nassau County
+- **Date of Posting**: February 1, 1981
+- **Number of Panels**: 4 Regular, 4 Illuminated, 2 Bonus
+- **Gross Cost**: $2,920.00
+- **Less Continuity Discount (10%)**: $292.00
+- **Subtotal after Discount**: $2,628.00
+--------------------------------------------------------------------------------
+
+Rank: 66
+Chunk ID: 7466.jpeg:child:0:1
+Metadata: {'doc_id': '7466.jpeg', 'parent_id': '7466.jpeg:parent:0', 'parent_text': '### Document Type\nThis is a Print Production Estimate document issued by Leo Burnett U.S.A.\n\n### Key Details\n- **Client**: Philip Morris Inc.\n- **Service/Product**: Matches, Bar Promotion for Marlboro\n- **Job Code**: K4154A\n- **Date of Estimate**: 04/27/94\n- **Client Date Requirement**: 08/22/94\n- **Revised Date**: (Not Available)\n- **Previous Revision Date**: (Not Available)\n- **Servicer**: Palacios\n- **Estimate Details**:\n  - **Previous Estimate**: $10,000.00\n  - **Current Estimate**: (Not discernible; possibly same as previous estimate)\n  - **Reproduction Fees**: $20,000.00\n  - **Total Studio**: $5,000.00\n  - **Printing Material**: $10,000.00\n  - **Total Commissionable Costs**: $34,500.00\n  - **Travel and Expenses**: $3,000.00\n  - **Reprint Amendment**: $2,000.00\n  - **Total Net Costs**: $39,500.00\n- **Other Details**: "Estimate includes comp development only for matches promotion \'bringing back our matchbook. Diemarks. Export. R1 production estimate to come rev. 4/28/94."', 'chunk_index': 1}
+Distance: 0.5006
+Similarity: 0.4994
+Content:
+### Key Details
+- **Client**: Philip Morris Inc.
+- **Service/Product**: Matches, Bar Promotion for Marlboro
+- **Job Code**: K4154A
+- **Date of Estimate**: 04/27/94
+- **Client Date Requirement**: 08/22/94
+- **Revised Date**: (Not Available)
+- **Previous Revision Date**: (Not Available)
+- **Servicer**: Palacios
+- **Estimate Details**:
+--------------------------------------------------------------------------------
+
+Rank: 67
+Chunk ID: 1312.jpeg:child:0:1
+Metadata: {'chunk_index': 1, 'parent_id': '1312.jpeg:parent:0', 'parent_text': '**Document Type**: This is an advertising expenditure recap, typically used in the industry to summarize spending on ad placements across various periods.\n\n**Key Details**:\n- **Client and Project Information**:\n  - **Client**: P.M. Inc.\n  - **Agency**: Leo Burnett U.S.A., a division of Leo Burnett Company, Inc.\n  - **Office**: TBD based on form context\n  - **Document Title**: Newspaper Estimate Recap - PN01\n  - **Period Covered**: From 01/01/1992 to 12/31/1992\n  - **Document Reference**: EST ND: 2600 Revises EST DTD 10/12/92\n  - **Description**: T303A Benson & Hedges Special Kings ROP\n  \n- **Financial Breakdown**:\n  - **Products and Periods**:\n    - B&H 85’s:\n      - **Q3 1992**: Total Gross Amount = USD 430,328.11\n      - **Q4 1992**: Total Gross Amount = USD 394,264.69\n    - B&H 85 Menthol:\n      - **Q3 1992**: Gross Amount = USD 419,692.51\n      - **Q4 1992**: Gross Change from previous = USD 17,164.58\n  - **Grand Totals**:\n    - **Q3 1992 Total Spending**: USD 850,020.62\n    - **Q4 1992 Total Spending**: USD 411,694.22\n    - **Total for 1992**: USD 1,261,714.84', 'doc_id': '1312.jpeg'}
+Distance: 0.5006
+Similarity: 0.4994
+Content:
+**Key Details**:
+- **Client and Project Information**:
+  - **Client**: P.M. Inc.
+  - **Agency**: Leo Burnett U.S.A., a division of Leo Burnett Company, Inc.
+  - **Office**: TBD based on form context
+  - **Document Title**: Newspaper Estimate Recap - PN01
+  - **Period Covered**: From 01/01/1992 to 12/31/1992
+--------------------------------------------------------------------------------
+
+Rank: 68
+Chunk ID: 9312.jpeg:child:0:3
+Metadata: {'parent_id': '9312.jpeg:parent:0', 'chunk_index': 3, 'doc_id': '9312.jpeg', 'parent_text': "### Document Type:\nThis is an invoice issued by Weber Shandwick to Lorillard Tobacco Company.\n\n### Key Details:\n- **Issuer**: Weber Shandwick Worldwide\n- **Recipient**: Lorillard Tobacco Company, Attention: Mr. Jordan Bernsell, Manager, External Affairs\n- **Recipient Address**: 714 Green Valley Road, P.O. Box 10529, Greensboro, NC 27408\n- **Invoice Date**: May 15, 2002\n- **Period of Service**: April 2002\n- **Invoice Number**: 225094\n- **Matter Number**: 80239\n- **Payment Remittance Address**: P.O. Box 100583, Atlanta, GA 30384-0583, USA\n- **Total Due**: $48,067.88\n\n**Project Details**:\n- **Program**: Youth Smoking Prevention Program 2002, Marketing Communications - Chicago, IL\n  - **For Professional Services Rendered**: $44,092.00\n    - 2take10.com: $3,081.00\n    - TeenHip Awards Program: $270.00\n    - Buttoutnow.com Web Site: $1,047.50\n    - All Stars: $6,855.50\n    - Challenge: $11,010.00\n    - Conference Participation: $645.00\n    - Parenting Tools: $2,675.00\n    - Administration: $8,714.50\n    - Tours: $536.00\n    - SWIT: $9,257.50\n- **Expenses**: $3,975.88\n  - Travel and Subsistence: $804.35\n  - Miscellaneous Expenses (named 'Katy Homburger' and 'Liza Michaels'): $914.19"}
+Distance: 0.5010
+Similarity: 0.4990
+Content:
+**Project Details**:
+- **Program**: Youth Smoking Prevention Program 2002, Marketing Communications - Chicago, IL
+  - **For Professional Services Rendered**: $44,092.00
+    - 2take10.com: $3,081.00
+    - TeenHip Awards Program: $270.00
+    - Buttoutnow.com Web Site: $1,047.50
+    - All Stars: $6,855.50
+    - Challenge: $11,010.00
+--------------------------------------------------------------------------------
+
+Rank: 69
+Chunk ID: 7394.jpeg:child:0:1
+Metadata: {'parent_id': '7394.jpeg:parent:0', 'doc_id': '7394.jpeg', 'parent_text': '### Document Type\nThe image depicts an advertising financial document from Leo Burnett USA, detailing Outdoor Advertising Estimations and Revisions.\n\n### Key Details\n- **Document Header Information:**\n  - Company: Leo Burnett USA.\n  - Client: P.M. Inc.\n  - Period: 01/01/95 to 12/31/95\n  - Date Issued: 04/06/96\n  - Description: Bus Shelter\n  - Revision Date: 10/04/96\n- **Totals by Product/Month for "IO-Marlboro":**\n  - **May 1995:**\n    - Estimated Amount: $35,695.00\n  - **Quarter 2 (July - September 1995):**\n    - Estimated Amount: $93,040.00\n  - **Quarter 4 (October - December 1995):**\n    - Estimated Amount: $46,023.00\n  - **Yearly Total:**\n    - Estimated Amount: $140,887.00\n    - Estimated Amount Change: -$8,250.00\n- **Totals by Product/Month for "IO-Mar Thunder":**\n  - **November 1995:**\n    - Estimated Amount: $15,433.00\n  - **Quarter 4 (including only November and December 1995):**\n    - Estimated Amount: $23,688.00\n  - **Yearly Total:**\n    - Estimated Amount: $164,575.00\n    - Estimated Amount Change: -$8,250.00\n- **Grand Totals for Year 1995:**\n  - May 1995: $35,695.00\n  - Quarter 2: $93,040.00\n  - Quarter 4: $69,711.00\n  - Total Annual Estimate: $164,575.00', 'chunk_index': 1}
+Distance: 0.5026
+Similarity: 0.4974
+Content:
+### Key Details
+- **Document Header Information:**
+  - Company: Leo Burnett USA.
+  - Client: P.M. Inc.
+  - Period: 01/01/95 to 12/31/95
+  - Date Issued: 04/06/96
+  - Description: Bus Shelter
+  - Revision Date: 10/04/96
+- **Totals by Product/Month for "IO-Marlboro":**
+  - **May 1995:**
+    - Estimated Amount: $35,695.00
+--------------------------------------------------------------------------------
+
+Rank: 70
+Chunk ID: 4805.jpeg:child:0:1
+Metadata: {'chunk_index': 1, 'parent_id': '4805.jpeg:parent:0', 'parent_text': '### Document Type\nThis image appears to be a **Purchase Order**.\n\n### Key Details\n- **Issuer**: Brown & Williamson Tobacco Corporation, Louisville, KY 40203.\n- **Recipient**: Dinaire Lithographing Corp, 1705 Jefferson St, Louisville, KY 40208.\n- **Purchase Order Number**: 36776.\n- **Date**: The purchase order date is difficult to decipher precisely from the image.\n- **Items Ordered**:\n  - **Description**: Viceroy Rich Lights Winning Chance Tree Sample.\n  - **Quantity and Details**: Information on quantity and price is not clearly visible, but it mentions details like the need for lithographing with specific handling and packing instructions such as "Pressure Sensitive Cartons—Relative Humidity by B&W—Marking/Identification Instructions Provided."', 'doc_id': '4805.jpeg'}
+Distance: 0.5026
+Similarity: 0.4974
+Content:
+### Key Details
+- **Issuer**: Brown & Williamson Tobacco Corporation, Louisville, KY 40203.
+- **Recipient**: Dinaire Lithographing Corp, 1705 Jefferson St, Louisville, KY 40208.
+- **Purchase Order Number**: 36776.
+- **Date**: The purchase order date is difficult to decipher precisely from the image.
+- **Items Ordered**:
+--------------------------------------------------------------------------------
+
+Rank: 71
+Chunk ID: 7766.jpeg:child:0:1
+Metadata: {'doc_id': '7766.jpeg', 'parent_text': '**Document Type**:  \nThis is an invoice from J. E. Funk Co. to R.J. Reynolds Industries Inc. dated August 12, 1985.\n\n**Key Details**:  \n- **Company Name**: J. E. Funk Co.\n- **Address**: Alfred Station, New York 14803\n- **Recipient**: Mr. R. Haberkern, R.J. Reynolds Industries Inc., Research and Development, Winston-Salem, NC 27102\n- **Invoice Number**: 012-85\n- **Date**: August 12, 1985\n- **Invoice Amount**: $701.07\n- **Description of Services**:  \n  a) One day consulting with R. Haberkern and E. Hester re equipment for pilot plant extrusion of carbon powder at both R.J. Reynolds and McDanel Refractories in Beaver Falls, PA - $600.00  \n  b) Expenses associated with the consultancy - $101.07', 'chunk_index': 1, 'parent_id': '7766.jpeg:parent:0'}
+Distance: 0.5030
+Similarity: 0.4970
+Content:
+**Key Details**:  
+- **Company Name**: J. E. Funk Co.
+- **Address**: Alfred Station, New York 14803
+- **Recipient**: Mr. R. Haberkern, R.J. Reynolds Industries Inc., Research and Development, Winston-Salem, NC 27102
+- **Invoice Number**: 012-85
+- **Date**: August 12, 1985
+- **Invoice Amount**: $701.07
+- **Description of Services**:
+--------------------------------------------------------------------------------
+
+Rank: 72
+Chunk ID: 8997.jpeg:child:0:0
+Metadata: {'parent_id': '8997.jpeg:parent:0', 'chunk_index': 0, 'doc_id': '8997.jpeg', 'parent_text': '### Document Type\nThe image depicts an invoice related to outdoor advertising services.\n\n### Key Details\n- **Company Issuing Invoice**: WWL, Inc., an ET. Legg Company affiliate, based in Hialeah, Florida.\n- **Recipient**: Lorillard Media Services, 666 Fifth Avenue, New York, NY 10103.\n- **Invoice Number**: 0989\n- **Contract Number**: OH-885\n- **Invoice Date**: August 5, 1985\n- **Terms**: Not specified\n- **Item Information**: \n  - **Item No.**: 246\n  - **Description**: E/S NH 72 Ave/36 Street, SBI (14x48)\n  - **Service Period**: From September 1 to October 1\n  - **Price Per Month**: $1,265.00\n  - **Agency Commission**: -$210.83\n  - **Total Due**: $1,054.17\n- **Signatures**: Two signatures are visible, indicating approval or confirmation of the invoice details.\n- **Additional Note**: Date noted below the first signature “SEP 09 1985.”'}
+Distance: 0.5030
+Similarity: 0.4970
+Content:
+### Document Type
+The image depicts an invoice related to outdoor advertising services.
+--------------------------------------------------------------------------------
+
+Rank: 73
+Chunk ID: 7325.jpeg:child:0:0
+Metadata: {'chunk_index': 0, 'doc_id': '7325.jpeg', 'parent_text': "### Document Type:\nThe image shows an invoice related to magazine publication services.\n\n### Key Details:\n- **Issuer:** Covington & Burling, located at 1201 Pennsylvania Avenue, N.W., Washington D.C. 20044\n- **Recipient:** Mr. John Rupp\n- **Invoice Details:**\n  - **Invoice Type:** Highlighted as 'INVOICE'\n  - **Invoice Number:** M00099\n  - **Date:** October 31, 1991\n- **Service Described:** Design, layout, artwork, and printing of the seventh issue of HBI Magazine, identified as Vol. II, Issue #1.\n- **Total Amount Due:** $45,000.00\n- **Special Notes:** \n  - Distribution of Issue #7 is scheduled for the end of 1991.", 'parent_id': '7325.jpeg:parent:0'}
+Distance: 0.5036
+Similarity: 0.4964
+Content:
+### Document Type:
+The image shows an invoice related to magazine publication services.
+--------------------------------------------------------------------------------
+
+Rank: 74
+Chunk ID: 2746.jpeg:child:1:1
+Metadata: {'parent_id': '2746.jpeg:parent:1', 'chunk_index': 1, 'doc_id': '2746.jpeg', 'parent_text': '- **Total Recommended Print Grand Total**: \n  - Gross: $2,727,580\n  - Net: $2,316,443\n\n**Insights and Observations**:\n- This document outlines the planned media buying for the Lorillard Youth Smoking Prevention Program specifically targeted through popular print media channels.\n- High budget allocation suggests a significant campaign intended to target a broad audience, particularly through high-circulation magazines like Reader\'s Digest and Woman\'s Day.\n- The urgency in approval indicated by "ASAP" suggests swift action likely due to impending publication deadlines.\n- The considerable difference between the gross and net suggests negotiated discounts or agency commissions.\n- The focus solely on print media reflects traditional media planning strategies prevalent during the late 1990s.\n\nThis document is essential for tracking budget allocations, campaign reach, and compliance with planned advertisement activities, aiding in effective financial and marketing audits.'}
+Distance: 0.5037
+Similarity: 0.4963
+Content:
+**Insights and Observations**:
+- This document outlines the planned media buying for the Lorillard Youth Smoking Prevention Program specifically targeted through popular print media channels.
+--------------------------------------------------------------------------------
+
+Rank: 75
+Chunk ID: 1101.jpeg:child:0:1
+Metadata: {'doc_id': '1101.jpeg', 'parent_text': '**Document Type:**\nThis image is a financial advertising estimate recap document.\n\n**Key Details:**\n- **Client:** P.M. Inc.\n- **Date of Document:** September 14, 1990\n- **Reporting Period:** January 1, 1989, to December 31, 1989\n- **Document Description:** Estimate recap for T/GAS Marlboro Hispanic ad.\n- **Office:** 10\n- **Estimate Number:** 9201, Revised EST DTD June 1, 1990\n- **Media Type:** Newspaper\n\n- **Financial Breakdown by Quarter:**\n  - **Quarter 1 (Jan-Mar 1989)**\n    - January: $61,487.88\n    - February: $61,487.98\n    - March: $61,487.98\n    - **Total: $184,463.84**\n  - **Quarter 2 (Apr-Jun 1989)**\n    - April: $62,475.02\n    - May: $60,430.24\n    - June: $60,444.18\n    - **Total: $183,349.44**\n  - **Quarter 3 (Jul-Sep 1989)**\n    - July: $63,498.98\n    - August: $61,605.63\n    - September: $61,014.92\n    - **Total: $186,119.53**\n  - **Quarter 4 (Oct-Dec 1989)**\n    - October: $61,187.34\n    - November: $60,918.12\n    - December: $59,120.43\n    - **Total: $181,225.89**\n\n- **Annual Total:**\n  - **Gross Amount: $736,309.33**\n  - **Net Amount (Gross Less C/P): $730,419.45**', 'parent_id': '1101.jpeg:parent:0', 'chunk_index': 1}
+Distance: 0.5042
+Similarity: 0.4958
+Content:
+**Key Details:**
+- **Client:** P.M. Inc.
+- **Date of Document:** September 14, 1990
+- **Reporting Period:** January 1, 1989, to December 31, 1989
+- **Document Description:** Estimate recap for T/GAS Marlboro Hispanic ad.
+- **Office:** 10
+- **Estimate Number:** 9201, Revised EST DTD June 1, 1990
+- **Media Type:** Newspaper
+--------------------------------------------------------------------------------
+
+Rank: 76
+Chunk ID: 8974.jpeg:child:0:0
+Metadata: {'parent_text': '### Document Type\nThis image shows a commercial invoice from The Aydar Corporation, an outdoor advertising company.\n\n### Key Details\n- **Company Name**: The Aydar Corporation\n- **Document Type**: Invoice\n- **Invoice Number:** 232063\n- **Invoice Date:** March 15, 1991\n- **P.O. Number:** 915-0128\n- **Billed To**: Lorillard Media Services, Attention: Betty Epperson, 666 Fifth Avenue, 12th Floor, New York, NY 10103\n- **Locations and Services**:\n   - Home Avenue: ClarksVille-ft Campbell Meter & Reg\n     - Locations: US 41A South Loc #3-P1, US 41A North Loc #7-P1, Cross Street Loc #2-P1\n     - Services: Advertising and media services with regard to specific street locations.\n- **Billing Details**:\n   - Gross Service Dates: Various specific dates for different services highlighted\n   - Total Gross: $36,401\n   - Commission: $6,876\n   - Net Due: $18,199\n- **Remarks**:\n   - Several handwritten notes indicating approvals and adjustments.\n   - Signatures for authorization.\n   - Stamp of payment due by September 15, 1985.', 'doc_id': '8974.jpeg', 'parent_id': '8974.jpeg:parent:0', 'chunk_index': 0}
+Distance: 0.5044
+Similarity: 0.4956
+Content:
+### Document Type
+This image shows a commercial invoice from The Aydar Corporation, an outdoor advertising company.
+--------------------------------------------------------------------------------
+
+Rank: 77
+Chunk ID: 2746.jpeg:child:0:1
+Metadata: {'chunk_index': 1, 'doc_id': '2746.jpeg', 'parent_text': '**Document Type**: Advertisement Print Media Authorization Document\n\n**Key Details**:\n- **Document Title**: Lorillard Youth Smoking Prevention Program\n- **Date of Issue**: 9/9/1999\n- **Prepared by**: Bozell Worldwide, Inc.\n- **Contact Information**: Telephone - 212 462 3859\n- **Project**: Authorization to Buy for the campaign titled "Tears #2, Kids #4, Adults #5-9"\n- **Media Type**: Magazine Entries\n- **Print House and Cost**:\n  - **Description**: #0929 Media Entries\n  - **Medium**: Print (Women\'s Service)\n  - **Market Dates**: 1st December 1999\n  - **Approved by**: ASAP\n  - **Details of Print Houses and Costs**:\n    - **Reader\'s Digest**: \n      - Insert Date: December \'99\n      - Total Gross: $891,690\n      - Total Net: $802,521\n    - **Woman\'s Day**: \n      - Insert Date: December \'99\n      - Total Gross: $167,728\n      - Total Net: $151,056\n\n- **Total Recommended Print Grand Total**: \n  - Gross: $2,727,580\n  - Net: $2,316,443', 'parent_id': '2746.jpeg:parent:0'}
+Distance: 0.5044
+Similarity: 0.4956
+Content:
+**Key Details**:
+- **Document Title**: Lorillard Youth Smoking Prevention Program
+- **Date of Issue**: 9/9/1999
+- **Prepared by**: Bozell Worldwide, Inc.
+- **Contact Information**: Telephone - 212 462 3859
+- **Project**: Authorization to Buy for the campaign titled "Tears #2, Kids #4, Adults #5-9"
+- **Media Type**: Magazine Entries
+--------------------------------------------------------------------------------
+
+Rank: 78
+Chunk ID: 6812.jpeg:child:0:1
+Metadata: {'doc_id': '6812.jpeg', 'parent_id': '6812.jpeg:parent:0', 'chunk_index': 1, 'parent_text': '### Document Type\nThis image contains a **Remittance Advice** document from Leo Burnett Company, Inc., indicating a transaction or payment details.\n\n### Key Details\n- **Issuer**: Leo Burnett Advertising Company, Inc.\n- **Address**: Prudential Plaza, Chicago, Illinois, 60601\n- **Phone Number**: (312) 565-9599\n- **Date of the Document**: November 29, 1978\n- **Reference Number**: PD332EC015\n- **Vendor Code**: E4566\n- **Client**: P.D. Inc.\n- **Invoice Number**: X27059\n- **Description**: (Details are not legibly visible)\n- **Invoice Amount**: $50.00\n- **Amount Less Cash/Discounts**: $50.00\n- **Client Total**: $50.00\n- **Remittance Total**: $50.00'}
+Distance: 0.5045
+Similarity: 0.4955
+Content:
+### Key Details
+- **Issuer**: Leo Burnett Advertising Company, Inc.
+- **Address**: Prudential Plaza, Chicago, Illinois, 60601
+- **Phone Number**: (312) 565-9599
+- **Date of the Document**: November 29, 1978
+- **Reference Number**: PD332EC015
+- **Vendor Code**: E4566
+- **Client**: P.D. Inc.
+- **Invoice Number**: X27059
+--------------------------------------------------------------------------------
+
+Rank: 79
+Chunk ID: 33.jpeg:child:0:0
+Metadata: {'doc_id': '33.jpeg', 'parent_text': '### Document Type\nThis is a **Capital Budget Project** document from Brown & Williamson Tobacco Corporation, detailing a proposed budget for a specific project involving trailers.\n\n### Key Details\n- **Document Header:**\n  - Corporation: Brown & Williamson Tobacco Corporation\n  - Document Type: Capital Budget Project\n  - Project Code: (Document edge cut off, obscured code)\n  - Date Submitted: (Not fully visible, year mentioned is 1986)\n\n- **Project Budget Overview:**\n  - Capital Budget: 200 (unit possibly in thousands, indicated by ($000))\n  - Total Capital: 200\n  - Total Expense: 200\n\n- **Universal Trailer:**\n  - Objectives include Maintenance of Existing Business, Expansion of Existing Business for New Products, Cost Reduction, Compliance with Outside Regulatory & Administrative Requirements, and Quality Improvement.\n\n- **Project Proposal:**\n  - Status: Proposed\n  - Approval Number: (Document edge cut off)\n  - Start Year: 1986\n  - Completion Year: 1986', 'parent_id': '33.jpeg:parent:0', 'chunk_index': 0}
+Distance: 0.5046
+Similarity: 0.4954
+Content:
+### Document Type
+This is a **Capital Budget Project** document from Brown & Williamson Tobacco Corporation, detailing a proposed budget for a specific project involving trailers.
+--------------------------------------------------------------------------------
+
+Rank: 80
+Chunk ID: 7767.jpeg:child:0:0
+Metadata: {'parent_id': '7767.jpeg:parent:0', 'parent_text': '### Document Type\nThe image depicts a "Production Estimate" for advertising/marketing needs, dated from 1987.\n\n### Key Details\n- **Client:** R.J. Reynolds Tobacco Co.\n- **Product:** MAGNA\n- **Media:** Transit\n- **Job Description:** MALL DISPLAY 50"x40" - EARTHQUAKE\n- **Date of Estimate:** 10/21/87\n- **Estimate No.:** 77MSC02M0R1\n- **Job Number:** 8984\n- **Location:** Long, Haymes & Carr Inc., 140 Charlois Blvd., Winston-Salem, NC 27103\n\n#### Financial Details\n- **Original Total Estimate:** $6,885.00\n- **Revised Total Estimate:** $7,135.00\n- **Actual Costs:** Columns are left blank (0.00 indicated)\n- **Difference:** +$250.00 (indicating an increase from the original estimate)\n\n#### Breakdown of Costs:\n- **Photostat:** $35.00\n- **Mechanical-Assembly:** Original Cost = $180.00, Revised = $150.00\n- **Mechanical-Type:** $150.00\n- **Printing-O&B:** Original Cost = $6,500.00, Revised = $6,750.00 (+$250.00)\n\n#### Comments Section:\n- **Reason for Revision:** R1-To include costs for 1/1/88 posting.\n  - **Printing-O&B:** Quantity 100\n- **Authorized by:** M. Simmons', 'doc_id': '7767.jpeg', 'chunk_index': 0}
+Distance: 0.5046
+Similarity: 0.4954
+Content:
+### Document Type
+The image depicts a "Production Estimate" for advertising/marketing needs, dated from 1987.
+--------------------------------------------------------------------------------
+
+Rank: 81
+Chunk ID: 8116.jpeg:child:1:1
+Metadata: {'parent_id': '8116.jpeg:parent:1', 'doc_id': '8116.jpeg', 'chunk_index': 1, 'parent_text': '### Insights and Observations:\n- **Date and Signatures**: The invoice was finalized and signed on June 2, which indicates a standard procedure for payment approval taking approximately two weeks after the invoice date.\n- **Location Description**: The service location and description suggest a project related directly to infrastructure or urban development near Yankee Stadium, an area likely to have high visibility and strategic importance.\n- **Adjustments**: The subtraction of $750 might indicate a prior agreement, dispute resolution, or payment already received, which adjusted the gross amount.\n- **Agency Commission Rate**: The specified agency commission rate of 16 2/3% is particularly high, evoking a possibility of high-quality service or an exclusive contract term.\n\nThe structured display and orderly presentation of the invoice elements alongside signatures confirm compliance with standard financial management practices of the time.'}
+Distance: 0.5049
+Similarity: 0.4951
+Content:
+- **Location Description**: The service location and description suggest a project related directly to infrastructure or urban development near Yankee Stadium, an area likely to have high visibility and strategic importance.
+--------------------------------------------------------------------------------
+
+Rank: 82
+Chunk ID: 5085.jpeg:child:0:1
+Metadata: {'chunk_index': 1, 'doc_id': '5085.jpeg', 'parent_id': '5085.jpeg:parent:0', 'parent_text': '### Document Type\nThis image displays an invoice from "Southern Surveys, Inc."\n\n### Key Details\n- **Invoice Issuer**: Southern Surveys, Inc.\n- **Invoice Date**: August 25, 1987\n- **Recipient**: Sharon Hermanson, Southern Research Corporation, 3703 Taylorsville Road, Louisville, Kentucky 40220\n- **Project Title**: LPI204, California Smoker Survey\n- **Number of Interviews**: 72\n- **Billing Period**: 8/20/87 to 8/23/87 (Four days of work)\n- **Charges**:\n  - 72 Interviews for $12.00 each, totaling $864.00\n  - 20 Hours (4 Day Shifts x 5 Hours) Supervision at $7.75/hr, totaling $155.00\n  - 24 Hours (4 Night Shifts x 6 Hours) Supervision at $12.25/hr, totaling $294.00\n- **Total Amount Due**: $1,313.00\n- **Independent Contractor**: Doris Kabree, declared as in compliance with IRS ruling #75-243 and state/city liability, casualty, workmen\'s compensation requirements.'}
+Distance: 0.5054
+Similarity: 0.4946
+Content:
+### Key Details
+- **Invoice Issuer**: Southern Surveys, Inc.
+- **Invoice Date**: August 25, 1987
+- **Recipient**: Sharon Hermanson, Southern Research Corporation, 3703 Taylorsville Road, Louisville, Kentucky 40220
+- **Project Title**: LPI204, California Smoker Survey
+- **Number of Interviews**: 72
+--------------------------------------------------------------------------------
+
+Rank: 83
+Chunk ID: 7624.jpeg:child:0:1
+Metadata: {'parent_id': '7624.jpeg:parent:0', 'chunk_index': 1, 'parent_text': '### Document Type:\nThis is an invoice from 1952, related to a commercial production for television.\n\n### Key Details:\n- **Invoice Number**: 8-257\n- **Date**: August 25, 1952\n- **Biller**: William Esty\n- **Client**: Camel Cigarettes Television\n- **Description of Services**:\n  - Preparation and production of a 20-second Camel Album commercial featuring actor Robert Young.\n  - Total fee for preparation and production: $918.00\n  - Additional 15% commission: $137.70\n  - Fee for Commercial Production/Unit: $100.00\n- **Total Amount Due**: $1,155.70\n- **Net Cash Payable Date**: September 10, 1952\n- **Copy Annotations**: Document copied on August 26, 1952', 'doc_id': '7624.jpeg'}
+Distance: 0.5057
+Similarity: 0.4943
+Content:
+### Key Details:
+- **Invoice Number**: 8-257
+- **Date**: August 25, 1952
+- **Biller**: William Esty
+- **Client**: Camel Cigarettes Television
+- **Description of Services**:
+  - Preparation and production of a 20-second Camel Album commercial featuring actor Robert Young.
+  - Total fee for preparation and production: $918.00
+--------------------------------------------------------------------------------
+
+Rank: 84
+Chunk ID: 989.jpeg:child:0:1
+Metadata: {'chunk_index': 1, 'parent_text': '### Document Type\nThis document can be identified as a financial statement, specifically an "Estimate Recap" produced by an advertising company for a campaign.\n\n### Key Details\n- **Company**: Leo Burnett U.S.A., a division of Leo Burnett Company, Inc., specializing in advertising.\n- **Document Title**: Outdoor Estimate Recap\n- **Client**: P.M. Inc.\n- **Office Number**: 10\n- **Estimate Number**: 9093 Reviss EST DTD 03/05/93\n- **Account Description**: T/2A Marlboro Adventure\n- **Period Covered**: 01/01/93 to 12/31/93\n- **Date of Document**: 06/04/93\n- **Product/Campaign**: Marlboro\n- **Reporting Months**:\n  - April 1999: $44,270.62\n  - May 1999: $44,270.62\n- **Total for Quarter 2, 1999**: $88,541.24\n- **Form Number on Document**: MQ1A Rev 04-14-83', 'doc_id': '989.jpeg', 'parent_id': '989.jpeg:parent:0'}
+Distance: 0.5059
+Similarity: 0.4941
+Content:
+### Key Details
+- **Company**: Leo Burnett U.S.A., a division of Leo Burnett Company, Inc., specializing in advertising.
+- **Document Title**: Outdoor Estimate Recap
+- **Client**: P.M. Inc.
+- **Office Number**: 10
+- **Estimate Number**: 9093 Reviss EST DTD 03/05/93
+- **Account Description**: T/2A Marlboro Adventure
+--------------------------------------------------------------------------------
+
+Rank: 85
+Chunk ID: 8871.jpeg:child:1:0
+Metadata: {'doc_id': '8871.jpeg', 'parent_text': '### Key Details:\n- **Client Name**: McCaughan Davenport Tetrault\n- **Policy Number**: WMB 37-H7-X1090504\n- **Contract Rate**: 30,000 Line Contract Rate\n- **Effective Date of Rate Column**: 11/30/90\n- **Short Rate Analysis Periods**:\n  - **First Period**: \n    - Dates: From 07/01/90 to 01/30/91\n    - Daily Rate: $51.35 \n    - Total Lines Sum: 27300 lines\n  - **Second Period**: \n    - Dates: From 02/01/91 to 02/06/91\n    - Daily Rate: \n      - First: $57\n      - Second: $107.14 (Contract revised to 30,000 line rate)\n    - Total Lines: \n      - 1500 lines at $57/day \n      - 300 lines at $107.14/day\n  - **Third Period**: \n    - Dates: From 02/07/91 to 03/01/91\n    - Daily Rate: $107.14\n    - Total Lines: 10,500 lines\n  - **Fourth Period**: \n    - Dates: From 03/02/91 to Current Date (not specified)\n    - Daily Rate: $250\n    - Total Lines: 5000 lines at $250/day \n    - Energy: $6500\n    - Code: $325.00\n    - Net Short Rate: $275.50\n- **Overall Total Lines**: 37000 lines\n- **Calculation Instruction**: The document contains areas designated for the calculation of short rate adjustment but is not filled in.', 'chunk_index': 0, 'parent_id': '8871.jpeg:parent:1'}
+Distance: 0.5064
+Similarity: 0.4936
+Content:
+### Key Details:
+- **Client Name**: McCaughan Davenport Tetrault
+- **Policy Number**: WMB 37-H7-X1090504
+- **Contract Rate**: 30,000 Line Contract Rate
+- **Effective Date of Rate Column**: 11/30/90
+- **Short Rate Analysis Periods**:
+  - **First Period**: 
+    - Dates: From 07/01/90 to 01/30/91
+    - Daily Rate: $51.35
+--------------------------------------------------------------------------------
+
+Rank: 86
+Chunk ID: 4816.jpeg:child:0:1
+Metadata: {'parent_text': '**Document Type:**  \nThis is an invoice document from Synectics Inc.\n\n**Key Details:**\n- **Company Name:** Synectics Inc., located at 25 Church Street, Cambridge, Massachusetts 02138\n- **Invoice Number:** 1058\n- **Invoice Date:** August 15, 1977\n- **Recipient:** Mr. Richard D. Lewis, Manager of Marketing Research, Brown and Williamson Tobacco Corporation, 1600 West Hill Street, Louisville, KY 40232\n- **Project Number:** 1977-116\n- **Description of Services:**\n  - **For First Phase of Smoking Study:**\n    - Two Group Sessions: $3,000.00\n    - Analysis and Reporting: $2,000.00\n- **Total Amount of Invoice:** $5,000.00\n- **Payment Terms:** NET TEN DAYS\n- **Significant Notes or Comments on Invoice:**\n  - "Copy forwarded to Alex Freund"\n  - "Jim. Receipts payment 8-29-77"', 'chunk_index': 1, 'parent_id': '4816.jpeg:parent:0', 'doc_id': '4816.jpeg'}
+Distance: 0.5066
+Similarity: 0.4934
+Content:
+**Key Details:**
+- **Company Name:** Synectics Inc., located at 25 Church Street, Cambridge, Massachusetts 02138
+- **Invoice Number:** 1058
+- **Invoice Date:** August 15, 1977
+- **Recipient:** Mr. Richard D. Lewis, Manager of Marketing Research, Brown and Williamson Tobacco Corporation, 1600 West Hill Street, Louisville, KY 40232
+--------------------------------------------------------------------------------
+
+Rank: 87
+Chunk ID: 6571.jpeg:child:0:1
+Metadata: {'parent_text': "### Document Type\nThis image shows an invoice.\n\n### Key Details\n- **Invoice Number:** 4259\n- **Date:** October 31, 1991\n- **Recipient:** Covington & Burling, 1201 Pennsylvania Avenue, N.W., Washington, D.C. 20044\n- **Reference:** Mr. John Rupp\n- **Project Details:**\n  - **Event:** PM Project - Dublin and London\n  - **Client:** Mr. G. Robertson\n  - **Service Period:** October 21-24, 1991\n  - **Service Locations:** London and Dublin\n  - **Description of Services:**\n    - Oct 21: Travel to London, meetings at Covington & Burling's London office.\n    - Oct 22: Discussion on Guidelines for Europe.\n    - Oct 23: Flight Attendant's Meeting in Dublin, Ireland.\n    - Oct 24: Return to London and Dulles.\n- **Charges Breakdown:**\n  - **Consulting Fee:** $1,250/day for four days, totaling $5,000.\n  - **Expenses:**\n    - Airfares: $6,641.00\n    - Mayfair Hotel (London): $153.34 (rate 85.19 multiplied by 1.8)\n    - Shelbourne, Ireland: $565.83 (rate 314.35 multiplied by 1.8)\n    - Holiday Inn, London: $390.69 (rate 217.05 multiplied by 1.8)\n    - **Total Expenses:** $7,750.86\n  - **Total Amount Due:** $12,750.86", 'parent_id': '6571.jpeg:parent:0', 'doc_id': '6571.jpeg', 'chunk_index': 1}
+Distance: 0.5070
+Similarity: 0.4930
+Content:
+### Key Details
+- **Invoice Number:** 4259
+- **Date:** October 31, 1991
+- **Recipient:** Covington & Burling, 1201 Pennsylvania Avenue, N.W., Washington, D.C. 20044
+- **Reference:** Mr. John Rupp
+- **Project Details:**
+  - **Event:** PM Project - Dublin and London
+  - **Client:** Mr. G. Robertson
+  - **Service Period:** October 21-24, 1991
+--------------------------------------------------------------------------------
+
+Rank: 88
+Chunk ID: 4500.jpeg:child:0:0
+Metadata: {'parent_text': '### Document Type\nThis is a financial document related to a 1985 advertising schedule, specifically detailing the cost per inquiry for various publications. It is marked as part of "Minnesota Tobacco Litigation".', 'doc_id': '4500.jpeg', 'chunk_index': 0, 'parent_id': '4500.jpeg:parent:0'}
+Distance: 0.5071
+Similarity: 0.4929
+Content:
+### Document Type
+This is a financial document related to a 1985 advertising schedule, specifically detailing the cost per inquiry for various publications. It is marked as part of "Minnesota Tobacco Litigation".
+--------------------------------------------------------------------------------
+
+Rank: 89
+Chunk ID: 8441.jpeg:child:0:1
+Metadata: {'parent_id': '8441.jpeg:parent:0', 'doc_id': '8441.jpeg', 'parent_text': '### Document Type:\nThis image shows an invoice issued by Sports Illustrated.\n\n### Key Details:\n- **Issuer**: Sports Illustrated, Time & Life Building - Rockefeller Center\n- **Invoice Number**: 2181090\n- **Date**: March 25, 1988\n- **Recipient**: Lorillard Media Services, attn: Ms. Betty Epperson, NYC\n- **Item Details**:\n  - 1 page advertisement described as "1 Page ‘4C’"\n  - Card Rate: $75,515.00\n- **Discounts Applied**: \n  - Agency Discount: $11,327.25 \n- **Net Amount Due**: $64,187.75\n- **Additional Notes**: "Please return attached copy with payment", "See credit attached"', 'chunk_index': 1}
+Distance: 0.5071
+Similarity: 0.4929
+Content:
+### Key Details:
+- **Issuer**: Sports Illustrated, Time & Life Building - Rockefeller Center
+- **Invoice Number**: 2181090
+- **Date**: March 25, 1988
+- **Recipient**: Lorillard Media Services, attn: Ms. Betty Epperson, NYC
+- **Item Details**:
+  - 1 page advertisement described as "1 Page ‘4C’"
+  - Card Rate: $75,515.00
+- **Discounts Applied**:
+--------------------------------------------------------------------------------
+
+Rank: 90
+Chunk ID: 7099.jpeg:child:0:1
+Metadata: {'doc_id': '7099.jpeg', 'parent_id': '7099.jpeg:parent:0', 'parent_text': '### Document Type\nThis is an invoice document.\n\n### Key Details\n- **Recipient**: Philip Morris U.S.A., 120 Park Avenue, New York, NY 10017. Attention: Ms. Nancy Lun4, Vice President, Marlboro\n- **Date**: March 10, 1993\n- **Invoice Number**: #20503\n- **Service Rendered**: Consultancy services under the project name "Futurescape Vision"\n  - **Project Definition Fee**: $4,480\n  - **Information Gathering**: $9,800\n  - **Expert Interviews**: $6,290\n  - **Consumer TrendProbes**: Data not fully visible, appears incomplete\n- **Total Amount Due**: Appears to be $847,160; however, this figure might include typographical errors due to the legibility of the document.\n- **Payment Instructions**: Payment due upon receipt to BrainReserve, Inc., One Madison Avenue, New York, NY 10010\n- **Additional Reference Information**:\n  - Voucher and Vendor details provided but are not fully legible.\n  - A checkmark and signature authorizing the document are visible.', 'chunk_index': 1}
+Distance: 0.5073
+Similarity: 0.4927
+Content:
+### Key Details
+- **Recipient**: Philip Morris U.S.A., 120 Park Avenue, New York, NY 10017. Attention: Ms. Nancy Lun4, Vice President, Marlboro
+- **Date**: March 10, 1993
+- **Invoice Number**: #20503
+- **Service Rendered**: Consultancy services under the project name "Futurescape Vision"
+  - **Project Definition Fee**: $4,480
+--------------------------------------------------------------------------------
+
+Rank: 91
+Chunk ID: 9319.jpeg:child:0:1
+Metadata: {'doc_id': '9319.jpeg', 'parent_text': "**Document Type:**\nInvoice from Elton Designs\n\n**Key Details:**\n- **Issuer:** Elton Designs, 676 N. St. Clair, Suite 1100, Chicago, IL 60611\n- **Recipient:** Weber Shandwick, 676 N. St. Clair Street, Ste. 1000, Chicago, IL 60611\n- **Invoice Date:** 11/7/2001\n- **Invoice Number:** 1148\n- **Project Name:** Lorillard Take 10 nametags\n- **Requested By:** Sarah Trego\n- **Details of Services Provided:**\n  - 0.5 hours: Formatted nametags with 'Take 10' logo, costing $32.50\n  - 1000 pressure-sensitive color nametags printed, costing $350.00\n- **Total Amount Due:** $382.50\n- **Payment Information:** Checks payable to E. Leibovich, 3832 N. Wayne, Chicago, IL 60611", 'parent_id': '9319.jpeg:parent:0', 'chunk_index': 1}
+Distance: 0.5073
+Similarity: 0.4927
+Content:
+**Key Details:**
+- **Issuer:** Elton Designs, 676 N. St. Clair, Suite 1100, Chicago, IL 60611
+- **Recipient:** Weber Shandwick, 676 N. St. Clair Street, Ste. 1000, Chicago, IL 60611
+- **Invoice Date:** 11/7/2001
+- **Invoice Number:** 1148
+- **Project Name:** Lorillard Take 10 nametags
+- **Requested By:** Sarah Trego
+--------------------------------------------------------------------------------
+
+Rank: 92
+Chunk ID: 9009.jpeg:child:0:1
+Metadata: {'doc_id': '9009.jpeg', 'parent_text': '### Document Type\n- The image shows an **Invoice** from Sports Illustrated Magazine.\n\n### Key Details\n- **Invoice Number:** 1103490\n- **Date:** March 8, 1985\n- **Page:** 1\n- **Make Checks Payable To:** Sports Illustrated, Time & Life Building, Rockefeller Center, New York, NY 10020\n- **Bill To:** Lorillard Media Services, Attention: Mr. Steve Molloy, 666 Fifth Avenue, New York, NY 10103\n- **Ship To:** Various addresses including P.O. Box 5979, Church St. Station, New York, NY 10249 and P.O. Box 36305, Chicago, IL 60673\n- **Advertised Item:** True Cigarettes\n- **Brand/Division:** Lorillard Division, Loews Corporation\n- **Item Description:** 1/2 Page, 4 colors in Magazine\n- **Issue Date:** February 4, 1985\n- **Edition:** National\n- **Card Rate:** $43,110.00\n- **Agency Discount:** $6,466.50\n- **Net Amount Due:** $36,643.50', 'parent_id': '9009.jpeg:parent:0', 'chunk_index': 1}
+Distance: 0.5073
+Similarity: 0.4927
+Content:
+### Key Details
+- **Invoice Number:** 1103490
+- **Date:** March 8, 1985
+- **Page:** 1
+- **Make Checks Payable To:** Sports Illustrated, Time & Life Building, Rockefeller Center, New York, NY 10020
+- **Bill To:** Lorillard Media Services, Attention: Mr. Steve Molloy, 666 Fifth Avenue, New York, NY 10103
+--------------------------------------------------------------------------------
+
+Rank: 93
+Chunk ID: 8990.jpeg:child:0:0
+Metadata: {'parent_text': '### Document Type\nThis image displays an invoice from a professional advertising services provider.\n\n### Key Details\n- **Company Name:** C.T. Levy Associates\n- **Address of Company:** P.O. Box 4601, Hialeah, Florida 33014-0601\n- **Phone Number:** (305) 825-2041\n- **Invoice Number:** 6677\n- **Date of Invoice:** March 29, 1985\n- **Client:** Lorillard Media Services, 666 Fifth Avenue, New York, NY, 10103\n- **Document Type:** Outdoor Advertising\n- **Contract Number:** QH-88A\n- **Line Item Details:**\n  - **Item Number:** 1157\n  - **Location:** W/S NN 27 Avenue/157 Street, NDI (14X48)\n  - **Description:** Advertisement space rental\n  - **Rental Period:** April 1, 1985, to May 1, 1985\n  - **Price Per Month:** $1,265.00\n  - **Agency Commission:** $210.83\n  - **Net Total:** $1,054.17\n- **Signatures and Authorization:** The document appears to be signed and authorized, with handwritten notations indicating adjustments or confirmations.', 'parent_id': '8990.jpeg:parent:0', 'doc_id': '8990.jpeg', 'chunk_index': 0}
+Distance: 0.5073
+Similarity: 0.4927
+Content:
+### Document Type
+This image displays an invoice from a professional advertising services provider.
+--------------------------------------------------------------------------------
+
+Rank: 94
+Chunk ID: 8398.jpeg:child:0:1
+Metadata: {'doc_id': '8398.jpeg', 'chunk_index': 1, 'parent_text': '### Document Type:\nThis is an Invoice issued by Management Science Associates, Inc.\n\n### Key Details:\n- **Invoice Issuer**: Management Science Associates, Inc., 6565 Penn Avenue Pittsburgh, PA 15206-4609\n- **Invoice Recipient**: Mr. Andrew Paseltuk, Lorillard Tobacco Company, 714 Green Valley Road, Greensboro, NC 27408\n- **Invoice Number**: 9807013\n- **Invoice Date**: July 8, 1998\n- **Client Purchase Order or Contract Number**: Not specified\n- **Federal ID**: 25-1128415\n- **Payment Terms**: Net 10 Days\n- **Item Description**: Lorillard Excel Retail Information System\n- **Billing Details**:\n  - Original Tracked Expenses: $89,167.00\n  - Ongoing Variable Expenses: $193,269.00\n  - Additional AWS Geos: $10,334.00\n  - Frozen Database: $1,500.00\n  - Total Before Adjustment: $294,770.00\n  - Adjustments: 5% Discount on Ongoing Expenses\n  - **Total Amount Due**: $280,031.00\n- **Signature**: Signed by Elaine M. Sans', 'parent_id': '8398.jpeg:parent:0'}
+Distance: 0.5075
+Similarity: 0.4925
+Content:
+### Key Details:
+- **Invoice Issuer**: Management Science Associates, Inc., 6565 Penn Avenue Pittsburgh, PA 15206-4609
+- **Invoice Recipient**: Mr. Andrew Paseltuk, Lorillard Tobacco Company, 714 Green Valley Road, Greensboro, NC 27408
+- **Invoice Number**: 9807013
+- **Invoice Date**: July 8, 1998
+--------------------------------------------------------------------------------
+
+Rank: 95
+Chunk ID: 1493.jpeg:child:0:1
+Metadata: {'parent_id': '1493.jpeg:parent:0', 'parent_text': "**Document Type:**\nThis is an Estimate Recap document from Leo Burnett U.S.A., outlining advertising budget estimations.\n\n**Key Details:**\n- **Client:** PM, Inc.\n- **Period of Estimate:** 01/01/1991 to 12/31/1991\n- **Estimate Date:** 02/07/1992\n- **Office:** 10\n- **Description:** 771A Marlboro Walls\n- **Revised Estimated Date:** 01/19/1992\n- **Detailing by Product/Month for the Product 'Marlboro':**\n  - **January 1991:** Gross Amount $17,468.32\n  - **February 1991:** Gross Amount $17,468.32\n  - **March 1991:** Gross Amount $17,468.32\n  - **Total for Q1 1991:** $52,404.96\n  - **April 1991:** Gross Amount $17,468.32\n  - **May 1991:** Gross Amount $22,414.42\n  - **June 1991:** Gross Amount $17,161.06\n  - **Total for Q2 1991:** $57,161.06\n  - **July 1991:** Gross Amount $4,316.25\n  - **August 1991:** Gross Amount $72,588.87\n  - **September 1991:** Gross Amount $17,076.39\n  - **Total for Q3 1991:** $93,981.51\n  - **October 1991:** Gross Amount $84,399.46\n  - **November 1991:** Gross Amount $97,005.60\n  - **December 1991:** Gross Amount $104,045.93\n  - **Total for Q4 1991:** $285,480.99\n  - **Total Gross Amount for Entire Period:** $577,683.42\n  - **Total Gross Change:** $109,872.25", 'doc_id': '1493.jpeg', 'chunk_index': 1}
+Distance: 0.5076
+Similarity: 0.4924
+Content:
+**Key Details:**
+- **Client:** PM, Inc.
+- **Period of Estimate:** 01/01/1991 to 12/31/1991
+- **Estimate Date:** 02/07/1992
+- **Office:** 10
+- **Description:** 771A Marlboro Walls
+- **Revised Estimated Date:** 01/19/1992
+- **Detailing by Product/Month for the Product 'Marlboro':**
+  - **January 1991:** Gross Amount $17,468.32
+--------------------------------------------------------------------------------
+
+Rank: 96
+Chunk ID: 4573.jpeg:child:0:2
+Metadata: {'parent_text': '**Document Type**: Check Request Form\n\n**Key Details**:\n- **Organization**: Family COURSE Consortium, Inc.\n- **Purpose**: Confidential, related to Minnesota Tobacco Litigation\n- **Date**: June 18, 1993\n- **Payee**: Goodwill Communications, 6107 Greenlawn Court, Springfield, VA 22152\n- **Amount Requested**: $3,840.00\n- **Explanation** for Check Request:\n  - Payment for postage charges associated with the distribution of the third series of the Family COURSE Consortium television public service announcements.\n  - Distribution is intended for 1,200 television outlets.\n- **Cost Center Number**: 1308\n- **Account Number**: 5101>\n- **Project Code**: Not specified\n- **1099 or Use Tax**: Indicated in the amount section\n- **Signatures**: Document is requested by an individual (signature provided) and approved by Carol Hrycaj.\n- **Instruction for Mailing Check**: To be mailed as soon as possible', 'doc_id': '4573.jpeg', 'chunk_index': 2, 'parent_id': '4573.jpeg:parent:0'}
+Distance: 0.5077
+Similarity: 0.4923
+Content:
+- **Explanation** for Check Request:
+  - Payment for postage charges associated with the distribution of the third series of the Family COURSE Consortium television public service announcements.
+  - Distribution is intended for 1,200 television outlets.
+- **Cost Center Number**: 1308
+- **Account Number**: 5101>
+- **Project Code**: Not specified
+--------------------------------------------------------------------------------
+
+Rank: 97
+Chunk ID: 2248.jpeg:child:0:1
+Metadata: {'doc_id': '2248.jpeg', 'parent_text': '### Document Type:\nThis is an Estimate Payment Approval document, likely related to construction or infrastructure projects.\n\n### Key Details:\n- **Document Date**: April 11, 1997\n- **Estimates Descriptions**: Lists various projects including bulletins, transit, and special media.\n- **Financial Overview**:\n  - **Bulletins**:\n    - Various projects listed with descriptions such as "Hamiliton, SC - 9 lights" and "Raleigh Double Stack," with various approval and expenditure statuses from different dates in January and April 1997.\n    - No changes in financial estimates noted as they remain $0.00 with total prior estimates aligning with current amounts shown.\n  - **Transit**: \n    - Projects listed under "WAMLINE MARL" with descriptions like "14th St. Transit - Bio Atlanta" and "Jimmy Carter Blvd Parking Garage."\n    - Reported expenditures total $2,942.71 on earlier dates, aligning with estimates from different agents.\n  - **Additional Sections**:\n    - "Not On Estimate" containing a "Mainline" project with a $12,000.00 allocation.\n    - A significant focus on the "Special Media" section targeted towards "Station Smoking Lounges," budgeted at $67,457,660.00.', 'parent_id': '2248.jpeg:parent:0', 'chunk_index': 1}
+Distance: 0.5081
+Similarity: 0.4919
+Content:
+### Key Details:
+- **Document Date**: April 11, 1997
+- **Estimates Descriptions**: Lists various projects including bulletins, transit, and special media.
+- **Financial Overview**:
+  - **Bulletins**:
+--------------------------------------------------------------------------------
+
+Rank: 98
+Chunk ID: 8288.jpeg:child:0:2
+Metadata: {'parent_id': '8288.jpeg:parent:0', 'parent_text': '### Document Type\nThis image depicts an invoice from Firmani & Associates Inc.\n\n### Key Details\n- **Invoice Date**: May 31, 1998\n- **Invoice Number**: 10589\n- **Received Date**: June 2, 1998\n- **Bill To**: Steve Berman, Hagens and Berman, 1301 Fifth Avenue Suite 2929, Seattle WA 98101\n- **Company**: Firmani & Associates Inc., 2505 Second Avenue, Suite 700, Seattle, WA 98121\n- **List of Services with Date, Description, Hours Billed, and Amount**:\n  - **05/05/98**: Review of legal expert pitch for Berman regarding the Minnesota settlement; Hours: 0.32, Amount: $24.00\n  - **05/05/98**: Writing media case expert media pitch; Hours: 3.32, Amount: $381.80\n  - **05/06/98**: Reviewing new versions of "Minnesota expert source brief"; Hours: 3.25, Amount: $243.75\n  - **05/06/98**: Making calls and discussing tobacco news brief; Hours: 0.79, Amount: $90.85\n  - **05/07/98**: Work on BWire piece offering Steve as expert on Minn. case; Hours: 0.84, Amount: $94.30\n  - **05/07/98**: Review and customization of media content about Minnesota; Hours: 2.96, Amount: $222.00\n- **Total Sum Listed on Document**: Not visible in image provided.', 'chunk_index': 2, 'doc_id': '8288.jpeg'}
+Distance: 0.5082
+Similarity: 0.4918
+Content:
+- **List of Services with Date, Description, Hours Billed, and Amount**:
+  - **05/05/98**: Review of legal expert pitch for Berman regarding the Minnesota settlement; Hours: 0.32, Amount: $24.00
+  - **05/05/98**: Writing media case expert media pitch; Hours: 3.32, Amount: $381.80
+--------------------------------------------------------------------------------
+
+Rank: 99
+Chunk ID: 815.jpeg:child:0:1
+Metadata: {'chunk_index': 1, 'parent_text': '**Document Type:** \nThis is an advertising financial recap document from Leo Burnett USA, detailing client expenditure over various periods in 1994.\n\n**Key Details:**\n- **Client:** P.M. Inc.\n- **Office:** 10\n- **Estimate Number:** 4092\n- **Revised Estimate Date:** 06/09/94\n- **Description:** TRPA SP-90 SHEET, Corporate Pool\n- **Period Covered:** From 01/01/94 to 12/31/94\n- **Date of Document:** 07/08/94\n- **Page:** 1\n\n**Expenditure Breakdown by Product/Month:**\n  - **66-BASIC:**\n    - Total for 1994: $368,937.56 with a gross change of $20,786.96\n  - **12-BENHED 100S:**\n    - Total for 1994: $11,376.78 with no change reported\n  - **12-B&H 85’S:**\n    - Total for June 1994: $11,376.78 with no change reported\n  - **10-MARLBORO:**\n    - Total for 1994: $59,755.14 with a gross change of $39,430.33\n  - **14-PARLIAMENT:**\n    - Total for 1994: $113,883.23 with no change reported\n  - **27-MERIT:**\n    - Total for 1994: $113,437.80 with no change reported', 'doc_id': '815.jpeg', 'parent_id': '815.jpeg:parent:0'}
+Distance: 0.5083
+Similarity: 0.4917
+Content:
+**Key Details:**
+- **Client:** P.M. Inc.
+- **Office:** 10
+- **Estimate Number:** 4092
+- **Revised Estimate Date:** 06/09/94
+- **Description:** TRPA SP-90 SHEET, Corporate Pool
+- **Period Covered:** From 01/01/94 to 12/31/94
+- **Date of Document:** 07/08/94
+- **Page:** 1
+--------------------------------------------------------------------------------
+
+Rank: 100
+Chunk ID: 1007.jpeg:child:0:1
+Metadata: {'parent_text': '### Document Type\nThis is an advertising estimate recap document from Leo Burnett USA, detailing newspaper advertising expenses for a client over various periods in 1988.\n\n### Key Details\n- **Client Information**: \n  - Company: Leo Burnett USA\n  - Client Name: Not explicitly mentioned, references a project number "703 VIRGINIA SLIMS LIGHTS BLACK ROP"\n  - Document Date: 09/08/89\n  - Reporting Period: 01/01/88 to 12/31/88\n\n- **Financial Breakdown by Product/Month**:\n  - Product: 16-V.S. LIGHTS\n  - The document breaks down the gross amount spent and the changes month by month for the year 1988.\n  - **Quarterly Details**:\n    - **Q1 Total**: $91,564.14 \n    - **Q2 Total**: $87,029.14\n    - **Q3 Total**: $82,610.92\n    - **Q4 Total**: $179,658.52\n  - **Annual Total**:\n    - **Gross Amount**: $536,152.89\n    - **Gross Less C/D**: $527,299.08', 'parent_id': '1007.jpeg:parent:0', 'doc_id': '1007.jpeg', 'chunk_index': 1}
+Distance: 0.5098
+Similarity: 0.4902
+Content:
+### Key Details
+- **Client Information**: 
+  - Company: Leo Burnett USA
+  - Client Name: Not explicitly mentioned, references a project number "703 VIRGINIA SLIMS LIGHTS BLACK ROP"
+  - Document Date: 09/08/89
+  - Reporting Period: 01/01/88 to 12/31/88
+--------------------------------------------------------------------------------

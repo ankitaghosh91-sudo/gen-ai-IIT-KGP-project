@@ -25,3 +25,14 @@ class Evidence:
     answer: str = ""
     image_path: str | None = None
     score: float = 0.0
+    chunk_id: str | None = None
+
+
+@dataclass
+class Chunk:
+    chunk_id: str
+    doc_id: str
+    text: str
+    chunk_index: int
+    parent_id: str | None = None
+    parent_text: str | None = None

@@ -18,12 +18,27 @@ class ChunkingStrategyBase(ABC):
 
 class SearchStrategyBase(ABC):
     @abstractmethod
-    def search(self, query: str, documents: list[Document], limit: int = 4) -> list[Evidence]: ...
+    def search(
+        self,
+        query: str,
+        documents: list[Document],
+        limit: int = 4,
+        scope: str = "global",
+        doc_id: str | None = None,
+    ) -> list[Evidence]: ...
 
 
 class RAGStrategyBase(ABC):
     @abstractmethod
-    def retrieve(self, query: str, documents: list[Document], image: Any = None) -> list[Evidence]: ...
+    def retrieve(
+        self,
+        query: str,
+        documents: list[Document],
+        image: Any = None,
+        scope: str = "global",
+        doc_id: str | None = None,
+    ) -> list[Evidence]: ...
+
 
 
 class PromptStrategyBase(ABC):
@@ -39,7 +54,9 @@ class AnswerStrategyBase(ABC):
         evidence: list[Evidence],
         prompt,
         history: list[dict[str, str]] | None = None,
+        documents: list[Document] | None = None,
     ) -> dict: ...
+
 
 
 class MemoryStrategyBase(ABC):

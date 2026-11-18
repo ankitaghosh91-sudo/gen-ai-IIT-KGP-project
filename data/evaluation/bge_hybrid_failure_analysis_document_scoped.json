@@ -1,0 +1,14 @@
+{
+    "analysis_summary": {
+        "total_qa_pairs": 103,
+        "eligible_qa_pairs": 100,
+        "excluded_qa_pairs": 3,
+        "analyzed_qa_pairs": 100,
+        "failed_qa_pairs": 0,
+        "clean_qa_pairs": 100,
+        "retrieval_strategy": "hybrid",
+        "embedder": "bge-small-en-v1.5",
+        "top_k": 5
+    },
+    "failure_records": []
+}

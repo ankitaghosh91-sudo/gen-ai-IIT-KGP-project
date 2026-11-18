@@ -11,14 +11,14 @@ from src.strategies.base import (
     RAGStrategyBase,
     SearchStrategyBase,
 )
-from src.strategies.chunking import FixedSizeChunking, ParagraphChunking, WholeDocumentChunking
-from src.strategies.embeddings import HashingEmbedder, SentenceTransformerEmbedder
+from src.strategies.chunking import FixedSizeChunking, ParagraphChunking, WholeDocumentChunking,RecursiveChunking,ParentChildChunker
+from src.strategies.embeddings import HashingEmbedder, SentenceTransformerEmbedder,BGEAPIEmbedder
 from src.strategies.evaluators import JudgeEvaluator, SimpleEvaluator, VotingEvaluator
 from src.strategies.helpers import cosine_similarity
 from src.strategies.memory import ConversationMemory, NoMemory
 from src.strategies.prompts import DecompositionPrompt, FewShotPrompt, SimplePrompt, ZeroShotPrompt
 from src.strategies.rag import AgenticRAG, AutoRAG, CombinedRAG, MultiStepRAG, SimpleRAG, VisualRAG
-from src.strategies.search import ChromaSearch, KeywordSearch, LimitedSearch
+from src.strategies.search import ChromaSearch, KeywordSearch, LimitedSearch,BM25Search,HybridSearch
 
 __all__ = [
     "AnswerStrategyBase",
@@ -36,6 +36,8 @@ __all__ = [
     "FixedSizeChunking",
     "ParagraphChunking",
     "WholeDocumentChunking",
+    "RecursiveChunking",
+    "ParentChildChunker",
     "HashingEmbedder",
     "SentenceTransformerEmbedder",
     "JudgeEvaluator",

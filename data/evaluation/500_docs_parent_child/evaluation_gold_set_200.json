@@ -1,0 +1,5450 @@
+[
+  {
+    "eval_id": "eval_001",
+    "doc_id": "7767.jpeg",
+    "question_id": "q2",
+    "question": "What is the product being advertised in the mall display?",
+    "gold_answer": "MAGNA",
+    "relevant_chunk_id": [
+      "7767.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_002",
+    "doc_id": "3648.jpeg",
+    "question_id": "q1",
+    "question": "Who is the issuer of the check?",
+    "gold_answer": "The Tobacco Institute",
+    "relevant_chunk_id": [
+      "3648.jpeg:child:0:0",
+      "3648.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_003",
+    "doc_id": "5814.jpeg",
+    "question_id": "q6",
+    "question": "What is the amount due as per the invoice?",
+    "gold_answer": "$100,000.00",
+    "relevant_chunk_id": [
+      "5814.jpeg:child:0:2",
+      "5814.jpeg:child:1:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_004",
+    "doc_id": "7766.jpeg",
+    "question_id": "q11",
+    "question": "What is the industry or sector that R.J. Reynolds operates in?",
+    "gold_answer": "R.J. Reynolds operates in the tobacco products industry.",
+    "relevant_chunk_id": [],
+    "partially_relevant_chunk_id": [
+      "7766.jpeg:child:1:2"
+    ],
+    "rank": 1,
+    "similarity_score": 0.676246,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {
+      "7766.jpeg:child:1:2": {
+        "rank": 1,
+        "similarity_score": 0.676246,
+        "llm_label": "partially_relevant"
+      },
+      "7766.jpeg:child:0:1": {
+        "rank": 2,
+        "similarity_score": 0.639844,
+        "llm_label": "irrelevant"
+      },
+      "7766.jpeg:child:0:0": {
+        "rank": 3,
+        "similarity_score": 0.615469,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_005",
+    "doc_id": "6080.jpeg",
+    "question_id": "q11",
+    "question": "What can be inferred about the importance of legal and financial compliance in the transaction process?",
+    "gold_answer": "The directive to remit payment shortly and the instructions regarding VAT exemptions suggest careful attention to legal and financial compliance in the transaction process.",
+    "relevant_chunk_id": [
+      "6080.jpeg:child:2:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.788043,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.788043
+    ],
+    "chunk_metrics": {
+      "6080.jpeg:child:2:2": {
+        "rank": 1,
+        "similarity_score": 0.788043,
+        "llm_label": "relevant"
+      },
+      "6080.jpeg:child:2:1": {
+        "rank": 2,
+        "similarity_score": 0.608703,
+        "llm_label": "irrelevant"
+      },
+      "6080.jpeg:child:2:0": {
+        "rank": 3,
+        "similarity_score": 0.607844,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_006",
+    "doc_id": "8974.jpeg",
+    "question_id": "q1",
+    "question": "What is the name of the company that issued the invoice?",
+    "gold_answer": "The Aydar Corporation",
+    "relevant_chunk_id": [
+      "8974.jpeg:child:0:0",
+      "8974.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_007",
+    "doc_id": "4758.jpeg",
+    "question_id": "q4",
+    "question": "What is the purpose of the payment?",
+    "gold_answer": "Executive Sponsor of 'Gala Celebration of Leadership'",
+    "relevant_chunk_id": [
+      "4758.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_008",
+    "doc_id": "1411.jpeg",
+    "question_id": "q2",
+    "question": "What was the rate for a 6x21 ad in Tacoma?",
+    "gold_answer": "8,030.00",
+    "relevant_chunk_id": [
+      "1411.jpeg:child:0:3"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_009",
+    "doc_id": "8441.jpeg",
+    "question_id": "q1",
+    "question": "Who is the issuer of the invoice?",
+    "gold_answer": "Sports Illustrated",
+    "relevant_chunk_id": [
+      "8441.jpeg:child:0:0",
+      "8441.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_010",
+    "doc_id": "3229.jpeg",
+    "question_id": "q10",
+    "question": "Why is it important to verify the nature of 'Support 92'?",
+    "gold_answer": "It is important to verify the nature of 'Support 92' for compliance and auditing purposes, as it may relate to special projects or campaigns.",
+    "relevant_chunk_id": [
+      "3229.jpeg:child:1:1"
+    ],
+    "partially_relevant_chunk_id": [
+      "3229.jpeg:child:1:0"
+    ],
+    "rank": 1,
+    "similarity_score": 0.790241,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.790241
+    ],
+    "chunk_metrics": {
+      "3229.jpeg:child:1:1": {
+        "rank": 1,
+        "similarity_score": 0.790241,
+        "llm_label": "relevant"
+      },
+      "3229.jpeg:child:1:0": {
+        "rank": 2,
+        "similarity_score": 0.688622,
+        "llm_label": "partially_relevant"
+      },
+      "3229.jpeg:child:1:2": {
+        "rank": 3,
+        "similarity_score": 0.600084,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_011",
+    "doc_id": "7247.jpeg",
+    "question_id": "q1",
+    "question": "What is the document ID of the corporate financial voucher?",
+    "gold_answer": "The document ID is SEP-24-81 10:55 FROM.",
+    "relevant_chunk_id": [],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.864331,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {
+      "7247.jpeg:child:0:0": {
+        "rank": 1,
+        "similarity_score": 0.864331,
+        "llm_label": "irrelevant"
+      },
+      "7247.jpeg:child:1:1": {
+        "rank": 2,
+        "similarity_score": 0.766243,
+        "llm_label": "irrelevant"
+      },
+      "7247.jpeg:child:1:2": {
+        "rank": 3,
+        "similarity_score": 0.709816,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_012",
+    "doc_id": "7936.jpeg",
+    "question_id": "q1",
+    "question": "Who is the issuer of the check?",
+    "gold_answer": "R.J. Reynolds Tobacco Company",
+    "relevant_chunk_id": [
+      "7936.jpeg:child:0:1",
+      "7936.jpeg:child:1:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_013",
+    "doc_id": "8065.jpeg",
+    "question_id": "q11",
+    "question": "Why is the attention to a specific individual important on the invoice?",
+    "gold_answer": "It suggests a direct line of communication for queries or disputes regarding the invoice.",
+    "relevant_chunk_id": [
+      "8065.jpeg:child:1:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.854648,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.854648
+    ],
+    "chunk_metrics": {
+      "8065.jpeg:child:1:1": {
+        "rank": 1,
+        "similarity_score": 0.854648,
+        "llm_label": "relevant"
+      },
+      "8065.jpeg:child:1:0": {
+        "rank": 2,
+        "similarity_score": 0.692335,
+        "llm_label": "irrelevant"
+      },
+      "8065.jpeg:child:0:0": {
+        "rank": 3,
+        "similarity_score": 0.589084,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_014",
+    "doc_id": "8067.jpeg",
+    "question_id": "q10",
+    "question": "Why is this document relevant for any audit or financial review?",
+    "gold_answer": "This document is relevant for any audit or financial review concerning fiscal activities of either entity in 1986.",
+    "relevant_chunk_id": [
+      "8067.jpeg:child:1:2"
+    ],
+    "partially_relevant_chunk_id": [
+      "8067.jpeg:child:1:1"
+    ],
+    "rank": 1,
+    "similarity_score": 0.888567,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.888567
+    ],
+    "chunk_metrics": {
+      "8067.jpeg:child:1:2": {
+        "rank": 1,
+        "similarity_score": 0.888567,
+        "llm_label": "relevant"
+      },
+      "8067.jpeg:child:1:1": {
+        "rank": 2,
+        "similarity_score": 0.695997,
+        "llm_label": "partially_relevant"
+      },
+      "8067.jpeg:child:0:0": {
+        "rank": 3,
+        "similarity_score": 0.620753,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_015",
+    "doc_id": "9078.jpeg",
+    "question_id": "q7",
+    "question": "What is the total amount due on the billing statement?",
+    "gold_answer": "$1760.25",
+    "relevant_chunk_id": [
+      "9078.jpeg:child:0:2",
+      "9078.jpeg:child:1:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_016",
+    "doc_id": "9312.jpeg",
+    "question_id": "q1",
+    "question": "Who is the issuer of the invoice?",
+    "gold_answer": "Weber Shandwick Worldwide",
+    "relevant_chunk_id": [
+      "9312.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_017",
+    "doc_id": "8747.jpeg",
+    "question_id": "q3",
+    "question": "What is the address of the customer, Lorillard Research Center?",
+    "gold_answer": "The address is P.O. Box 1058, Greensboro, NC 27408.",
+    "relevant_chunk_id": [
+      "8747.jpeg:child:0:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.787613,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.787613
+    ],
+    "chunk_metrics": {
+      "8747.jpeg:child:0:2": {
+        "rank": 1,
+        "similarity_score": 0.787613,
+        "llm_label": "relevant"
+      },
+      "8747.jpeg:child:0:1": {
+        "rank": 2,
+        "similarity_score": 0.625097,
+        "llm_label": "irrelevant"
+      },
+      "8747.jpeg:child:1:0": {
+        "rank": 3,
+        "similarity_score": 0.532983,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_018",
+    "doc_id": "33.jpeg",
+    "question_id": "q3",
+    "question": "What are the objectives of the Universal Trailer project?",
+    "gold_answer": "The objectives include Maintenance of Existing Business, Expansion of Existing Business for New Products, Cost Reduction, Compliance with Outside Regulatory & Administrative Requirements, and Quality Improvement.",
+    "relevant_chunk_id": [
+      "33.jpeg:child:0:3"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.953064,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.953064
+    ],
+    "chunk_metrics": {
+      "33.jpeg:child:0:3": {
+        "rank": 1,
+        "similarity_score": 0.953064,
+        "llm_label": "relevant"
+      },
+      "33.jpeg:child:1:1": {
+        "rank": 2,
+        "similarity_score": 0.700812,
+        "llm_label": "irrelevant"
+      },
+      "33.jpeg:child:2:1": {
+        "rank": 3,
+        "similarity_score": 0.672896,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_019",
+    "doc_id": "1711.jpeg",
+    "question_id": "q5",
+    "question": "What are the model fees, and how much do they cost?",
+    "gold_answer": "$1200.00 (if required, on a test basis)",
+    "relevant_chunk_id": [
+      "1711.jpeg:child:0:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.779978,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.779978
+    ],
+    "chunk_metrics": {
+      "1711.jpeg:child:0:2": {
+        "rank": 1,
+        "similarity_score": 0.779978,
+        "llm_label": "relevant"
+      },
+      "1711.jpeg:child:1:1": {
+        "rank": 2,
+        "similarity_score": 0.69541,
+        "llm_label": "irrelevant"
+      },
+      "1711.jpeg:child:1:0": {
+        "rank": 3,
+        "similarity_score": 0.623048,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_020",
+    "doc_id": "8116.jpeg",
+    "question_id": "q6",
+    "question": "What is the adjustment or subtraction made to the gross amount, and what could be the possible reason for it?",
+    "gold_answer": "The adjustment or subtraction is $750, which might indicate a prior agreement, dispute resolution, or payment already received.",
+    "relevant_chunk_id": [
+      "8116.jpeg:child:1:2"
+    ],
+    "partially_relevant_chunk_id": [
+      "8116.jpeg:child:0:2"
+    ],
+    "rank": 1,
+    "similarity_score": 0.868375,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.868375
+    ],
+    "chunk_metrics": {
+      "8116.jpeg:child:1:2": {
+        "rank": 1,
+        "similarity_score": 0.868375,
+        "llm_label": "relevant"
+      },
+      "8116.jpeg:child:0:2": {
+        "rank": 2,
+        "similarity_score": 0.629191,
+        "llm_label": "partially_relevant"
+      },
+      "8116.jpeg:child:1:0": {
+        "rank": 3,
+        "similarity_score": 0.591076,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_021",
+    "doc_id": "672.jpeg",
+    "question_id": "q3",
+    "question": "In what areas did the department underutilize its budget as of August 31, 1971?",
+    "gold_answer": "Contingency and Special Services and Stationery and Supplies",
+    "relevant_chunk_id": [
+      "672.jpeg:child:1:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_022",
+    "doc_id": "921.jpeg",
+    "question_id": "q10",
+    "question": "In which quarter does the total gross amount show a significant increase compared to the previous quarter?",
+    "gold_answer": "Quarter 3",
+    "relevant_chunk_id": [
+      "921.jpeg:child:1:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_023",
+    "doc_id": "6896.jpeg",
+    "question_id": "q8",
+    "question": "Why is the voucher important for compliance and auditing?",
+    "gold_answer": "The voucher is important for compliance and auditing because it ensures that corporate political contributions are properly documented and authorized internally.",
+    "relevant_chunk_id": [
+      "6896.jpeg:child:1:3"
+    ],
+    "partially_relevant_chunk_id": [
+      "6896.jpeg:child:1:0"
+    ],
+    "rank": 2,
+    "similarity_score": 0.717285,
+    "relevant_chunk_ranks": [
+      2
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.717285
+    ],
+    "chunk_metrics": {
+      "6896.jpeg:child:1:0": {
+        "rank": 1,
+        "similarity_score": 0.790548,
+        "llm_label": "partially_relevant"
+      },
+      "6896.jpeg:child:1:3": {
+        "rank": 2,
+        "similarity_score": 0.717285,
+        "llm_label": "relevant"
+      },
+      "6896.jpeg:child:1:2": {
+        "rank": 3,
+        "similarity_score": 0.681946,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_024",
+    "doc_id": "766.jpeg",
+    "question_id": "q4",
+    "question": "How did the team leader(s) in this document impact the financial performance of the tobacco production process?",
+    "gold_answer": "Although the document does not explicitly state how the team leaders impacted financial performance, it suggests that improved efficiencies and cost reductions may have contributed to a decrease in costs.",
+    "relevant_chunk_id": [],
+    "partially_relevant_chunk_id": [
+      "766.jpeg:child:1:1"
+    ],
+    "rank": 1,
+    "similarity_score": 0.719124,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {
+      "766.jpeg:child:0:0": {
+        "rank": 1,
+        "similarity_score": 0.719124,
+        "llm_label": "uncertain"
+      },
+      "766.jpeg:child:1:1": {
+        "rank": 2,
+        "similarity_score": 0.706169,
+        "llm_label": "partially_relevant"
+      },
+      "766.jpeg:child:1:0": {
+        "rank": 3,
+        "similarity_score": 0.653007,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_025",
+    "doc_id": "4254.jpeg",
+    "question_id": "q3",
+    "question": "What is the address listed on the donation receipt?",
+    "gold_answer": "2913 South 38th Street, Suite B, Tacoma, WA 98409",
+    "relevant_chunk_id": [
+      "4254.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_026",
+    "doc_id": "3345.jpeg",
+    "question_id": "q10",
+    "question": "What is the significance of the uniform monthly charges?",
+    "gold_answer": "It indicates a potential flat-rate contract over the period without fluctuations generally seen with performance-based or varying exposure rate contracts.",
+    "relevant_chunk_id": [
+      "3345.jpeg:child:1:0",
+      "3345.jpeg:child:0:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.922979,
+    "relevant_chunk_ranks": [
+      1,
+      3
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.922979,
+      0.619858
+    ],
+    "chunk_metrics": {
+      "3345.jpeg:child:1:0": {
+        "rank": 1,
+        "similarity_score": 0.922979,
+        "llm_label": "relevant"
+      },
+      "3345.jpeg:child:1:1": {
+        "rank": 2,
+        "similarity_score": 0.640397,
+        "llm_label": "irrelevant"
+      },
+      "3345.jpeg:child:0:2": {
+        "rank": 3,
+        "similarity_score": 0.619858,
+        "llm_label": "relevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_027",
+    "doc_id": "3362.jpeg",
+    "question_id": "q8",
+    "question": "How does the document's age impact its compliance with current tax codes?",
+    "gold_answer": "The document, dated 1987, reflects the tax codes and compliance requirements of that period, which could be significantly different from current standards.",
+    "relevant_chunk_id": [
+      "3362.jpeg:child:1:2"
+    ],
+    "partially_relevant_chunk_id": [
+      "3362.jpeg:child:0:0",
+      "3362.jpeg:child:1:3"
+    ],
+    "rank": 1,
+    "similarity_score": 0.956356,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.956356
+    ],
+    "chunk_metrics": {
+      "3362.jpeg:child:1:2": {
+        "rank": 1,
+        "similarity_score": 0.956356,
+        "llm_label": "relevant"
+      },
+      "3362.jpeg:child:0:0": {
+        "rank": 2,
+        "similarity_score": 0.705189,
+        "llm_label": "partially_relevant"
+      },
+      "3362.jpeg:child:1:3": {
+        "rank": 3,
+        "similarity_score": 0.673023,
+        "llm_label": "partially_relevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_028",
+    "doc_id": "1434.jpeg",
+    "question_id": "q5",
+    "question": "What is the total expenditure for February to May 1987 on '12-B&H Lights'?",
+    "gold_answer": "$467,553.22",
+    "relevant_chunk_id": [
+      "1434.jpeg:child:0:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_029",
+    "doc_id": "2726.jpeg",
+    "question_id": "q9",
+    "question": "What is the total budget for Tournament Entertainment (Meals, Cocktails, Live Entertainment, Hospitality) expenses?",
+    "gold_answer": "$16,250",
+    "relevant_chunk_id": [
+      "2726.jpeg:child:1:3",
+      "2726.jpeg:child:2:0"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_030",
+    "doc_id": "3230.jpeg",
+    "question_id": "q8",
+    "question": "What is the significance of the 'OBACCO INSTITUTE - JC' mention?",
+    "gold_answer": "The significance is unclear due to text cutoff, but it may indicate involvement or association with the institute.",
+    "relevant_chunk_id": [],
+    "partially_relevant_chunk_id": [
+      "3230.jpeg:child:0:2"
+    ],
+    "rank": 1,
+    "similarity_score": 0.652581,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {
+      "3230.jpeg:child:0:2": {
+        "rank": 1,
+        "similarity_score": 0.652581,
+        "llm_label": "partially_relevant"
+      },
+      "3230.jpeg:child:1:1": {
+        "rank": 2,
+        "similarity_score": 0.518621,
+        "llm_label": "irrelevant"
+      },
+      "3230.jpeg:child:1:2": {
+        "rank": 3,
+        "similarity_score": 0.466119,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_031",
+    "doc_id": "5250.jpeg",
+    "question_id": "q4",
+    "question": "What is the payment term for the Purchase Order?",
+    "gold_answer": "Net cash 30 days.",
+    "relevant_chunk_id": [
+      "5250.jpeg:child:0:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_032",
+    "doc_id": "8441.jpeg",
+    "question_id": "q6",
+    "question": "What is the card rate for the advertisement?",
+    "gold_answer": "$75,515.00",
+    "relevant_chunk_id": [
+      "8441.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_033",
+    "doc_id": "6799.jpeg",
+    "question_id": "q4",
+    "question": "What is the quantity of the product being shipped?",
+    "gold_answer": "The quantity is 72 units.",
+    "relevant_chunk_id": [
+      "6799.jpeg:child:0:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 2,
+    "similarity_score": 0.585356,
+    "relevant_chunk_ranks": [
+      2
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.585356
+    ],
+    "chunk_metrics": {
+      "6799.jpeg:child:1:1": {
+        "rank": 1,
+        "similarity_score": 0.606741,
+        "llm_label": "irrelevant"
+      },
+      "6799.jpeg:child:0:2": {
+        "rank": 2,
+        "similarity_score": 0.585356,
+        "llm_label": "relevant"
+      },
+      "6799.jpeg:child:0:1": {
+        "rank": 3,
+        "similarity_score": 0.576953,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_034",
+    "doc_id": "3842.jpeg",
+    "question_id": "q4",
+    "question": "What is the percentage increase in the budget for Harry Kaiser (OH, Federal) from 1997 to 1998?",
+    "gold_answer": "The budget for Harry Kaiser (OH, Federal) increases by 22.5% from $160,000 in 1997 to $196,000 in 1998.",
+    "relevant_chunk_id": [
+      "3842.jpeg:child:0:3"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.865431,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.865431
+    ],
+    "chunk_metrics": {
+      "3842.jpeg:child:0:3": {
+        "rank": 1,
+        "similarity_score": 0.865431,
+        "llm_label": "relevant"
+      },
+      "3842.jpeg:child:1:0": {
+        "rank": 2,
+        "similarity_score": 0.756493,
+        "llm_label": "irrelevant"
+      },
+      "3842.jpeg:child:0:1": {
+        "rank": 3,
+        "similarity_score": 0.66814,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_035",
+    "doc_id": "5547.jpeg",
+    "question_id": "q9",
+    "question": "How might the monetary value of the consultation expenses be affected by inflation?",
+    "gold_answer": "The value of $5,384.03 would be higher in today's dollars due to inflation.",
+    "relevant_chunk_id": [],
+    "partially_relevant_chunk_id": [
+      "5547.jpeg:child:0:5"
+    ],
+    "rank": 1,
+    "similarity_score": 0.682843,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {
+      "5547.jpeg:child:0:5": {
+        "rank": 1,
+        "similarity_score": 0.682843,
+        "llm_label": "partially_relevant"
+      },
+      "5547.jpeg:child:0:0": {
+        "rank": 2,
+        "similarity_score": 0.670048,
+        "llm_label": "irrelevant"
+      },
+      "5547.jpeg:child:0:1": {
+        "rank": 3,
+        "similarity_score": 0.658503,
+        "llm_label": "uncertain"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_036",
+    "doc_id": "1996.jpeg",
+    "question_id": "q2",
+    "question": "What type of document does this represent?",
+    "gold_answer": "This image represents a financial ledger or report detailing various account metrics from an industrial or manufacturing entity.",
+    "relevant_chunk_id": [
+      "1996.jpeg:child:0:0"
+    ],
+    "partially_relevant_chunk_id": [
+      "1996.jpeg:child:1:0"
+    ],
+    "rank": 1,
+    "similarity_score": 0.905979,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.905979
+    ],
+    "chunk_metrics": {
+      "1996.jpeg:child:0:0": {
+        "rank": 1,
+        "similarity_score": 0.905979,
+        "llm_label": "relevant"
+      },
+      "1996.jpeg:child:1:0": {
+        "rank": 2,
+        "similarity_score": 0.685387,
+        "llm_label": "partially_relevant"
+      },
+      "1996.jpeg:child:1:3": {
+        "rank": 3,
+        "similarity_score": 0.679399,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_037",
+    "doc_id": "5206.jpeg",
+    "question_id": "q9",
+    "question": "What is the finance charge policy for late payments?",
+    "gold_answer": "A finance charge of 1.5% per month applies to unpaid balances over 30 days.",
+    "relevant_chunk_id": [
+      "5206.jpeg:child:0:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_038",
+    "doc_id": "9453.jpeg",
+    "question_id": "q6",
+    "question": "What is the difference between the 'Gross Amount' and 'Net Amount' in the document?",
+    "gold_answer": "The Gross Amount is $709.96, and the Net Amount is $709.80, indicating a possible error or rounding error in computation.",
+    "relevant_chunk_id": [
+      "9453.jpeg:child:0:3"
+    ],
+    "partially_relevant_chunk_id": [
+      "9453.jpeg:child:1:3"
+    ],
+    "rank": 3,
+    "similarity_score": 0.642071,
+    "relevant_chunk_ranks": [
+      3
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.642071
+    ],
+    "chunk_metrics": {
+      "9453.jpeg:child:1:3": {
+        "rank": 1,
+        "similarity_score": 0.791176,
+        "llm_label": "partially_relevant"
+      },
+      "9453.jpeg:child:1:1": {
+        "rank": 2,
+        "similarity_score": 0.728939,
+        "llm_label": "irrelevant"
+      },
+      "9453.jpeg:child:0:3": {
+        "rank": 3,
+        "similarity_score": 0.642071,
+        "llm_label": "relevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_039",
+    "doc_id": "4050.jpeg",
+    "question_id": "q4",
+    "question": "What are the payment terms mentioned in the document?",
+    "gold_answer": "Payable on Receipt",
+    "relevant_chunk_id": [
+      "4050.jpeg:child:0:1",
+      "4050.jpeg:child:0:4"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_040",
+    "doc_id": "7896.jpeg",
+    "question_id": "q3",
+    "question": "What is the date of the document?",
+    "gold_answer": "16. Oktober 1974",
+    "relevant_chunk_id": [
+      "7896.jpeg:child:0:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_041",
+    "doc_id": "5929.jpeg",
+    "question_id": "q9",
+    "question": "What can be inferred about the handling and review of financial documents by Philip Morris?",
+    "gold_answer": "The timing of the receipt and the statement date shows a prompt handling and review of financial documents within a week.",
+    "relevant_chunk_id": [
+      "5929.jpeg:child:1:3"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_042",
+    "doc_id": "532.jpeg",
+    "question_id": "q10",
+    "question": "In what year did the request for campaign contribution take place?",
+    "gold_answer": "1997",
+    "relevant_chunk_id": [
+      "532.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_043",
+    "doc_id": "3501.jpeg",
+    "question_id": "q6",
+    "question": "What is the purpose of the Support Tobacco & Other Orgs-Lobbying account?",
+    "gold_answer": "The purpose of this account is to track expenses related to lobbying activities.",
+    "relevant_chunk_id": [
+      "3501.jpeg:child:0:3"
+    ],
+    "partially_relevant_chunk_id": [
+      "3501.jpeg:child:1:3"
+    ],
+    "rank": 2,
+    "similarity_score": 0.704276,
+    "relevant_chunk_ranks": [
+      2
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.704276
+    ],
+    "chunk_metrics": {
+      "3501.jpeg:child:1:3": {
+        "rank": 1,
+        "similarity_score": 0.715364,
+        "llm_label": "partially_relevant"
+      },
+      "3501.jpeg:child:0:3": {
+        "rank": 2,
+        "similarity_score": 0.704276,
+        "llm_label": "relevant"
+      },
+      "3501.jpeg:child:0:1": {
+        "rank": 3,
+        "similarity_score": 0.662285,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_044",
+    "doc_id": "7087.jpeg",
+    "question_id": "q2",
+    "question": "What is the address of the customer, Smokin Joe's?",
+    "gold_answer": "6110 Papermill Road, Knoxville, TN",
+    "relevant_chunk_id": [
+      "7087.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_045",
+    "doc_id": "667.jpeg",
+    "question_id": "q5",
+    "question": "What was the budgeted amount for '612 Legal - General Domestic' item for this year?",
+    "gold_answer": "$58,331",
+    "relevant_chunk_id": [
+      "667.jpeg:child:0:4"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_046",
+    "doc_id": "8671.jpeg",
+    "question_id": "q6",
+    "question": "What are the product details listed on the invoice?",
+    "gold_answer": "KFNT 38 x C5, KFMT 46 x P100, NEW50 x REGULAR",
+    "relevant_chunk_id": [
+      "8671.jpeg:child:0:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_047",
+    "doc_id": "1189.jpeg",
+    "question_id": "q5",
+    "question": "Which product had a noted change of $31,497.00 in 1991?",
+    "gold_answer": "10-Marlboro",
+    "relevant_chunk_id": [
+      "1189.jpeg:child:0:3",
+      "1189.jpeg:child:1:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_048",
+    "doc_id": "3160.jpeg",
+    "question_id": "q3",
+    "question": "How does the current month's revenue compare to the budgeted figures?",
+    "gold_answer": "Revenue was slightly under budget but still within close range to the forecasted figures.",
+    "relevant_chunk_id": [
+      "3160.jpeg:child:0:3"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_049",
+    "doc_id": "7604.jpeg",
+    "question_id": "q6",
+    "question": "What is the purpose of the Zugzahldrucker R28.00?",
+    "gold_answer": "The Zugzahldrucker R28.00 is for registering individual puff counts.",
+    "relevant_chunk_id": [
+      "7604.jpeg:child:0:3"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.832809,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.832809
+    ],
+    "chunk_metrics": {
+      "7604.jpeg:child:0:3": {
+        "rank": 1,
+        "similarity_score": 0.832809,
+        "llm_label": "relevant"
+      },
+      "7604.jpeg:child:0:2": {
+        "rank": 2,
+        "similarity_score": 0.617486,
+        "llm_label": "irrelevant"
+      },
+      "7604.jpeg:child:0:1": {
+        "rank": 3,
+        "similarity_score": 0.579119,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_050",
+    "doc_id": "8311.jpeg",
+    "question_id": "q3",
+    "question": "What is the receipt number of the sales receipt?",
+    "gold_answer": "The receipt number of the sales receipt is 237322.",
+    "relevant_chunk_id": [
+      "8311.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 3,
+    "similarity_score": 0.630019,
+    "relevant_chunk_ranks": [
+      3
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.630019
+    ],
+    "chunk_metrics": {
+      "8311.jpeg:child:0:0": {
+        "rank": 1,
+        "similarity_score": 0.769119,
+        "llm_label": "irrelevant"
+      },
+      "8311.jpeg:child:0:3": {
+        "rank": 2,
+        "similarity_score": 0.692066,
+        "llm_label": "irrelevant"
+      },
+      "8311.jpeg:child:0:1": {
+        "rank": 3,
+        "similarity_score": 0.630019,
+        "llm_label": "relevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_051",
+    "doc_id": "9708.jpeg",
+    "question_id": "q7",
+    "question": "What is the purpose of specifying the account code in the contribution request?",
+    "gold_answer": "For tracking and accounting purposes",
+    "relevant_chunk_id": [
+      "9708.jpeg:child:1:0"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_052",
+    "doc_id": "3672.jpeg",
+    "question_id": "q2",
+    "question": "What is the check number?",
+    "gold_answer": "005603",
+    "relevant_chunk_id": [
+      "3672.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_053",
+    "doc_id": "5005.jpeg",
+    "question_id": "q5",
+    "question": "What is the total invoice amount mentioned in the document?",
+    "gold_answer": "The total invoice amount is $97.91.",
+    "relevant_chunk_id": [],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.691499,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {
+      "5005.jpeg:child:0:0": {
+        "rank": 1,
+        "similarity_score": 0.691499,
+        "llm_label": "irrelevant"
+      },
+      "5005.jpeg:child:1:0": {
+        "rank": 2,
+        "similarity_score": 0.680028,
+        "llm_label": "irrelevant"
+      },
+      "5005.jpeg:child:1:2": {
+        "rank": 3,
+        "similarity_score": 0.664248,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_054",
+    "doc_id": "2098.jpeg",
+    "question_id": "q3",
+    "question": "Which company is mentioned in the document?",
+    "gold_answer": "Philip Morris Inc.",
+    "relevant_chunk_id": [
+      "2098.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_055",
+    "doc_id": "8743.jpeg",
+    "question_id": "q10",
+    "question": "Why is it important to observe payment timelines and billing addresses in this document?",
+    "gold_answer": "It is important to observe payment timelines and billing addresses for payment tracking and validation purposes.",
+    "relevant_chunk_id": [
+      "8743.jpeg:child:1:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.677398,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.677398
+    ],
+    "chunk_metrics": {
+      "8743.jpeg:child:1:1": {
+        "rank": 1,
+        "similarity_score": 0.677398,
+        "llm_label": "relevant"
+      },
+      "8743.jpeg:child:1:0": {
+        "rank": 2,
+        "similarity_score": 0.673511,
+        "llm_label": "irrelevant"
+      },
+      "8743.jpeg:child:0:0": {
+        "rank": 3,
+        "similarity_score": 0.566615,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_056",
+    "doc_id": "4265.jpeg",
+    "question_id": "q11",
+    "question": "What does the approval by a Regional Vice President suggest about the contribution process?",
+    "gold_answer": "That contributions might be vetted or facilitated at higher organizational levels to ensure alignment with broader strategic goals of political support",
+    "relevant_chunk_id": [
+      "4265.jpeg:child:1:3"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.799096,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.799096
+    ],
+    "chunk_metrics": {
+      "4265.jpeg:child:1:3": {
+        "rank": 1,
+        "similarity_score": 0.799096,
+        "llm_label": "relevant"
+      },
+      "4265.jpeg:child:1:1": {
+        "rank": 2,
+        "similarity_score": 0.665752,
+        "llm_label": "irrelevant"
+      },
+      "4265.jpeg:child:1:0": {
+        "rank": 3,
+        "similarity_score": 0.662252,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_057",
+    "doc_id": "5660.jpeg",
+    "question_id": "q12",
+    "question": "How does the amount billed reflect the research activity during that era?",
+    "gold_answer": "The amount billed suggests significant research activity, reflective of the era's intensive exploration into tobacco effects and characteristics.",
+    "relevant_chunk_id": [
+      "5660.jpeg:child:1:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_058",
+    "doc_id": "533.jpeg",
+    "question_id": "q7",
+    "question": "What is the vendor number on the invoice?",
+    "gold_answer": "11131",
+    "relevant_chunk_id": [
+      "533.jpeg:child:0:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_059",
+    "doc_id": "7674.jpeg",
+    "question_id": "q7",
+    "question": "What is the purpose of the start-up charges mentioned in the invoice?",
+    "gold_answer": "Pre-planning, setting up, marketing, arranging personnel for sessions, and transporting",
+    "relevant_chunk_id": [
+      "7674.jpeg:child:1:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_060",
+    "doc_id": "3842.jpeg",
+    "question_id": "q11",
+    "question": "What is the overall trend in the total budget from 1997 to 1998?",
+    "gold_answer": "The total budget shows general stability with selective increases, increasing from $3,132,000 in 1997 to a proposed $3,324,000 in 1998.",
+    "relevant_chunk_id": [],
+    "partially_relevant_chunk_id": [
+      "3842.jpeg:child:1:0",
+      "3842.jpeg:child:1:1"
+    ],
+    "rank": 1,
+    "similarity_score": 0.898812,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {
+      "3842.jpeg:child:1:0": {
+        "rank": 1,
+        "similarity_score": 0.898812,
+        "llm_label": "partially_relevant"
+      },
+      "3842.jpeg:child:1:1": {
+        "rank": 2,
+        "similarity_score": 0.761409,
+        "llm_label": "partially_relevant"
+      },
+      "3842.jpeg:child:0:1": {
+        "rank": 3,
+        "similarity_score": 0.746077,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_061",
+    "doc_id": "9666.jpeg",
+    "question_id": "q5",
+    "question": "What is the payment due date to avoid additional interest or penalties?",
+    "gold_answer": "December 13, 2000",
+    "relevant_chunk_id": [
+      "9666.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_062",
+    "doc_id": "3776.jpeg",
+    "question_id": "q6",
+    "question": "What is the total amount of additions to the bank statement?",
+    "gold_answer": "$0.20",
+    "relevant_chunk_id": [
+      "3776.jpeg:child:0:2",
+      "3776.jpeg:child:0:3"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_063",
+    "doc_id": "8096.jpeg",
+    "question_id": "q4",
+    "question": "On what date was the invoice issued?",
+    "gold_answer": "The invoice was dated December 12, 1985.",
+    "relevant_chunk_id": [],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.725202,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {
+      "8096.jpeg:child:1:1": {
+        "rank": 1,
+        "similarity_score": 0.725202,
+        "llm_label": "irrelevant"
+      },
+      "8096.jpeg:child:1:4": {
+        "rank": 2,
+        "similarity_score": 0.622016,
+        "llm_label": "irrelevant"
+      },
+      "8096.jpeg:child:1:2": {
+        "rank": 3,
+        "similarity_score": 0.619484,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_064",
+    "doc_id": "8169.jpeg",
+    "question_id": "q9",
+    "question": "What does the location of the service suggest about the advertising strategy?",
+    "gold_answer": "It suggests an intention to maximize exposure in a high-traffic area.",
+    "relevant_chunk_id": [
+      "8169.jpeg:child:1:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.647671,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.647671
+    ],
+    "chunk_metrics": {
+      "8169.jpeg:child:1:1": {
+        "rank": 1,
+        "similarity_score": 0.647671,
+        "llm_label": "relevant"
+      },
+      "8169.jpeg:child:1:3": {
+        "rank": 2,
+        "similarity_score": 0.575631,
+        "llm_label": "uncertain"
+      },
+      "8169.jpeg:child:0:0": {
+        "rank": 3,
+        "similarity_score": 0.541224,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_065",
+    "doc_id": "1828.jpeg",
+    "question_id": "q7",
+    "question": "What is the overall trend in Virginia Slims' advertising expenditure in Rochester and Omaha during 1978?",
+    "gold_answer": "A significant investment in promoting Virginia Slims in 1978 in Rochester and Omaha, possibly as part of a larger marketing strategy aimed at increasing market share or brand awareness.",
+    "relevant_chunk_id": [
+      "1828.jpeg:child:2:2"
+    ],
+    "partially_relevant_chunk_id": [
+      "1828.jpeg:child:0:0"
+    ],
+    "rank": 1,
+    "similarity_score": 0.840206,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.840206
+    ],
+    "chunk_metrics": {
+      "1828.jpeg:child:2:2": {
+        "rank": 1,
+        "similarity_score": 0.840206,
+        "llm_label": "relevant"
+      },
+      "1828.jpeg:child:0:0": {
+        "rank": 2,
+        "similarity_score": 0.770232,
+        "llm_label": "partially_relevant"
+      },
+      "1828.jpeg:child:2:3": {
+        "rank": 3,
+        "similarity_score": 0.689713,
+        "llm_label": "uncertain"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_066",
+    "doc_id": "5085.jpeg",
+    "question_id": "q5",
+    "question": "Why is there a variation in the hourly rate of supervision between day shifts and night shifts?",
+    "gold_answer": "The variation is likely reflective of the premium typically paid for night-time work.",
+    "relevant_chunk_id": [
+      "5085.jpeg:child:1:1"
+    ],
+    "partially_relevant_chunk_id": [
+      "5085.jpeg:child:0:2"
+    ],
+    "rank": 1,
+    "similarity_score": 0.920232,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.920232
+    ],
+    "chunk_metrics": {
+      "5085.jpeg:child:1:1": {
+        "rank": 1,
+        "similarity_score": 0.920232,
+        "llm_label": "relevant"
+      },
+      "5085.jpeg:child:0:2": {
+        "rank": 2,
+        "similarity_score": 0.707256,
+        "llm_label": "partially_relevant"
+      },
+      "5085.jpeg:child:1:0": {
+        "rank": 3,
+        "similarity_score": 0.614265,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_067",
+    "doc_id": "8238.jpeg",
+    "question_id": "q5",
+    "question": "What is the unit price of the services provided?",
+    "gold_answer": "$5,000.00",
+    "relevant_chunk_id": [
+      "8238.jpeg:child:0:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_068",
+    "doc_id": "8671.jpeg",
+    "question_id": "q9",
+    "question": "Is there a cash discount available for early payment?",
+    "gold_answer": "Yes, if paid within 10 days from the invoice date",
+    "relevant_chunk_id": [
+      "8671.jpeg:child:0:3"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 2,
+    "similarity_score": 0.752746,
+    "relevant_chunk_ranks": [
+      2
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.752746
+    ],
+    "chunk_metrics": {
+      "8671.jpeg:child:1:1": {
+        "rank": 1,
+        "similarity_score": 0.767249,
+        "llm_label": "uncertain"
+      },
+      "8671.jpeg:child:0:3": {
+        "rank": 2,
+        "similarity_score": 0.752746,
+        "llm_label": "relevant"
+      },
+      "8671.jpeg:child:1:0": {
+        "rank": 3,
+        "similarity_score": 0.581364,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_069",
+    "doc_id": "7896.jpeg",
+    "question_id": "q2",
+    "question": "What is the attention name mentioned in the document?",
+    "gold_answer": "Mr. Grant M. Stewart",
+    "relevant_chunk_id": [
+      "7896.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_070",
+    "doc_id": "8061.jpeg",
+    "question_id": "q5",
+    "question": "What is the total amount of the invoice?",
+    "gold_answer": "$12,300.00",
+    "relevant_chunk_id": [
+      "8061.jpeg:child:0:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_071",
+    "doc_id": "1576.jpeg",
+    "question_id": "q3",
+    "question": "What is notable about the display schedule for March?",
+    "gold_answer": "The dense deployment in March might suggest a particular promotional focus or campaign during this period.",
+    "relevant_chunk_id": [
+      "1576.jpeg:child:1:0"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_072",
+    "doc_id": "877.jpeg",
+    "question_id": "q6",
+    "question": "What is notable about the spending in DeKalb?",
+    "gold_answer": "The amount spent in DeKalb ($103,737.00) is particularly high, suggesting either a large-scale promotion or high market penetration efforts in this area.",
+    "relevant_chunk_id": [
+      "877.jpeg:child:2:1",
+      "877.jpeg:child:1:1"
+    ],
+    "partially_relevant_chunk_id": [
+      "877.jpeg:child:2:0"
+    ],
+    "rank": 1,
+    "similarity_score": 0.687672,
+    "relevant_chunk_ranks": [
+      1,
+      2
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.687672,
+      0.684052
+    ],
+    "chunk_metrics": {
+      "877.jpeg:child:2:1": {
+        "rank": 1,
+        "similarity_score": 0.687672,
+        "llm_label": "relevant"
+      },
+      "877.jpeg:child:1:1": {
+        "rank": 2,
+        "similarity_score": 0.684052,
+        "llm_label": "relevant"
+      },
+      "877.jpeg:child:2:0": {
+        "rank": 3,
+        "similarity_score": 0.667519,
+        "llm_label": "partially_relevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_073",
+    "doc_id": "3539.jpeg",
+    "question_id": "q2",
+    "question": "What is the address of the customer, The Tobacco Institute?",
+    "gold_answer": "1225 8th Street STE 350, Sacramento, CA 95814",
+    "relevant_chunk_id": [
+      "3539.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_074",
+    "doc_id": "1301.jpeg",
+    "question_id": "q3",
+    "question": "What is the recurring adjustment noted for the fourth quarter?",
+    "gold_answer": "$1,675.05",
+    "relevant_chunk_id": [
+      "1301.jpeg:child:0:4",
+      "1301.jpeg:child:1:0",
+      "1301.jpeg:child:1:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_075",
+    "doc_id": "4573.jpeg",
+    "question_id": "q1",
+    "question": "What is the purpose of the check request form?",
+    "gold_answer": "The purpose of the check request form is confidential and related to Minnesota Tobacco Litigation.",
+    "relevant_chunk_id": [
+      "4573.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.72102,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.72102
+    ],
+    "chunk_metrics": {
+      "4573.jpeg:child:0:1": {
+        "rank": 1,
+        "similarity_score": 0.72102,
+        "llm_label": "relevant"
+      },
+      "4573.jpeg:child:0:0": {
+        "rank": 2,
+        "similarity_score": 0.636006,
+        "llm_label": "uncertain"
+      },
+      "4573.jpeg:child:1:0": {
+        "rank": 3,
+        "similarity_score": 0.635223,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_076",
+    "doc_id": "4021.jpeg",
+    "question_id": "q7",
+    "question": "What does the 'NON-NEGOTIABLE' mark on the check indicate?",
+    "gold_answer": "The check cannot be transferred or assigned and is intended only for deposit by the payee",
+    "relevant_chunk_id": [
+      "4021.jpeg:child:1:0"
+    ],
+    "partially_relevant_chunk_id": [
+      "4021.jpeg:child:0:2"
+    ],
+    "rank": 1,
+    "similarity_score": 0.929503,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.929503
+    ],
+    "chunk_metrics": {
+      "4021.jpeg:child:1:0": {
+        "rank": 1,
+        "similarity_score": 0.929503,
+        "llm_label": "relevant"
+      },
+      "4021.jpeg:child:0:2": {
+        "rank": 2,
+        "similarity_score": 0.773627,
+        "llm_label": "partially_relevant"
+      },
+      "4021.jpeg:child:1:2": {
+        "rank": 3,
+        "similarity_score": 0.620189,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_077",
+    "doc_id": "9721.jpeg",
+    "question_id": "q7",
+    "question": "What is the account code for tracking and managing campaign finances?",
+    "gold_answer": "1401-7710-FL01",
+    "relevant_chunk_id": [
+      "9721.jpeg:child:0:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_078",
+    "doc_id": "9195.jpeg",
+    "question_id": "q8",
+    "question": "Why are there handwritten calculations and dates on the invoice?",
+    "gold_answer": "The handwritten calculations and dates suggest that adjustments or updates were made shortly after the initial invoice creation.",
+    "relevant_chunk_id": [
+      "9195.jpeg:child:1:2"
+    ],
+    "partially_relevant_chunk_id": [
+      "9195.jpeg:child:1:3"
+    ],
+    "rank": 1,
+    "similarity_score": 0.8542,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.8542
+    ],
+    "chunk_metrics": {
+      "9195.jpeg:child:1:2": {
+        "rank": 1,
+        "similarity_score": 0.8542,
+        "llm_label": "relevant"
+      },
+      "9195.jpeg:child:1:3": {
+        "rank": 2,
+        "similarity_score": 0.697267,
+        "llm_label": "partially_relevant"
+      },
+      "9195.jpeg:child:0:0": {
+        "rank": 3,
+        "similarity_score": 0.591,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_079",
+    "doc_id": "7593.jpeg",
+    "question_id": "q7",
+    "question": "What is the total cost of the goods and shipping?",
+    "gold_answer": "The total cost of the goods is 8,100 BF, and the shipping cost is 2,400 BF, making the grand total 10,500 BF",
+    "relevant_chunk_id": [
+      "7593.jpeg:child:0:2"
+    ],
+    "partially_relevant_chunk_id": [
+      "7593.jpeg:child:0:3"
+    ],
+    "rank": 2,
+    "similarity_score": 0.722296,
+    "relevant_chunk_ranks": [
+      2
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.722296
+    ],
+    "chunk_metrics": {
+      "7593.jpeg:child:0:3": {
+        "rank": 1,
+        "similarity_score": 0.791456,
+        "llm_label": "partially_relevant"
+      },
+      "7593.jpeg:child:0:2": {
+        "rank": 2,
+        "similarity_score": 0.722296,
+        "llm_label": "relevant"
+      },
+      "7593.jpeg:child:1:2": {
+        "rank": 3,
+        "similarity_score": 0.678389,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_080",
+    "doc_id": "4285.jpeg",
+    "question_id": "q5",
+    "question": "Who is the payee of the check?",
+    "gold_answer": "Bruce Holland Campaign Fund",
+    "relevant_chunk_id": [
+      "4285.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_081",
+    "doc_id": "6215.jpeg",
+    "question_id": "q5",
+    "question": "What is the test number mentioned in the invoice?",
+    "gold_answer": "The test number mentioned in the invoice is 580913, dated February 28, 1989.",
+    "relevant_chunk_id": [],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.68712,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {
+      "6215.jpeg:child:1:2": {
+        "rank": 1,
+        "similarity_score": 0.68712,
+        "llm_label": "irrelevant"
+      },
+      "6215.jpeg:child:0:0": {
+        "rank": 2,
+        "similarity_score": 0.667622,
+        "llm_label": "irrelevant"
+      },
+      "6215.jpeg:child:0:1": {
+        "rank": 3,
+        "similarity_score": 0.664077,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_082",
+    "doc_id": "563.jpeg",
+    "question_id": "q2",
+    "question": "Who is the intended payee of the contribution request?",
+    "gold_answer": "The intended payee of the contribution request is 'Citizens to Elect Virginia MacDonald'.",
+    "relevant_chunk_id": [
+      "563.jpeg:child:0:2",
+      "563.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [
+      "563.jpeg:child:1:0"
+    ],
+    "rank": 1,
+    "similarity_score": 0.774626,
+    "relevant_chunk_ranks": [
+      1,
+      2
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.774626,
+      0.730616
+    ],
+    "chunk_metrics": {
+      "563.jpeg:child:0:2": {
+        "rank": 1,
+        "similarity_score": 0.774626,
+        "llm_label": "relevant"
+      },
+      "563.jpeg:child:0:1": {
+        "rank": 2,
+        "similarity_score": 0.730616,
+        "llm_label": "relevant"
+      },
+      "563.jpeg:child:1:0": {
+        "rank": 3,
+        "similarity_score": 0.729594,
+        "llm_label": "partially_relevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_083",
+    "doc_id": "1478.jpeg",
+    "question_id": "q3",
+    "question": "What is the total estimated cost for all billboards listed in the document?",
+    "gold_answer": "$70,089.60",
+    "relevant_chunk_id": [
+      "1478.jpeg:child:0:3"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_084",
+    "doc_id": "9463.jpeg",
+    "question_id": "q8",
+    "question": "What are the financial implications of this order, and why is it important for budgeting and auditing?",
+    "gold_answer": "The order amount of $36,698.00 represents a significant financial transaction, which requires careful scrutiny for budgeting and auditing.",
+    "relevant_chunk_id": [
+      "9463.jpeg:child:1:1"
+    ],
+    "partially_relevant_chunk_id": [
+      "9463.jpeg:child:1:2"
+    ],
+    "rank": 1,
+    "similarity_score": 0.930192,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.930192
+    ],
+    "chunk_metrics": {
+      "9463.jpeg:child:1:1": {
+        "rank": 1,
+        "similarity_score": 0.930192,
+        "llm_label": "relevant"
+      },
+      "9463.jpeg:child:1:2": {
+        "rank": 2,
+        "similarity_score": 0.673929,
+        "llm_label": "partially_relevant"
+      },
+      "9463.jpeg:child:1:0": {
+        "rank": 3,
+        "similarity_score": 0.664382,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_085",
+    "doc_id": "6371.jpeg",
+    "question_id": "q8",
+    "question": "How does the company's provision of both invoice and customer numbers facilitate communication for resolving financial matters?",
+    "gold_answer": "The provision of both invoice and customer numbers promotes traceability and streamlined communication for resolving financial matters.",
+    "relevant_chunk_id": [
+      "6371.jpeg:child:1:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.906799,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.906799
+    ],
+    "chunk_metrics": {
+      "6371.jpeg:child:1:1": {
+        "rank": 1,
+        "similarity_score": 0.906799,
+        "llm_label": "relevant"
+      },
+      "6371.jpeg:child:1:4": {
+        "rank": 2,
+        "similarity_score": 0.646392,
+        "llm_label": "irrelevant"
+      },
+      "6371.jpeg:child:1:2": {
+        "rank": 3,
+        "similarity_score": 0.635941,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_086",
+    "doc_id": "4874.jpeg",
+    "question_id": "q2",
+    "question": "Who is the client associated with this Production Estimate report?",
+    "gold_answer": "Brown & Williamson Tobacco Corp",
+    "relevant_chunk_id": [
+      "4874.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_087",
+    "doc_id": "113.jpeg",
+    "question_id": "q9",
+    "question": "What percentage of the total budget is allocated to Plumbing and Electrical work?",
+    "gold_answer": "10.8% (($10,000 + $5,000) / $121,000)",
+    "relevant_chunk_id": [],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.74987,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {
+      "113.jpeg:child:0:2": {
+        "rank": 1,
+        "similarity_score": 0.74987,
+        "llm_label": "irrelevant"
+      },
+      "113.jpeg:child:1:0": {
+        "rank": 2,
+        "similarity_score": 0.717776,
+        "llm_label": "irrelevant"
+      },
+      "113.jpeg:child:0:1": {
+        "rank": 3,
+        "similarity_score": 0.705022,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_088",
+    "doc_id": "8436.jpeg",
+    "question_id": "q1",
+    "question": "What is the type of document being analyzed?",
+    "gold_answer": "The document is an invoice.",
+    "relevant_chunk_id": [
+      "8436.jpeg:child:0:0",
+      "8436.jpeg:child:1:4",
+      "8436.jpeg:child:1:0"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.883397,
+    "relevant_chunk_ranks": [
+      1,
+      2,
+      3
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.883397,
+      0.693076,
+      0.655448
+    ],
+    "chunk_metrics": {
+      "8436.jpeg:child:0:0": {
+        "rank": 1,
+        "similarity_score": 0.883397,
+        "llm_label": "relevant"
+      },
+      "8436.jpeg:child:1:4": {
+        "rank": 2,
+        "similarity_score": 0.693076,
+        "llm_label": "relevant"
+      },
+      "8436.jpeg:child:1:0": {
+        "rank": 3,
+        "similarity_score": 0.655448,
+        "llm_label": "relevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_089",
+    "doc_id": "6207.jpeg",
+    "question_id": "q2",
+    "question": "What is the date of the invoice, and is it in a standard format?",
+    "gold_answer": "The date is 7 July 1981, but it is noted as '67/07/81', which appears to be an obsolete format error or typo.",
+    "relevant_chunk_id": [
+      "6207.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [
+      "6207.jpeg:child:1:0"
+    ],
+    "rank": 3,
+    "similarity_score": 0.612448,
+    "relevant_chunk_ranks": [
+      3
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.612448
+    ],
+    "chunk_metrics": {
+      "6207.jpeg:child:1:0": {
+        "rank": 1,
+        "similarity_score": 0.726605,
+        "llm_label": "partially_relevant"
+      },
+      "6207.jpeg:child:0:0": {
+        "rank": 2,
+        "similarity_score": 0.628272,
+        "llm_label": "irrelevant"
+      },
+      "6207.jpeg:child:0:1": {
+        "rank": 3,
+        "similarity_score": 0.612448,
+        "llm_label": "relevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_090",
+    "doc_id": "3779.jpeg",
+    "question_id": "q4",
+    "question": "What is the net rent per square foot in 1994?",
+    "gold_answer": "The net rent per square foot in 1994 is $5.25.",
+    "relevant_chunk_id": [],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.829332,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {
+      "3779.jpeg:child:0:2": {
+        "rank": 1,
+        "similarity_score": 0.829332,
+        "llm_label": "irrelevant"
+      },
+      "3779.jpeg:child:0:3": {
+        "rank": 2,
+        "similarity_score": 0.775989,
+        "llm_label": "irrelevant"
+      },
+      "3779.jpeg:child:1:1": {
+        "rank": 3,
+        "similarity_score": 0.758447,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_091",
+    "doc_id": "3805.jpeg",
+    "question_id": "q6",
+    "question": "How do the allocation percentages of Philip Morris and R.J. Reynolds compare to the total allocated funds?",
+    "gold_answer": "They collectively account for approximately 74% of the total allocated funds.",
+    "relevant_chunk_id": [
+      "3805.jpeg:child:0:2",
+      "3805.jpeg:child:1:0"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.850204,
+    "relevant_chunk_ranks": [
+      1,
+      2
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.850204,
+      0.768756
+    ],
+    "chunk_metrics": {
+      "3805.jpeg:child:0:2": {
+        "rank": 1,
+        "similarity_score": 0.850204,
+        "llm_label": "relevant"
+      },
+      "3805.jpeg:child:1:0": {
+        "rank": 2,
+        "similarity_score": 0.768756,
+        "llm_label": "relevant"
+      },
+      "3805.jpeg:child:0:4": {
+        "rank": 3,
+        "similarity_score": 0.722121,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_092",
+    "doc_id": "6498.jpeg",
+    "question_id": "q9",
+    "question": "When was the payment received by P.M. Management Corp.?",
+    "gold_answer": "December 16, 1991",
+    "relevant_chunk_id": [
+      "6498.jpeg:child:1:0"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_093",
+    "doc_id": "8567.jpeg",
+    "question_id": "q2",
+    "question": "Who is the vendor issuing this invoice?",
+    "gold_answer": "The vendor is the IIT Research Institute.",
+    "relevant_chunk_id": [
+      "8567.jpeg:child:0:1",
+      "8567.jpeg:child:0:0"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.815787,
+    "relevant_chunk_ranks": [
+      1,
+      2
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.815787,
+      0.756707
+    ],
+    "chunk_metrics": {
+      "8567.jpeg:child:0:1": {
+        "rank": 1,
+        "similarity_score": 0.815787,
+        "llm_label": "relevant"
+      },
+      "8567.jpeg:child:0:0": {
+        "rank": 2,
+        "similarity_score": 0.756707,
+        "llm_label": "relevant"
+      },
+      "8567.jpeg:child:1:0": {
+        "rank": 3,
+        "similarity_score": 0.615102,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_094",
+    "doc_id": "5989.jpeg",
+    "question_id": "q5",
+    "question": "What is the amount due mentioned in the Tax Debit Note?",
+    "gold_answer": "$50.00",
+    "relevant_chunk_id": [
+      "5989.jpeg:child:0:1",
+      "5989.jpeg:child:0:2",
+      "5989.jpeg:child:1:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_095",
+    "doc_id": "6983.jpeg",
+    "question_id": "q11",
+    "question": "What is the purpose of this check remittance advice in financial tracking?",
+    "gold_answer": "It can be used for financial tracking, accounting reconciliation, and auditing purposes.",
+    "relevant_chunk_id": [
+      "6983.jpeg:child:1:3"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.69265,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.69265
+    ],
+    "chunk_metrics": {
+      "6983.jpeg:child:1:3": {
+        "rank": 1,
+        "similarity_score": 0.69265,
+        "llm_label": "relevant"
+      },
+      "6983.jpeg:child:0:0": {
+        "rank": 2,
+        "similarity_score": 0.655528,
+        "llm_label": "irrelevant"
+      },
+      "6983.jpeg:child:1:1": {
+        "rank": 3,
+        "similarity_score": 0.579216,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_096",
+    "doc_id": "2470.jpeg",
+    "question_id": "q7",
+    "question": "What is the total expense for decorations at the event?",
+    "gold_answer": "The total expense for decorations is $5,000.",
+    "relevant_chunk_id": [
+      "2470.jpeg:child:0:3"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 2,
+    "similarity_score": 0.758577,
+    "relevant_chunk_ranks": [
+      2
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.758577
+    ],
+    "chunk_metrics": {
+      "2470.jpeg:child:1:1": {
+        "rank": 1,
+        "similarity_score": 0.777666,
+        "llm_label": "irrelevant"
+      },
+      "2470.jpeg:child:0:3": {
+        "rank": 2,
+        "similarity_score": 0.758577,
+        "llm_label": "relevant"
+      },
+      "2470.jpeg:child:1:2": {
+        "rank": 3,
+        "similarity_score": 0.712155,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_097",
+    "doc_id": "8311.jpeg",
+    "question_id": "q9",
+    "question": "What is the tax amount on the sales receipt?",
+    "gold_answer": "The tax amount on the sales receipt is $3.20.",
+    "relevant_chunk_id": [
+      "8311.jpeg:child:0:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 2,
+    "similarity_score": 0.710943,
+    "relevant_chunk_ranks": [
+      2
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.710943
+    ],
+    "chunk_metrics": {
+      "8311.jpeg:child:0:0": {
+        "rank": 1,
+        "similarity_score": 0.729685,
+        "llm_label": "irrelevant"
+      },
+      "8311.jpeg:child:0:2": {
+        "rank": 2,
+        "similarity_score": 0.710943,
+        "llm_label": "relevant"
+      },
+      "8311.jpeg:child:0:3": {
+        "rank": 3,
+        "similarity_score": 0.670189,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_098",
+    "doc_id": "4185.jpeg",
+    "question_id": "q9",
+    "question": "What is the memo information on the check?",
+    "gold_answer": "Invoice Date: 11-26-85, Invoice Number: 28020",
+    "relevant_chunk_id": [
+      "4185.jpeg:child:0:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_099",
+    "doc_id": "4294.jpeg",
+    "question_id": "q10",
+    "question": "Why is it essential to continuously monitor the impacts of tax rate changes on revenue and consumer behavior?",
+    "gold_answer": "It is essential to continuously monitor the impacts of tax rate changes on revenue and consumer behavior for effective fiscal policy and public health strategy in the tobacco sector.",
+    "relevant_chunk_id": [
+      "4294.jpeg:child:2:2"
+    ],
+    "partially_relevant_chunk_id": [
+      "4294.jpeg:child:2:1",
+      "4294.jpeg:child:2:3"
+    ],
+    "rank": 1,
+    "similarity_score": 0.902155,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.902155
+    ],
+    "chunk_metrics": {
+      "4294.jpeg:child:2:2": {
+        "rank": 1,
+        "similarity_score": 0.902155,
+        "llm_label": "relevant"
+      },
+      "4294.jpeg:child:2:1": {
+        "rank": 2,
+        "similarity_score": 0.727636,
+        "llm_label": "partially_relevant"
+      },
+      "4294.jpeg:child:2:3": {
+        "rank": 3,
+        "similarity_score": 0.691592,
+        "llm_label": "partially_relevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_100",
+    "doc_id": "3336.jpeg",
+    "question_id": "q1",
+    "question": "What is the name of the vendor providing media services?",
+    "gold_answer": "Colorful Media Services",
+    "relevant_chunk_id": [
+      "3336.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_101",
+    "doc_id": "4771.jpeg",
+    "question_id": "q16",
+    "question": "Are the annualized revenue projections consistent across all tax adjustments?",
+    "gold_answer": "Yes, several tax projections remain constant in annualized terms, indicating stable estimations of revenue.",
+    "relevant_chunk_id": [
+      "4771.jpeg:child:3:3"
+    ],
+    "partially_relevant_chunk_id": [
+      "4771.jpeg:child:1:0"
+    ],
+    "rank": 1,
+    "similarity_score": 0.922039,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.922039
+    ],
+    "chunk_metrics": {
+      "4771.jpeg:child:3:3": {
+        "rank": 1,
+        "similarity_score": 0.922039,
+        "llm_label": "relevant"
+      },
+      "4771.jpeg:child:3:1": {
+        "rank": 2,
+        "similarity_score": 0.610947,
+        "llm_label": "irrelevant"
+      },
+      "4771.jpeg:child:1:0": {
+        "rank": 3,
+        "similarity_score": 0.59712,
+        "llm_label": "partially_relevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_102",
+    "doc_id": "9009.jpeg",
+    "question_id": "q1",
+    "question": "What is the invoice number of the document?",
+    "gold_answer": "The invoice number is 1103490.",
+    "relevant_chunk_id": [],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.670033,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {
+      "9009.jpeg:child:0:0": {
+        "rank": 1,
+        "similarity_score": 0.670033,
+        "llm_label": "irrelevant"
+      },
+      "9009.jpeg:child:1:0": {
+        "rank": 2,
+        "similarity_score": 0.647871,
+        "llm_label": "irrelevant"
+      },
+      "9009.jpeg:child:0:3": {
+        "rank": 3,
+        "similarity_score": 0.627127,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_103",
+    "doc_id": "3348.jpeg",
+    "question_id": "q8",
+    "question": "How many billboards were advertised each month?",
+    "gold_answer": "1.00",
+    "relevant_chunk_id": [
+      "3348.jpeg:child:0:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_104",
+    "doc_id": "3805.jpeg",
+    "question_id": "q3",
+    "question": "What is the net amount allocated to other participating organizations?",
+    "gold_answer": "$5,153,443",
+    "relevant_chunk_id": [
+      "3805.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_105",
+    "doc_id": "4816.jpeg",
+    "question_id": "q9",
+    "question": "What does the historical context of the document imply about the research focus of the project?",
+    "gold_answer": "The historical context implies that the research may have been focused on marketing or public perception strategies during a period of increasing public health scrutiny of the tobacco industry",
+    "relevant_chunk_id": [
+      "4816.jpeg:child:1:3"
+    ],
+    "partially_relevant_chunk_id": [
+      "4816.jpeg:child:1:0"
+    ],
+    "rank": 1,
+    "similarity_score": 0.899462,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.899462
+    ],
+    "chunk_metrics": {
+      "4816.jpeg:child:1:3": {
+        "rank": 1,
+        "similarity_score": 0.899462,
+        "llm_label": "relevant"
+      },
+      "4816.jpeg:child:1:0": {
+        "rank": 2,
+        "similarity_score": 0.650292,
+        "llm_label": "partially_relevant"
+      },
+      "4816.jpeg:child:0:2": {
+        "rank": 3,
+        "similarity_score": 0.589613,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_106",
+    "doc_id": "7766.jpeg",
+    "question_id": "q4",
+    "question": "What services were provided by J. E. Funk Co.?",
+    "gold_answer": "The services provided were one day consulting with R. Haberkern and E. Hester regarding equipment for pilot plant extrusion of carbon powder.",
+    "relevant_chunk_id": [
+      "7766.jpeg:child:0:2"
+    ],
+    "partially_relevant_chunk_id": [
+      "7766.jpeg:child:1:1"
+    ],
+    "rank": 1,
+    "similarity_score": 0.757855,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.757855
+    ],
+    "chunk_metrics": {
+      "7766.jpeg:child:0:2": {
+        "rank": 1,
+        "similarity_score": 0.757855,
+        "llm_label": "relevant"
+      },
+      "7766.jpeg:child:0:1": {
+        "rank": 2,
+        "similarity_score": 0.730803,
+        "llm_label": "irrelevant"
+      },
+      "7766.jpeg:child:1:1": {
+        "rank": 3,
+        "similarity_score": 0.711468,
+        "llm_label": "partially_relevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_107",
+    "doc_id": "5527.jpeg",
+    "question_id": "q10",
+    "question": "What is the potential significance of analyzing corporate contributions to education, especially in the medical field?",
+    "gold_answer": "It could reveal trends or patterns in corporate support for education and research.",
+    "relevant_chunk_id": [
+      "5527.jpeg:child:1:0"
+    ],
+    "partially_relevant_chunk_id": [
+      "5527.jpeg:child:0:3",
+      "5527.jpeg:child:0:4"
+    ],
+    "rank": 1,
+    "similarity_score": 0.739876,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.739876
+    ],
+    "chunk_metrics": {
+      "5527.jpeg:child:1:0": {
+        "rank": 1,
+        "similarity_score": 0.739876,
+        "llm_label": "relevant"
+      },
+      "5527.jpeg:child:0:3": {
+        "rank": 2,
+        "similarity_score": 0.675662,
+        "llm_label": "partially_relevant"
+      },
+      "5527.jpeg:child:0:4": {
+        "rank": 3,
+        "similarity_score": 0.64403,
+        "llm_label": "partially_relevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_108",
+    "doc_id": "74.jpeg",
+    "question_id": "q5",
+    "question": "Who is the Production Manager responsible for this project?",
+    "gold_answer": "McGrath",
+    "relevant_chunk_id": [
+      "74.jpeg:child:0:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_109",
+    "doc_id": "9311.jpeg",
+    "question_id": "q3",
+    "question": "What is the due date of the invoice?",
+    "gold_answer": "The due date is 10 days from the invoice date, which is December 5, 2002.",
+    "relevant_chunk_id": [
+      "9311.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [
+      "9311.jpeg:child:0:3"
+    ],
+    "rank": 3,
+    "similarity_score": 0.653501,
+    "relevant_chunk_ranks": [
+      3
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.653501
+    ],
+    "chunk_metrics": {
+      "9311.jpeg:child:0:3": {
+        "rank": 1,
+        "similarity_score": 0.79059,
+        "llm_label": "partially_relevant"
+      },
+      "9311.jpeg:child:1:0": {
+        "rank": 2,
+        "similarity_score": 0.761249,
+        "llm_label": "irrelevant"
+      },
+      "9311.jpeg:child:0:1": {
+        "rank": 3,
+        "similarity_score": 0.653501,
+        "llm_label": "relevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_110",
+    "doc_id": "9366.jpeg",
+    "question_id": "q10",
+    "question": "What is the role of Thomas A. Briant in the association?",
+    "gold_answer": "Thomas A. Briant is the legal counsel for the Minnesota Candy and Tobacco Association, Inc.",
+    "relevant_chunk_id": [
+      "9366.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.77171,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.77171
+    ],
+    "chunk_metrics": {
+      "9366.jpeg:child:0:1": {
+        "rank": 1,
+        "similarity_score": 0.77171,
+        "llm_label": "relevant"
+      },
+      "9366.jpeg:child:0:0": {
+        "rank": 2,
+        "similarity_score": 0.700778,
+        "llm_label": "irrelevant"
+      },
+      "9366.jpeg:child:0:2": {
+        "rank": 3,
+        "similarity_score": 0.660029,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_111",
+    "doc_id": "9071.jpeg",
+    "question_id": "q13",
+    "question": "What is the net total of the invoice?",
+    "gold_answer": "$41,285.12",
+    "relevant_chunk_id": [
+      "9071.jpeg:child:0:3"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_112",
+    "doc_id": "8432.jpeg",
+    "question_id": "q8",
+    "question": "What is the payment term mentioned in the invoice?",
+    "gold_answer": "2%-10 DAYS FROM DATE OF INVOICE, DUE 30 DAYS.",
+    "relevant_chunk_id": [
+      "8432.jpeg:child:1:0"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_113",
+    "doc_id": "1355.jpeg",
+    "question_id": "q5",
+    "question": "Why is there an increase in expenditures in December compared to November?",
+    "gold_answer": "The increase is due to added tax liabilities.",
+    "relevant_chunk_id": [
+      "1355.jpeg:child:1:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.842988,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.842988
+    ],
+    "chunk_metrics": {
+      "1355.jpeg:child:1:1": {
+        "rank": 1,
+        "similarity_score": 0.842988,
+        "llm_label": "relevant"
+      },
+      "1355.jpeg:child:1:2": {
+        "rank": 2,
+        "similarity_score": 0.708704,
+        "llm_label": "uncertain"
+      },
+      "1355.jpeg:child:1:3": {
+        "rank": 3,
+        "similarity_score": 0.620452,
+        "llm_label": "uncertain"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_114",
+    "doc_id": "8648.jpeg",
+    "question_id": "q1",
+    "question": "What is the business name mentioned in the document?",
+    "gold_answer": "The business name mentioned is P. Lorillard Company, Incorporated.",
+    "relevant_chunk_id": [
+      "8648.jpeg:child:0:1",
+      "8648.jpeg:child:0:0",
+      "8648.jpeg:child:1:0"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.785221,
+    "relevant_chunk_ranks": [
+      1,
+      2,
+      3
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.785221,
+      0.781399,
+      0.741441
+    ],
+    "chunk_metrics": {
+      "8648.jpeg:child:0:1": {
+        "rank": 1,
+        "similarity_score": 0.785221,
+        "llm_label": "relevant"
+      },
+      "8648.jpeg:child:0:0": {
+        "rank": 2,
+        "similarity_score": 0.781399,
+        "llm_label": "relevant"
+      },
+      "8648.jpeg:child:1:0": {
+        "rank": 3,
+        "similarity_score": 0.741441,
+        "llm_label": "relevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_115",
+    "doc_id": "6800.jpeg",
+    "question_id": "q10",
+    "question": "What does this event ticket serve as?",
+    "gold_answer": "A record of philanthropic activities involving local businesses",
+    "relevant_chunk_id": [
+      "6800.jpeg:child:1:0"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_116",
+    "doc_id": "4955.jpeg",
+    "question_id": "q4",
+    "question": "What is the total amount billed to the client?",
+    "gold_answer": "The total amount billed is $54.00.",
+    "relevant_chunk_id": [
+      "4955.jpeg:child:0:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 2,
+    "similarity_score": 0.599125,
+    "relevant_chunk_ranks": [
+      2
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.599125
+    ],
+    "chunk_metrics": {
+      "4955.jpeg:child:1:0": {
+        "rank": 1,
+        "similarity_score": 0.629245,
+        "llm_label": "irrelevant"
+      },
+      "4955.jpeg:child:0:2": {
+        "rank": 2,
+        "similarity_score": 0.599125,
+        "llm_label": "relevant"
+      },
+      "4955.jpeg:child:0:1": {
+        "rank": 3,
+        "similarity_score": 0.574831,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_117",
+    "doc_id": "3229.jpeg",
+    "question_id": "q11",
+    "question": "What does the document provide in terms of financial transaction trail?",
+    "gold_answer": "The document provides a clear documentation trail for this specific financial transaction, highlighting adherence to protocol and timely financial processing.",
+    "relevant_chunk_id": [
+      "3229.jpeg:child:1:3"
+    ],
+    "partially_relevant_chunk_id": [
+      "3229.jpeg:child:1:2"
+    ],
+    "rank": 1,
+    "similarity_score": 0.788446,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.788446
+    ],
+    "chunk_metrics": {
+      "3229.jpeg:child:1:3": {
+        "rank": 1,
+        "similarity_score": 0.788446,
+        "llm_label": "relevant"
+      },
+      "3229.jpeg:child:0:0": {
+        "rank": 2,
+        "similarity_score": 0.666564,
+        "llm_label": "irrelevant"
+      },
+      "3229.jpeg:child:1:2": {
+        "rank": 3,
+        "similarity_score": 0.647432,
+        "llm_label": "partially_relevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_118",
+    "doc_id": "8881.jpeg",
+    "question_id": "q8",
+    "question": "What is the potential overall payout listed in the statement?",
+    "gold_answer": "$1,790.00.",
+    "relevant_chunk_id": [
+      "8881.jpeg:child:0:3"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_119",
+    "doc_id": "5056.jpeg",
+    "question_id": "q3",
+    "question": "What is the shipping date mentioned in the document?",
+    "gold_answer": "April 22, 1988",
+    "relevant_chunk_id": [
+      "5056.jpeg:child:0:1",
+      "5056.jpeg:child:0:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_120",
+    "doc_id": "5765.jpeg",
+    "question_id": "q5",
+    "question": "What is the net amount payable according to the document?",
+    "gold_answer": "The net amount payable is $54,298.50.",
+    "relevant_chunk_id": [],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.683748,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {
+      "5765.jpeg:child:1:1": {
+        "rank": 1,
+        "similarity_score": 0.683748,
+        "llm_label": "irrelevant"
+      },
+      "5765.jpeg:child:1:4": {
+        "rank": 2,
+        "similarity_score": 0.615797,
+        "llm_label": "irrelevant"
+      },
+      "5765.jpeg:child:0:0": {
+        "rank": 3,
+        "similarity_score": 0.606574,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_121",
+    "doc_id": "3611.jpeg",
+    "question_id": "q4",
+    "question": "Who is the payee of the check?",
+    "gold_answer": "Venney Russell, identified as 'Supervisor'",
+    "relevant_chunk_id": [
+      "3611.jpeg:child:0:0"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_122",
+    "doc_id": "4247.jpeg",
+    "question_id": "q9",
+    "question": "Is the document date in the bottom section accurate?",
+    "gold_answer": "No, it appears to be a typo or misprint, as '04/30/92' is not a real calendar date.",
+    "relevant_chunk_id": [
+      "4247.jpeg:child:1:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.941801,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.941801
+    ],
+    "chunk_metrics": {
+      "4247.jpeg:child:1:1": {
+        "rank": 1,
+        "similarity_score": 0.941801,
+        "llm_label": "relevant"
+      },
+      "4247.jpeg:child:1:2": {
+        "rank": 2,
+        "similarity_score": 0.613204,
+        "llm_label": "irrelevant"
+      },
+      "4247.jpeg:child:1:0": {
+        "rank": 3,
+        "similarity_score": 0.586208,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_123",
+    "doc_id": "6628.jpeg",
+    "question_id": "q5",
+    "question": "What is the trailer number mentioned in the document?",
+    "gold_answer": "6798",
+    "relevant_chunk_id": [
+      "6628.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_124",
+    "doc_id": "113.jpeg",
+    "question_id": "q7",
+    "question": "What is the purpose of the deduction noted from DHS?",
+    "gold_answer": "External funding or subsidy",
+    "relevant_chunk_id": [
+      "113.jpeg:child:1:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_125",
+    "doc_id": "7049.jpeg",
+    "question_id": "q12",
+    "question": "What can be inferred about the service provided by Wayne & Speh based on the invoice amount?",
+    "gold_answer": "The substantial amount of $11,468.22 suggests that the service provided might be integral and possibly recurring for Philip Morris U.S.A.",
+    "relevant_chunk_id": [
+      "7049.jpeg:child:1:0"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.906259,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.906259
+    ],
+    "chunk_metrics": {
+      "7049.jpeg:child:1:0": {
+        "rank": 1,
+        "similarity_score": 0.906259,
+        "llm_label": "relevant"
+      },
+      "7049.jpeg:child:0:1": {
+        "rank": 2,
+        "similarity_score": 0.804475,
+        "llm_label": "uncertain"
+      },
+      "7049.jpeg:child:0:0": {
+        "rank": 3,
+        "similarity_score": 0.635816,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_126",
+    "doc_id": "3037.jpeg",
+    "question_id": "q5",
+    "question": "What are some potential areas of concern regarding the campaign?",
+    "gold_answer": "'High expenditure in 'Coupon Liability' suggests heavy reliance on coupons which might have implications on profit margins or could reflect a strategic move to boost sales volume.'",
+    "relevant_chunk_id": [
+      "3037.jpeg:child:1:4"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_127",
+    "doc_id": "3980.jpeg",
+    "question_id": "q1",
+    "question": "What is the title of the financial analysis document?",
+    "gold_answer": "Total Cigarette Taxes as a Percent of Annual State Per Capita Income",
+    "relevant_chunk_id": [
+      "3980.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_128",
+    "doc_id": "2466.jpeg",
+    "question_id": "q9",
+    "question": "What does this document primarily focus on?",
+    "gold_answer": "Budget tracking and management across various categories.",
+    "relevant_chunk_id": [
+      "2466.jpeg:child:2:0"
+    ],
+    "partially_relevant_chunk_id": [
+      "2466.jpeg:child:2:3",
+      "2466.jpeg:child:1:0"
+    ],
+    "rank": 1,
+    "similarity_score": 0.855005,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.855005
+    ],
+    "chunk_metrics": {
+      "2466.jpeg:child:2:0": {
+        "rank": 1,
+        "similarity_score": 0.855005,
+        "llm_label": "relevant"
+      },
+      "2466.jpeg:child:2:3": {
+        "rank": 2,
+        "similarity_score": 0.647249,
+        "llm_label": "partially_relevant"
+      },
+      "2466.jpeg:child:1:0": {
+        "rank": 3,
+        "similarity_score": 0.625652,
+        "llm_label": "partially_relevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_129",
+    "doc_id": "4021.jpeg",
+    "question_id": "q5",
+    "question": "Who is the payee of the check?",
+    "gold_answer": "Missouri Press Clipping",
+    "relevant_chunk_id": [
+      "4021.jpeg:child:0:1",
+      "4021.jpeg:child:1:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_130",
+    "doc_id": "3945.jpeg",
+    "question_id": "q1",
+    "question": "What is the institution that generated the Monthly State Cigaret Tax Report?",
+    "gold_answer": "The Tobacco Tax Council generated the report.",
+    "relevant_chunk_id": [
+      "3945.jpeg:child:0:0",
+      "3945.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.836311,
+    "relevant_chunk_ranks": [
+      1,
+      2
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.836311,
+      0.707151
+    ],
+    "chunk_metrics": {
+      "3945.jpeg:child:0:0": {
+        "rank": 1,
+        "similarity_score": 0.836311,
+        "llm_label": "relevant"
+      },
+      "3945.jpeg:child:0:1": {
+        "rank": 2,
+        "similarity_score": 0.707151,
+        "llm_label": "relevant"
+      },
+      "3945.jpeg:child:0:2": {
+        "rank": 3,
+        "similarity_score": 0.645056,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_131",
+    "doc_id": "4953.jpeg",
+    "question_id": "q1",
+    "question": "What is the form number of the Issue Fee Transmittal document?",
+    "gold_answer": "The form number is PTO/SB/15.",
+    "relevant_chunk_id": [
+      "4953.jpeg:child:1:0"
+    ],
+    "partially_relevant_chunk_id": [
+      "4953.jpeg:child:1:1"
+    ],
+    "rank": 3,
+    "similarity_score": 0.714964,
+    "relevant_chunk_ranks": [
+      3
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.714964
+    ],
+    "chunk_metrics": {
+      "4953.jpeg:child:0:0": {
+        "rank": 1,
+        "similarity_score": 0.801088,
+        "llm_label": "irrelevant"
+      },
+      "4953.jpeg:child:1:1": {
+        "rank": 2,
+        "similarity_score": 0.737227,
+        "llm_label": "partially_relevant"
+      },
+      "4953.jpeg:child:1:0": {
+        "rank": 3,
+        "similarity_score": 0.714964,
+        "llm_label": "relevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_132",
+    "doc_id": "1996.jpeg",
+    "question_id": "q7",
+    "question": "What can we infer about the use of data in this document?",
+    "gold_answer": "Extensive numerical data suggests this document is used for detailed tracking of production or operational costs, likely aimed at efficiency improvements or cost reduction strategies.",
+    "relevant_chunk_id": [
+      "1996.jpeg:child:1:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_133",
+    "doc_id": "7324.jpeg",
+    "question_id": "q2",
+    "question": "What is the address of the issuer?",
+    "gold_answer": "1201 Pennsylvania Avenue, N.W., P.O. Box 7566, Washington, D.C. 20044",
+    "relevant_chunk_id": [
+      "7324.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_134",
+    "doc_id": "2781.jpeg",
+    "question_id": "q7",
+    "question": "How did the company's gross profit for the current month compare to last year's figure?",
+    "gold_answer": "Gross profit for the current month was significantly lower than last year's figure of $4,549 thousand.",
+    "relevant_chunk_id": [
+      "2781.jpeg:child:1:1"
+    ],
+    "partially_relevant_chunk_id": [
+      "2781.jpeg:child:2:0"
+    ],
+    "rank": 2,
+    "similarity_score": 0.781033,
+    "relevant_chunk_ranks": [
+      2
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.781033
+    ],
+    "chunk_metrics": {
+      "2781.jpeg:child:2:0": {
+        "rank": 1,
+        "similarity_score": 0.791752,
+        "llm_label": "partially_relevant"
+      },
+      "2781.jpeg:child:1:1": {
+        "rank": 2,
+        "similarity_score": 0.781033,
+        "llm_label": "relevant"
+      },
+      "2781.jpeg:child:1:2": {
+        "rank": 3,
+        "similarity_score": 0.75376,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_135",
+    "doc_id": "3422.jpeg",
+    "question_id": "q2",
+    "question": "What is the time period covered in the document?",
+    "gold_answer": "The document covers the period from January to December, although the specific year is not mentioned.",
+    "relevant_chunk_id": [],
+    "partially_relevant_chunk_id": [
+      "3422.jpeg:child:0:3"
+    ],
+    "rank": 1,
+    "similarity_score": 0.69091,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {
+      "3422.jpeg:child:0:3": {
+        "rank": 1,
+        "similarity_score": 0.69091,
+        "llm_label": "partially_relevant"
+      },
+      "3422.jpeg:child:0:0": {
+        "rank": 2,
+        "similarity_score": 0.611294,
+        "llm_label": "irrelevant"
+      },
+      "3422.jpeg:child:1:1": {
+        "rank": 3,
+        "similarity_score": 0.604316,
+        "llm_label": "uncertain"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_136",
+    "doc_id": "965.jpeg",
+    "question_id": "q8",
+    "question": "What is the purpose of this type of document?",
+    "gold_answer": "This type of document is essential for clients to review and understand the breakdown of advertising expenses over time, ensuring transparency and facilitating future financial planning",
+    "relevant_chunk_id": [
+      "965.jpeg:child:1:3"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_137",
+    "doc_id": "563.jpeg",
+    "question_id": "q7",
+    "question": "What is the Check Number and Event ID mentioned in the document?",
+    "gold_answer": "The Check Number is 005941, and the Event ID is TVND 0010952.",
+    "relevant_chunk_id": [
+      "563.jpeg:child:0:3"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.799324,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.799324
+    ],
+    "chunk_metrics": {
+      "563.jpeg:child:0:3": {
+        "rank": 1,
+        "similarity_score": 0.799324,
+        "llm_label": "relevant"
+      },
+      "563.jpeg:child:0:0": {
+        "rank": 2,
+        "similarity_score": 0.605184,
+        "llm_label": "irrelevant"
+      },
+      "563.jpeg:child:1:2": {
+        "rank": 3,
+        "similarity_score": 0.565937,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_138",
+    "doc_id": "5995.jpeg",
+    "question_id": "q1",
+    "question": "Who is the issuer of the debit note?",
+    "gold_answer": "Akizawa Patent Office, Tokyo, Japan",
+    "relevant_chunk_id": [
+      "5995.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_139",
+    "doc_id": "8550.jpeg",
+    "question_id": "q11",
+    "question": "Why is it crucial to confirm the invoice amount?",
+    "gold_answer": "It is crucial to confirm the invoice amount to ensure it matches with contracted amounts or expected charges, especially in research projects where discrepancies may imply additional scrutiny or budgetary reviews.",
+    "relevant_chunk_id": [
+      "8550.jpeg:child:1:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.862512,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.862512
+    ],
+    "chunk_metrics": {
+      "8550.jpeg:child:1:2": {
+        "rank": 1,
+        "similarity_score": 0.862512,
+        "llm_label": "relevant"
+      },
+      "8550.jpeg:child:1:3": {
+        "rank": 2,
+        "similarity_score": 0.68199,
+        "llm_label": "irrelevant"
+      },
+      "8550.jpeg:child:1:0": {
+        "rank": 3,
+        "similarity_score": 0.677594,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_140",
+    "doc_id": "3037.jpeg",
+    "question_id": "q8",
+    "question": "What is the total spend reported in the document for the year 1996?",
+    "gold_answer": "The document reports significant spendings reflecting various marketing and promotional activities, with monthly totals varying from $2,706,200 to $3,162,800.",
+    "relevant_chunk_id": [],
+    "partially_relevant_chunk_id": [
+      "3037.jpeg:child:1:0"
+    ],
+    "rank": 1,
+    "similarity_score": 0.808453,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {
+      "3037.jpeg:child:1:0": {
+        "rank": 1,
+        "similarity_score": 0.808453,
+        "llm_label": "partially_relevant"
+      },
+      "3037.jpeg:child:0:0": {
+        "rank": 2,
+        "similarity_score": 0.740078,
+        "llm_label": "irrelevant"
+      },
+      "3037.jpeg:child:0:3": {
+        "rank": 3,
+        "similarity_score": 0.713156,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_141",
+    "doc_id": "4548.jpeg",
+    "question_id": "q4",
+    "question": "What is the total amount due on the invoice?",
+    "gold_answer": "$199.23",
+    "relevant_chunk_id": [
+      "4548.jpeg:child:0:3"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_142",
+    "doc_id": "9666.jpeg",
+    "question_id": "q2",
+    "question": "What is the income year in question for which the Tobacco Institute Inc has an outstanding balance?",
+    "gold_answer": "1999",
+    "relevant_chunk_id": [
+      "9666.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_143",
+    "doc_id": "9361.jpeg",
+    "question_id": "q8",
+    "question": "What can be inferred about the processing time of the invoice based on the invoice date and ship date?",
+    "gold_answer": "It took about a month for the invoice to be processed and the goods to be acknowledged as shipped, which might be typical for such transactions or could suggest processing delays.",
+    "relevant_chunk_id": [
+      "9361.jpeg:child:1:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.915096,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.915096
+    ],
+    "chunk_metrics": {
+      "9361.jpeg:child:1:1": {
+        "rank": 1,
+        "similarity_score": 0.915096,
+        "llm_label": "relevant"
+      },
+      "9361.jpeg:child:1:0": {
+        "rank": 2,
+        "similarity_score": 0.604421,
+        "llm_label": "irrelevant"
+      },
+      "9361.jpeg:child:0:0": {
+        "rank": 3,
+        "similarity_score": 0.589739,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_144",
+    "doc_id": "2975.jpeg",
+    "question_id": "q4",
+    "question": "What is the total volume shipped in December?",
+    "gold_answer": "The total volume shipped in December is 165,807 million units.",
+    "relevant_chunk_id": [
+      "2975.jpeg:child:0:3"
+    ],
+    "partially_relevant_chunk_id": [
+      "2975.jpeg:child:0:4"
+    ],
+    "rank": 2,
+    "similarity_score": 0.78443,
+    "relevant_chunk_ranks": [
+      2
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.78443
+    ],
+    "chunk_metrics": {
+      "2975.jpeg:child:0:4": {
+        "rank": 1,
+        "similarity_score": 0.793389,
+        "llm_label": "partially_relevant"
+      },
+      "2975.jpeg:child:0:3": {
+        "rank": 2,
+        "similarity_score": 0.78443,
+        "llm_label": "relevant"
+      },
+      "2975.jpeg:child:0:1": {
+        "rank": 3,
+        "similarity_score": 0.724994,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_145",
+    "doc_id": "7027.jpeg",
+    "question_id": "q6",
+    "question": "What is the description of the item sold in the commercial invoice?",
+    "gold_answer": "Sales Advertising Division - Light Box, Pier # 4 Inside",
+    "relevant_chunk_id": [
+      "7027.jpeg:child:0:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_146",
+    "doc_id": "6498.jpeg",
+    "question_id": "q1",
+    "question": "Who is the issuer of the payment statement?",
+    "gold_answer": "Covington & Burling",
+    "relevant_chunk_id": [
+      "6498.jpeg:child:1:0"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_147",
+    "doc_id": "7695.jpeg",
+    "question_id": "q9",
+    "question": "What is the likely outcome if the action items from the meeting are not completed on time?",
+    "gold_answer": "If the action items from the meeting are not completed on time, it may delay the execution of the campaign components and impact the overall success of the advertising campaign.",
+    "relevant_chunk_id": [],
+    "partially_relevant_chunk_id": [
+      "7695.jpeg:child:1:2"
+    ],
+    "rank": 1,
+    "similarity_score": 0.67184,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {
+      "7695.jpeg:child:1:0": {
+        "rank": 1,
+        "similarity_score": 0.67184,
+        "llm_label": "irrelevant"
+      },
+      "7695.jpeg:child:1:2": {
+        "rank": 2,
+        "similarity_score": 0.669905,
+        "llm_label": "partially_relevant"
+      },
+      "7695.jpeg:child:1:3": {
+        "rank": 3,
+        "similarity_score": 0.627289,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_148",
+    "doc_id": "4817.jpeg",
+    "question_id": "q6",
+    "question": "What type of items are being described on the invoice?",
+    "gold_answer": "The items described are advertisements, specifically 4 Kool Test Ads (Spreads) with different visuals.",
+    "relevant_chunk_id": [],
+    "partially_relevant_chunk_id": [
+      "4817.jpeg:child:0:2",
+      "4817.jpeg:child:1:1"
+    ],
+    "rank": 1,
+    "similarity_score": 0.779918,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {
+      "4817.jpeg:child:0:2": {
+        "rank": 1,
+        "similarity_score": 0.779918,
+        "llm_label": "partially_relevant"
+      },
+      "4817.jpeg:child:1:1": {
+        "rank": 2,
+        "similarity_score": 0.740811,
+        "llm_label": "partially_relevant"
+      },
+      "4817.jpeg:child:0:0": {
+        "rank": 3,
+        "similarity_score": 0.735919,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_149",
+    "doc_id": "8238.jpeg",
+    "question_id": "q4",
+    "question": "What is the item description of the Purchase Order?",
+    "gold_answer": "Exclusive sampling and promotion rights at Central Florida Fair, Orlando, Florida from February 27 to March 8.",
+    "relevant_chunk_id": [
+      "8238.jpeg:child:0:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_150",
+    "doc_id": "5250.jpeg",
+    "question_id": "q6",
+    "question": "What is the special instruction for printing posters?",
+    "gold_answer": "To be printed in a series of colors (yellow soft on yellow poster paper) for identification.",
+    "relevant_chunk_id": [
+      "5250.jpeg:child:0:3"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_151",
+    "doc_id": "8131.jpeg",
+    "question_id": "q1",
+    "question": "Who is the issuer of the invoice?",
+    "gold_answer": "Park Outdoor Advertising",
+    "relevant_chunk_id": [
+      "8131.jpeg:child:0:0",
+      "8131.jpeg:child:0:1",
+      "8131.jpeg:child:1:0"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_152",
+    "doc_id": "2726.jpeg",
+    "question_id": "q2",
+    "question": "How much has been spent on Director/Producer/CPAs Expenses so far in the tournament?",
+    "gold_answer": "$5,000",
+    "relevant_chunk_id": [
+      "2726.jpeg:child:1:0",
+      "2726.jpeg:child:1:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_153",
+    "doc_id": "7394.jpeg",
+    "question_id": "q11",
+    "question": "What could be the reason for the consistent reduction of estimated amount by $8,250.00 for both campaigns?",
+    "gold_answer": "The reason could be either a planned budget cut or a reallocation of resources in the later quarters of the year.",
+    "relevant_chunk_id": [
+      "7394.jpeg:child:1:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.916589,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.916589
+    ],
+    "chunk_metrics": {
+      "7394.jpeg:child:1:1": {
+        "rank": 1,
+        "similarity_score": 0.916589,
+        "llm_label": "relevant"
+      },
+      "7394.jpeg:child:0:4": {
+        "rank": 2,
+        "similarity_score": 0.643184,
+        "llm_label": "irrelevant"
+      },
+      "7394.jpeg:child:1:0": {
+        "rank": 3,
+        "similarity_score": 0.634571,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_154",
+    "doc_id": "5001.jpeg",
+    "question_id": "q1",
+    "question": "What is the business name mentioned in the document?",
+    "gold_answer": "TedBaer Company, Inc./Advertising",
+    "relevant_chunk_id": [
+      "5001.jpeg:child:0:0",
+      "5001.jpeg:child:1:0"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_155",
+    "doc_id": "7306.jpeg",
+    "question_id": "q6",
+    "question": "What is the total billable disbursements for February 1995?",
+    "gold_answer": "$199,645.71.",
+    "relevant_chunk_id": [
+      "7306.jpeg:child:0:3"
+    ],
+    "partially_relevant_chunk_id": [
+      "7306.jpeg:child:0:2"
+    ],
+    "rank": 1,
+    "similarity_score": 0.842278,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.842278
+    ],
+    "chunk_metrics": {
+      "7306.jpeg:child:0:3": {
+        "rank": 1,
+        "similarity_score": 0.842278,
+        "llm_label": "relevant"
+      },
+      "7306.jpeg:child:0:2": {
+        "rank": 2,
+        "similarity_score": 0.714553,
+        "llm_label": "partially_relevant"
+      },
+      "7306.jpeg:child:1:1": {
+        "rank": 3,
+        "similarity_score": 0.643766,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_156",
+    "doc_id": "8067.jpeg",
+    "question_id": "q11",
+    "question": "What is the implication of the invoice being from a research laboratory to another research entity?",
+    "gold_answer": "It implies that the transaction is possibly related to lab materials or services.",
+    "relevant_chunk_id": [
+      "8067.jpeg:child:1:0"
+    ],
+    "partially_relevant_chunk_id": [
+      "8067.jpeg:child:0:1"
+    ],
+    "rank": 1,
+    "similarity_score": 0.852144,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.852144
+    ],
+    "chunk_metrics": {
+      "8067.jpeg:child:1:0": {
+        "rank": 1,
+        "similarity_score": 0.852144,
+        "llm_label": "relevant"
+      },
+      "8067.jpeg:child:0:1": {
+        "rank": 2,
+        "similarity_score": 0.647743,
+        "llm_label": "partially_relevant"
+      },
+      "8067.jpeg:child:0:0": {
+        "rank": 3,
+        "similarity_score": 0.631298,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_157",
+    "doc_id": "1556.jpeg",
+    "question_id": "q5",
+    "question": "How much did the Year-to-Date Variance exceed the planned budget?",
+    "gold_answer": "$353,923 under budget",
+    "relevant_chunk_id": [
+      "1556.jpeg:child:2:0"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_158",
+    "doc_id": "3203.jpeg",
+    "question_id": "q11",
+    "question": "What is the era in which the document's layout and stylistic elements are typical?",
+    "gold_answer": "The early 1990s",
+    "relevant_chunk_id": [
+      "3203.jpeg:child:1:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_159",
+    "doc_id": "5414.jpeg",
+    "question_id": "q4",
+    "question": "What is the total amount due on the invoice?",
+    "gold_answer": "$7,650.00",
+    "relevant_chunk_id": [
+      "5414.jpeg:child:0:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_160",
+    "doc_id": "8537.jpeg",
+    "question_id": "q4",
+    "question": "What are the payment terms specified in the invoice?",
+    "gold_answer": "Net 30 days",
+    "relevant_chunk_id": [
+      "8537.jpeg:child:0:2",
+      "8537.jpeg:child:1:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_161",
+    "doc_id": "3528.jpeg",
+    "question_id": "q4",
+    "question": "What is the payment due date for the current billing cycle?",
+    "gold_answer": "March 8, 1991",
+    "relevant_chunk_id": [
+      "3528.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_162",
+    "doc_id": "3539.jpeg",
+    "question_id": "q9",
+    "question": "What is the phone number for corporate accounts at Giselle's Travel, Inc.?",
+    "gold_answer": "(916) 922-0330",
+    "relevant_chunk_id": [
+      "3539.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_163",
+    "doc_id": "6452.jpeg",
+    "question_id": "q1",
+    "question": "Who is the issuer of the invoice?",
+    "gold_answer": "The issuer of the invoice is Bruxelles Propreté.",
+    "relevant_chunk_id": [
+      "6452.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.778038,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.778038
+    ],
+    "chunk_metrics": {
+      "6452.jpeg:child:0:1": {
+        "rank": 1,
+        "similarity_score": 0.778038,
+        "llm_label": "relevant"
+      },
+      "6452.jpeg:child:0:3": {
+        "rank": 2,
+        "similarity_score": 0.70785,
+        "llm_label": "irrelevant"
+      },
+      "6452.jpeg:child:0:0": {
+        "rank": 3,
+        "similarity_score": 0.687179,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_164",
+    "doc_id": "7996.jpeg",
+    "question_id": "q8",
+    "question": "What is the total charges mentioned in the document?",
+    "gold_answer": "The total charges are $482.23.",
+    "relevant_chunk_id": [
+      "7996.jpeg:child:0:3"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.700311,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.700311
+    ],
+    "chunk_metrics": {
+      "7996.jpeg:child:0:3": {
+        "rank": 1,
+        "similarity_score": 0.700311,
+        "llm_label": "relevant"
+      },
+      "7996.jpeg:child:1:2": {
+        "rank": 2,
+        "similarity_score": 0.63442,
+        "llm_label": "irrelevant"
+      },
+      "7996.jpeg:child:0:0": {
+        "rank": 3,
+        "similarity_score": 0.615918,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_165",
+    "doc_id": "2399.jpeg",
+    "question_id": "q1",
+    "question": "What is the report period for this financial budget variance report?",
+    "gold_answer": "The report period is January to October 1998.",
+    "relevant_chunk_id": [
+      "2399.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.740298,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.740298
+    ],
+    "chunk_metrics": {
+      "2399.jpeg:child:0:1": {
+        "rank": 1,
+        "similarity_score": 0.740298,
+        "llm_label": "relevant"
+      },
+      "2399.jpeg:child:0:0": {
+        "rank": 2,
+        "similarity_score": 0.676118,
+        "llm_label": "irrelevant"
+      },
+      "2399.jpeg:child:1:1": {
+        "rank": 3,
+        "similarity_score": 0.654141,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_166",
+    "doc_id": "672.jpeg",
+    "question_id": "q4",
+    "question": "What is the total spent on salaries by the end of August 1971?",
+    "gold_answer": "$21,762.91",
+    "relevant_chunk_id": [
+      "672.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_167",
+    "doc_id": "9366.jpeg",
+    "question_id": "q2",
+    "question": "What is the purpose of the financial statement?",
+    "gold_answer": "The purpose of the statement is to request sponsorship for the Saturday cocktail party at the 1994 Annual Convention and a full-page advertisement.",
+    "relevant_chunk_id": [
+      "9366.jpeg:child:0:2"
+    ],
+    "partially_relevant_chunk_id": [
+      "9366.jpeg:child:1:0"
+    ],
+    "rank": 2,
+    "similarity_score": 0.710958,
+    "relevant_chunk_ranks": [
+      2
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.710958
+    ],
+    "chunk_metrics": {
+      "9366.jpeg:child:1:0": {
+        "rank": 1,
+        "similarity_score": 0.717041,
+        "llm_label": "partially_relevant"
+      },
+      "9366.jpeg:child:0:2": {
+        "rank": 2,
+        "similarity_score": 0.710958,
+        "llm_label": "relevant"
+      },
+      "9366.jpeg:child:1:3": {
+        "rank": 3,
+        "similarity_score": 0.644756,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_168",
+    "doc_id": "7137.jpeg",
+    "question_id": "q2",
+    "question": "What is the customer number mentioned in the document?",
+    "gold_answer": "The customer number is 4815270.",
+    "relevant_chunk_id": [
+      "7137.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.663824,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.663824
+    ],
+    "chunk_metrics": {
+      "7137.jpeg:child:0:1": {
+        "rank": 1,
+        "similarity_score": 0.663824,
+        "llm_label": "relevant"
+      },
+      "7137.jpeg:child:0:0": {
+        "rank": 2,
+        "similarity_score": 0.643354,
+        "llm_label": "irrelevant"
+      },
+      "7137.jpeg:child:0:3": {
+        "rank": 3,
+        "similarity_score": 0.630853,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_169",
+    "doc_id": "395.jpeg",
+    "question_id": "q6",
+    "question": "What is the memo or description on the check?",
+    "gold_answer": "'93 TORT",
+    "relevant_chunk_id": [
+      "395.jpeg:child:0:2",
+      "395.jpeg:child:1:0"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_170",
+    "doc_id": "4895.jpeg",
+    "question_id": "q1",
+    "question": "What is the name of the company that issued the production bill?",
+    "gold_answer": "Ted Bates & Company, Inc./Advertising",
+    "relevant_chunk_id": [
+      "4895.jpeg:child:0:0",
+      "4895.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_171",
+    "doc_id": "7137.jpeg",
+    "question_id": "q1",
+    "question": "What is the invoice date of the document?",
+    "gold_answer": "The invoice date is 3/01/96.",
+    "relevant_chunk_id": [
+      "7137.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 2,
+    "similarity_score": 0.702241,
+    "relevant_chunk_ranks": [
+      2
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.702241
+    ],
+    "chunk_metrics": {
+      "7137.jpeg:child:0:0": {
+        "rank": 1,
+        "similarity_score": 0.715671,
+        "llm_label": "irrelevant"
+      },
+      "7137.jpeg:child:0:1": {
+        "rank": 2,
+        "similarity_score": 0.702241,
+        "llm_label": "relevant"
+      },
+      "7137.jpeg:child:1:2": {
+        "rank": 3,
+        "similarity_score": 0.691109,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_172",
+    "doc_id": "4185.jpeg",
+    "question_id": "q4",
+    "question": "What is the date of the check?",
+    "gold_answer": "November 26, 1985",
+    "relevant_chunk_id": [
+      "4185.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_173",
+    "doc_id": "764.jpeg",
+    "question_id": "q5",
+    "question": "What is the pattern of financial entries and adjustments suggesting in the document?",
+    "gold_answer": "The pattern suggests frequent fluctuations in costs or budget allocations possibly related to specific projects or operational needs.",
+    "relevant_chunk_id": [
+      "764.jpeg:child:1:0"
+    ],
+    "partially_relevant_chunk_id": [
+      "764.jpeg:child:1:2",
+      "764.jpeg:child:1:1"
+    ],
+    "rank": 1,
+    "similarity_score": 0.856571,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.856571
+    ],
+    "chunk_metrics": {
+      "764.jpeg:child:1:0": {
+        "rank": 1,
+        "similarity_score": 0.856571,
+        "llm_label": "relevant"
+      },
+      "764.jpeg:child:1:2": {
+        "rank": 2,
+        "similarity_score": 0.734209,
+        "llm_label": "partially_relevant"
+      },
+      "764.jpeg:child:1:1": {
+        "rank": 3,
+        "similarity_score": 0.729524,
+        "llm_label": "partially_relevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_174",
+    "doc_id": "4285.jpeg",
+    "question_id": "q11",
+    "question": "How does this document contribute to historical financial analysis?",
+    "gold_answer": "It provides insight into the financial practices involving political contributions by corporate entities during the late 20th century",
+    "relevant_chunk_id": [
+      "4285.jpeg:child:1:4"
+    ],
+    "partially_relevant_chunk_id": [
+      "4285.jpeg:child:1:0",
+      "4285.jpeg:child:1:3"
+    ],
+    "rank": 1,
+    "similarity_score": 0.830838,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.830838
+    ],
+    "chunk_metrics": {
+      "4285.jpeg:child:1:4": {
+        "rank": 1,
+        "similarity_score": 0.830838,
+        "llm_label": "relevant"
+      },
+      "4285.jpeg:child:1:0": {
+        "rank": 2,
+        "similarity_score": 0.720421,
+        "llm_label": "partially_relevant"
+      },
+      "4285.jpeg:child:1:3": {
+        "rank": 3,
+        "similarity_score": 0.713224,
+        "llm_label": "partially_relevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_175",
+    "doc_id": "4816.jpeg",
+    "question_id": "q7",
+    "question": "What are the payment terms mentioned in the invoice?",
+    "gold_answer": "The payment terms are NET TEN DAYS, indicating that payment is due within 10 days",
+    "relevant_chunk_id": [],
+    "partially_relevant_chunk_id": [
+      "4816.jpeg:child:1:1"
+    ],
+    "rank": 1,
+    "similarity_score": 0.80964,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {
+      "4816.jpeg:child:1:1": {
+        "rank": 1,
+        "similarity_score": 0.80964,
+        "llm_label": "partially_relevant"
+      },
+      "4816.jpeg:child:0:3": {
+        "rank": 2,
+        "similarity_score": 0.676815,
+        "llm_label": "irrelevant"
+      },
+      "4816.jpeg:child:0:0": {
+        "rank": 3,
+        "similarity_score": 0.63533,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_176",
+    "doc_id": "1064.jpeg",
+    "question_id": "q6",
+    "question": "What is the grand total of the gross change for February 1990 advertising placements?",
+    "gold_answer": "$15,706.00",
+    "relevant_chunk_id": [
+      "1064.jpeg:child:0:3"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_177",
+    "doc_id": "4771.jpeg",
+    "question_id": "q10",
+    "question": "What is the estimated revenue from the motor vehicle licenses/fuel tax?",
+    "gold_answer": "$105.7 million ($126.8 million annualized).",
+    "relevant_chunk_id": [
+      "4771.jpeg:child:2:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_178",
+    "doc_id": "9454.jpeg",
+    "question_id": "q2",
+    "question": "What is the vendor number mentioned in the invoice?",
+    "gold_answer": "The vendor number is 0600F04239.",
+    "relevant_chunk_id": [
+      "9454.jpeg:child:0:0"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.727778,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.727778
+    ],
+    "chunk_metrics": {
+      "9454.jpeg:child:0:0": {
+        "rank": 1,
+        "similarity_score": 0.727778,
+        "llm_label": "relevant"
+      },
+      "9454.jpeg:child:1:3": {
+        "rank": 2,
+        "similarity_score": 0.627374,
+        "llm_label": "irrelevant"
+      },
+      "9454.jpeg:child:1:2": {
+        "rank": 3,
+        "similarity_score": 0.582878,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_179",
+    "doc_id": "9630.jpeg",
+    "question_id": "q9",
+    "question": "Why is it essential to verify the invoice details with internal records?",
+    "gold_answer": "It is essential to verify the invoice details with internal records to ensure that the transaction aligns with budget allocations and financial projections for the fiscal period.",
+    "relevant_chunk_id": [
+      "9630.jpeg:child:1:3"
+    ],
+    "partially_relevant_chunk_id": [
+      "9630.jpeg:child:1:2"
+    ],
+    "rank": 1,
+    "similarity_score": 0.7325,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.7325
+    ],
+    "chunk_metrics": {
+      "9630.jpeg:child:1:3": {
+        "rank": 1,
+        "similarity_score": 0.7325,
+        "llm_label": "relevant"
+      },
+      "9630.jpeg:child:1:2": {
+        "rank": 2,
+        "similarity_score": 0.71898,
+        "llm_label": "partially_relevant"
+      },
+      "9630.jpeg:child:0:0": {
+        "rank": 3,
+        "similarity_score": 0.692539,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_180",
+    "doc_id": "3980.jpeg",
+    "question_id": "q8",
+    "question": "How can this document inform discussions on cigarette taxation?",
+    "gold_answer": "This document can inform discussions on whether cigarette taxes are a regressive financial burden on lower-income individuals and help policymakers assess the economic impact of cigarette taxation.",
+    "relevant_chunk_id": [
+      "3980.jpeg:child:1:2"
+    ],
+    "partially_relevant_chunk_id": [
+      "3980.jpeg:child:0:1",
+      "3980.jpeg:child:0:0"
+    ],
+    "rank": 1,
+    "similarity_score": 0.849679,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.849679
+    ],
+    "chunk_metrics": {
+      "3980.jpeg:child:1:2": {
+        "rank": 1,
+        "similarity_score": 0.849679,
+        "llm_label": "relevant"
+      },
+      "3980.jpeg:child:0:1": {
+        "rank": 2,
+        "similarity_score": 0.779954,
+        "llm_label": "partially_relevant"
+      },
+      "3980.jpeg:child:0:0": {
+        "rank": 3,
+        "similarity_score": 0.77662,
+        "llm_label": "partially_relevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_181",
+    "doc_id": "9630.jpeg",
+    "question_id": "q3",
+    "question": "What is the invoice number and date?",
+    "gold_answer": "The invoice number is MD0043, and the date is May 8, 1991.",
+    "relevant_chunk_id": [],
+    "partially_relevant_chunk_id": [
+      "9630.jpeg:child:0:2"
+    ],
+    "rank": 1,
+    "similarity_score": 0.674484,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {
+      "9630.jpeg:child:1:0": {
+        "rank": 1,
+        "similarity_score": 0.674484,
+        "llm_label": "irrelevant"
+      },
+      "9630.jpeg:child:0:0": {
+        "rank": 2,
+        "similarity_score": 0.673774,
+        "llm_label": "irrelevant"
+      },
+      "9630.jpeg:child:0:2": {
+        "rank": 3,
+        "similarity_score": 0.673499,
+        "llm_label": "partially_relevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_182",
+    "doc_id": "9162.jpeg",
+    "question_id": "q6",
+    "question": "What is the payment due date for the invoice?",
+    "gold_answer": "On or before January 2, 1996",
+    "relevant_chunk_id": [
+      "9162.jpeg:child:0:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_183",
+    "doc_id": "4752.jpeg",
+    "question_id": "q5",
+    "question": "What is the trend observed in the Parimutuel Tax revenue?",
+    "gold_answer": "The Parimutuel Tax revenue is declining, with a 6% decline this year and a 5% decline expected next year.",
+    "relevant_chunk_id": [
+      "4752.jpeg:child:0:2"
+    ],
+    "partially_relevant_chunk_id": [
+      "4752.jpeg:child:1:1"
+    ],
+    "rank": 1,
+    "similarity_score": 0.892659,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.892659
+    ],
+    "chunk_metrics": {
+      "4752.jpeg:child:0:2": {
+        "rank": 1,
+        "similarity_score": 0.892659,
+        "llm_label": "relevant"
+      },
+      "4752.jpeg:child:1:1": {
+        "rank": 2,
+        "similarity_score": 0.830654,
+        "llm_label": "partially_relevant"
+      },
+      "4752.jpeg:child:0:1": {
+        "rank": 3,
+        "similarity_score": 0.701883,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_184",
+    "doc_id": "3629.jpeg",
+    "question_id": "q7",
+    "question": "Who is the payable party for the contribution?",
+    "gold_answer": "Willie Brown Campaign Committee",
+    "relevant_chunk_id": [
+      "3629.jpeg:child:0:4"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_185",
+    "doc_id": "5423.jpeg",
+    "question_id": "q13",
+    "question": "What does the invoice indicate about the financial interactions of Borrison Laboratories?",
+    "gold_answer": "It emphasizes the importance of detailed accounting of project costs.",
+    "relevant_chunk_id": [
+      "5423.jpeg:child:1:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.798157,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.798157
+    ],
+    "chunk_metrics": {
+      "5423.jpeg:child:1:2": {
+        "rank": 1,
+        "similarity_score": 0.798157,
+        "llm_label": "relevant"
+      },
+      "5423.jpeg:child:0:0": {
+        "rank": 2,
+        "similarity_score": 0.787709,
+        "llm_label": "irrelevant"
+      },
+      "5423.jpeg:child:0:3": {
+        "rank": 3,
+        "similarity_score": 0.726646,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_186",
+    "doc_id": "6983.jpeg",
+    "question_id": "q1",
+    "question": "What is the company name mentioned in the check remittance advice?",
+    "gold_answer": "Philip Morris Incorporated",
+    "relevant_chunk_id": [
+      "6983.jpeg:child:0:0",
+      "6983.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_187",
+    "doc_id": "394.jpeg",
+    "question_id": "q3",
+    "question": "What is the amount of the contribution requested?",
+    "gold_answer": "$300.00",
+    "relevant_chunk_id": [
+      "394.jpeg:child:0:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_188",
+    "doc_id": "9565.jpeg",
+    "question_id": "q8",
+    "question": "What is the duration of the service period mentioned in the document?",
+    "gold_answer": "The service period extends from March 23, 1974, to April 19, 1974.",
+    "relevant_chunk_id": [
+      "9565.jpeg:child:0:2"
+    ],
+    "partially_relevant_chunk_id": [
+      "9565.jpeg:child:1:0"
+    ],
+    "rank": 2,
+    "similarity_score": 0.575076,
+    "relevant_chunk_ranks": [
+      2
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.575076
+    ],
+    "chunk_metrics": {
+      "9565.jpeg:child:1:0": {
+        "rank": 1,
+        "similarity_score": 0.748411,
+        "llm_label": "partially_relevant"
+      },
+      "9565.jpeg:child:0:2": {
+        "rank": 2,
+        "similarity_score": 0.575076,
+        "llm_label": "relevant"
+      },
+      "9565.jpeg:child:1:1": {
+        "rank": 3,
+        "similarity_score": 0.570513,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_189",
+    "doc_id": "664.jpeg",
+    "question_id": "q6",
+    "question": "How do the actual salaries and base pay for this year compare to the budgeted amount?",
+    "gold_answer": "According to the report, the actual salaries and base pay for this year is $12,083, which is higher than the budget of $8,875.",
+    "relevant_chunk_id": [],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.824627,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {
+      "664.jpeg:child:1:2": {
+        "rank": 1,
+        "similarity_score": 0.824627,
+        "llm_label": "irrelevant"
+      },
+      "664.jpeg:child:1:1": {
+        "rank": 2,
+        "similarity_score": 0.785276,
+        "llm_label": "irrelevant"
+      },
+      "664.jpeg:child:1:3": {
+        "rank": 3,
+        "similarity_score": 0.66963,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_190",
+    "doc_id": "3381.jpeg",
+    "question_id": "q1",
+    "question": "What is the total amount of pending charges for Contract Laboratory (Synthesis) - Starks Associates?",
+    "gold_answer": "$12,238",
+    "relevant_chunk_id": [
+      "3381.jpeg:child:0:0"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_191",
+    "doc_id": "4767.jpeg",
+    "question_id": "q4",
+    "question": "What is the amount of the check?",
+    "gold_answer": "$500.00",
+    "relevant_chunk_id": [
+      "4767.jpeg:child:0:1",
+      "4767.jpeg:child:0:2",
+      "4767.jpeg:child:0:3"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_192",
+    "doc_id": "2098.jpeg",
+    "question_id": "q4",
+    "question": "What was the policy period from January 1st, 1986 to January 1st, 1987?",
+    "gold_answer": "Policy Number: 21 CSE 302293",
+    "relevant_chunk_id": [
+      "2098.jpeg:child:0:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_193",
+    "doc_id": "2543.jpeg",
+    "question_id": "q6",
+    "question": "Which committees is Senator Frank Watson involved with?",
+    "gold_answer": "Appropriations II, Agriculture & Conservation, Elementary Education, Revenue",
+    "relevant_chunk_id": [
+      "2543.jpeg:child:0:2"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_194",
+    "doc_id": "3203.jpeg",
+    "question_id": "q6",
+    "question": "What is the amount of the check?",
+    "gold_answer": "$122.22",
+    "relevant_chunk_id": [
+      "3203.jpeg:child:0:1",
+      "3203.jpeg:child:0:2",
+      "3203.jpeg:child:1:0"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_195",
+    "doc_id": "5119.jpeg",
+    "question_id": "q2",
+    "question": "What is the address of the issuer?",
+    "gold_answer": "245 Park Ave., New York, NY, 10017.",
+    "relevant_chunk_id": [
+      "5119.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_196",
+    "doc_id": "2967.jpeg",
+    "question_id": "q8",
+    "question": "Is there any change in funding level for the lobbyist's role across 1995 and 1996?",
+    "gold_answer": "No, it remains stable at $44,000",
+    "relevant_chunk_id": [
+      "2967.jpeg:child:1:0",
+      "2967.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 1,
+    "similarity_score": 0.896187,
+    "relevant_chunk_ranks": [
+      1,
+      2
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.896187,
+      0.725891
+    ],
+    "chunk_metrics": {
+      "2967.jpeg:child:1:0": {
+        "rank": 1,
+        "similarity_score": 0.896187,
+        "llm_label": "relevant"
+      },
+      "2967.jpeg:child:0:1": {
+        "rank": 2,
+        "similarity_score": 0.725891,
+        "llm_label": "relevant"
+      },
+      "2967.jpeg:child:0:2": {
+        "rank": 3,
+        "similarity_score": 0.682272,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_197",
+    "doc_id": "4310.jpeg",
+    "question_id": "q12",
+    "question": "What does the memo/details section of the check indicate?",
+    "gold_answer": "The payment is for the Steve Young Campaign Fund",
+    "relevant_chunk_id": [
+      "4310.jpeg:child:0:3"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_198",
+    "doc_id": "1366.jpeg",
+    "question_id": "q5",
+    "question": "Who was the client for this advertising campaign?",
+    "gold_answer": "The client is P.M. Inc.",
+    "relevant_chunk_id": [
+      "1366.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": 2,
+    "similarity_score": 0.574566,
+    "relevant_chunk_ranks": [
+      2
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.574566
+    ],
+    "chunk_metrics": {
+      "1366.jpeg:child:0:0": {
+        "rank": 1,
+        "similarity_score": 0.632996,
+        "llm_label": "irrelevant"
+      },
+      "1366.jpeg:child:0:1": {
+        "rank": 2,
+        "similarity_score": 0.574566,
+        "llm_label": "relevant"
+      },
+      "1366.jpeg:child:1:0": {
+        "rank": 3,
+        "similarity_score": 0.554873,
+        "llm_label": "irrelevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  },
+  {
+    "eval_id": "eval_199",
+    "doc_id": "4254.jpeg",
+    "question_id": "q2",
+    "question": "Who is the recipient of the $500 donation?",
+    "gold_answer": "Weddell Brown Campaign",
+    "relevant_chunk_id": [
+      "4254.jpeg:child:0:1"
+    ],
+    "partially_relevant_chunk_id": [],
+    "rank": null,
+    "similarity_score": null,
+    "relevant_chunk_ranks": [],
+    "relevant_chunk_similarity_scores": [],
+    "chunk_metrics": {},
+    "label_source": "exact_match"
+  },
+  {
+    "eval_id": "eval_200",
+    "doc_id": "4895.jpeg",
+    "question_id": "q10",
+    "question": "What does the document reveal about the advertising industry norms in 1979?",
+    "gold_answer": "It reflects the importance of print media services and the common practices of advertising operations during that era.",
+    "relevant_chunk_id": [
+      "4895.jpeg:child:1:3"
+    ],
+    "partially_relevant_chunk_id": [
+      "4895.jpeg:child:2:0"
+    ],
+    "rank": 1,
+    "similarity_score": 0.868768,
+    "relevant_chunk_ranks": [
+      1
+    ],
+    "relevant_chunk_similarity_scores": [
+      0.868768
+    ],
+    "chunk_metrics": {
+      "4895.jpeg:child:1:3": {
+        "rank": 1,
+        "similarity_score": 0.868768,
+        "llm_label": "relevant"
+      },
+      "4895.jpeg:child:1:0": {
+        "rank": 2,
+        "similarity_score": 0.669554,
+        "llm_label": "uncertain"
+      },
+      "4895.jpeg:child:2:0": {
+        "rank": 3,
+        "similarity_score": 0.667543,
+        "llm_label": "partially_relevant"
+      }
+    },
+    "label_source": "llm_judgment"
+  }
+]

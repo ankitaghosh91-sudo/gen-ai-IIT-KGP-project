@@ -12,8 +12,20 @@ class SimpleRAG(RAGStrategyBase):
     def __init__(self, search=None):
         self.search = search or ChromaSearch()
 
-    def retrieve(self, query: str, documents: list[Document], image: Any = None) -> list[Evidence]:
-        return self.search.search(query, documents)
+    def retrieve(
+        self,
+        query: str,
+        documents: list[Document],
+        image: Any = None,
+        scope: str = "global",
+        doc_id: str | None = None,
+    ) -> list[Evidence]:
+        return self.search.search(
+            query=query,
+            documents=documents,
+            scope=scope,
+            doc_id=doc_id,
+        )
 
 
 class VisualRAG(RAGStrategyBase):
@@ -31,37 +43,115 @@ class CombinedRAG(RAGStrategyBase):
         self.text = text or SimpleRAG()
         self.visual = visual or VisualRAG()
 
-    def retrieve(self, query: str, documents: list[Document], image: Any = None) -> list[Evidence]:
-        return self.text.retrieve(query, documents) + self.visual.retrieve(query, documents, image)
+    def retrieve(
+        self,
+        query: str,
+        documents: list[Document],
+        image: Any = None,
+        scope: str = "global",
+        doc_id: str | None = None,
+) -> list[Evidence]:
+        return (
+            self.text.retrieve(
+                query,
+                documents,
+                scope=scope,
+                doc_id=doc_id,
+            )
+            + self.visual.retrieve(query, documents, image)
+        )
 
 
 class AutoRAG(CombinedRAG):
-    def retrieve(self, query: str, documents: list[Document], image: Any = None) -> list[Evidence]:
+   def retrieve(
+        self,
+        query: str,
+        documents: list[Document],
+        image: Any = None,
+        scope: str = "global",
+        doc_id: str | None = None,
+    ) -> list[Evidence]:
         if image is None:
-            return self.text.retrieve(query, documents)
-        return super().retrieve(query, documents, image)
+            return self.text.retrieve(
+                query,
+                documents,
+                scope=scope,
+                doc_id=doc_id,
+            )
+
+        return super().retrieve(
+            query,
+            documents,
+            image,
+            scope=scope,
+            doc_id=doc_id,
+        )
 
 
 class MultiStepRAG(SimpleRAG):
-    def retrieve(self, query: str, documents: list[Document], image: Any = None) -> list[Evidence]:
-        clauses = [part.strip() for part in re.split(r"\band\b|[,?]", query, flags=re.I) if part.strip()]
+    def retrieve(
+        self,
+        query: str,
+        documents: list[Document],
+        image: Any = None,
+        scope: str = "global",
+        doc_id: str | None = None,
+    ) -> list[Evidence]:
+        clauses = [
+            part.strip()
+            for part in re.split(r"\band\b|[,?]", query, flags=re.I)
+            if part.strip()
+        ]
+
         found = []
         seen = set()
+
         for clause in [query, *clauses]:
-            for item in self.search.search(clause, documents):
+            for item in self.search.search(
+                clause,
+                documents,
+                scope=scope,
+                doc_id=doc_id,
+            ):
                 key = (item.doc_id, item.question)
+
                 if key not in seen:
                     found.append(item)
                     seen.add(key)
+
         return found
 
 
 class AgenticRAG(SimpleRAG):
-    def retrieve(self, query: str, documents: list[Document], image: Any = None) -> list[Evidence]:
-        found = self.search.search(query, documents, limit=8)
+    def retrieve(
+        self,
+        query: str,
+        documents: list[Document],
+        image: Any = None,
+        scope: str = "global",
+        doc_id: str | None = None,
+) -> list[Evidence]:
+        found = self.search.search(
+            query,
+            documents,
+            limit=8,
+            scope=scope,
+            doc_id=doc_id,
+        )
+
         words = set(re.findall(r"\w+", query.lower()))
+
         found.sort(
-            key=lambda item: len(words & set(re.findall(r"\w+", f"{item.question} {item.text}".lower()))),
+            key=lambda item: len(
+                words
+                & set(
+                    re.findall(
+                        r"\w+",
+                        f"{item.question} {item.text}".lower(),
+                    )
+                )
+            ),
             reverse=True,
         )
+
         return found[:4]

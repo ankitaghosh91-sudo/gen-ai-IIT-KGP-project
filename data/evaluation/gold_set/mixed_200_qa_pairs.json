@@ -1,0 +1,1202 @@
+[
+  {
+    "doc_id": "6900.jpeg",
+    "question": "What is the date prepared for this voucher?",
+    "answer": "11/15/96",
+    "image_path": "data\\sample_500\\images\\6900.jpeg"
+  },
+  {
+    "doc_id": "6628.jpeg",
+    "question": "What type of container is used for the shipment?",
+    "answer": "Pallets, Belt Crop 92",
+    "image_path": "data\\sample_500\\images\\6628.jpeg"
+  },
+  {
+    "doc_id": "4979.jpeg",
+    "question": "What is the address of the issuer?",
+    "answer": "New York, N.Y. 10019 - Jackson 9-6600",
+    "image_path": "data\\sample_500\\images\\4979.jpeg"
+  },
+  {
+    "doc_id": "5765.jpeg",
+    "question": "Where is Philip Morris Incorporated located according to the document?",
+    "answer": "The location is New York, N.Y.",
+    "image_path": "data\\sample_500\\images\\5765.jpeg"
+  },
+  {
+    "doc_id": "4817.jpeg",
+    "question": "What type of items are being described on the invoice?",
+    "answer": "The items described are advertisements, specifically 4 Kool Test Ads (Spreads) with different visuals.",
+    "image_path": "data\\sample_500\\images\\4817.jpeg"
+  },
+  {
+    "doc_id": "4247.jpeg",
+    "question": "What type of bank is Riggs National Bank historically known for?",
+    "answer": "Handling accounts of political figures and entities.",
+    "image_path": "data\\sample_500\\images\\4247.jpeg"
+  },
+  {
+    "doc_id": "1659.jpeg",
+    "question": "What is the total estimated budget for the Adventure Team Production Expenses?",
+    "answer": "$362,130",
+    "image_path": "data\\sample_500\\images\\1659.jpeg"
+  },
+  {
+    "doc_id": "7896.jpeg",
+    "question": "What can be inferred about B.A.T. Cigaretten-Fabriken GmbH's operational footprint in Germany?",
+    "answer": "It has a large operational footprint with offices in multiple cities including Hamburg and Berlin.",
+    "image_path": "data\\sample_500\\images\\7896.jpeg"
+  },
+  {
+    "doc_id": "3980.jpeg",
+    "question": "What is the potential use of this document in comparing tax burdens across states?",
+    "answer": "This document can be used to compare tax burdens across states, enabling policymakers to identify best practices and areas for improvement in their own state's taxation policies.",
+    "image_path": "data\\sample_500\\images\\3980.jpeg"
+  },
+  {
+    "doc_id": "3641.jpeg",
+    "question": "What is the significance of this document in the context of political finance?",
+    "answer": "This document is evidence of a political contribution from The Tobacco Institute to a regional political figure, highlighting the industry's financial involvement in politics.",
+    "image_path": "data\\sample_500\\images\\3641.jpeg"
+  },
+  {
+    "doc_id": "8941.jpeg",
+    "question": "What is the gross amount mentioned in the invoice?",
+    "answer": "The gross amount is $1050.00.",
+    "image_path": "data\\sample_500\\images\\8941.jpeg"
+  },
+  {
+    "doc_id": "8.jpeg",
+    "question": "How much did Barclay Film Production spend on international brand management?",
+    "answer": "$830,000",
+    "image_path": "data\\sample_500\\images\\8.jpeg"
+  },
+  {
+    "doc_id": "7624.jpeg",
+    "question": "What is the total fee for preparation and production of the commercial?",
+    "answer": "The total fee is $918.00.",
+    "image_path": "data\\sample_500\\images\\7624.jpeg"
+  },
+  {
+    "doc_id": "3601.jpeg",
+    "question": "To whom is the check payable?",
+    "answer": "Legal Expense Fund, care of Tom Bradley, Mayor",
+    "image_path": "data\\sample_500\\images\\3601.jpeg"
+  },
+  {
+    "doc_id": "9044.jpeg",
+    "question": "What can be inferred about the marketing strategy of the recipient based on the invoice?",
+    "answer": "The invoice suggests a coordinated marketing effort across multiple regions, as it details advertisement placements in various newspapers on a specified date.",
+    "image_path": "data\\sample_500\\images\\9044.jpeg"
+  },
+  {
+    "doc_id": "7324.jpeg",
+    "question": "What is the significance of the handwritten note dated '9-14-91' by Henry Birts?",
+    "answer": "The note suggests that Henry Birts reviewed or processed the document on September 14, 1991.",
+    "image_path": "data\\sample_500\\images\\7324.jpeg"
+  },
+  {
+    "doc_id": "3638.jpeg",
+    "question": "Who is the recipient of the contribution?",
+    "answer": "The recipient is Ode L. Maddox, a Democrat Representative from Arkansas.",
+    "image_path": "data\\sample_500\\images\\3638.jpeg"
+  },
+  {
+    "doc_id": "3805.jpeg",
+    "question": "Which company has the largest allocation percentage in the campaign?",
+    "answer": "Philip Morris with 43.578%",
+    "image_path": "data\\sample_500\\images\\3805.jpeg"
+  },
+  {
+    "doc_id": "822.jpeg",
+    "question": "What does the document suggest about the cost of advertising services for different products?",
+    "answer": "The document suggests that there are uniform costs for different products, with both Corporate and Marlboro having the same cost.",
+    "image_path": "data\\sample_500\\images\\822.jpeg"
+  },
+  {
+    "doc_id": "6498.jpeg",
+    "question": "What type of services were provided according to the statement?",
+    "answer": "Professional and consulting services related to proofreading in Germany",
+    "image_path": "data\\sample_500\\images\\6498.jpeg"
+  },
+  {
+    "doc_id": "3672.jpeg",
+    "question": "Who is the payee of the check?",
+    "answer": "Delaine Eastin for Assembly",
+    "image_path": "data\\sample_500\\images\\3672.jpeg"
+  },
+  {
+    "doc_id": "3519.jpeg",
+    "question": "What is the significance of the absence of direct payments to in-house employee lobbyists?",
+    "answer": "The absence of direct payments to in-house employee lobbyists may indicate a reliance on external lobbying firms or non-representative data for in-house activities.",
+    "image_path": "data\\sample_500\\images\\3519.jpeg"
+  },
+  {
+    "doc_id": "6706.jpeg",
+    "question": "How might the document be useful for evaluating financial efficiency?",
+    "answer": "The document is useful for evaluating financial efficiency because it provides a detailed breakdown of costs related to the corporate mailing project, which helps in tracking project costs and evaluating financial efficiency.",
+    "image_path": "data\\sample_500\\images\\6706.jpeg"
+  },
+  {
+    "doc_id": "6733.jpeg",
+    "question": "What is the cost of a 7 x 10 - B&W ad in Indianapolis Monthly?",
+    "answer": "The cost is $1,570.00.",
+    "image_path": "data\\sample_500\\images\\6733.jpeg"
+  },
+  {
+    "doc_id": "7141.jpeg",
+    "question": "What is the date range covered in the Federal Express Report?",
+    "answer": "The date range is from 11/27/95 to 12/1/95.",
+    "image_path": "data\\sample_500\\images\\7141.jpeg"
+  },
+  {
+    "doc_id": "8974.jpeg",
+    "question": "What is the significance of the handwritten notes and stamps on the invoice?",
+    "answer": "The handwritten notes and stamps indicate approvals and adjustments, and the payment due stamp shows that payment was due by September 15, 1985.",
+    "image_path": "data\\sample_500\\images\\8974.jpeg"
+  },
+  {
+    "doc_id": "7099.jpeg",
+    "question": "What is the total amount due according to the invoice?",
+    "answer": "$847,160, although there might be typographical errors due to the document's legibility.",
+    "image_path": "data\\sample_500\\images\\7099.jpeg"
+  },
+  {
+    "doc_id": "5104.jpeg",
+    "question": "What is the total travel cost mentioned in the financial statement?",
+    "answer": "$5,301.25",
+    "image_path": "data\\sample_500\\images\\5104.jpeg"
+  },
+  {
+    "doc_id": "8699.jpeg",
+    "question": "What type of analysis could be performed using the data in the invoice, if it were more legible?",
+    "answer": "Financial analysis regarding spending patterns or sales data could be performed",
+    "image_path": "data\\sample_500\\images\\8699.jpeg"
+  },
+  {
+    "doc_id": "6983.jpeg",
+    "question": "What is the gross amount of the payment?",
+    "answer": "$17,288.21",
+    "image_path": "data\\sample_500\\images\\6983.jpeg"
+  },
+  {
+    "doc_id": "1411.jpeg",
+    "question": "What was the rate for a 6x21 ad in Tacoma?",
+    "answer": "8,030.00",
+    "image_path": "data\\sample_500\\images\\1411.jpeg"
+  },
+  {
+    "doc_id": "2098.jpeg",
+    "question": "When was the report date for this insurance claim summary statement?",
+    "answer": "April 1987",
+    "image_path": "data\\sample_500\\images\\2098.jpeg"
+  },
+  {
+    "doc_id": "6829.jpeg",
+    "question": "What is the purpose of the payment?",
+    "answer": "The purpose of the payment is a consultant fee and travel charges for the period 6/2/1995 to 7/31/1995.",
+    "image_path": "data\\sample_500\\images\\6829.jpeg"
+  },
+  {
+    "doc_id": "4755.jpeg",
+    "question": "What does the invoice stub provide?",
+    "answer": "A breakdown of the payment, enhancing traceability and accountability for financial auditing",
+    "image_path": "data\\sample_500\\images\\4755.jpeg"
+  },
+  {
+    "doc_id": "3947.jpeg",
+    "question": "What might be a potential implication of the tax impact on cigarette prices?",
+    "answer": "Increased tax rates could lead to higher retail prices, affecting consumer behavior and demand.",
+    "image_path": "data\\sample_500\\images\\3947.jpeg"
+  },
+  {
+    "doc_id": "9622.jpeg",
+    "question": "What is the address where the payment should be sent?",
+    "answer": "The payment should be sent to 250 - 1122 Mainland Street, Vancouver, British Columbia, Canada V6B 5L1.",
+    "image_path": "data\\sample_500\\images\\9622.jpeg"
+  },
+  {
+    "doc_id": "394.jpeg",
+    "question": "Who is the payable to in the contribution request?",
+    "answer": "The payable to in the contribution request is Jim Rea Campaign Committee.",
+    "image_path": "data\\sample_500\\images\\394.jpeg"
+  },
+  {
+    "doc_id": "3336.jpeg",
+    "question": "What is the address of the vendor?",
+    "answer": "One Park Avenue, New York, NY, 10016-5805",
+    "image_path": "data\\sample_500\\images\\3336.jpeg"
+  },
+  {
+    "doc_id": "2303.jpeg",
+    "question": "What are the two categories with the highest expenses across most companies?",
+    "answer": "Direct Sales and Promotion",
+    "image_path": "data\\sample_500\\images\\2303.jpeg"
+  },
+  {
+    "doc_id": "4500.jpeg",
+    "question": "Who sent the document to whom?",
+    "answer": "The document was sent from Duffin, TI to Sara Ridgway, Lorillard.",
+    "image_path": "data\\sample_500\\images\\4500.jpeg"
+  },
+  {
+    "doc_id": "1766.jpeg",
+    "question": "Are there any instances of high expense payments?",
+    "answer": "Yes, certain entries like $26,031.75 for Norton & Luhn and $12,199.86 for Nall, Pelley & Wynne highlight significant legal expenditures.",
+    "image_path": "data\\sample_500\\images\\1766.jpeg"
+  },
+  {
+    "doc_id": "1997.jpeg",
+    "question": "What is the total expense reported in the document?",
+    "answer": "$586,347, which includes labor and other expenses.",
+    "image_path": "data\\sample_500\\images\\1997.jpeg"
+  },
+  {
+    "doc_id": "8690.jpeg",
+    "question": "What is the date of the invoice?",
+    "answer": "December 1, 1965",
+    "image_path": "data\\sample_500\\images\\8690.jpeg"
+  },
+  {
+    "doc_id": "6023.jpeg",
+    "question": "Where is the CRC Contract Research Center BYVAS located?",
+    "answer": "The CRC Contract Research Center BYVAS is located in Zaventem.",
+    "image_path": "data\\sample_500\\images\\6023.jpeg"
+  },
+  {
+    "doc_id": "1183.jpeg",
+    "question": "Why did there appear to be a negative correction in the period prior to February 1991?",
+    "answer": "There was a negative adjustment of $252,285.01.",
+    "image_path": "data\\sample_500\\images\\1183.jpeg"
+  },
+  {
+    "doc_id": "8721.jpeg",
+    "question": "What type of services does Argus Research Laboratories provide based on this invoice?",
+    "answer": "Applied research services, specifically toxicity screening tests.",
+    "image_path": "data\\sample_500\\images\\8721.jpeg"
+  },
+  {
+    "doc_id": "8065.jpeg",
+    "question": "Why is the invoice important for historical financial and operational analysis?",
+    "answer": "Because it is a valuable record from 1984, providing insight into business engagements and financial transactions of that time.",
+    "image_path": "data\\sample_500\\images\\8065.jpeg"
+  },
+  {
+    "doc_id": "4573.jpeg",
+    "question": "What does the documentation and approval process suggest about the organization's financial governance?",
+    "answer": "The documentation and approval process suggests that the organization has a well-structured financial governance, with designated approval signatures and clear procedures.",
+    "image_path": "data\\sample_500\\images\\4573.jpeg"
+  },
+  {
+    "doc_id": "9633.jpeg",
+    "question": "What was the most expensive item in Project 1.2?",
+    "answer": "The most expensive item in Project 1.2 was hotels, which cost $314.57.",
+    "image_path": "data\\sample_500\\images\\9633.jpeg"
+  },
+  {
+    "doc_id": "5125.jpeg",
+    "question": "On what date was the check issued?",
+    "answer": "The check was issued on July 31, 1925.",
+    "image_path": "data\\sample_500\\images\\5125.jpeg"
+  },
+  {
+    "doc_id": "6040.jpeg",
+    "question": "Why is it important to verify the complete year in the document's date?",
+    "answer": "It is important to verify the complete year for accurate aging and compliance reviews.",
+    "image_path": "data\\sample_500\\images\\6040.jpeg"
+  },
+  {
+    "doc_id": "5151.jpeg",
+    "question": "What is the net effect of the bulk postage used and remaining funds assessed?",
+    "answer": "An ending balance of -$149.35",
+    "image_path": "data\\sample_500\\images\\5151.jpeg"
+  },
+  {
+    "doc_id": "905.jpeg",
+    "question": "When was the document issued?",
+    "answer": "The document was issued on October 13th, 1989.",
+    "image_path": "data\\sample_500\\images\\905.jpeg"
+  },
+  {
+    "doc_id": "5206.jpeg",
+    "question": "Who is the recipient of the invoice?",
+    "answer": "The recipient is Tony Yensen of American Tobacco Co.",
+    "image_path": "data\\sample_500\\images\\5206.jpeg"
+  },
+  {
+    "doc_id": "3678.jpeg",
+    "question": "Which individual is recommended to receive the highest total contribution?",
+    "answer": "Lockyer is recommended to receive the highest total contribution of $2,000.",
+    "image_path": "data\\sample_500\\images\\3678.jpeg"
+  },
+  {
+    "doc_id": "4789.jpeg",
+    "question": "What type of printing needs might the services provided be used for?",
+    "answer": "The services provided, including color separation, might be used for high-quality printing needs, such as labels or advertisements.",
+    "image_path": "data\\sample_500\\images\\4789.jpeg"
+  },
+  {
+    "doc_id": "2466.jpeg",
+    "question": "What is the total grant amount for the Tobacco Project?",
+    "answer": "$1,292,796.25",
+    "image_path": "data\\sample_500\\images\\2466.jpeg"
+  },
+  {
+    "doc_id": "4767.jpeg",
+    "question": "Who is the payee of the check?",
+    "answer": "Dennis L. Jones Campaign Fund",
+    "image_path": "data\\sample_500\\images\\4767.jpeg"
+  },
+  {
+    "doc_id": "1315.jpeg",
+    "question": "What is the total estimated amount for Quarter 1 (January-March 1992)?",
+    "answer": "$103,260.00",
+    "image_path": "data\\sample_500\\images\\1315.jpeg"
+  },
+  {
+    "doc_id": "989.jpeg",
+    "question": "Why might the specificity of the document be significant for P.M. Inc.?",
+    "answer": "The specificity of the document suggests a tailored service provided to P.M. Inc., possibly indicating a significant or longstanding client relationship.",
+    "image_path": "data\\sample_500\\images\\989.jpeg"
+  },
+  {
+    "doc_id": "9565.jpeg",
+    "question": "What is the address of the buyer mentioned in the document?",
+    "answer": "The buyer's address is 110 East 59th Street, New York, NY 10022.",
+    "image_path": "data\\sample_500\\images\\9565.jpeg"
+  },
+  {
+    "doc_id": "263.jpeg",
+    "question": "How does the plan approach increasing brand loyalty among existing customers?",
+    "answer": "The plan aims to stimulate purchase continuity by compulsive full flavor switchers and current Viceroy smokers through various incentives and trials.",
+    "image_path": "data\\sample_500\\images\\263.jpeg"
+  },
+  {
+    "doc_id": "3945.jpeg",
+    "question": "What was the total number of taxed cigarette packages in May 1980?",
+    "answer": "The total number of taxed cigarette packages in May 1980 was 2,564,545,000.",
+    "image_path": "data\\sample_500\\images\\3945.jpeg"
+  },
+  {
+    "doc_id": "9071.jpeg",
+    "question": "What does the 15% agency commission reflect?",
+    "answer": "Standard industry practices for agency-led ad placements.",
+    "image_path": "data\\sample_500\\images\\9071.jpeg"
+  },
+  {
+    "doc_id": "7325.jpeg",
+    "question": "When is the distribution of Issue #7 scheduled?",
+    "answer": "The end of 1991",
+    "image_path": "data\\sample_500\\images\\7325.jpeg"
+  },
+  {
+    "doc_id": "5814.jpeg",
+    "question": "Who signed the invoice?",
+    "answer": "Victor H. Woolley, Vice President of Sepracor Inc.",
+    "image_path": "data\\sample_500\\images\\5814.jpeg"
+  },
+  {
+    "doc_id": "4953.jpeg",
+    "question": "What is the significance of the 'PTO Use Only' section?",
+    "answer": "The 'PTO Use Only' section includes a confirmation or validation stamp.",
+    "image_path": "data\\sample_500\\images\\4953.jpeg"
+  },
+  {
+    "doc_id": "2837.jpeg",
+    "question": "What is the fixed amount allocated for Grants across both FY 1993 and FY 1994?",
+    "answer": "$19,500,000",
+    "image_path": "data\\sample_500\\images\\2837.jpeg"
+  },
+  {
+    "doc_id": "4327.jpeg",
+    "question": "Who is the issuer of the check?",
+    "answer": "The Tobacco Institute, Inc.",
+    "image_path": "data\\sample_500\\images\\4327.jpeg"
+  },
+  {
+    "doc_id": "8311.jpeg",
+    "question": "Who is the issuer of the sales receipt?",
+    "answer": "The issuer of the sales receipt is Tios Computer.",
+    "image_path": "data\\sample_500\\images\\8311.jpeg"
+  },
+  {
+    "doc_id": "2975.jpeg",
+    "question": "What is the daily average for January in terms of shipments?",
+    "answer": "The daily average for January is 8,556 units.",
+    "image_path": "data\\sample_500\\images\\2975.jpeg"
+  },
+  {
+    "doc_id": "5056.jpeg",
+    "question": "What is the date when the ASR was taken?",
+    "answer": "The ASR was taken on April 18, 1988.",
+    "image_path": "data\\sample_500\\images\\5056.jpeg"
+  },
+  {
+    "doc_id": "5395.jpeg",
+    "question": "What does the clarity in itemizing the service and amount reflect in terms of financial transactions?",
+    "answer": "Straightforward financial transactions that assist in clear financial auditing and budget management",
+    "image_path": "data\\sample_500\\images\\5395.jpeg"
+  },
+  {
+    "doc_id": "6957.jpeg",
+    "question": "How does this excess liability coverage provide financial protection to the policy holder?",
+    "answer": "This excess liability coverage provides financial protection to the policy holder by providing limits that exceed the underlying liability policy, thereby safeguarding against extensive risks.",
+    "image_path": "data\\sample_500\\images\\6957.jpeg"
+  },
+  {
+    "doc_id": "8567.jpeg",
+    "question": "What is the significance of Form 93 mentioned in the document?",
+    "answer": "The significance of Form 93 is not clearly specified in the document, but it may be related to the certification and approval process or compliance requirements.",
+    "image_path": "data\\sample_500\\images\\8567.jpeg"
+  },
+  {
+    "doc_id": "7593.jpeg",
+    "question": "What is the unit price of the purchased items?",
+    "answer": "2,700 per thousand units",
+    "image_path": "data\\sample_500\\images\\7593.jpeg"
+  },
+  {
+    "doc_id": "621.jpeg",
+    "question": "What is the net amount paid out in the transaction?",
+    "answer": "$200.00",
+    "image_path": "data\\sample_500\\images\\621.jpeg"
+  },
+  {
+    "doc_id": "9729.jpeg",
+    "question": "What is the purpose of the payment, based on the context of the document?",
+    "answer": "Political campaign purposes.",
+    "image_path": "data\\sample_500\\images\\9729.jpeg"
+  },
+  {
+    "doc_id": "287.jpeg",
+    "question": "Is there any discrepancy in the invoice amount and check amount?",
+    "answer": "No, the figures are consistent without discrepancies.",
+    "image_path": "data\\sample_500\\images\\287.jpeg"
+  },
+  {
+    "doc_id": "764.jpeg",
+    "question": "What is the pattern of financial entries and adjustments suggesting in the document?",
+    "answer": "The pattern suggests frequent fluctuations in costs or budget allocations possibly related to specific projects or operational needs.",
+    "image_path": "data\\sample_500\\images\\764.jpeg"
+  },
+  {
+    "doc_id": "686.jpeg",
+    "question": "How many man-hours were allocated to Project 0420-8212, 'Special Project 821A1'?",
+    "answer": "8.7",
+    "image_path": "data\\sample_500\\images\\686.jpeg"
+  },
+  {
+    "doc_id": "7080.jpeg",
+    "question": "What is the address of the customer, Philip Morris USA?",
+    "answer": "The address is 120 Park Avenue, New York, NY 10017-5592.",
+    "image_path": "data\\sample_500\\images\\7080.jpeg"
+  },
+  {
+    "doc_id": "6546.jpeg",
+    "question": "What can be inferred about the relationship between Covington & Burling and Philip Morris Management Corporation?",
+    "answer": "They have a professional services agreement, with Covington & Burling providing consulting services to Philip Morris Management Corporation.",
+    "image_path": "data\\sample_500\\images\\6546.jpeg"
+  },
+  {
+    "doc_id": "3345.jpeg",
+    "question": "What type of advertising campaigns is this contract ideal for?",
+    "answer": "Fixed budget advertising campaigns",
+    "image_path": "data\\sample_500\\images\\3345.jpeg"
+  },
+  {
+    "doc_id": "2534.jpeg",
+    "question": "Is the payment amount typical for this organization's activities?",
+    "answer": "The $300.00 payment is not mentioned as being unusual or out of character for The Tobacco Institute's activities.",
+    "image_path": "data\\sample_500\\images\\2534.jpeg"
+  },
+  {
+    "doc_id": "5547.jpeg",
+    "question": "Who is responsible for transmitting the check?",
+    "answer": "Dr. Osdene",
+    "image_path": "data\\sample_500\\images\\5547.jpeg"
+  },
+  {
+    "doc_id": "2781.jpeg",
+    "question": "How did the company's total revenue for the current month compare to last year's figure?",
+    "answer": "Total revenue for the current month was significantly lower than last year's figure of $6,917 thousand.",
+    "image_path": "data\\sample_500\\images\\2781.jpeg"
+  },
+  {
+    "doc_id": "5799.jpeg",
+    "question": "What is the significance of the 'THIS IS TOBACCO MONEY' label on the check?",
+    "answer": "The label suggests that the funds are proceeds from tobacco sales or related to the tobacco industry, which may have implications for tax or regulatory reporting.",
+    "image_path": "data\\sample_500\\images\\5799.jpeg"
+  },
+  {
+    "doc_id": "808.jpeg",
+    "question": "How does the operating income of Miller Brewing Company change from 1989 to 1993?",
+    "answer": "The operating income increases by 25% from 1989 to 1993, with significant growth in 1993 reaching $327 million.",
+    "image_path": "data\\sample_500\\images\\808.jpeg"
+  },
+  {
+    "doc_id": "5472.jpeg",
+    "question": "What is the description of the job outlined in the document?",
+    "answer": "Wave I of True 'Green' Penetration Research among 600 mentholated smokers",
+    "image_path": "data\\sample_500\\images\\5472.jpeg"
+  },
+  {
+    "doc_id": "4470.jpeg",
+    "question": "What is the issue with the last entry in the budget log sheet?",
+    "answer": "The last entry in the budget log sheet has incomplete and illegible details, which hinders full transparency of financial positions at that particular time.",
+    "image_path": "data\\sample_500\\images\\4470.jpeg"
+  },
+  {
+    "doc_id": "4265.jpeg",
+    "question": "What is the position of the approver who signed the document?",
+    "answer": "Regional Vice President",
+    "image_path": "data\\sample_500\\images\\4265.jpeg"
+  },
+  {
+    "doc_id": "8449.jpeg",
+    "question": "How might the lack of a guaranteed position affect the advertisement's visibility and impact?",
+    "answer": "The lack of a guaranteed position might affect the advertisement's visibility and impact, as its placement within the publication is not promised.",
+    "image_path": "data\\sample_500\\images\\8449.jpeg"
+  },
+  {
+    "doc_id": "8851.jpeg",
+    "question": "What is the invoice number?",
+    "answer": "The invoice number is 2053.",
+    "image_path": "data\\sample_500\\images\\8851.jpeg"
+  },
+  {
+    "doc_id": "1007.jpeg",
+    "question": "How much was spent on 16-V.S. Lights in Q2?",
+    "answer": "$87,029.14",
+    "image_path": "data\\sample_500\\images\\1007.jpeg"
+  },
+  {
+    "doc_id": "5301.jpeg",
+    "question": "What does the 'TERMS NET CASH NO DEPOSIT ALLOWED' notation on the invoice suggest?",
+    "answer": "It suggests that immediate payment is expected without any deposits, indicating a strict credit control policy by The Huben H. Donnelly Corporation.",
+    "image_path": "data\\sample_500\\images\\5301.jpeg"
+  },
+  {
+    "doc_id": "8763.jpeg",
+    "question": "What type of assay is mentioned in the document?",
+    "answer": "The assay mentioned is Salmonella typhimurium: Reverse Mutation Assay.",
+    "image_path": "data\\sample_500\\images\\8763.jpeg"
+  },
+  {
+    "doc_id": "9721.jpeg",
+    "question": "What is the political party affiliation of the recipient?",
+    "answer": "Democrat",
+    "image_path": "data\\sample_500\\images\\9721.jpeg"
+  },
+  {
+    "doc_id": "1436.jpeg",
+    "question": "What type of outdoor advertising is being tested with this budget?",
+    "answer": "Exterior signs promoting Marlboro Menthol",
+    "image_path": "data\\sample_500\\images\\1436.jpeg"
+  },
+  {
+    "doc_id": "5137.jpeg",
+    "question": "What does the document reveal about taxation in the early 1970s in New York?",
+    "answer": "The document reveals that a 10% tax was applied to professional services in the early 1970s in New York.",
+    "image_path": "data\\sample_500\\images\\5137.jpeg"
+  },
+  {
+    "doc_id": "5685.jpeg",
+    "question": "What is the subtotal and total amount due in the invoice?",
+    "answer": "The subtotal is $561.86, and the total amount due is $596.81.",
+    "image_path": "data\\sample_500\\images\\5685.jpeg"
+  },
+  {
+    "doc_id": "9453.jpeg",
+    "question": "What is the highest revenue-generating product in the invoice?",
+    "answer": "The highest revenue-generating product is Newport BO, with a revenue of $14,999.00.",
+    "image_path": "data\\sample_500\\images\\9453.jpeg"
+  },
+  {
+    "doc_id": "3381.jpeg",
+    "question": "Which laboratory has the highest total charges?",
+    "answer": "Litton Bionetics with a total of $185,582",
+    "image_path": "data\\sample_500\\images\\3381.jpeg"
+  },
+  {
+    "doc_id": "3539.jpeg",
+    "question": "What is the purpose of the spaces allocated for addressing remittance on the invoice?",
+    "answer": "To facilitate efficient account management and payment reminders.",
+    "image_path": "data\\sample_500\\images\\3539.jpeg"
+  },
+  {
+    "doc_id": "4771.jpeg",
+    "question": "What is the primary focus of the proposed tax package?",
+    "answer": "Revenue generation through various tax adjustments.",
+    "image_path": "data\\sample_500\\images\\4771.jpeg"
+  },
+  {
+    "doc_id": "3348.jpeg",
+    "question": "What does the uniformity in pricing and quantity suggest about the advertising expenditure?",
+    "answer": "It suggests a stable and predictable advertising expenditure.",
+    "image_path": "data\\sample_500\\images\\3348.jpeg"
+  },
+  {
+    "doc_id": "9009.jpeg",
+    "question": "What is the agency discount of the advertised item?",
+    "answer": "The agency discount is $6,466.50.",
+    "image_path": "data\\sample_500\\images\\9009.jpeg"
+  },
+  {
+    "doc_id": "3443.jpeg",
+    "question": "What might be a potential consequence of the company's significant financial challenges?",
+    "answer": "The company may need to closely monitor its fiscal management, reassess its strategies, or explore new market opportunities to mitigate its losses.",
+    "image_path": "data\\sample_500\\images\\3443.jpeg"
+  },
+  {
+    "doc_id": "682.jpeg",
+    "question": "How much will Cutter Head and Fabrication cost Delta?",
+    "answer": "$54,000",
+    "image_path": "data\\sample_500\\images\\682.jpeg"
+  },
+  {
+    "doc_id": "9152.jpeg",
+    "question": "What does the annotation 'Tear sheet attached' suggest?",
+    "answer": "The annotation suggests that a tear sheet, or a copy of the advertisement, is attached to the invoice.",
+    "image_path": "data\\sample_500\\images\\9152.jpeg"
+  },
+  {
+    "doc_id": "8743.jpeg",
+    "question": "Why is it important to observe payment timelines and billing addresses in this document?",
+    "answer": "It is important to observe payment timelines and billing addresses for payment tracking and validation purposes.",
+    "image_path": "data\\sample_500\\images\\8743.jpeg"
+  },
+  {
+    "doc_id": "7802.jpeg",
+    "question": "Why is the attachment critical for a complete understanding of the issue?",
+    "answer": "It would likely detail the specific nature of the issue or the reasons behind the non-payment",
+    "image_path": "data\\sample_500\\images\\7802.jpeg"
+  },
+  {
+    "doc_id": "1559.jpeg",
+    "question": "How much did the budget for creative/production expenses decrease from 1992 to 1993?",
+    "answer": "$95,000",
+    "image_path": "data\\sample_500\\images\\1559.jpeg"
+  },
+  {
+    "doc_id": "9391.jpeg",
+    "question": "What is the purpose of the disbursement note mentioned in the invoice?",
+    "answer": "The disbursement note, Lorillard Plus Disbursement, is 21.3% of the total quantity, indicating a specific allocation or distribution of the purchased items.",
+    "image_path": "data\\sample_500\\images\\9391.jpeg"
+  },
+  {
+    "doc_id": "3203.jpeg",
+    "question": "On what date was the check issued?",
+    "answer": "May 23, 1992",
+    "image_path": "data\\sample_500\\images\\3203.jpeg"
+  },
+  {
+    "doc_id": "2401.jpeg",
+    "question": "What is the market value of Ralston Purina Co bonds in Edwin David Foulks Jr.'s portfolio?",
+    "answer": "$9,426.75",
+    "image_path": "data\\sample_500\\images\\2401.jpeg"
+  },
+  {
+    "doc_id": "9463.jpeg",
+    "question": "Who is the vendor specified in the document?",
+    "answer": "The vendor is Northeast Industrial Supply, located in Hampton, VA 23661.",
+    "image_path": "data\\sample_500\\images\\9463.jpeg"
+  },
+  {
+    "doc_id": "8082.jpeg",
+    "question": "Who is the intended recipient of the invoice?",
+    "answer": "Lorillard Research Center, P.O. Box 21688, Greensboro, NC 27420; Attn: Dr. Connie Stone",
+    "image_path": "data\\sample_500\\images\\8082.jpeg"
+  },
+  {
+    "doc_id": "6800.jpeg",
+    "question": "What is the name of the event presented by Tenneco Realty Development Corp.?",
+    "answer": "The Ginny of Bakersfield",
+    "image_path": "data\\sample_500\\images\\6800.jpeg"
+  },
+  {
+    "doc_id": "2967.jpeg",
+    "question": "What is the proposed budget for the lobbyist in 1996?",
+    "answer": "$44,000",
+    "image_path": "data\\sample_500\\images\\2967.jpeg"
+  },
+  {
+    "doc_id": "8398.jpeg",
+    "question": "Who is the invoice addressed to?",
+    "answer": "Mr. Andrew Paseltuk, Lorillard Tobacco Company",
+    "image_path": "data\\sample_500\\images\\8398.jpeg"
+  },
+  {
+    "doc_id": "6977.jpeg",
+    "question": "What is the payment term for the invoice?",
+    "answer": "The payment term is 'Net 30 days' with no cash discount.",
+    "image_path": "data\\sample_500\\images\\6977.jpeg"
+  },
+  {
+    "doc_id": "8888.jpeg",
+    "question": "What is the total Guard A rate before the agency discount?",
+    "answer": "$3,263.49",
+    "image_path": "data\\sample_500\\images\\8888.jpeg"
+  },
+  {
+    "doc_id": "5611.jpeg",
+    "question": "What is the potential issue with the unit pricing or quantity description in the invoice?",
+    "answer": "There are anomalies in unit pricing or quantity description, which may require verification for accuracy.",
+    "image_path": "data\\sample_500\\images\\5611.jpeg"
+  },
+  {
+    "doc_id": "7503.jpeg",
+    "question": "Who is the issuer of the voucher?",
+    "answer": "The voucher is issued by Philip Morris S.A.",
+    "image_path": "data\\sample_500\\images\\7503.jpeg"
+  },
+  {
+    "doc_id": "9752.jpeg",
+    "question": "What is the invoice number and date?",
+    "answer": "Invoice Number: 14013, Invoice Date: January 30, 1997",
+    "image_path": "data\\sample_500\\images\\9752.jpeg"
+  },
+  {
+    "doc_id": "1556.jpeg",
+    "question": "How much did the Year-to-Date Variance exceed the planned budget?",
+    "answer": "$353,923 under budget",
+    "image_path": "data\\sample_500\\images\\1556.jpeg"
+  },
+  {
+    "doc_id": "2219.jpeg",
+    "question": "When was this Contest Estimate Summary submitted?",
+    "answer": "12-18-92",
+    "image_path": "data\\sample_500\\images\\2219.jpeg"
+  },
+  {
+    "doc_id": "8517.jpeg",
+    "question": "What is the amount due for the service provided?",
+    "answer": "$3,750.00",
+    "image_path": "data\\sample_500\\images\\8517.jpeg"
+  },
+  {
+    "doc_id": "1366.jpeg",
+    "question": "Who was the client for this advertising campaign?",
+    "answer": "The client is P.M. Inc.",
+    "image_path": "data\\sample_500\\images\\1366.jpeg"
+  },
+  {
+    "doc_id": "4548.jpeg",
+    "question": "What is the payment term for the invoice?",
+    "answer": "The payment term is Net 30.",
+    "image_path": "data\\sample_500\\images\\4548.jpeg"
+  },
+  {
+    "doc_id": "2726.jpeg",
+    "question": "What is the total budget for Utilities & Services expenses?",
+    "answer": "$13,500",
+    "image_path": "data\\sample_500\\images\\2726.jpeg"
+  },
+  {
+    "doc_id": "6896.jpeg",
+    "question": "What does the lack of filled dates for cashier, audit, and approval indicate?",
+    "answer": "The lack of filled dates for cashier, audit, and approval indicates that the processing of this voucher might not be complete, or key steps in the oversight or release of funds are yet to be executed.",
+    "image_path": "data\\sample_500\\images\\6896.jpeg"
+  },
+  {
+    "doc_id": "74.jpeg",
+    "question": "What is the composition cost for this project?",
+    "answer": "$1,400.00 (see attached for description)",
+    "image_path": "data\\sample_500\\images\\74.jpeg"
+  },
+  {
+    "doc_id": "8099.jpeg",
+    "question": "What is the product/service being charged for?",
+    "answer": "UNSCHEDULED DNA SYNTHESIS HANDLING & SHIPPING CHARGE.",
+    "image_path": "data\\sample_500\\images\\8099.jpeg"
+  },
+  {
+    "doc_id": "8625.jpeg",
+    "question": "Where is Lorillard located according to the document?",
+    "answer": "Lorillard is located in Greensboro, N.C.",
+    "image_path": "data\\sample_500\\images\\8625.jpeg"
+  },
+  {
+    "doc_id": "8061.jpeg",
+    "question": "What is the total amount of the invoice?",
+    "answer": "$12,300.00",
+    "image_path": "data\\sample_500\\images\\8061.jpeg"
+  },
+  {
+    "doc_id": "9266.jpeg",
+    "question": "What is the significance of the reference 'GMF/ms' on the debit note?",
+    "answer": "It likely indicates the initials of the responsible individual or clerk at the law firm.",
+    "image_path": "data\\sample_500\\images\\9266.jpeg"
+  },
+  {
+    "doc_id": "1355.jpeg",
+    "question": "What was the total billing information for December?",
+    "answer": "$3,063.18 (Vendor Gross) and $1,115.20 (Tax), totaling $4,178.38.",
+    "image_path": "data\\sample_500\\images\\1355.jpeg"
+  },
+  {
+    "doc_id": "1587.jpeg",
+    "question": "Who was the service manager for Philip Morris Inc's database project?",
+    "answer": "Spannol",
+    "image_path": "data\\sample_500\\images\\1587.jpeg"
+  },
+  {
+    "doc_id": "3035.jpeg",
+    "question": "Which two companies have a significant presence in the report's expenditures?",
+    "answer": "Philip Morris and R.J. Reynolds are two prominent companies with separate expenditure listings for their respective brands.",
+    "image_path": "data\\sample_500\\images\\3035.jpeg"
+  },
+  {
+    "doc_id": "8238.jpeg",
+    "question": "What is the unit price of the services provided?",
+    "answer": "$5,000.00",
+    "image_path": "data\\sample_500\\images\\8238.jpeg"
+  },
+  {
+    "doc_id": "9436.jpeg",
+    "question": "What could be the reason for the significant difference between the gross amount and net amount?",
+    "answer": "The difference could be due to discounts, returns, or other financial adjustments applied.",
+    "image_path": "data\\sample_500\\images\\9436.jpeg"
+  },
+  {
+    "doc_id": "532.jpeg",
+    "question": "What is the recipient's name mentioned in the document?",
+    "answer": "Jay C. Hoffman",
+    "image_path": "data\\sample_500\\images\\532.jpeg"
+  },
+  {
+    "doc_id": "9366.jpeg",
+    "question": "What is the payment term for the requested amount?",
+    "answer": "The payment term is 'Due Upon Receipt'.",
+    "image_path": "data\\sample_500\\images\\9366.jpeg"
+  },
+  {
+    "doc_id": "5902.jpeg",
+    "question": "What is the total amount due on the invoice?",
+    "answer": "The total amount due is $33,300.00.",
+    "image_path": "data\\sample_500\\images\\5902.jpeg"
+  },
+  {
+    "doc_id": "3229.jpeg",
+    "question": "What is the description of the invoice?",
+    "answer": "Support 92",
+    "image_path": "data\\sample_500\\images\\3229.jpeg"
+  },
+  {
+    "doc_id": "5612.jpeg",
+    "question": "What is the service provided by, according to the document?",
+    "answer": "The service is provided by National Car Rental System, Inc.",
+    "image_path": "data\\sample_500\\images\\5612.jpeg"
+  },
+  {
+    "doc_id": "7606.jpeg",
+    "question": "What is the significance of providing both phone and fax numbers in the invoice footer?",
+    "answer": "Providing both phone and fax numbers is useful for addressing any queries regarding the invoice.",
+    "image_path": "data\\sample_500\\images\\7606.jpeg"
+  },
+  {
+    "doc_id": "5423.jpeg",
+    "question": "What is the date of the invoice?",
+    "answer": "September 24, 1982.",
+    "image_path": "data\\sample_500\\images\\5423.jpeg"
+  },
+  {
+    "doc_id": "3100.jpeg",
+    "question": "Why is the sender prioritizing quick cash flow?",
+    "answer": "The sender is prioritizing quick cash flow because they are offering a 10% discount for pre-payment.",
+    "image_path": "data\\sample_500\\images\\3100.jpeg"
+  },
+  {
+    "doc_id": "3611.jpeg",
+    "question": "What is the check number of the payment?",
+    "answer": "090413",
+    "image_path": "data\\sample_500\\images\\3611.jpeg"
+  },
+  {
+    "doc_id": "3825.jpeg",
+    "question": "What is the deadline for guaranteed payment, and what are the associated charges?",
+    "answer": "Guaranteed by Noon on September 21, 1998, subject to 19% service charge and sales tax.",
+    "image_path": "data\\sample_500\\images\\3825.jpeg"
+  },
+  {
+    "doc_id": "1499.jpeg",
+    "question": "How does the yearly gross change in 1991 compare to the previous year's change?",
+    "answer": "The document doesn't specify whether it's an increase or decrease from the previous year, but if it's an increase, it could suggest an expansion in advertising scope or increased costs; if a decrease, potentially improved cost efficiency or reduced scale.",
+    "image_path": "data\\sample_500\\images\\1499.jpeg"
+  },
+  {
+    "doc_id": "550.jpeg",
+    "question": "Where is the location mentioned on the check",
+    "answer": "Washington, DC is the location mentioned on the check.",
+    "image_path": "data\\sample_500\\images\\550.jpeg"
+  },
+  {
+    "doc_id": "551.jpeg",
+    "question": "Which party does James Rea belong to?",
+    "answer": "James Rea belongs to the Democratic Party.",
+    "image_path": "data\\sample_500\\images\\551.jpeg"
+  },
+  {
+    "doc_id": "5527.jpeg",
+    "question": "What is the address of the company making the contribution?",
+    "answer": "200 East 42nd Street, New York, 10017",
+    "image_path": "data\\sample_500\\images\\5527.jpeg"
+  },
+  {
+    "doc_id": "3522.jpeg",
+    "question": "What type of users may find this document useful?",
+    "answer": "Regulatory bodies, historians, and political analysts studying campaign finance dynamics.",
+    "image_path": "data\\sample_500\\images\\3522.jpeg"
+  },
+  {
+    "doc_id": "1312.jpeg",
+    "question": "Is there a notable pattern in the spending data?",
+    "answer": "Yes, there appears to be a significant decrease in ad spending from Q3 to Q4 for both product lines, suggesting a seasonal adjustment, budget cut, or strategy shift.",
+    "image_path": "data\\sample_500\\images\\1312.jpeg"
+  },
+  {
+    "doc_id": "6582.jpeg",
+    "question": "What type of service is mentioned in the document?",
+    "answer": "Public relations and distribution services for a magazine publication.",
+    "image_path": "data\\sample_500\\images\\6582.jpeg"
+  },
+  {
+    "doc_id": "7589.jpeg",
+    "question": "How would the amounts mentioned in the document be perceived in the context of 1987?",
+    "answer": "The amounts mentioned in the document would have represented significant expenses at the time for academic-related travel and event preparation.",
+    "image_path": "data\\sample_500\\images\\7589.jpeg"
+  },
+  {
+    "doc_id": "9155.jpeg",
+    "question": "What is the address of Adam Winter Co. Inc.?",
+    "answer": "15 Southward Ave., Peekskill, NY 10566",
+    "image_path": "data\\sample_500\\images\\9155.jpeg"
+  },
+  {
+    "doc_id": "8747.jpeg",
+    "question": "What might be inferred about the service provided based on the lack of shipping or freight charges?",
+    "answer": "It might be inferred that the service did not require physical delivery, which aligns with the nature of the service provided (DNA synthesis).",
+    "image_path": "data\\sample_500\\images\\8747.jpeg"
+  },
+  {
+    "doc_id": "292.jpeg",
+    "question": "Who wrote this check?",
+    "answer": "Super, Karen Fernicola",
+    "image_path": "data\\sample_500\\images\\292.jpeg"
+  },
+  {
+    "doc_id": "8267.jpeg",
+    "question": "What is the current bill amount listed in the billing summary?",
+    "answer": "$20,735.38",
+    "image_path": "data\\sample_500\\images\\8267.jpeg"
+  },
+  {
+    "doc_id": "6571.jpeg",
+    "question": "What is the invoice number mentioned in the document?",
+    "answer": "The invoice number is 4259.",
+    "image_path": "data\\sample_500\\images\\6571.jpeg"
+  },
+  {
+    "doc_id": "3629.jpeg",
+    "question": "Who is the recipient of the contribution/honorarium request?",
+    "answer": "Willie L. Brown Jr.",
+    "image_path": "data\\sample_500\\images\\3629.jpeg"
+  },
+  {
+    "doc_id": "5358.jpeg",
+    "question": "Why is the D.C. Tax included in the invoice?",
+    "answer": "The D.C. Tax is included to comply with taxation regulations at the time.",
+    "image_path": "data\\sample_500\\images\\5358.jpeg"
+  },
+  {
+    "doc_id": "2001.jpeg",
+    "question": "What is the amount allocated for temporary help expenses in the document?",
+    "answer": "$582",
+    "image_path": "data\\sample_500\\images\\2001.jpeg"
+  },
+  {
+    "doc_id": "9394.jpeg",
+    "question": "What is the customer number mentioned in the document?",
+    "answer": "The customer number is 154132000.",
+    "image_path": "data\\sample_500\\images\\9394.jpeg"
+  },
+  {
+    "doc_id": "7669.jpeg",
+    "question": "Who certified the document, asserting the bill is correct and just?",
+    "answer": "Mrs. Mildred H. Winston, Associate Director of Sponsored Programs",
+    "image_path": "data\\sample_500\\images\\7669.jpeg"
+  },
+  {
+    "doc_id": "7303.jpeg",
+    "question": "What is the significance of the billing statement in the context of the law firm's financial operations?",
+    "answer": "The billing statement performs a crucial role in detailing the financial relationship between the law firm and its client, providing transparency regarding fee structures and disbursements associated with specific services rendered.",
+    "image_path": "data\\sample_500\\images\\7303.jpeg"
+  },
+  {
+    "doc_id": "5250.jpeg",
+    "question": "What does the specified contact person and direct payment terms indicate?",
+    "answer": "Streamlined communication and financial transaction processes within the company.",
+    "image_path": "data\\sample_500\\images\\5250.jpeg"
+  },
+  {
+    "doc_id": "3073.jpeg",
+    "question": "Why is the Business Taxes expenditure notable?",
+    "answer": "The Business Taxes expenditure is notable because it is only $1, which is significantly lower than the budgeted amount of $75, suggesting an anomaly or misallocation.",
+    "image_path": "data\\sample_500\\images\\3073.jpeg"
+  },
+  {
+    "doc_id": "7137.jpeg",
+    "question": "What is the quantity of Item 1 and Item 2 mentioned in the invoice?",
+    "answer": "The quantity of both items is 1 each.",
+    "image_path": "data\\sample_500\\images\\7137.jpeg"
+  },
+  {
+    "doc_id": "7848.jpeg",
+    "question": "What is the apartment contract number mentioned in the note?",
+    "answer": "The apartment contract number is Contract #4.",
+    "image_path": "data\\sample_500\\images\\7848.jpeg"
+  },
+  {
+    "doc_id": "8990.jpeg",
+    "question": "What is the net total amount listed on the invoice after the agency commission deduction?",
+    "answer": "$1,054.17",
+    "image_path": "data\\sample_500\\images\\8990.jpeg"
+  },
+  {
+    "doc_id": "5414.jpeg",
+    "question": "What is the address of the recipient of the invoice?",
+    "answer": "420 English Street, Greensboro, NC 27405",
+    "image_path": "data\\sample_500\\images\\5414.jpeg"
+  },
+  {
+    "doc_id": "523.jpeg",
+    "question": "To whom should the check be payable, according to the document?",
+    "answer": "According to the document, the check should be payable to Citizens for Charles Morrow III.",
+    "image_path": "data\\sample_500\\images\\523.jpeg"
+  },
+  {
+    "doc_id": "2119.jpeg",
+    "question": "Is there any trend observed in the premiums across most coverage categories between 1979 and 1980?",
+    "answer": "Yes, there is a general decrease in premiums from 1979 to 1980.",
+    "image_path": "data\\sample_500\\images\\2119.jpeg"
+  },
+  {
+    "doc_id": "667.jpeg",
+    "question": "Is there any specific item that has a significant variance value between actual expenditures and budgeted amounts?",
+    "answer": "Yes, '502 Dues - Tobacco Institute' and '612 Legal - General Domestic' have unfavorable variance values",
+    "image_path": "data\\sample_500\\images\\667.jpeg"
+  },
+  {
+    "doc_id": "3867.jpeg",
+    "question": "What is the purpose of the credit entry to Account 4761 Parking?",
+    "answer": "The purpose of the credit entry to Account 4761 Parking is unclear and may require further review to determine if it's an error or an accumulation of parking fees.",
+    "image_path": "data\\sample_500\\images\\3867.jpeg"
+  },
+  {
+    "doc_id": "8734.jpeg",
+    "question": "What is the address of the buyer?",
+    "answer": "The buyer's address is P.O. Box 21668, 420 English Street, Greensboro, NC 27420.",
+    "image_path": "data\\sample_500\\images\\8734.jpeg"
+  },
+  {
+    "doc_id": "5001.jpeg",
+    "question": "What is the estimate reference number mentioned in the document?",
+    "answer": "The estimate reference number is KW-RP-72-13-382.",
+    "image_path": "data\\sample_500\\images\\5001.jpeg"
+  },
+  {
+    "doc_id": "9311.jpeg",
+    "question": "What type of service is suggested by the specific segment details provided?",
+    "answer": "The specific segment details suggest a tailored media monitoring service provided specific to the client's request.",
+    "image_path": "data\\sample_500\\images\\9311.jpeg"
+  },
+  {
+    "doc_id": "2918.jpeg",
+    "question": "How much did the 'May/June' promotional item cost in 1989?",
+    "answer": "The cost of the 'May/June' promotional item is $90,750.",
+    "image_path": "data\\sample_500\\images\\2918.jpeg"
+  },
+  {
+    "doc_id": "6670.jpeg",
+    "question": "How many departments are involved in handling the payment verification and budgeting control?",
+    "answer": "At least two departments are involved, including Corporate Affairs Budget & Control.",
+    "image_path": "data\\sample_500\\images\\6670.jpeg"
+  },
+  {
+    "doc_id": "2399.jpeg",
+    "question": "Which cost element has a variance percentage greater than 10%?",
+    "answer": "Salaries have a variance percentage of 3.21%, while travel has a variance percentage of -12.51%. Neither is greater than 10%.",
+    "image_path": "data\\sample_500\\images\\2399.jpeg"
+  },
+  {
+    "doc_id": "4290.jpeg",
+    "question": "On what date was the check issued?",
+    "answer": "February 29, 1988",
+    "image_path": "data\\sample_500\\images\\4290.jpeg"
+  },
+  {
+    "doc_id": "4108.jpeg",
+    "question": "What type of events are listed in the document?",
+    "answer": "The document lists various events such as receptions, dinners, and themed events like 'Family Fiesta'.",
+    "image_path": "data\\sample_500\\images\\4108.jpeg"
+  },
+  {
+    "doc_id": "6812.jpeg",
+    "question": "What is the significance of a remittance advice document like this?",
+    "answer": "It assists in reconciling payments against invoices, ensuring proper accounting practices.",
+    "image_path": "data\\sample_500\\images\\6812.jpeg"
+  },
+  {
+    "doc_id": "1493.jpeg",
+    "question": "What is the total gross change reported in this document?",
+    "answer": "$109,872.25",
+    "image_path": "data\\sample_500\\images\\1493.jpeg"
+  },
+  {
+    "doc_id": "1466.jpeg",
+    "question": "What division of Leo Burnett Company, Inc. is involved in this project?",
+    "answer": "The division involved is a division of Leo Burnett U.S.A.",
+    "image_path": "data\\sample_500\\images\\1466.jpeg"
+  },
+  {
+    "doc_id": "3733.jpeg",
+    "question": "What is the total amount of pre-tax employee contributions to the 401 k Plan?",
+    "answer": "$31,287.64",
+    "image_path": "data\\sample_500\\images\\3733.jpeg"
+  },
+  {
+    "doc_id": "7394.jpeg",
+    "question": "What is the yearly total estimated amount for IO-Marlboro, and what is the change in estimated amount?",
+    "answer": "The yearly total estimated amount is $140,887.00, and the change in estimated amount is -$8,250.00.",
+    "image_path": "data\\sample_500\\images\\7394.jpeg"
+  },
+  {
+    "doc_id": "7635.jpeg",
+    "question": "Who is the client mentioned in the invoice?",
+    "answer": "The client is R.J. Reynolds Tobacco Company.",
+    "image_path": "data\\sample_500\\images\\7635.jpeg"
+  },
+  {
+    "doc_id": "5210.jpeg",
+    "question": "What is the date of the financial statement, and who is the intended recipient?",
+    "answer": "The date of the financial statement is May 23, 1972, and it is directed to The American Tobacco Company, attention: Richard Stimette.",
+    "image_path": "data\\sample_500\\images\\5210.jpeg"
+  },
+  {
+    "doc_id": "8997.jpeg",
+    "question": "Who is the recipient of the invoice?",
+    "answer": "The recipient of the invoice is Lorillard Media Services, located at 666 Fifth Avenue, New York, NY 10103.",
+    "image_path": "data\\sample_500\\images\\8997.jpeg"
+  },
+  {
+    "doc_id": "5929.jpeg",
+    "question": "Who received the statement and when?",
+    "answer": "The statement was received by M. O. Pottorff on June 10, 1991.",
+    "image_path": "data\\sample_500\\images\\5929.jpeg"
+  },
+  {
+    "doc_id": "8341.jpeg",
+    "question": "Who is the payee of the check?",
+    "answer": "The payee of the check is possibly related to Lowe's entities, such as Loews Hotels, Loews Theatres, or Loews Corp.",
+    "image_path": "data\\sample_500\\images\\8341.jpeg"
+  }
+]

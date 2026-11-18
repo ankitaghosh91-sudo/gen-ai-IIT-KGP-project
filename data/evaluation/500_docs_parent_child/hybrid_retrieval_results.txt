@@ -1,0 +1,2200 @@
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the product being advertised in the mall display?
+Question ID: q2
+Expected Document: 7767.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 7767.jpeg:child:0:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [10, 19, 20]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Who is the issuer of the check?
+Question ID: q1
+Expected Document: 3648.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 3648.jpeg:child:0:0
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [7, 28, 47]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the amount due as per the invoice?
+Question ID: q6
+Expected Document: 5814.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 5814.jpeg:child:0:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [78]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the industry or sector that R.J. Reynolds operates in?
+Question ID: q11
+Expected Document: 7766.jpeg
+Correct Document Retrieved: True
+Expected Chunk: None
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [2, 3, 5, 12, 30]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What can be inferred about the importance of legal and financial compliance in the transaction process?
+Question ID: q11
+Expected Document: 6080.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 6080.jpeg:child:2:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [25]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the name of the company that issued the invoice?
+Question ID: q1
+Expected Document: 8974.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 8974.jpeg:child:0:0
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [43]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the purpose of the payment?
+Question ID: q4
+Expected Document: 4758.jpeg
+Correct Document Retrieved: False
+Expected Chunk: 4758.jpeg:child:0:1
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: []
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What was the rate for a 6x21 ad in Tacoma?
+Question ID: q2
+Expected Document: 1411.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 1411.jpeg:child:0:3
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 2, 3, 5, 28]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Who is the issuer of the invoice?
+Question ID: q1
+Expected Document: 8441.jpeg
+Correct Document Retrieved: False
+Expected Chunk: 8441.jpeg:child:0:0
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: []
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Why is it important to verify the nature of 'Support 92'?
+Question ID: q10
+Expected Document: 3229.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 3229.jpeg:child:1:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 4, 52]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the document ID of the corporate financial voucher?
+Question ID: q1
+Expected Document: 7247.jpeg
+Correct Document Retrieved: True
+Expected Chunk: None
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [1, 7, 25, 37, 51, 89]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Who is the issuer of the check?
+Question ID: q1
+Expected Document: 7936.jpeg
+Correct Document Retrieved: False
+Expected Chunk: 7936.jpeg:child:0:1
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: []
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Why is the attention to a specific individual important on the invoice?
+Question ID: q11
+Expected Document: 8065.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 8065.jpeg:child:1:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 7]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Why is this document relevant for any audit or financial review?
+Question ID: q10
+Expected Document: 8067.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 8067.jpeg:child:1:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the total amount due on the billing statement?
+Question ID: q7
+Expected Document: 9078.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 9078.jpeg:child:0:2
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [3, 33]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Who is the issuer of the invoice?
+Question ID: q1
+Expected Document: 9312.jpeg
+Correct Document Retrieved: False
+Expected Chunk: 9312.jpeg:child:0:1
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: []
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the address of the customer, Lorillard Research Center?
+Question ID: q3
+Expected Document: 8747.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 8747.jpeg:child:0:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [5, 76]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What are the objectives of the Universal Trailer project?
+Question ID: q3
+Expected Document: 33.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 33.jpeg:child:0:3
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 9, 10, 12, 28]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What are the model fees, and how much do they cost?
+Question ID: q5
+Expected Document: 1711.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 1711.jpeg:child:0:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 2, 25]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the adjustment or subtraction made to the gross amount, and what could be the possible reason for it?
+Question ID: q6
+Expected Document: 8116.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 8116.jpeg:child:1:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [4]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: In what areas did the department underutilize its budget as of August 31, 1971?
+Question ID: q3
+Expected Document: 672.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 672.jpeg:child:1:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 8, 18, 21, 25, 51, 90]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: In which quarter does the total gross amount show a significant increase compared to the previous quarter?
+Question ID: q10
+Expected Document: 921.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 921.jpeg:child:1:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [14, 17, 20, 21]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Why is the voucher important for compliance and auditing?
+Question ID: q8
+Expected Document: 6896.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 6896.jpeg:child:1:3
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [37, 47, 49]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: How did the team leader(s) in this document impact the financial performance of the tobacco production process?
+Question ID: q4
+Expected Document: 766.jpeg
+Correct Document Retrieved: True
+Expected Chunk: None
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [1, 33]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the address listed on the donation receipt?
+Question ID: q3
+Expected Document: 4254.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 4254.jpeg:child:0:1
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [2, 9]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the significance of the uniform monthly charges?
+Question ID: q10
+Expected Document: 3345.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 3345.jpeg:child:1:0
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 18]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: How does the document's age impact its compliance with current tax codes?
+Question ID: q8
+Expected Document: 3362.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 3362.jpeg:child:1:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the total expenditure for February to May 1987 on '12-B&H Lights'?
+Question ID: q5
+Expected Document: 1434.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 1434.jpeg:child:0:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 4, 65]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the total budget for Tournament Entertainment (Meals, Cocktails, Live Entertainment, Hospitality) expenses?
+Question ID: q9
+Expected Document: 2726.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 2726.jpeg:child:1:3
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 2, 3, 4, 6, 8, 9, 10, 47]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the significance of the 'OBACCO INSTITUTE - JC' mention?
+Question ID: q8
+Expected Document: 3230.jpeg
+Correct Document Retrieved: True
+Expected Chunk: None
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [1]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the payment term for the Purchase Order?
+Question ID: q4
+Expected Document: 5250.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 5250.jpeg:child:0:2
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [13, 85]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the card rate for the advertisement?
+Question ID: q6
+Expected Document: 8441.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 8441.jpeg:child:0:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 3, 97]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the quantity of the product being shipped?
+Question ID: q4
+Expected Document: 6799.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 6799.jpeg:child:0:2
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [73]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the percentage increase in the budget for Harry Kaiser (OH, Federal) from 1997 to 1998?
+Question ID: q4
+Expected Document: 3842.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 3842.jpeg:child:0:3
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 2, 3, 6, 16]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: How might the monetary value of the consultation expenses be affected by inflation?
+Question ID: q9
+Expected Document: 5547.jpeg
+Correct Document Retrieved: True
+Expected Chunk: None
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [2, 4, 7, 26]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What type of document does this represent?
+Question ID: q2
+Expected Document: 1996.jpeg
+Correct Document Retrieved: False
+Expected Chunk: 1996.jpeg:child:0:0
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: []
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the finance charge policy for late payments?
+Question ID: q9
+Expected Document: 5206.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 5206.jpeg:child:0:2
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [1]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the difference between the 'Gross Amount' and 'Net Amount' in the document?
+Question ID: q6
+Expected Document: 9453.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 9453.jpeg:child:0:3
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [6, 7]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What are the payment terms mentioned in the document?
+Question ID: q4
+Expected Document: 4050.jpeg
+Correct Document Retrieved: False
+Expected Chunk: 4050.jpeg:child:0:1
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: []
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the date of the document?
+Question ID: q3
+Expected Document: 7896.jpeg
+Correct Document Retrieved: False
+Expected Chunk: 7896.jpeg:child:0:2
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: []
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What can be inferred about the handling and review of financial documents by Philip Morris?
+Question ID: q9
+Expected Document: 5929.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 5929.jpeg:child:1:3
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [24]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: In what year did the request for campaign contribution take place?
+Question ID: q10
+Expected Document: 532.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 532.jpeg:child:0:1
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [6, 20, 31, 63]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the purpose of the Support Tobacco & Other Orgs-Lobbying account?
+Question ID: q6
+Expected Document: 3501.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 3501.jpeg:child:0:3
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [3, 11, 31, 72, 92]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the address of the customer, Smokin Joe's?
+Question ID: q2
+Expected Document: 7087.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 7087.jpeg:child:0:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 2, 51]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What was the budgeted amount for '612 Legal - General Domestic' item for this year?
+Question ID: q5
+Expected Document: 667.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 667.jpeg:child:0:4
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 2, 3, 6, 36]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What are the product details listed on the invoice?
+Question ID: q6
+Expected Document: 8671.jpeg
+Correct Document Retrieved: False
+Expected Chunk: 8671.jpeg:child:0:2
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: []
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Which product had a noted change of $31,497.00 in 1991?
+Question ID: q5
+Expected Document: 1189.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 1189.jpeg:child:0:3
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [4, 13, 46]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: How does the current month's revenue compare to the budgeted figures?
+Question ID: q3
+Expected Document: 3160.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 3160.jpeg:child:0:3
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 5, 6, 8, 24, 83]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the purpose of the Zugzahldrucker R28.00?
+Question ID: q6
+Expected Document: 7604.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 7604.jpeg:child:0:3
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 24, 33, 52]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the receipt number of the sales receipt?
+Question ID: q3
+Expected Document: 8311.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 8311.jpeg:child:0:1
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [1, 4, 51]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the purpose of specifying the account code in the contribution request?
+Question ID: q7
+Expected Document: 9708.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 9708.jpeg:child:1:0
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [5, 30, 70, 81]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the check number?
+Question ID: q2
+Expected Document: 3672.jpeg
+Correct Document Retrieved: False
+Expected Chunk: 3672.jpeg:child:0:1
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: []
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the total invoice amount mentioned in the document?
+Question ID: q5
+Expected Document: 5005.jpeg
+Correct Document Retrieved: False
+Expected Chunk: None
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: []
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Which company is mentioned in the document?
+Question ID: q3
+Expected Document: 2098.jpeg
+Correct Document Retrieved: False
+Expected Chunk: 2098.jpeg:child:0:1
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: []
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Why is it important to observe payment timelines and billing addresses in this document?
+Question ID: q10
+Expected Document: 8743.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 8743.jpeg:child:1:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [22]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What does the approval by a Regional Vice President suggest about the contribution process?
+Question ID: q11
+Expected Document: 4265.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 4265.jpeg:child:1:3
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [7, 30, 31]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: How does the amount billed reflect the research activity during that era?
+Question ID: q12
+Expected Document: 5660.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 5660.jpeg:child:1:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 56]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the vendor number on the invoice?
+Question ID: q7
+Expected Document: 533.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 533.jpeg:child:0:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [11]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the purpose of the start-up charges mentioned in the invoice?
+Question ID: q7
+Expected Document: 7674.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 7674.jpeg:child:1:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [97]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the overall trend in the total budget from 1997 to 1998?
+Question ID: q11
+Expected Document: 3842.jpeg
+Correct Document Retrieved: True
+Expected Chunk: None
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [1, 3, 9, 18]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the payment due date to avoid additional interest or penalties?
+Question ID: q5
+Expected Document: 9666.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 9666.jpeg:child:0:1
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [1, 9, 31, 44]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the total amount of additions to the bank statement?
+Question ID: q6
+Expected Document: 3776.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 3776.jpeg:child:0:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 2, 4, 9]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: On what date was the invoice issued?
+Question ID: q4
+Expected Document: 8096.jpeg
+Correct Document Retrieved: True
+Expected Chunk: None
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [1]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What does the location of the service suggest about the advertising strategy?
+Question ID: q9
+Expected Document: 8169.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 8169.jpeg:child:1:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [72, 82]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the overall trend in Virginia Slims' advertising expenditure in Rochester and Omaha during 1978?
+Question ID: q7
+Expected Document: 1828.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 1828.jpeg:child:2:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 2, 3, 44]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Why is there a variation in the hourly rate of supervision between day shifts and night shifts?
+Question ID: q5
+Expected Document: 5085.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 5085.jpeg:child:1:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 2]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the unit price of the services provided?
+Question ID: q5
+Expected Document: 8238.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 8238.jpeg:child:0:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [13]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Is there a cash discount available for early payment?
+Question ID: q9
+Expected Document: 8671.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 8671.jpeg:child:0:3
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 8]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the attention name mentioned in the document?
+Question ID: q2
+Expected Document: 7896.jpeg
+Correct Document Retrieved: False
+Expected Chunk: 7896.jpeg:child:0:1
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: []
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the total amount of the invoice?
+Question ID: q5
+Expected Document: 8061.jpeg
+Correct Document Retrieved: False
+Expected Chunk: 8061.jpeg:child:0:2
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: []
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is notable about the display schedule for March?
+Question ID: q3
+Expected Document: 1576.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 1576.jpeg:child:1:0
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 9, 12, 22]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is notable about the spending in DeKalb?
+Question ID: q6
+Expected Document: 877.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 877.jpeg:child:2:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 2, 14]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the address of the customer, The Tobacco Institute?
+Question ID: q2
+Expected Document: 3539.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 3539.jpeg:child:0:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [2]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the recurring adjustment noted for the fourth quarter?
+Question ID: q3
+Expected Document: 1301.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 1301.jpeg:child:0:4
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 21]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the purpose of the check request form?
+Question ID: q1
+Expected Document: 4573.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 4573.jpeg:child:0:1
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [1, 72]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What does the 'NON-NEGOTIABLE' mark on the check indicate?
+Question ID: q7
+Expected Document: 4021.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 4021.jpeg:child:1:0
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 7]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the account code for tracking and managing campaign finances?
+Question ID: q7
+Expected Document: 9721.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 9721.jpeg:child:0:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [8, 45, 58, 76]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Why are there handwritten calculations and dates on the invoice?
+Question ID: q8
+Expected Document: 9195.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 9195.jpeg:child:1:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the total cost of the goods and shipping?
+Question ID: q7
+Expected Document: 7593.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 7593.jpeg:child:0:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 5, 15]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Who is the payee of the check?
+Question ID: q5
+Expected Document: 4285.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 4285.jpeg:child:0:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [31, 63]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the test number mentioned in the invoice?
+Question ID: q5
+Expected Document: 6215.jpeg
+Correct Document Retrieved: True
+Expected Chunk: None
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [5, 36]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Who is the intended payee of the contribution request?
+Question ID: q2
+Expected Document: 563.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 563.jpeg:child:0:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [4, 27, 62]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the total estimated cost for all billboards listed in the document?
+Question ID: q3
+Expected Document: 1478.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 1478.jpeg:child:0:3
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 9, 13, 30, 72]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What are the financial implications of this order, and why is it important for budgeting and auditing?
+Question ID: q8
+Expected Document: 9463.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 9463.jpeg:child:1:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 17]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: How does the company's provision of both invoice and customer numbers facilitate communication for resolving financial matters?
+Question ID: q8
+Expected Document: 6371.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 6371.jpeg:child:1:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Who is the client associated with this Production Estimate report?
+Question ID: q2
+Expected Document: 4874.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 4874.jpeg:child:0:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 18]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What percentage of the total budget is allocated to Plumbing and Electrical work?
+Question ID: q9
+Expected Document: 113.jpeg
+Correct Document Retrieved: True
+Expected Chunk: None
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [1, 4, 19, 52]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the type of document being analyzed?
+Question ID: q1
+Expected Document: 8436.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 8436.jpeg:child:0:0
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [22]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the date of the invoice, and is it in a standard format?
+Question ID: q2
+Expected Document: 6207.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 6207.jpeg:child:0:1
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [31]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the net rent per square foot in 1994?
+Question ID: q4
+Expected Document: 3779.jpeg
+Correct Document Retrieved: True
+Expected Chunk: None
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [1, 2, 3, 4, 5, 7]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: How do the allocation percentages of Philip Morris and R.J. Reynolds compare to the total allocated funds?
+Question ID: q6
+Expected Document: 3805.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 3805.jpeg:child:0:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 3, 5, 82]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: When was the payment received by P.M. Management Corp.?
+Question ID: q9
+Expected Document: 6498.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 6498.jpeg:child:1:0
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [1]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Who is the vendor issuing this invoice?
+Question ID: q2
+Expected Document: 8567.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 8567.jpeg:child:0:1
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [63]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the amount due mentioned in the Tax Debit Note?
+Question ID: q5
+Expected Document: 5989.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 5989.jpeg:child:0:1
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [1, 19, 27]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the purpose of this check remittance advice in financial tracking?
+Question ID: q11
+Expected Document: 6983.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 6983.jpeg:child:1:3
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [2, 15]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the total expense for decorations at the event?
+Question ID: q7
+Expected Document: 2470.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 2470.jpeg:child:0:3
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 2, 4, 11, 20, 58]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the tax amount on the sales receipt?
+Question ID: q9
+Expected Document: 8311.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 8311.jpeg:child:0:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [28, 36, 90, 100]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the memo information on the check?
+Question ID: q9
+Expected Document: 4185.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 4185.jpeg:child:0:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [20, 26, 27]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Why is it essential to continuously monitor the impacts of tax rate changes on revenue and consumer behavior?
+Question ID: q10
+Expected Document: 4294.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 4294.jpeg:child:2:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 2, 7, 68]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the name of the vendor providing media services?
+Question ID: q1
+Expected Document: 3336.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 3336.jpeg:child:0:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [2, 23]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Are the annualized revenue projections consistent across all tax adjustments?
+Question ID: q16
+Expected Document: 4771.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 4771.jpeg:child:3:3
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 25, 27, 36, 41, 42, 48, 72, 100]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the invoice number of the document?
+Question ID: q1
+Expected Document: 9009.jpeg
+Correct Document Retrieved: False
+Expected Chunk: None
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: []
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: How many billboards were advertised each month?
+Question ID: q8
+Expected Document: 3348.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 3348.jpeg:child:0:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 55, 77]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the net amount allocated to other participating organizations?
+Question ID: q3
+Expected Document: 3805.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 3805.jpeg:child:0:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What does the historical context of the document imply about the research focus of the project?
+Question ID: q9
+Expected Document: 4816.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 4816.jpeg:child:1:3
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What services were provided by J. E. Funk Co.?
+Question ID: q4
+Expected Document: 7766.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 7766.jpeg:child:0:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 2, 3, 70]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the potential significance of analyzing corporate contributions to education, especially in the medical field?
+Question ID: q10
+Expected Document: 5527.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 5527.jpeg:child:1:0
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 15, 92]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Who is the Production Manager responsible for this project?
+Question ID: q5
+Expected Document: 74.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 74.jpeg:child:0:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [5]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the due date of the invoice?
+Question ID: q3
+Expected Document: 9311.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 9311.jpeg:child:0:1
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [64, 70]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the role of Thomas A. Briant in the association?
+Question ID: q10
+Expected Document: 9366.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 9366.jpeg:child:0:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 2, 3, 4, 6, 9, 30, 35, 36, 43]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the net total of the invoice?
+Question ID: q13
+Expected Document: 9071.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 9071.jpeg:child:0:3
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [12]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the payment term mentioned in the invoice?
+Question ID: q8
+Expected Document: 8432.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 8432.jpeg:child:1:0
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [51]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Why is there an increase in expenditures in December compared to November?
+Question ID: q5
+Expected Document: 1355.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 1355.jpeg:child:1:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 2]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the business name mentioned in the document?
+Question ID: q1
+Expected Document: 8648.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 8648.jpeg:child:0:1
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [5]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What does this event ticket serve as?
+Question ID: q10
+Expected Document: 6800.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 6800.jpeg:child:1:0
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 2, 3, 4, 5, 21, 57]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the total amount billed to the client?
+Question ID: q4
+Expected Document: 4955.jpeg
+Correct Document Retrieved: False
+Expected Chunk: 4955.jpeg:child:0:2
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: []
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What does the document provide in terms of financial transaction trail?
+Question ID: q11
+Expected Document: 3229.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 3229.jpeg:child:1:3
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 82]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the potential overall payout listed in the statement?
+Question ID: q8
+Expected Document: 8881.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 8881.jpeg:child:0:3
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 4, 25, 56]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the shipping date mentioned in the document?
+Question ID: q3
+Expected Document: 5056.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 5056.jpeg:child:0:1
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [7, 33]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the net amount payable according to the document?
+Question ID: q5
+Expected Document: 5765.jpeg
+Correct Document Retrieved: True
+Expected Chunk: None
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [7]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Who is the payee of the check?
+Question ID: q4
+Expected Document: 3611.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 3611.jpeg:child:0:0
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [2, 18]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Is the document date in the bottom section accurate?
+Question ID: q9
+Expected Document: 4247.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 4247.jpeg:child:1:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the trailer number mentioned in the document?
+Question ID: q5
+Expected Document: 6628.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 6628.jpeg:child:0:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [9, 62]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the purpose of the deduction noted from DHS?
+Question ID: q7
+Expected Document: 113.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 113.jpeg:child:1:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 10, 37]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What can be inferred about the service provided by Wayne & Speh based on the invoice amount?
+Question ID: q12
+Expected Document: 7049.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 7049.jpeg:child:1:0
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 5]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What are some potential areas of concern regarding the campaign?
+Question ID: q5
+Expected Document: 3037.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 3037.jpeg:child:1:4
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [61]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the title of the financial analysis document?
+Question ID: q1
+Expected Document: 3980.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 3980.jpeg:child:0:1
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [28]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What does this document primarily focus on?
+Question ID: q9
+Expected Document: 2466.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 2466.jpeg:child:2:0
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [37]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Who is the payee of the check?
+Question ID: q5
+Expected Document: 4021.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 4021.jpeg:child:0:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [4, 7, 28, 34, 92]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the institution that generated the Monthly State Cigaret Tax Report?
+Question ID: q1
+Expected Document: 3945.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 3945.jpeg:child:0:0
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 4, 13]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the form number of the Issue Fee Transmittal document?
+Question ID: q1
+Expected Document: 4953.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 4953.jpeg:child:1:0
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [1, 4]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What can we infer about the use of data in this document?
+Question ID: q7
+Expected Document: 1996.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 1996.jpeg:child:1:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 5, 25]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the address of the issuer?
+Question ID: q2
+Expected Document: 7324.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 7324.jpeg:child:0:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [58]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: How did the company's gross profit for the current month compare to last year's figure?
+Question ID: q7
+Expected Document: 2781.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 2781.jpeg:child:1:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 2, 3, 4, 11]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the time period covered in the document?
+Question ID: q2
+Expected Document: 3422.jpeg
+Correct Document Retrieved: False
+Expected Chunk: None
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: []
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the purpose of this type of document?
+Question ID: q8
+Expected Document: 965.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 965.jpeg:child:1:3
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [4]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the Check Number and Event ID mentioned in the document?
+Question ID: q7
+Expected Document: 563.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 563.jpeg:child:0:3
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Who is the issuer of the debit note?
+Question ID: q1
+Expected Document: 5995.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 5995.jpeg:child:0:1
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [2, 6]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Why is it crucial to confirm the invoice amount?
+Question ID: q11
+Expected Document: 8550.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 8550.jpeg:child:1:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the total spend reported in the document for the year 1996?
+Question ID: q8
+Expected Document: 3037.jpeg
+Correct Document Retrieved: True
+Expected Chunk: None
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [5]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the total amount due on the invoice?
+Question ID: q4
+Expected Document: 4548.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 4548.jpeg:child:0:3
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [75, 96]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the income year in question for which the Tobacco Institute Inc has an outstanding balance?
+Question ID: q2
+Expected Document: 9666.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 9666.jpeg:child:0:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 35]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What can be inferred about the processing time of the invoice based on the invoice date and ship date?
+Question ID: q8
+Expected Document: 9361.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 9361.jpeg:child:1:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the total volume shipped in December?
+Question ID: q4
+Expected Document: 2975.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 2975.jpeg:child:0:3
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 3, 4, 7, 17, 20]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the description of the item sold in the commercial invoice?
+Question ID: q6
+Expected Document: 7027.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 7027.jpeg:child:0:2
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [4, 27, 35]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Who is the issuer of the payment statement?
+Question ID: q1
+Expected Document: 6498.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 6498.jpeg:child:1:0
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [2, 28]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the likely outcome if the action items from the meeting are not completed on time?
+Question ID: q9
+Expected Document: 7695.jpeg
+Correct Document Retrieved: True
+Expected Chunk: None
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [1, 2]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What type of items are being described on the invoice?
+Question ID: q6
+Expected Document: 4817.jpeg
+Correct Document Retrieved: True
+Expected Chunk: None
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [10, 68]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the item description of the Purchase Order?
+Question ID: q4
+Expected Document: 8238.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 8238.jpeg:child:0:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 25, 37]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the special instruction for printing posters?
+Question ID: q6
+Expected Document: 5250.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 5250.jpeg:child:0:3
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 18]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Who is the issuer of the invoice?
+Question ID: q1
+Expected Document: 8131.jpeg
+Correct Document Retrieved: False
+Expected Chunk: 8131.jpeg:child:0:0
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: []
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: How much has been spent on Director/Producer/CPAs Expenses so far in the tournament?
+Question ID: q2
+Expected Document: 2726.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 2726.jpeg:child:1:0
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 2, 3, 4, 9, 29, 42]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What could be the reason for the consistent reduction of estimated amount by $8,250.00 for both campaigns?
+Question ID: q11
+Expected Document: 7394.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 7394.jpeg:child:1:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 15, 18, 20]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the business name mentioned in the document?
+Question ID: q1
+Expected Document: 5001.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 5001.jpeg:child:0:0
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [18]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the total billable disbursements for February 1995?
+Question ID: q6
+Expected Document: 7306.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 7306.jpeg:child:0:3
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 4, 18]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the implication of the invoice being from a research laboratory to another research entity?
+Question ID: q11
+Expected Document: 8067.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 8067.jpeg:child:1:0
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: How much did the Year-to-Date Variance exceed the planned budget?
+Question ID: q5
+Expected Document: 1556.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 1556.jpeg:child:2:0
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [3, 5, 40, 59]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the era in which the document's layout and stylistic elements are typical?
+Question ID: q11
+Expected Document: 3203.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 3203.jpeg:child:1:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the total amount due on the invoice?
+Question ID: q4
+Expected Document: 5414.jpeg
+Correct Document Retrieved: False
+Expected Chunk: 5414.jpeg:child:0:2
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: []
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What are the payment terms specified in the invoice?
+Question ID: q4
+Expected Document: 8537.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 8537.jpeg:child:0:2
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [4]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the payment due date for the current billing cycle?
+Question ID: q4
+Expected Document: 3528.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 3528.jpeg:child:0:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 42, 52]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the phone number for corporate accounts at Giselle's Travel, Inc.?
+Question ID: q9
+Expected Document: 3539.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 3539.jpeg:child:0:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 13, 95]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Who is the issuer of the invoice?
+Question ID: q1
+Expected Document: 6452.jpeg
+Correct Document Retrieved: False
+Expected Chunk: 6452.jpeg:child:0:1
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: []
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the total charges mentioned in the document?
+Question ID: q8
+Expected Document: 7996.jpeg
+Correct Document Retrieved: False
+Expected Chunk: 7996.jpeg:child:0:3
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: []
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the report period for this financial budget variance report?
+Question ID: q1
+Expected Document: 2399.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 2399.jpeg:child:0:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 5, 68]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the total spent on salaries by the end of August 1971?
+Question ID: q4
+Expected Document: 672.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 672.jpeg:child:0:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 3, 4, 6, 51, 86]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the purpose of the financial statement?
+Question ID: q2
+Expected Document: 9366.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 9366.jpeg:child:0:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [33, 62]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the customer number mentioned in the document?
+Question ID: q2
+Expected Document: 7137.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 7137.jpeg:child:0:1
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [1]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the memo or description on the check?
+Question ID: q6
+Expected Document: 395.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 395.jpeg:child:0:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [2, 79]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the name of the company that issued the production bill?
+Question ID: q1
+Expected Document: 4895.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 4895.jpeg:child:0:0
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 2, 3, 52]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the invoice date of the document?
+Question ID: q1
+Expected Document: 7137.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 7137.jpeg:child:0:1
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [2, 82]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the date of the check?
+Question ID: q4
+Expected Document: 4185.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 4185.jpeg:child:0:1
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [33, 67]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the pattern of financial entries and adjustments suggesting in the document?
+Question ID: q5
+Expected Document: 764.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 764.jpeg:child:1:0
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 3, 10]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: How does this document contribute to historical financial analysis?
+Question ID: q11
+Expected Document: 4285.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 4285.jpeg:child:1:4
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [21, 56]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What are the payment terms mentioned in the invoice?
+Question ID: q7
+Expected Document: 4816.jpeg
+Correct Document Retrieved: False
+Expected Chunk: None
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: []
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the grand total of the gross change for February 1990 advertising placements?
+Question ID: q6
+Expected Document: 1064.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 1064.jpeg:child:0:3
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 3, 5, 13, 53]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the estimated revenue from the motor vehicle licenses/fuel tax?
+Question ID: q10
+Expected Document: 4771.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 4771.jpeg:child:2:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 2, 3, 17, 32, 68]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the vendor number mentioned in the invoice?
+Question ID: q2
+Expected Document: 9454.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 9454.jpeg:child:0:0
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [3]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Why is it essential to verify the invoice details with internal records?
+Question ID: q9
+Expected Document: 9630.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 9630.jpeg:child:1:3
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [7]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: How can this document inform discussions on cigarette taxation?
+Question ID: q8
+Expected Document: 3980.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 3980.jpeg:child:1:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [2, 4, 5, 31, 35]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the invoice number and date?
+Question ID: q3
+Expected Document: 9630.jpeg
+Correct Document Retrieved: False
+Expected Chunk: None
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: []
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the payment due date for the invoice?
+Question ID: q6
+Expected Document: 9162.jpeg
+Correct Document Retrieved: False
+Expected Chunk: 9162.jpeg:child:0:2
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: []
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the trend observed in the Parimutuel Tax revenue?
+Question ID: q5
+Expected Document: 4752.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 4752.jpeg:child:0:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 3, 5, 9, 17, 29]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Who is the payable party for the contribution?
+Question ID: q7
+Expected Document: 3629.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 3629.jpeg:child:0:4
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [28, 36, 91]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What does the invoice indicate about the financial interactions of Borrison Laboratories?
+Question ID: q13
+Expected Document: 5423.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 5423.jpeg:child:1:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 2, 4, 9]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the company name mentioned in the check remittance advice?
+Question ID: q1
+Expected Document: 6983.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 6983.jpeg:child:0:0
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 47]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the amount of the contribution requested?
+Question ID: q3
+Expected Document: 394.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 394.jpeg:child:0:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [2, 33, 60, 75]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the duration of the service period mentioned in the document?
+Question ID: q8
+Expected Document: 9565.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 9565.jpeg:child:0:2
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [4]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: How do the actual salaries and base pay for this year compare to the budgeted amount?
+Question ID: q6
+Expected Document: 664.jpeg
+Correct Document Retrieved: True
+Expected Chunk: None
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [1, 2, 7, 10, 23]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the total amount of pending charges for Contract Laboratory (Synthesis) - Starks Associates?
+Question ID: q1
+Expected Document: 3381.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 3381.jpeg:child:0:0
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 2, 3, 14, 18, 23]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the amount of the check?
+Question ID: q4
+Expected Document: 4767.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 4767.jpeg:child:0:1
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [3, 81]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What was the policy period from January 1st, 1986 to January 1st, 1987?
+Question ID: q4
+Expected Document: 2098.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 2098.jpeg:child:0:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [4, 6, 75]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Which committees is Senator Frank Watson involved with?
+Question ID: q6
+Expected Document: 2543.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 2543.jpeg:child:0:2
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 2, 3, 4, 5]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the amount of the check?
+Question ID: q6
+Expected Document: 3203.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 3203.jpeg:child:0:1
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [7]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What is the address of the issuer?
+Question ID: q2
+Expected Document: 5119.jpeg
+Correct Document Retrieved: False
+Expected Chunk: 5119.jpeg:child:0:1
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: []
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Is there any change in funding level for the lobbyist's role across 1995 and 1996?
+Question ID: q8
+Expected Document: 2967.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 2967.jpeg:child:1:0
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 2, 3, 4, 5, 7, 66]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What does the memo/details section of the check indicate?
+Question ID: q12
+Expected Document: 4310.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 4310.jpeg:child:0:3
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [2, 39]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Who was the client for this advertising campaign?
+Question ID: q5
+Expected Document: 1366.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 1366.jpeg:child:0:1
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [38]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: Who is the recipient of the $500 donation?
+Question ID: q2
+Expected Document: 4254.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 4254.jpeg:child:0:1
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 2, 70]
+
+==================================================
+
+========== HYBRID RETRIEVAL VERIFICATION ==========
+Query: What does the document reveal about the advertising industry norms in 1979?
+Question ID: q10
+Expected Document: 4895.jpeg
+Correct Document Retrieved: True
+Expected Chunk: 4895.jpeg:child:1:3
+Exact Target Chunk Retrieved: True
+Matching Document Ranks: [1, 7, 91]
+
+==================================================
+

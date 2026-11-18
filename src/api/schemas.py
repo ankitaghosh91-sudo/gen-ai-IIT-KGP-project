@@ -7,6 +7,8 @@ class QueryRequest(BaseModel):
     question: str = Field(min_length=1)
     session_id: str = "api-default"
     run_name: str = "interactive"
+    scope: str = "global"
+    doc_id: str | None = None
 
 
 class QueryResponse(BaseModel):

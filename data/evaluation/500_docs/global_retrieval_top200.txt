@@ -1,0 +1,2400 @@
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What insight can be gained from this document about financial planning?
+question_id: q10
+Gold Answer: Detailed and itemized budget planning helps in transparent financial management and accountability.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 175.jpeg
+Correct document retrieved: True
+Expected chunk: 175.jpeg:3
+Exact target chunk retrieved: True
+Matching document ranks: [178]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the significance of the 'Use Tax' indication in the amount section?
+question_id: q8
+Gold Answer: The 'Use Tax' indication suggests that the payment may be subject to use tax, which could affect the organization's tax reporting.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 4573.jpeg
+Correct document retrieved: True
+Expected chunk: 4573.jpeg:3
+Exact target chunk retrieved: True
+Matching document ranks: [6]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: How many client companies are listed in the financial statement?
+question_id: q4
+Gold Answer: 6
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 5104.jpeg
+Correct document retrieved: True
+Expected chunk: 5104.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [3, 14, 98]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What does the document reveal about the methodological breakdown of each task?
+question_id: q9
+Gold Answer: The document reveals that tasks are broken down into components like labor hours and materials, suggesting a detailed cost management approach.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 803.jpeg
+Correct document retrieved: True
+Expected chunk: 803.jpeg:3
+Exact target chunk retrieved: True
+Matching document ranks: [1, 49]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What might be the reason for the significant expense or advance of $20,735.38?
+question_id: q9
+Gold Answer: It might be linked to a specific event or series of services rendered recently.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 8267.jpeg
+Correct document retrieved: True
+Expected chunk: 8267.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [1]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the total campaign funds allocated for the Colorado Initiative Campaign?
+question_id: q1
+Gold Answer: $5,329,310
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 3805.jpeg
+Correct document retrieved: True
+Expected chunk: 3805.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [1, 2, 3]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the bank used for all three checks?
+question_id: q3
+Gold Answer: First National Bank
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 6860.jpeg
+Correct document retrieved: True
+Expected chunk: 6860.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [2, 3, 16]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What can be inferred about the business processes of the time from this document?
+question_id: q13
+Gold Answer: The document reflects older business processes and styles, including typewriter text and manual signatures, which might differ from current digital processes.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 5368.jpeg
+Correct document retrieved: True
+Expected chunk: 5368.jpeg:3
+Exact target chunk retrieved: False
+Matching document ranks: [183]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Who is the payee of the check?
+question_id: q5
+Gold Answer: Citizens for Brad Owen
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 4185.jpeg
+Correct document retrieved: True
+Expected chunk: 4185.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [2, 31]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the net amount after change for December 1989?
+question_id: q4
+Gold Answer: $74,397.63
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 1142.jpeg
+Correct document retrieved: True
+Expected chunk: 1142.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [11, 30]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What entities are referenced in the transactions?
+question_id: q11
+Gold Answer: Philip Morris and Citibank, suggesting possible business relationships with these entities.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 3797.jpeg
+Correct document retrieved: True
+Expected chunk: 3797.jpeg:2
+Exact target chunk retrieved: True
+Matching document ranks: [7, 88]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What could be the purpose of the payment to Citizens for Denny Jacobs?
+question_id: q7
+Gold Answer: The payment could be for a donation, campaign fund, or similar purposes given the context of The Tobacco Institute and the payee.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 2534.jpeg
+Correct document retrieved: True
+Expected chunk: 2534.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [1, 2]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the significance of the 'Received' stamp dated December 5, 2002?
+question_id: q9
+Gold Answer: The 'Received' stamp indicates that the payment was promptly made by the client.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 9311.jpeg
+Correct document retrieved: True
+Expected chunk: 9311.jpeg:2
+Exact target chunk retrieved: False
+Matching document ranks: [156]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: When did Leo Burnett U.S.A. submit this document?
+question_id: q9
+Gold Answer: November 29, 1984
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 1733.jpeg
+Correct document retrieved: True
+Expected chunk: 1733.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [37, 81]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the recipient's name and address?
+question_id: q1
+Gold Answer: Philip Morris Incorporated, 100 Park Avenue, New York, New York 10017, Attn: Mr. Paul Goldschmidt, Ins. Mgr.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 2127.jpeg
+Correct document retrieved: False
+Expected chunk: 2127.jpeg:1
+Exact target chunk retrieved: False
+Matching document ranks: []
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Why might there be a difference between the monthly charge and gross charges?
+question_id: q8
+Gold Answer: There might be additional fees or taxes associated with advertising in those areas, which could result in the difference between the monthly charge and gross charges.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 1478.jpeg
+Correct document retrieved: True
+Expected chunk: 1478.jpeg:2
+Exact target chunk retrieved: True
+Matching document ranks: [2]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the project description mentioned in the document?
+question_id: q3
+Gold Answer: The project description is 1993 Corporate Mailing.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 6706.jpeg
+Correct document retrieved: True
+Expected chunk: 6706.jpeg:1
+Exact target chunk retrieved: False
+Matching document ranks: [46]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Why is monitoring checks like this one important for audit purposes?
+question_id: q10
+Gold Answer: It helps ensure compliance with financial regulations and aids in transparency of fund allocation, especially in influential organizations like The Tobacco Institute.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 4263.jpeg
+Correct document retrieved: True
+Expected chunk: 4263.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [8]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What services were provided by the vendor to the client?
+question_id: q4
+Gold Answer: The vendor provided consulting services, including shipment of Walton Smoke Exposure Machines & accessories to Sweden, along with loan preparations, document preparation, export packing, forwarding & handling, air freight, insurance, and obtaining customs receipt for return.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 7679.jpeg
+Correct document retrieved: True
+Expected chunk: 7679.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [4, 31, 163]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the remittance address for the invoice?
+question_id: q13
+Gold Answer: 5050 Beach Place, Temple Hills, Maryland 20748
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 8065.jpeg
+Correct document retrieved: False
+Expected chunk: 8065.jpeg:0
+Exact target chunk retrieved: False
+Matching document ranks: []
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the final total due mentioned in the financial summary?
+question_id: q10
+Gold Answer: $1980.00
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 8131.jpeg
+Correct document retrieved: False
+Expected chunk: 8131.jpeg:1
+Exact target chunk retrieved: False
+Matching document ranks: []
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Why might 'TV Guide' and 'Sports Illustrated' be considered less effective in reaching the target audience?
+question_id: q8
+Gold Answer: They exhibit higher costs per inquiry, indicating lesser effectiveness in reaching the target audience cost-effectively.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 4500.jpeg
+Correct document retrieved: True
+Expected chunk: 4500.jpeg:2
+Exact target chunk retrieved: True
+Matching document ranks: [1, 4, 18]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: How much did the organization receive from contributors during this period?
+question_id: q7
+Gold Answer: $2,600,000.00
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 483.jpeg
+Correct document retrieved: True
+Expected chunk: 483.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [8, 57]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the total amount paid to Mullen & Filippi for legal services in 1992?
+question_id: q3
+Gold Answer: $7,316.38 (combined payments from both entries).
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 1766.jpeg
+Correct document retrieved: True
+Expected chunk: 1766.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [1, 5, 8, 9, 13]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the overall strategy reflected in this budget summary document?
+question_id: q11
+Gold Answer: The budget reflects strategic allocations towards advocacy and influence within specific local and sectoral areas in Arizona.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 3562.jpeg
+Correct document retrieved: True
+Expected chunk: 3562.jpeg:3
+Exact target chunk retrieved: False
+Matching document ranks: [118]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the date of the document?
+question_id: q12
+Gold Answer: The document date is 10/13/77, as noted in the footer.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 6932.jpeg
+Correct document retrieved: False
+Expected chunk: 6932.jpeg:1
+Exact target chunk retrieved: False
+Matching document ranks: []
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the due date for the payment mentioned in the document?
+question_id: q10
+Gold Answer: The due date for the payment is 04/10/07.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 5001.jpeg
+Correct document retrieved: False
+Expected chunk: 5001.jpeg:1
+Exact target chunk retrieved: False
+Matching document ranks: []
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the company name and address listed on the invoice?
+question_id: q1
+Gold Answer: C.T. Levy Associates, P.O. Box 4601, Hialeah, Florida 33014-0601
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 8990.jpeg
+Correct document retrieved: True
+Expected chunk: 8990.jpeg:1
+Exact target chunk retrieved: False
+Matching document ranks: [2, 156]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What does the handwritten note 'OK to Pay 602139' suggest?
+question_id: q9
+Gold Answer: The handwritten note suggests that the charges have been verified and approved internally by the client for payment.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 9318.jpeg
+Correct document retrieved: True
+Expected chunk: 9318.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [31]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the brand being advertised, and what is the duration of the advertisement?
+question_id: q6
+Gold Answer: The brand being advertised is M&M's, and the duration is from January to December 1994.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 3339.jpeg
+Correct document retrieved: True
+Expected chunk: 3339.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [27, 57, 148]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the significance of the presence in various major local publications like Indy Sports and Indianapolis Business Journal?
+question_id: q11
+Gold Answer: It reflects a strategy focused on local market penetration.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 6733.jpeg
+Correct document retrieved: True
+Expected chunk: 6733.jpeg:3
+Exact target chunk retrieved: True
+Matching document ranks: [1, 2, 111]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the purpose of the fixed fee mentioned in the document?
+question_id: q6
+Gold Answer: The fixed fee suggests a contractual agreement for services beyond mere reimbursement of expenses.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 9565.jpeg
+Correct document retrieved: True
+Expected chunk: 9565.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [1]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the significance of the instruction 'DETACH HERE BEFORE DEPOSITING'?
+question_id: q6
+Gold Answer: The instruction indicates that part of the voucher needs to be separated from another section, likely for accounting or processing purposes.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 5765.jpeg
+Correct document retrieved: True
+Expected chunk: 5765.jpeg:2
+Exact target chunk retrieved: True
+Matching document ranks: [1, 12]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the final report value mentioned in the document?
+question_id: q5
+Gold Answer: The final report value is $1,400.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 8763.jpeg
+Correct document retrieved: False
+Expected chunk: 8763.jpeg:1
+Exact target chunk retrieved: False
+Matching document ranks: []
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Why might the involvement of multiple committees indicate about Senator Frank Watson's influence?
+question_id: q9
+Gold Answer: It suggests his diversified interest and influence across different sectors, which might also align with the interests of the contributors.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 2543.jpeg
+Correct document retrieved: True
+Expected chunk: 2543.jpeg:3
+Exact target chunk retrieved: True
+Matching document ranks: [1, 2, 3, 151]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the payment status of the invoice mentioned in the document?
+question_id: q5
+Gold Answer: The payment status is 'APPROVED FOR PAYMENT' with a date and cashier's initial 'TES' and 'ACT: SOD'.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 3557.jpeg
+Correct document retrieved: True
+Expected chunk: 3557.jpeg:1
+Exact target chunk retrieved: False
+Matching document ranks: [77]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Who is the recipient of the invoice?
+question_id: q11
+Gold Answer: Sharon Hermanson, Southern Research Corporation
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 5085.jpeg
+Correct document retrieved: True
+Expected chunk: 5085.jpeg:1
+Exact target chunk retrieved: False
+Matching document ranks: [34]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the contact information provided for queries related to the invoice?
+question_id: q11
+Gold Answer: Telephone (615) 576-0608, FTS 626-0608
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 9616.jpeg
+Correct document retrieved: True
+Expected chunk: 9616.jpeg:1
+Exact target chunk retrieved: False
+Matching document ranks: [52]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the name of the organization issuing the invoice?
+question_id: q1
+Gold Answer: Lorillard Tobacco Company
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 9478.jpeg
+Correct document retrieved: True
+Expected chunk: 9478.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [145]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Why might PM and RJR's dominance be significant?
+question_id: q10
+Gold Answer: It could indicate a highly competitive market position, which may impact their ability to innovate or expand into new markets.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 2029.jpeg
+Correct document retrieved: True
+Expected chunk: 2029.jpeg:2
+Exact target chunk retrieved: True
+Matching document ranks: [1, 73, 120]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the highest amount of gross city cigarette taxes collected annually in the document?
+question_id: q3
+Gold Answer: The highest amount of gross city cigarette taxes collected annually was approximately $43 million in 1981.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 417.jpeg
+Correct document retrieved: True
+Expected chunk: 417.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [1, 22, 24, 27, 28]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: On what date was the sales invoice issued?
+question_id: q5
+Gold Answer: December 13, 1986
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 9155.jpeg
+Correct document retrieved: True
+Expected chunk: 9155.jpeg:1
+Exact target chunk retrieved: False
+Matching document ranks: [58, 65]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the total cost of congratulating letter distribution?
+question_id: q6
+Gold Answer: No charge
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 2219.jpeg
+Correct document retrieved: True
+Expected chunk: 2219.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [4, 84]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What security features are typical of checks, as seen in this example?
+question_id: q10
+Gold Answer: Watermark and micro-printed border line to prevent fraud
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 3611.jpeg
+Correct document retrieved: True
+Expected chunk: 3611.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [5]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What does the focus on 'Marlboro Walls' suggest about the advertising campaign or promotional focus?
+question_id: q9
+Gold Answer: A specific campaign or promotional focus, possibly large-scale advertising such as billboards or wall ads.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 1493.jpeg
+Correct document retrieved: True
+Expected chunk: 1493.jpeg:3
+Exact target chunk retrieved: True
+Matching document ranks: [1, 148, 160]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Who is the recipient of the invoice?
+question_id: q2
+Gold Answer: The recipient is Philip Morris, located at 42 Park Avenue, 14th Floor, New York, NY 10017.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 5902.jpeg
+Correct document retrieved: True
+Expected chunk: 5902.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [24, 69]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What can be inferred about Philip Morris Incorporated's investment in research from the invoice amount?
+question_id: q10
+Gold Answer: Philip Morris Incorporated has invested significantly ($100,000.00) in research for potentially reducing the harmful effects of nicotine.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 5814.jpeg
+Correct document retrieved: True
+Expected chunk: 5814.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [2, 15, 180]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Why is this contribution significant enough to require high-level approvals?
+question_id: q9
+Gold Answer: The presence of high-level approvals suggests that the contribution request is significant and has gone through proper channels of authorization.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 394.jpeg
+Correct document retrieved: True
+Expected chunk: 394.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [21, 142]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: How reliable is the estimate of former smokers among physicians?
+question_id: q11
+Gold Answer: The combination of lower and upper bounds gives a statistical approximation of the estimate's reliability, with a range of 33.4% to 39.2%.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 4416.jpeg
+Correct document retrieved: True
+Expected chunk: 4416.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [1, 2, 3, 4]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Which brand has a mixed result with slight improvements, profitability up by 0.3%?
+question_id: q6
+Gold Answer: Virginia Slims has a mixed result with slight improvements, profitability up by 0.3%.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 1744.jpeg
+Correct document retrieved: True
+Expected chunk: 1744.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [1, 2, 5, 8]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the address of the invoice recipient?
+question_id: q2
+Gold Answer: The Council for Tobacco Research USA, Inc., Accounts Payable, 110 East 59th Street, New York, New York, 10022
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 5691.jpeg
+Correct document retrieved: False
+Expected chunk: 5691.jpeg:0
+Exact target chunk retrieved: False
+Matching document ranks: []
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the reference number on the check?
+question_id: q8
+Gold Answer: MIC121348
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 4327.jpeg
+Correct document retrieved: True
+Expected chunk: 4327.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [31, 36, 71]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the payment due date to receive the 2% early payment discount?
+question_id: q6
+Gold Answer: 06/24/87
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 8475.jpeg
+Correct document retrieved: True
+Expected chunk: 8475.jpeg:0
+Exact target chunk retrieved: False
+Matching document ranks: [15]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the name of the institution receiving the contribution?
+question_id: q3
+Gold Answer: Washington University School of Medicine
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 5527.jpeg
+Correct document retrieved: True
+Expected chunk: 5527.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [2, 5, 102]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: How does the total Inventory Receipt Cost compare to the recorded weight of tobacco?
+question_id: q9
+Gold Answer: The total Inventory Receipt Cost ($1,858,007.23) is approximately $1.6827 per pound
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 1959.jpeg
+Correct document retrieved: True
+Expected chunk: 1959.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [1, 7, 150]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the product description and quantity mentioned in the invoice?
+question_id: q3
+Gold Answer: The product description is TRUE GOLD KS Filter and the quantity is 1000.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 9361.jpeg
+Correct document retrieved: True
+Expected chunk: 9361.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [75, 112, 191]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What was the sales revenue for Star Scientific, Inc. in 1998?
+question_id: q3
+Gold Answer: The sales revenue for Star Scientific, Inc. in 1998 was $9,445,491.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 3443.jpeg
+Correct document retrieved: True
+Expected chunk: 3443.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [1, 2, 3, 4, 12]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What was the discrepancy between the initial and revised total cost for Tacoma?
+question_id: q4
+Gold Answer: $994.58 (initial) vs $0 (revised)
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 1411.jpeg
+Correct document retrieved: True
+Expected chunk: 1411.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [1, 12]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the additional payment mentioned in the invoice?
+question_id: q7
+Gold Answer: The additional payment is $9,776.00, which is due upon delivery of the second progress report.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 7537.jpeg
+Correct document retrieved: True
+Expected chunk: 7537.jpeg:1
+Exact target chunk retrieved: False
+Matching document ranks: [110, 185]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the description of the advertising service provided?
+question_id: q4
+Gold Answer: The advertising service provided is a black and white advertisement with an order number of 7X10.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 8449.jpeg
+Correct document retrieved: True
+Expected chunk: 8449.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [13, 28, 167]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the client code?
+question_id: q6
+Gold Answer: 840001
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 4495.jpeg
+Correct document retrieved: True
+Expected chunk: 4495.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [154]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the invoice number of the document?
+question_id: q1
+Gold Answer: The invoice number is 103.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 8144.jpeg
+Correct document retrieved: True
+Expected chunk: 8144.jpeg:1
+Exact target chunk retrieved: False
+Matching document ranks: [182]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Who is the invoice addressed to?
+question_id: q3
+Gold Answer: The invoice is addressed to Lorillard Media Services, Attention: Mr. Steve Molloy.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 9009.jpeg
+Correct document retrieved: True
+Expected chunk: 9009.jpeg:1
+Exact target chunk retrieved: False
+Matching document ranks: [85, 173]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the ledger number associated with this purchase order?
+question_id: q2
+Gold Answer: The ledger number is 34.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 9394.jpeg
+Correct document retrieved: True
+Expected chunk: 9394.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [5, 98, 105]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Who is the recipient of the invoice?
+question_id: q3
+Gold Answer: American Tobacco Corporation
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 4979.jpeg
+Correct document retrieved: False
+Expected chunk: 4979.jpeg:0
+Exact target chunk retrieved: False
+Matching document ranks: []
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the significance of cigarette taxes in state and local budgets?
+question_id: q10
+Gold Answer: Cigarette taxes generate significant revenue, emphasizing their importance in state and local budgets.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 3945.jpeg
+Correct document retrieved: True
+Expected chunk: 3945.jpeg:3
+Exact target chunk retrieved: True
+Matching document ranks: [5, 12, 23, 24, 29, 49]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What could be the purpose of these donations?
+question_id: q7
+Gold Answer: The purpose is not explicitly stated, but it may be related to political funding or lobbying efforts within the tobacco industry.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 8332.jpeg
+Correct document retrieved: True
+Expected chunk: 8332.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [8]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What might be the nature of the professional services provided, given the client's profile?
+question_id: q10
+Gold Answer: Possibly consulting or legal services.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 3569.jpeg
+Correct document retrieved: True
+Expected chunk: 3569.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [8, 194]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Why was the check request marked as CONFIDENTIAL: TOBACCO LITIGATION?
+question_id: q3
+Gold Answer: The document is potentially relevant to legal proceedings involving The Tobacco Institute.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 13.jpeg
+Correct document retrieved: True
+Expected chunk: 13.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [1, 18]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: How does this document provide insight into The Tobacco Institute's financial commitments and strategies?
+question_id: q12
+Gold Answer: This document provides a detailed view of The Tobacco Institute's financial commitments and strategies in advocating for their interests within defined government regulations.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 3519.jpeg
+Correct document retrieved: True
+Expected chunk: 3519.jpeg:4
+Exact target chunk retrieved: True
+Matching document ranks: [1, 122]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: How many pension options are available to Frederick Panzer?
+question_id: q11
+Gold Answer: 8
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 3733.jpeg
+Correct document retrieved: True
+Expected chunk: 3733.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [1, 2, 3, 12]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is required to accompany checks?
+question_id: q4
+Gold Answer: A signed statement or approval is required to accompany checks.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 4255.jpeg
+Correct document retrieved: True
+Expected chunk: 4255.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [1, 21, 28]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the purpose of the invoice?
+question_id: q4
+Gold Answer: The purpose of the invoice is for the payment of educational and legal brochures regarding tobacco use.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 5868.jpeg
+Correct document retrieved: True
+Expected chunk: 5868.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [1]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Where is the executive office of P. Lorillard Company located?
+question_id: q2
+Gold Answer: New York
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 8699.jpeg
+Correct document retrieved: True
+Expected chunk: 8699.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [1]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the net amount of the invoice after discount?
+question_id: q7
+Gold Answer: The net amount is $8,217.25.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 9152.jpeg
+Correct document retrieved: True
+Expected chunk: 9152.jpeg:0
+Exact target chunk retrieved: False
+Matching document ranks: [38]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the total quantity of the purchased items?
+question_id: q5
+Gold Answer: 3,000 pieces
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 7593.jpeg
+Correct document retrieved: True
+Expected chunk: 7593.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [48, 79]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the address of the company?
+question_id: q9
+Gold Answer: The address is 50 East 42nd Street, New York, N.Y., 10017, with a phone number of (212) 953-7755.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 8429.jpeg
+Correct document retrieved: False
+Expected chunk: 8429.jpeg:0
+Exact target chunk retrieved: False
+Matching document ranks: []
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the significance of the date 1993 in the context of campaign finance?
+question_id: q7
+Gold Answer: The date 1993 is significant because it affects campaign finance norms and limits, which would influence the amounts and strategy of contributions.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 3678.jpeg
+Correct document retrieved: True
+Expected chunk: 3678.jpeg:3
+Exact target chunk retrieved: True
+Matching document ranks: [7, 34, 72]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Why is it essential to understand the context of such financial contributions?
+question_id: q9
+Gold Answer: To evaluate compliance with election finance laws, which govern the amounts and transparency of donations
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 4285.jpeg
+Correct document retrieved: True
+Expected chunk: 4285.jpeg:2
+Exact target chunk retrieved: True
+Matching document ranks: [1, 34, 170]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Which product had a noted change of $31,497.00 in 1991?
+question_id: q5
+Gold Answer: 10-Marlboro
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 1189.jpeg
+Correct document retrieved: True
+Expected chunk: 1189.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [8, 16, 26]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the memo or description on the check?
+question_id: q6
+Gold Answer: '93 TORT
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 395.jpeg
+Correct document retrieved: True
+Expected chunk: 395.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [22, 35, 198]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What type of service was provided according to the invoice?
+question_id: q6
+Gold Answer: The service provided was Ames Salmonella/Microsome Reverse Mutation Assay (in triplicate).
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 8743.jpeg
+Correct document retrieved: True
+Expected chunk: 8743.jpeg:1
+Exact target chunk retrieved: False
+Matching document ranks: [107, 169]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the date of the campaign contribution request document?
+question_id: q1
+Gold Answer: The date of the document is July 20, 1992.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 4273.jpeg
+Correct document retrieved: True
+Expected chunk: 4273.jpeg:1
+Exact target chunk retrieved: False
+Matching document ranks: [4, 23]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the significance of the account code?
+question_id: q6
+Gold Answer: The account code (1491-7710-M050) ensures a structured and transparent process in financial governance of campaign contributions.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 581.jpeg
+Correct document retrieved: True
+Expected chunk: 581.jpeg:3
+Exact target chunk retrieved: True
+Matching document ranks: [40]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the projected growth rate for the Beverage Tax?
+question_id: q3
+Gold Answer: The Beverage Tax is projected to grow by 1.6% for both years mentioned.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 4752.jpeg
+Correct document retrieved: True
+Expected chunk: 4752.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [1, 2]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the significance of the prepaid ocean freight and marine insurance?
+question_id: q11
+Gold Answer: The prepaid ocean freight and marine insurance suggest that the shipper is responsible for the transportation costs and insurance till the destination, which minimizes the risk for the receiver during transport.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 6799.jpeg
+Correct document retrieved: True
+Expected chunk: 6799.jpeg:2
+Exact target chunk retrieved: True
+Matching document ranks: [1, 15, 21]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the vendor's name and address as per the invoice?
+question_id: q1
+Gold Answer: The vendor's name is Microbiological Associates, and their address is 9900 Blackwell Rd., Rockville, MD 20850.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 8583.jpeg
+Correct document retrieved: True
+Expected chunk: 8583.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [49, 83]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Why are several critical fields left blank in the voucher?
+question_id: q4
+Gold Answer: The voucher may be a template or awaiting completion, highlighting the importance of ensuring all information is duly filled and verified for accurate processing and record-keeping.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 7503.jpeg
+Correct document retrieved: True
+Expected chunk: 7503.jpeg:3
+Exact target chunk retrieved: True
+Matching document ranks: [1, 15, 28, 39]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the significance of the focused breakdown in auditing and budget review processes?
+question_id: q5
+Gold Answer: It helps ensure expenses are allocated correctly according to designated categories.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 2868.jpeg
+Correct document retrieved: True
+Expected chunk: 2868.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [11]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the significance of the document in understanding the advertisement dealings of the era?
+question_id: q12
+Gold Answer: It provides a snapshot into the business relations between corporations and service providers, as well as the importance of strategic advertisement placements.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 8169.jpeg
+Correct document retrieved: True
+Expected chunk: 8169.jpeg:3
+Exact target chunk retrieved: True
+Matching document ranks: [28]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the brand name of the tobacco products being shipped?
+question_id: q7
+Gold Answer: Winston
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 7997.jpeg
+Correct document retrieved: True
+Expected chunk: 7997.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [14, 69]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Who is the payee of the check?
+question_id: q5
+Gold Answer: Associated Industries of Florida
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 4755.jpeg
+Correct document retrieved: True
+Expected chunk: 4755.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [23, 73]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What type of risk or project might this excess liability coverage be intended for, given the short policy term?
+question_id: q7
+Gold Answer: The short policy term of less than a year suggests that this excess liability coverage might be intended for a specific project or short-term risk.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 6957.jpeg
+Correct document retrieved: True
+Expected chunk: 6957.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [1, 23, 34]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the original estimate for Work Code 64 (Miscellaneous)?
+question_id: q8
+Gold Answer: $500.00
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 4910.jpeg
+Correct document retrieved: True
+Expected chunk: 4910.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [2, 89]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What services were provided by NIGHTLIFE Magazine?
+question_id: q4
+Gold Answer: The services provided were advertising services, specifically placement on the 'FINAL PAGE (2/3 Z/D LOWEST)' in the July issue.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 8436.jpeg
+Correct document retrieved: True
+Expected chunk: 8436.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [1, 2]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the incentive for prompt payment outlined in the terms of sale?
+question_id: q8
+Gold Answer: 15% cash discount for payment within 15 days
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 9078.jpeg
+Correct document retrieved: True
+Expected chunk: 9078.jpeg:2
+Exact target chunk retrieved: True
+Matching document ranks: [9]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Why is the sender prioritizing quick cash flow?
+question_id: q9
+Gold Answer: The sender is prioritizing quick cash flow because they are offering a 10% discount for pre-payment.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 3100.jpeg
+Correct document retrieved: True
+Expected chunk: 3100.jpeg:2
+Exact target chunk retrieved: True
+Matching document ranks: [39]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What might be inferred about the service provided based on the lack of shipping or freight charges?
+question_id: q9
+Gold Answer: It might be inferred that the service did not require physical delivery, which aligns with the nature of the service provided (DNA synthesis).
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 8747.jpeg
+Correct document retrieved: True
+Expected chunk: 8747.jpeg:2
+Exact target chunk retrieved: True
+Matching document ranks: [11]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the address of ARIA mentioned in the invoice?
+question_id: q6
+Gold Answer: The address of ARIA mentioned in the invoice is 2 Ivel Gardens, Biggleswade, Beds. SG18 0AN, England.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 5859.jpeg
+Correct document retrieved: True
+Expected chunk: 5859.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [1, 2]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the delivery address of the ordered items?
+question_id: q7
+Gold Answer: The delivery address is Universität Nürnberg/Erlangen, Institut für Pharmakologie und Toxikologie, Dr. Gerd Kobal, Universitätsstraße 22, W-8520 Erlangen.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 6473.jpeg
+Correct document retrieved: True
+Expected chunk: 6473.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [3, 8, 14, 23]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: How much merchandise allowance was initially estimated and later modified?
+question_id: q6
+Gold Answer: Initially $1,285, later modified (amount obscured by handwriting)
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 2294.jpeg
+Correct document retrieved: True
+Expected chunk: 2294.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [9]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Who signed the invoice?
+question_id: q8
+Gold Answer: Carolyn Wallace
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 3231.jpeg
+Correct document retrieved: False
+Expected chunk: 3231.jpeg:2
+Exact target chunk retrieved: False
+Matching document ranks: []
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the purpose of the check?
+question_id: q8
+Gold Answer: Likely a campaign contribution to 'Citizens to Re-elect Randy Tate'
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 4247.jpeg
+Correct document retrieved: True
+Expected chunk: 4247.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [1, 42]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What type of information is included in each entry of the Federal Express Report?
+question_id: q6
+Gold Answer: Each entry includes a tracking number, charge, company/service, and location.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 7141.jpeg
+Correct document retrieved: True
+Expected chunk: 7141.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [1, 2]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the address of the hotel?
+question_id: q2
+Gold Answer: The address of the hotel is 00187 - Roma, Via V. Veneto, 76.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 5611.jpeg
+Correct document retrieved: True
+Expected chunk: 5611.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [1, 2]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is not visible on the document?
+question_id: q11
+Gold Answer: The voucher number is not visible on the document.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 5535.jpeg
+Correct document retrieved: False
+Expected chunk: 5535.jpeg:0
+Exact target chunk retrieved: False
+Matching document ranks: []
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the gross amount of the invoice?
+question_id: q10
+Gold Answer: $51,041.32
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 9071.jpeg
+Correct document retrieved: True
+Expected chunk: 9071.jpeg:1
+Exact target chunk retrieved: False
+Matching document ranks: [47]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: How much has been spent on Director/Producer/CPAs Expenses so far in the tournament?
+question_id: q2
+Gold Answer: $5,000
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 2726.jpeg
+Correct document retrieved: True
+Expected chunk: 2726.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [1, 2, 3, 34]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Which categories have significant overages?
+question_id: q7
+Gold Answer: Legal Fees, Alternative Ballot Measures, and Direct Mail - Petitions
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 3815.jpeg
+Correct document retrieved: True
+Expected chunk: 3815.jpeg:4
+Exact target chunk retrieved: True
+Matching document ranks: [1]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the total net cost for 1990?
+question_id: q7
+Gold Answer: $766,242.95
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 1044.jpeg
+Correct document retrieved: True
+Expected chunk: 1044.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [1, 11]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the total amount due for this invoice?
+question_id: q5
+Gold Answer: $1,274.05
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 9290.jpeg
+Correct document retrieved: True
+Expected chunk: 9290.jpeg:1
+Exact target chunk retrieved: False
+Matching document ranks: [1, 107, 162]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the cumulative total of Consumer Pen units?
+question_id: q9
+Gold Answer: 331 units
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 5151.jpeg
+Correct document retrieved: True
+Expected chunk: 5151.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [6, 14, 40]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the total annual support combining merchandising revenue and promotional support?
+question_id: q12
+Gold Answer: $69,750.00
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 3304.jpeg
+Correct document retrieved: True
+Expected chunk: 3304.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [1, 30]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the net amount on the payment stub?
+question_id: q9
+Gold Answer: $100.00
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 4226.jpeg
+Correct document retrieved: True
+Expected chunk: 4226.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [23, 71]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the vendor number assigned to the recipient?
+question_id: q3
+Gold Answer: 34244-0000
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 6983.jpeg
+Correct document retrieved: True
+Expected chunk: 6983.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [10, 18]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the total spending for all products combined during the year?
+question_id: q8
+Gold Answer: $1,206,238.52
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 1876.jpeg
+Correct document retrieved: True
+Expected chunk: 1876.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [4, 153]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the total amount spent on Marlboro Red newspaper advertising throughout the year?
+question_id: q10
+Gold Answer: $218,592.00
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 1896.jpeg
+Correct document retrieved: True
+Expected chunk: 1896.jpeg:2
+Exact target chunk retrieved: False
+Matching document ranks: [1, 3, 32, 80]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is a potential risk associated with the use of corporate funds for political contributions?
+question_id: q10
+Gold Answer: A potential risk associated with the use of corporate funds for political contributions is non-compliance with applicable laws and corporate policies.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 7247.jpeg
+Correct document retrieved: True
+Expected chunk: 7247.jpeg:2
+Exact target chunk retrieved: True
+Matching document ranks: [33, 155, 174]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: How can the gross amount and net amount be used to understand the pricing strategy?
+question_id: q13
+Gold Answer: The gross amount reflects the list price, while the net amount shows the total payable after considerations, allowing for an understanding of the pricing strategy and any discounts applied.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 9454.jpeg
+Correct document retrieved: True
+Expected chunk: 9454.jpeg:2
+Exact target chunk retrieved: True
+Matching document ranks: [4, 34]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the primary purpose of the Banquet Event Order (BEO) document?
+question_id: q13
+Gold Answer: It is essential for financial and logistical planning, ensuring that all aspects of the event are documented and agreed upon prior to execution.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 3825.jpeg
+Correct document retrieved: True
+Expected chunk: 3825.jpeg:2
+Exact target chunk retrieved: True
+Matching document ranks: [1, 2]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the amount of the contribution?
+question_id: q3
+Gold Answer: $100
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 4163.jpeg
+Correct document retrieved: True
+Expected chunk: 4163.jpeg:0
+Exact target chunk retrieved: False
+Matching document ranks: [25]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: How much is allocated for additional Insulation in Five Buildings?
+question_id: q10
+Gold Answer: $2,500
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 113.jpeg
+Correct document retrieved: True
+Expected chunk: 113.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [1, 3, 4, 6]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What type of items were purchased by the customer?
+question_id: q5
+Gold Answer: The items purchased appear to be chemical or laboratory supplies.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 6163.jpeg
+Correct document retrieved: True
+Expected chunk: 6163.jpeg:2
+Exact target chunk retrieved: True
+Matching document ranks: [74, 146]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What can be inferred about the strategic priorities of the Tobacco Industry Labor Management Committee based on the budget allocations?
+question_id: q8
+Gold Answer: The consistent allocation of funds to programs supporting taxation and senior citizens may reflect ongoing strategic priorities concerning public policy and demographic engagement.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 3842.jpeg
+Correct document retrieved: True
+Expected chunk: 3842.jpeg:3
+Exact target chunk retrieved: True
+Matching document ranks: [2, 9, 13, 22]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the role of Thomas A. Briant in the association?
+question_id: q10
+Gold Answer: Thomas A. Briant is the legal counsel for the Minnesota Candy and Tobacco Association, Inc.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 9366.jpeg
+Correct document retrieved: True
+Expected chunk: 9366.jpeg:2
+Exact target chunk retrieved: True
+Matching document ranks: [1, 2, 3, 6, 15, 28]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Who is the sender/creator of the packing slip?
+question_id: q1
+Gold Answer: Flavor Technology Corporation, located at 147 Lower Main Street, Metlawnaw, New Jersey 07747.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 5056.jpeg
+Correct document retrieved: True
+Expected chunk: 5056.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [1, 4, 5, 112]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the focus of the client's business based on the products listed?
+question_id: q14
+Gold Answer: The client's business focus is on tobacco sales.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 9436.jpeg
+Correct document retrieved: True
+Expected chunk: 9436.jpeg:2
+Exact target chunk retrieved: True
+Matching document ranks: [3, 168]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Why might this document require special attention during financial audits?
+question_id: q10
+Gold Answer: Due to its political nature and the need to ensure compliance with political finance regulations.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 4767.jpeg
+Correct document retrieved: True
+Expected chunk: 4767.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [108]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the total amount due, and what is the currency?
+question_id: q4
+Gold Answer: $4,500.00, United States Dollars
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 5443.jpeg
+Correct document retrieved: True
+Expected chunk: 5443.jpeg:4
+Exact target chunk retrieved: True
+Matching document ranks: [15]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the purpose of the conversion factor (1.8) applied to hotel costs?
+question_id: q6
+Gold Answer: The conversion factor (1.8) is likely used to adjust for currency or additional charges.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 6571.jpeg
+Correct document retrieved: True
+Expected chunk: 6571.jpeg:3
+Exact target chunk retrieved: True
+Matching document ranks: [1, 20]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What type of document does this represent?
+question_id: q2
+Gold Answer: This image represents a financial ledger or report detailing various account metrics from an industrial or manufacturing entity.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 1996.jpeg
+Correct document retrieved: True
+Expected chunk: 1996.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [27, 198]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the invoice number of the document?
+question_id: q5
+Gold Answer: The invoice number of the document is 100561.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 7049.jpeg
+Correct document retrieved: True
+Expected chunk: 7049.jpeg:1
+Exact target chunk retrieved: False
+Matching document ranks: [1]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What months are included in the cost breakdown?
+question_id: q5
+Gold Answer: The months included in the cost breakdown are September, October, November, and December.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 5283.jpeg
+Correct document retrieved: True
+Expected chunk: 5283.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [36, 186]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the significance of the date 'July 5, 1989' mentioned in the invoice?
+question_id: q6
+Gold Answer: The date 'July 5, 1989' indicates that the payment or approval action was taken on this date.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 5062.jpeg
+Correct document retrieved: True
+Expected chunk: 5062.jpeg:0
+Exact target chunk retrieved: False
+Matching document ranks: [170]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the date of the check request?
+question_id: q1
+Gold Answer: February 8, 1993
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 4758.jpeg
+Correct document retrieved: True
+Expected chunk: 4758.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [72, 116]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the total amount due as per the invoice?
+question_id: q3
+Gold Answer: $48,067.88
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 9312.jpeg
+Correct document retrieved: True
+Expected chunk: 9312.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [131]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the significance of the signature on the document?
+question_id: q7
+Gold Answer: The signature indicates that the document was reviewed and approved for processing or reimbursement.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 7589.jpeg
+Correct document retrieved: True
+Expected chunk: 7589.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [108]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What does the approval by a Regional Vice President suggest about the contribution process?
+question_id: q11
+Gold Answer: That contributions might be vetted or facilitated at higher organizational levels to ensure alignment with broader strategic goals of political support
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 4265.jpeg
+Correct document retrieved: True
+Expected chunk: 4265.jpeg:4
+Exact target chunk retrieved: True
+Matching document ranks: [1, 8, 19, 74]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the billing address of the Tobacco Institute?
+question_id: q3
+Gold Answer: 1225 8TH STE 350, SACRAMENTO CA 95814
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 3528.jpeg
+Correct document retrieved: True
+Expected chunk: 3528.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [27]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: How has the marginal contribution changed from 1993 to 1997?
+question_id: q2
+Gold Answer: The marginal contribution decreased steadily from $92.1M in 1993 to $55.0M in 1997.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 2459.jpeg
+Correct document retrieved: True
+Expected chunk: 2459.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [1, 2, 4, 188]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the total hours reported for General Institute Activities?
+question_id: q2
+Gold Answer: 72 hours
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 389.jpeg
+Correct document retrieved: True
+Expected chunk: 389.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [4, 55]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Were any service charges incurred during these policy periods?
+question_id: q10
+Gold Answer: No, service fees were $0.00
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 2098.jpeg
+Correct document retrieved: True
+Expected chunk: 2098.jpeg:2
+Exact target chunk retrieved: True
+Matching document ranks: [1, 6, 16]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the name of the recipient of the contribution?
+question_id: q3
+Gold Answer: Greater Indianapolis Republican Finance Committee
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 9708.jpeg
+Correct document retrieved: True
+Expected chunk: 9708.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [32, 65]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What was the estimated cost for the project, and how does it compare to the actual cost?
+question_id: q5
+Gold Answer: The estimated cost was $1,500.00, while the actual cost was $1,398.17, which is $101.83 less than the estimated cost.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 5164.jpeg
+Correct document retrieved: False
+Expected chunk: 5164.jpeg:1
+Exact target chunk retrieved: False
+Matching document ranks: []
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Which brand has the lowest expenditure in 1986, and what is that amount?
+question_id: q6
+Gold Answer: Alpine with $112,820.92
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 2428.jpeg
+Correct document retrieved: True
+Expected chunk: 2428.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [1, 3, 4, 8, 46]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the total Print Spending for Marlboro in 1992?
+question_id: q5
+Gold Answer: $40.8M
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 1574.jpeg
+Correct document retrieved: True
+Expected chunk: 1574.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [1, 3]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What type of advertising is focused on in this document?
+question_id: q2
+Gold Answer: This document focuses on Outdoor Advertising.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 822.jpeg
+Correct document retrieved: True
+Expected chunk: 822.jpeg:0
+Exact target chunk retrieved: False
+Matching document ranks: [16, 133, 169]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the company name mentioned in the commercial invoice?
+question_id: q1
+Gold Answer: SMT PR Duty Free, Inc.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 7027.jpeg
+Correct document retrieved: True
+Expected chunk: 7027.jpeg:1
+Exact target chunk retrieved: False
+Matching document ranks: [4, 53, 114]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What potential areas of analysis are suggested by the document?
+question_id: q10
+Gold Answer: The document suggests potential areas of analysis such as comparing actual costs to estimated budgets and analyzing the cost efficiency of production and freight components.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 3422.jpeg
+Correct document retrieved: True
+Expected chunk: 3422.jpeg:2
+Exact target chunk retrieved: True
+Matching document ranks: [1, 5]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: In what year was the transaction date of the remittance advice?
+question_id: q11
+Gold Answer: 1978
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 6812.jpeg
+Correct document retrieved: True
+Expected chunk: 6812.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [1, 5]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the address of the recipient of the invoice?
+question_id: q2
+Gold Answer: The address of the recipient, Mr. James Thompson, is 100 Park Ave., New York, N.Y. 10017.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 7075.jpeg
+Correct document retrieved: False
+Expected chunk: 7075.jpeg:0
+Exact target chunk retrieved: False
+Matching document ranks: []
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the total expenditure for 10-Marlboro in Quarter 1 (Jan to Mar 1992)?
+question_id: q6
+Gold Answer: $276,598.34
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 1301.jpeg
+Correct document retrieved: True
+Expected chunk: 1301.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [1, 4, 7]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the company name and address mentioned in the invoice document?
+question_id: q1
+Gold Answer: Synectics Inc., located at 25 Church Street, Cambridge, Massachusetts 02138
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 4816.jpeg
+Correct document retrieved: True
+Expected chunk: 4816.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [192]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the customer number associated with this invoice?
+question_id: q3
+Gold Answer: 32779
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 8690.jpeg
+Correct document retrieved: True
+Expected chunk: 8690.jpeg:0
+Exact target chunk retrieved: False
+Matching document ranks: [156]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What does the emphasis on tax deductibility imply?
+question_id: q9
+Gold Answer: It implies potential financial planning considerations in leveraging such expenses for tax benefits.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 6670.jpeg
+Correct document retrieved: True
+Expected chunk: 6670.jpeg:3
+Exact target chunk retrieved: True
+Matching document ranks: [3, 28]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Which stores are included in the geographic focus of this analysis?
+question_id: q2
+Gold Answer: Both chain and local accounts are included, with data being regionally segmented.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 2351.jpeg
+Correct document retrieved: True
+Expected chunk: 2351.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [1, 3, 14, 148]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the total amount of local tax for giveaways in Roanoke, VA?
+question_id: q9
+Gold Answer: The total amount of local tax for giveaways in Roanoke, VA is $274.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 3362.jpeg
+Correct document retrieved: True
+Expected chunk: 3362.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [1, 12]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the contract number associated with the invoice?
+question_id: q4
+Gold Answer: The contract number is 533883.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 9048.jpeg
+Correct document retrieved: True
+Expected chunk: 9048.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [91]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What are the total monthly transfers from Jeff Hecht to Ken Agges?
+question_id: q1
+Gold Answer: The total monthly transfers remain at $952,733 each month, totaling $2,858,199 across the three months.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 2300.jpeg
+Correct document retrieved: True
+Expected chunk: 2300.jpeg:2
+Exact target chunk retrieved: True
+Matching document ranks: [1, 2, 3, 5, 17]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Why is the itemization of expenses important in this invoice?
+question_id: q9
+Gold Answer: It assists in transparency and accountability, and aids in client verification and internal auditing.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 6516.jpeg
+Correct document retrieved: True
+Expected chunk: 6516.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [1]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What do the quarterly totals indicate about consistency in advertising spending?
+question_id: q9
+Gold Answer: The quarter 3 total indicates consistency in advertising spending, with a gross change of $466,311.69.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 1202.jpeg
+Correct document retrieved: True
+Expected chunk: 1202.jpeg:1
+Exact target chunk retrieved: False
+Matching document ranks: [4, 118]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Why is this invoice important for financial and budgeting reviews?
+question_id: q10
+Gold Answer: It provides crucial information regarding the financial obligations of the magazine related to its publication services and could be used to manage cash flows and assess profitability in the publishing industry.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 7325.jpeg
+Correct document retrieved: True
+Expected chunk: 7325.jpeg:2
+Exact target chunk retrieved: True
+Matching document ranks: [6]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the amount due mentioned in the invoice?
+question_id: q3
+Gold Answer: $606.01
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 4050.jpeg
+Correct document retrieved: True
+Expected chunk: 4050.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [167, 178]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the total cost of ads in U.S. News & World Report?
+question_id: q5
+Gold Answer: The total cost of ads in U.S. News & World Report is $49,086.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 4589.jpeg
+Correct document retrieved: True
+Expected chunk: 4589.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [1, 56]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Who is the company issuing the voucher?
+question_id: q2
+Gold Answer: The company issuing the voucher is Philip Morris USA.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 6829.jpeg
+Correct document retrieved: True
+Expected chunk: 6829.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [5, 10, 14, 86]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Who is the seller listed on the invoice?
+question_id: q3
+Gold Answer: The seller is Guilford Laboratories, Inc., operating under Piedmont Research Laboratories.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 8067.jpeg
+Correct document retrieved: True
+Expected chunk: 8067.jpeg:1
+Exact target chunk retrieved: False
+Matching document ranks: [181]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the total advertising expenditure reported in the document?
+question_id: q1
+Gold Answer: $9,373,400
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 1828.jpeg
+Correct document retrieved: True
+Expected chunk: 1828.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [8, 64]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Who is the plant operator for this contract?
+question_id: q8
+Gold Answer: #33, Gateway Outdoor Ad, Charlotte, North Carolina
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 3345.jpeg
+Correct document retrieved: True
+Expected chunk: 3345.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [2, 60]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the difference between the actual and budgeted overtime pay for this year?
+question_id: q2
+Gold Answer: According to the report, there was an actual overtime pay of $8, while the budget was $0, resulting in a variance of $2.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 664.jpeg
+Correct document retrieved: True
+Expected chunk: 664.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [1, 12, 23]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Why was a bulletin dropped from the document?
+question_id: q6
+Gold Answer: A bulletin in New Rochelle at 111 Cedar Street (Pure Paint Bulletin) was dropped due to project completion, cancellation, or transfer.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 902.jpeg
+Correct document retrieved: True
+Expected chunk: 902.jpeg:3
+Exact target chunk retrieved: False
+Matching document ranks: [1, 3]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: How does this document contribute to understanding the financial dealings of Lorillard during the specified period?
+question_id: q12
+Gold Answer: This document provides a clear snapshot of the financial dealings of Lorillard during the specified period, including the costs associated with a promotion in Roseville, Ohio.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 5137.jpeg
+Correct document retrieved: True
+Expected chunk: 5137.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [1, 123]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: To whom is the check payable?
+question_id: q4
+Gold Answer: Legal Expense Fund, care of Tom Bradley, Mayor
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 3601.jpeg
+Correct document retrieved: True
+Expected chunk: 3601.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [26, 28]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: When was the payment received by P.M. Management Corp.?
+question_id: q9
+Gold Answer: December 16, 1991
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 6498.jpeg
+Correct document retrieved: True
+Expected chunk: 6498.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [45]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the vendor number on the invoice?
+question_id: q7
+Gold Answer: 11131
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 533.jpeg
+Correct document retrieved: False
+Expected chunk: 533.jpeg:0
+Exact target chunk retrieved: False
+Matching document ranks: []
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the VAT rate applied to the item?
+question_id: q7
+Gold Answer: The VAT rate applied is 19%.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 6373.jpeg
+Correct document retrieved: True
+Expected chunk: 6373.jpeg:2
+Exact target chunk retrieved: True
+Matching document ranks: [1, 7]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the total debit amount for Entity 100?
+question_id: q4
+Gold Answer: The total debit amount for Entity 100 is $14,781,350.13.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 3801.jpeg
+Correct document retrieved: True
+Expected chunk: 3801.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [1, 2, 6]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Why is it essential to maintain accurate and transparent records of political contributions?
+question_id: q6
+Gold Answer: To comply with campaign finance laws and regulations
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 9752.jpeg
+Correct document retrieved: True
+Expected chunk: 9752.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [14, 69, 71, 199]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the implication of the significant amount of budget remaining unused and unallocated as of the document date?
+question_id: q10
+Gold Answer: The need for strategic planning to ensure efficient utilization of funds by the year-end
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 3049.jpeg
+Correct document retrieved: True
+Expected chunk: 3049.jpeg:2
+Exact target chunk retrieved: True
+Matching document ranks: [1, 127]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What does the 'CHARGE TO: Community Relations-Greensboro' suggest about the payment?
+question_id: q9
+Gold Answer: It suggests that this expense is part of community relations or similar public-facing activities budgeted by the company.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 8625.jpeg
+Correct document retrieved: True
+Expected chunk: 8625.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [1, 2]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What leadership position does the recipient hold?
+question_id: q6
+Gold Answer: Chairman of the Highways Committee
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 9721.jpeg
+Correct document retrieved: True
+Expected chunk: 9721.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [2, 79]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the increase in the printing budget from the original to the revised estimate?
+question_id: q7
+Gold Answer: +$250.00
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 7767.jpeg
+Correct document retrieved: True
+Expected chunk: 7767.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [1, 4, 24]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Which bank is associated with The Tobacco Institute's check?
+question_id: q4
+Gold Answer: Riggs National Bank
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 367.jpeg
+Correct document retrieved: True
+Expected chunk: 367.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [19, 20]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: How many distribution codes are mentioned in the document?
+question_id: q7
+Gold Answer: There is only one distribution code mentioned in the document, which is 050-52-672-00.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 6855.jpeg
+Correct document retrieved: False
+Expected chunk: 6855.jpeg:0
+Exact target chunk retrieved: False
+Matching document ranks: []
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the significance of the 'No cash discount' term on the invoice?
+question_id: q11
+Gold Answer: It emphasizes the importance of on-time payment without incentives for early payment.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 6977.jpeg
+Correct document retrieved: True
+Expected chunk: 6977.jpeg:2
+Exact target chunk retrieved: True
+Matching document ranks: [200]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the main theme or observation about brand variety in the report?
+question_id: q8
+Gold Answer: The report suggests that the tobacco industry has a diverse portfolio of brands, reflecting competitive positioning within the market.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 3035.jpeg
+Correct document retrieved: True
+Expected chunk: 3035.jpeg:2
+Exact target chunk retrieved: True
+Matching document ranks: [1, 38, 87, 99]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Were the hourly rates for services rendered consistent throughout the project?
+question_id: q9
+Gold Answer: Yes, the invoice maintains a consistent hourly rate of $50 for the services rendered.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 2628.jpeg
+Correct document retrieved: True
+Expected chunk: 2628.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [1, 169]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: How can the year-over-year data be used for strategic planning?
+question_id: q10
+Gold Answer: Comparing the year-over-year data might help in forecasting future costs and adjustments for budgeting purposes.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 3779.jpeg
+Correct document retrieved: True
+Expected chunk: 3779.jpeg:3
+Exact target chunk retrieved: True
+Matching document ranks: [1]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What consequences may occur if the infringement does not stop?
+question_id: q6
+Gold Answer: If the infringement does not stop, legal action in Taiwan may be pursued to the fullest extent, involving both civil and criminal remedies.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 7884.jpeg
+Correct document retrieved: True
+Expected chunk: 7884.jpeg:1
+Exact target chunk retrieved: False
+Matching document ranks: [4, 46]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the name of the Cost Center being analyzed in the document?
+question_id: q1
+Gold Answer: The Cost Center being analyzed is Fire Safety.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 3723.jpeg
+Correct document retrieved: True
+Expected chunk: 3723.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [4, 13, 91]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Is the amount of the check consistent with the invoice amount?
+question_id: q8
+Gold Answer: Yes, both the check and invoice amounts are $3,750.00
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 3229.jpeg
+Correct document retrieved: True
+Expected chunk: 3229.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [14, 26]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: How much did the Literature Retrieval Division spend on various equipment in 1971?
+question_id: q4
+Gold Answer: $14,650 (budgeted)
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 646.jpeg
+Correct document retrieved: True
+Expected chunk: 646.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [1, 5, 130]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Which activity in this project accounts for the largest portion of the budget?
+question_id: q7
+Gold Answer: Field costs
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 2334.jpeg
+Correct document retrieved: True
+Expected chunk: 2334.jpeg:0
+Exact target chunk retrieved: False
+Matching document ranks: [18]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the total amount due, excluding tax?
+question_id: q5
+Gold Answer: The total amount due, excluding tax, is $300.00.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 4789.jpeg
+Correct document retrieved: True
+Expected chunk: 4789.jpeg:0
+Exact target chunk retrieved: False
+Matching document ranks: [190]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: How much was allocated to Corporate & Direct Spending?
+question_id: q3
+Gold Answer: $5,805
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 2928.jpeg
+Correct document retrieved: True
+Expected chunk: 2928.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [74, 82, 108]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: Why is this check marked non-negotiable?
+question_id: q5
+Gold Answer: It is labeled as 'NON-NEGOTIABLE' on the check.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 463.jpeg
+Correct document retrieved: False
+Expected chunk: 463.jpeg:0
+Exact target chunk retrieved: False
+Matching document ranks: []
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the description of the job or service provided?
+question_id: q3
+Gold Answer: The description of the job is 'Column Inches'.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 3238.jpeg
+Correct document retrieved: False
+Expected chunk: 3238.jpeg:0
+Exact target chunk retrieved: False
+Matching document ranks: []
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the significance of the document's date?
+question_id: q10
+Gold Answer: The document's date, 1993, provides insight into practices of expense reporting from the 1990s, which might differ from current regulations and values.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 6869.jpeg
+Correct document retrieved: True
+Expected chunk: 6869.jpeg:3
+Exact target chunk retrieved: True
+Matching document ranks: [72, 102]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the purpose of the 'Helping Youth Decide/Say No Programs'?
+question_id: q1
+Gold Answer: The programs aim to encourage responsible living among youth, including efforts to reduce tobacco usage.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 4691.jpeg
+Correct document retrieved: True
+Expected chunk: 4691.jpeg:0
+Exact target chunk retrieved: True
+Matching document ranks: [1, 47]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What financial metrics are recorded in this document?
+question_id: q4
+Gold Answer: This document records policy line, indemnity paid, expense paid, service charge, interest, and outstanding amounts.
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 2085.jpeg
+Correct document retrieved: True
+Expected chunk: 2085.jpeg:1
+Exact target chunk retrieved: True
+Matching document ranks: [15, 57, 155]
+========== GLOBAL RETRIEVAL VERIFICATION ==========
+Query: What is the total labor and expenses reported in the document?
+question_id: q5
+Gold Answer: $671,499
+Total indexed chunks: 2051
+Requested TOP_K: 200
+Actual TOP_K: 200
+Expected document: 2001.jpeg
+Correct document retrieved: True
+Expected chunk: 2001.jpeg:2
+Exact target chunk retrieved: True
+Matching document ranks: [14, 21, 35]
