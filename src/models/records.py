@@ -26,6 +26,24 @@ class Evidence:
     image_path: str | None = None
     score: float = 0.0
     chunk_id: str | None = None
+    dense_rank: int | float | None = None
+    sparse_rank: int | float | None = None
+    hybrid_rank: int | None = None
+    rerank_rank: int | None = None
+    rank_gain: int | None = None
+
+    @property
+    def pre_rerank_rank(self) -> int | float | None:
+        if self.hybrid_rank is not None:
+            return self.hybrid_rank
+        candidates = [r for r in (self.dense_rank, self.sparse_rank) if r is not None]
+        return min(candidates) if candidates else None
+
+    @property
+    def rank_gain(self) -> int | None:
+        if self.pre_rerank_rank is None or self.rerank_rank is None:
+            return None
+        return int(self.pre_rerank_rank) - int(self.rerank_rank)
 
 
 @dataclass

@@ -2,16 +2,15 @@
 
 from collections import Counter
 from typing import Callable
-
-from src.models.records import Evidence , Document
-from src.strategies.base import AnswerStrategyBase
-from src.strategies.helpers import meaningful_words, refusal
-
-
 import logging
 import time
 
+from src.models.records import Document, Evidence
+from src.strategies.base import AnswerStrategyBase
+from src.strategies.helpers import meaningful_words, refusal
+
 logger = logging.getLogger(__name__)
+
 
 class LLMAnswer(AnswerStrategyBase):
     def __init__(self, model: Callable[[str], dict]):
@@ -25,7 +24,6 @@ class LLMAnswer(AnswerStrategyBase):
         history=None,
         documents: list[Document] | None = None,
     ) -> dict:
-
         logger.info(
             "LLM_ANSWER_STARTED | evidence_count=%d | chunk_ids=%s",
             len(evidence),
@@ -33,9 +31,7 @@ class LLMAnswer(AnswerStrategyBase):
         )
 
         if not evidence:
-            logger.warning(
-                "LLM_ANSWER_REFUSED | reason=no_retrieved_evidence"
-            )
+            logger.warning("LLM_ANSWER_REFUSED | reason=no_retrieved_evidence")
             return refusal("No document evidence was found.")
 
         context = "\n\n".join(
@@ -50,33 +46,26 @@ class LLMAnswer(AnswerStrategyBase):
         if history:
             request = f"Conversation history: {history}\n{request}"
 
-        logger.info(
-            "LLM_MODEL_CALL_STARTED | context_chunks=%d",
-            len(evidence),
-        )
-
+        logger.info("LLM_MODEL_CALL_STARTED | context_chunks=%d", len(evidence))
         started = time.perf_counter()
 
         try:
-            result = self.model(
-                request + "\nRetrieved context:\n" + context
-            )
-            # Validate that every citation belongs to retrieved evidence.
-            retrieved_pairs = {
-                (item.doc_id, item.chunk_id)
-                for item in evidence
-                if item.chunk_id is not None
-            }
+            result = self.model(request + "\nRetrieved context:\n" + context)
 
+            # Validate that every citation belongs to retrieved evidence.
+            retrieved_pairs = {(item.doc_id, item.chunk_id) for item in evidence}
+            retrieved_doc_ids = {item.doc_id for item in evidence}
             citations = result.get("citations", [])
 
             for citation in citations:
-                cited_pair = (
-                    citation.get("doc_id"),
-                    citation.get("chunk_id"),
-                )
+                cited_doc = citation.get("doc_id")
+                cited_chunk = citation.get("chunk_id")
+                cited_pair = (cited_doc, cited_chunk)
 
-                if cited_pair not in retrieved_pairs:
+                is_valid = cited_pair in retrieved_pairs or (
+                    cited_chunk is None and cited_doc in retrieved_doc_ids
+                )
+                if not is_valid:
                     logger.error(
                         "INVALID_LLM_CITATION | cited=%s | retrieved=%s",
                         cited_pair,
@@ -122,6 +111,11 @@ class DatasetAnswer(AnswerStrategyBase):
 
         question_terms = meaningful_words(question)
         evidence_doc_ids = {item.doc_id for item in evidence}
+        chunk_by_doc = {
+            item.doc_id: item.chunk_id
+            for item in evidence
+            if item.chunk_id is not None
+        }
 
         best_match = None
         best_overlap = 0
@@ -132,10 +126,7 @@ class DatasetAnswer(AnswerStrategyBase):
                 continue
 
             for qa_pair in document.qa_pairs:
-                overlap = len(
-                    question_terms & meaningful_words(qa_pair.question)
-                )
-
+                overlap = len(question_terms & meaningful_words(qa_pair.question))
                 if overlap > best_overlap:
                     best_overlap = overlap
                     best_match = (document.doc_id, qa_pair.answer)
@@ -150,9 +141,13 @@ class DatasetAnswer(AnswerStrategyBase):
         if not answer:
             return refusal("The matching dataset answer is empty.")
 
+        citation: dict[str, str] = {"doc_id": doc_id}
+        if chunk_by_doc.get(doc_id) is not None:
+            citation["chunk_id"] = chunk_by_doc[doc_id]
+
         return {
             "answer": answer,
-            "citations": [{"doc_id": doc_id}],
+            "citations": [citation],
             "should_refuse": False,
             "reason": "",
         }
@@ -179,15 +174,12 @@ class CriticAnswer(AnswerStrategyBase):
         )
 
         valid_ids = {item.doc_id for item in evidence}
+        citations = result.get("citations") or []
 
-        if any(
-            citation.get("doc_id") not in valid_ids
-            for citation in result["citations"]
-        ):
+        if any(citation.get("doc_id") not in valid_ids for citation in citations):
             return refusal("Answer citation did not match retrieved evidence.")
 
         return result
-
 
 
 class VotingAnswer(AnswerStrategyBase):
@@ -221,6 +213,4 @@ class VotingAnswer(AnswerStrategyBase):
         if votes <= len(self.answerers) // 2:
             return refusal("Answer strategies did not agree.")
 
-        return next(
-            item for item in answers if item["answer"] == winning_answer
-        )
+        return next(item for item in answers if item["answer"] == winning_answer)

@@ -1,269 +1,147 @@
-
-"""Analyze retrieval failures against the relevance ground truth.
-
-Supported strategies:
-    - dense
-    - hybrid
-
-The script saves QA pairs where at least one of the top-k retrieved
-chunks is not present in the ground-truth relevant_chunk_ids.
-"""
-
 import json
 from pathlib import Path
-from uuid import uuid4
 
-from src.config import AppConfig
-from src.data.loader import load_saved_sample
-from src.pipeline.factory import _build_chunker, _build_embedder
-from src.strategies.search import ChromaSearch, BM25Search, HybridSearch
+INPUT_FILE = Path("data/evaluation/500_docs_parent_child/retrieval_evaluation_results_with_reranker.json")
+OUTPUT_JSON = Path("data/evaluation/500_docs_parent_child/failure_analysis_report.json")
 
-
-# ---------------------------------------------------------
-# Configuration
-# ---------------------------------------------------------
-
-#STRATEGY = "hybrid"
-STRATEGY = "dense"  # Change to "dense" to analyze dense retrieval
-TOP_K = 5
-
-OUTPUT_PATH = Path(
-    "data/evaluation/bge_dense_failure_analysis.json"
-)
-
-LABELS_PATH = Path(
-    "data/evaluation/combined_relevance_labels.json"
-)
+STRATEGY_ORDER = [
+    ("Dense (Chroma)", "dense"),
+    ("Sparse (BM25)", "sparse"),
+    ("Hybrid", "hybrid"),
+    ("Hybrid + BGE Reranker", "reranker"),
+]
 
 
-def analyze_retrieval_failures():
+def get_first_relevant_rank(relevant_ids: list[str], retrieved_ids: list[str]) -> int | None:
+    """Return 1-based rank of highest-ranked relevant chunk, or None if not found."""
+    relevant_set = set(relevant_ids)
+    for idx, chunk_id in enumerate(retrieved_ids, start=1):
+        if chunk_id in relevant_set:
+            return idx
+    return None
 
-    if STRATEGY not in {"dense", "hybrid"}:
-        raise ValueError(
-            "STRATEGY must be either 'dense' or 'hybrid'."
+
+def extract_doc_id(relevant_ids: list[str]) -> str:
+    if not relevant_ids:
+        return "unknown"
+    return relevant_ids[0].split(":")[0].split(".")[0]
+
+
+def get_question_number(item: dict, fallback: int) -> int:
+    q_num = item.get("question_number")
+    if isinstance(q_num, int) and not isinstance(q_num, bool):
+        return q_num
+    if isinstance(q_num, str) and q_num.isdigit():
+        return int(q_num)
+    digits = "".join(ch for ch in str(item.get("question_id", "")) if ch.isdigit())
+    return int(digits) if digits else fallback
+
+
+def classify_failure(ranks: dict[str, int | None]) -> str:
+    d = ranks.get("dense")
+    s = ranks.get("sparse")
+    h = ranks.get("hybrid")
+    r = ranks.get("reranker")
+
+    if d is None and s is None and h is None and r is None:
+        return "all_strategies_none"
+    if (d is not None or s is not None or h is not None) and r is None:
+        return "found_earlier_lost_at_reranker"
+    if (d is not None or s is not None) and h is None:
+        return "found_in_base_lost_in_hybrid"
+    if r is None:
+        return "reranker_none"
+    return "partial_or_other_miss"
+
+
+def main():
+    if not INPUT_FILE.exists():
+        raise FileNotFoundError(f"Input file not found: {INPUT_FILE}")
+
+    with INPUT_FILE.open("r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    detailed = data.get("detailed_results", {})
+    active_strategies = [(k, label) for k, label in STRATEGY_ORDER if k in detailed]
+
+    by_label_q: dict[str, dict[int, dict]] = {}
+    all_q_nums: set[int] = set()
+
+    for strat_key, label in active_strategies:
+        q_map: dict[int, dict] = {}
+        for idx, item in enumerate(detailed[strat_key], start=1):
+            q_num = get_question_number(item, fallback=idx)
+            q_map[q_num] = item
+            all_q_nums.add(q_num)
+        by_label_q[label] = q_map
+
+    failures_by_bucket: dict[str, list[dict]] = {
+        "all_strategies_none": [],
+        "found_in_base_lost_in_hybrid": [],
+        "found_earlier_lost_at_reranker": [],
+        "reranker_none": [],
+        "partial_or_other_miss": [],
+    }
+
+    total_questions = len(all_q_nums)
+    any_miss_count = 0
+
+    for q_num in sorted(all_q_nums):
+        sample = next(
+            by_label_q[label][q_num]
+            for _, label in active_strategies
+            if q_num in by_label_q[label]
         )
+        relevant_ids = sample.get("relevant_chunk_ids", [])
+        doc_id = extract_doc_id(relevant_ids)
+        qid = sample.get("question_id", "")
 
-    # 1. Load configuration and documents
-    config = AppConfig.from_env()
-    documents = load_saved_sample()
+        ranks: dict[str, int | None] = {}
+        question_text = sample.get("question", "")
 
-    if not documents:
-        raise ValueError("No saved documents found.")
+        for _, label in active_strategies:
+            item = by_label_q[label].get(q_num)
+            if not question_text and item:
+                question_text = item.get("question", "")
+            if item is None:
+                ranks[label] = None
+            else:
+                ranks[label] = get_first_relevant_rank(
+                    item.get("relevant_chunk_ids", relevant_ids),
+                    item.get("retrieved_chunk_ids", []),
+                )
 
-    # 2. Load relevance ground truth
-    with LABELS_PATH.open(encoding="utf-8") as f:
-        labels = json.load(f)
-
-    eligible_labels = [
-        record
-        for record in labels
-        if record.get("relevant_chunk_ids")
-    ]
-
-    excluded_count = len(labels) - len(eligible_labels)
-
-    print("\nDataset summary")
-    print("-" * 50)
-    print("Total QA pairs:", len(labels))
-    print("Eligible QA pairs:", len(eligible_labels))
-    print("Excluded QA pairs:", excluded_count)
-    print("Documents loaded:", len(documents))
-
-    # 3. Build chunker and embedder
-    chunker = _build_chunker(config)
-    embedder = _build_embedder(config)
-
-    print("\nChunker:", chunker)
-    print("Embedder:", embedder.model_name)
-    print("Retrieval strategy:", STRATEGY)
-    print("Top K:", TOP_K)
-
-    # 4. Create a temporary Chroma collection
-    collection_name = f"finance_failure_{uuid4().hex[:8]}"
-
-    dense_search = ChromaSearch(
-        path="data/processed/chroma_test",
-        embedder=embedder,
-        collection_name=collection_name,
-        chunker=chunker,
-    )
-
-    # 5. Build the selected retrieval strategy
-    if STRATEGY == "dense":
-        search_strategy = dense_search
-
-    else:
-        sparse_search = BM25Search(chunker=chunker)
-
-        search_strategy = HybridSearch(
-            dense_search=dense_search,
-            sparse_search=sparse_search,
-        )
-
-    failure_records = []
-
-    try:
-
-        # 6. Index documents
-        print("\nIndexing documents into temporary collection...")
-
-        dense_search.index_documents(documents)
-
-        print(
-            "Indexed chunks:",
-            dense_search.collection.count(),
-        )
-
-        # 7. Analyze each eligible QA pair
-        for index, record in enumerate(
-            eligible_labels,
-            start=1,
-        ):
-
-            question = record["question"]
-
-            relevant_ids = set(
-                record["relevant_chunk_ids"]
-            )
-
-            print(
-                f"\nAnalyzing QA pair "
-                f"{index}/{len(eligible_labels)}: "
-                f"{record['doc_id']} - "
-                f"{record['question_id']}"
-            )
-
-            # Retrieve top-k chunks
-            results = search_strategy.search(
-                query=question,
-                documents=documents,
-                limit=TOP_K,
-            )
-
-            retrieved_chunks = []
-
-            for rank, item in enumerate(results, start=1):
-
-                chunk_id = item.chunk_id
-
-                retrieved_chunks.append({
-                    "rank": rank,
-                    "chunk_id": chunk_id,
-                    "doc_id": item.doc_id,
-                    "score": item.score,
-                    "text": item.text,
-                    "is_relevant": chunk_id in relevant_ids,
-                })
-
-            # Separate relevant and unexpected retrievals
-            retrieved_relevant = [
-                item
-                for item in retrieved_chunks
-                if item["is_relevant"]
-            ]
-
-            retrieved_unlabelled = [
-                item
-                for item in retrieved_chunks
-                if not item["is_relevant"]
-            ]
-
-            retrieved_relevant_ids = {
-                item["chunk_id"]
-                for item in retrieved_chunks
-                if item["chunk_id"] in relevant_ids
+        # Consider a record "failed" if at least one strategy missed (None)
+        if any(v is None for v in ranks.values()):
+            any_miss_count += 1
+            bucket = classify_failure(ranks)
+            record = {
+                "question_number": q_num,
+                "question_id": qid,
+                "doc_id": doc_id,
+                "question": question_text,
+                "ranks": ranks,
+                "relevant_chunk_ids": relevant_ids,
             }
+            failures_by_bucket[bucket].append(record)
 
-            missed_relevant_ids = (
-                relevant_ids - retrieved_relevant_ids
-            )
+    print(f"Total questions evaluated: {total_questions}")
+    print(f"Questions with >=1 strategy returning None: {any_miss_count}\n")
+    print("Failure breakdown:")
+    for bucket, items in failures_by_bucket.items():
+        print(f"  - {bucket:<34}: {len(items)}")
 
-            # Complete retrieval failure:
-            # No retrieved chunk matches any ground-truth relevant chunk.
-            if not retrieved_relevant_ids:
+    report = {
+        "total_questions": total_questions,
+        "any_strategy_miss_count": any_miss_count,
+        "counts_by_bucket": {k: len(v) for k, v in failures_by_bucket.items()},
+        "failures_by_bucket": failures_by_bucket,
+    }
 
-                failure_records.append({
-
-                    # Original QA information
-                    "doc_id": record["doc_id"],
-                    "question_id": record["question_id"],
-                    "question": question,
-                    "gold_answer": record.get("gold_answer"),
-
-                    # Ground truth
-                    "relevant_chunk_ids": sorted(relevant_ids),
-
-                    # Retrieval results
-                    "retrieved_chunks": retrieved_chunks,
-
-                    "retrieved_relevant_chunk_ids": sorted(
-                        retrieved_relevant_ids
-                    ),
-
-                    "missed_relevant_chunk_ids": sorted(
-                        missed_relevant_ids
-                    ),
-                    "failure_type": "complete_retrieval_failure",
-
-                    "retrieved_count": len(retrieved_chunks),
-                    "relevant_retrieved_count": len(
-                        retrieved_relevant
-                    ),
-                })
-
-        # 8. Save failure analysis
-        report = {
-            "analysis_summary": {
-                "total_qa_pairs": len(labels),
-                "eligible_qa_pairs": len(eligible_labels),
-                "excluded_qa_pairs": excluded_count,
-                "analyzed_qa_pairs": len(eligible_labels),
-                "failed_qa_pairs": len(failure_records),
-                "clean_qa_pairs": (
-                    len(eligible_labels) - len(failure_records)
-                ),
-                "retrieval_strategy": STRATEGY,
-                "embedder": embedder.model_name,
-                "top_k": TOP_K,
-            },
-            "failure_records": failure_records,
-        }
-
-        OUTPUT_PATH.parent.mkdir(
-            parents=True,
-            exist_ok=True,
-        )
-
-        with OUTPUT_PATH.open("w", encoding="utf-8") as f:
-            json.dump(
-                report,
-                f,
-                indent=4,
-                ensure_ascii=False,
-            )
-
-        # 9. Print summary
-        print("\n" + "=" * 60)
-        print("RETRIEVAL FAILURE ANALYSIS COMPLETED")
-        print("=" * 60)
-
-        print("Strategy:", STRATEGY)
-        print("Total eligible QA pairs:", len(eligible_labels))
-        print("Complete retrieval failures:", len(failure_records))
-        print(
-            "QA pairs with at least one relevant chunk retrieved:",
-            len(eligible_labels) - len(failure_records),
-        )
-
-        print("\nOutput saved to:", OUTPUT_PATH)
-
-    finally:
-
-        # 10. Clean up temporary Chroma collection
-        dense_search.client.delete_collection(collection_name)
-
-        print("\nTemporary Chroma collection deleted.")
+    OUTPUT_JSON.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT_JSON.write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(f"\nSaved failure analysis report to {OUTPUT_JSON}")
 
 
 if __name__ == "__main__":
-    analyze_retrieval_failures()
+    main()

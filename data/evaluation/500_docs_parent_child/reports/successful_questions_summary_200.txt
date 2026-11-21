@@ -1,0 +1,238 @@
+Total Questions Evaluated : 200
+Complete Successes (Full) : 79
+Partial Successes         : 36
+Combined Non-Zero Hits    : 115
+
+=== COMPLETE SUCCESSES (All Gold Chunks Retrieved) ===
+- [eval_001] doc=7767.jpeg qid=q2 (1/1) [RERANKER BOOSTED]
+  Q: What is the product being advertised in the mall display?
+- [eval_004] doc=7766.jpeg qid=q11 (1/1) [RERANKER BOOSTED]
+  Q: What is the industry or sector that R.J. Reynolds operates in?
+- [eval_008] doc=1411.jpeg qid=q2 (1/1)
+  Q: What was the rate for a 6x21 ad in Tacoma?
+- [eval_017] doc=8747.jpeg qid=q3 (1/1) [RERANKER BOOSTED]
+  Q: What is the address of the customer, Lorillard Research Center?
+- [eval_018] doc=33.jpeg qid=q3 (1/1)
+  Q: What are the objectives of the Universal Trailer project?
+- [eval_019] doc=1711.jpeg qid=q5 (1/1) [RERANKER BOOSTED]
+  Q: What are the model fees, and how much do they cost?
+- [eval_021] doc=672.jpeg qid=q3 (1/1) [RERANKER BOOSTED]
+  Q: In what areas did the department underutilize its budget as of August 31, 1971?
+- [eval_023] doc=6896.jpeg qid=q8 (2/2) [RERANKER BOOSTED]
+  Q: Why is the voucher important for compliance and auditing?
+- [eval_028] doc=1434.jpeg qid=q5 (1/1)
+  Q: What is the total expenditure for February to May 1987 on '12-B&H Lights'?
+- [eval_029] doc=2726.jpeg qid=q9 (2/2)
+  Q: What is the total budget for Tournament Entertainment (Meals, Cocktails, Live Entertainment, Hospitality) expenses?
+- [eval_030] doc=3230.jpeg qid=q8 (1/1)
+  Q: What is the significance of the 'OBACCO INSTITUTE - JC' mention?
+- [eval_032] doc=8441.jpeg qid=q6 (1/1) [RERANKER BOOSTED]
+  Q: What is the card rate for the advertisement?
+- [eval_034] doc=3842.jpeg qid=q4 (1/1)
+  Q: What is the percentage increase in the budget for Harry Kaiser (OH, Federal) from 1997 to 1998?
+- [eval_035] doc=5547.jpeg qid=q9 (1/1) [RERANKER BOOSTED]
+  Q: How might the monetary value of the consultation expenses be affected by inflation?
+- [eval_041] doc=5929.jpeg qid=q9 (1/1) [RERANKER BOOSTED]
+  Q: What can be inferred about the handling and review of financial documents by Philip Morris?
+- [eval_043] doc=3501.jpeg qid=q6 (2/2) [RERANKER BOOSTED]
+  Q: What is the purpose of the Support Tobacco & Other Orgs-Lobbying account?
+- [eval_044] doc=7087.jpeg qid=q2 (1/1)
+  Q: What is the address of the customer, Smokin Joe's?
+- [eval_045] doc=667.jpeg qid=q5 (1/1)
+  Q: What was the budgeted amount for '612 Legal - General Domestic' item for this year?
+- [eval_048] doc=3160.jpeg qid=q3 (1/1)
+  Q: How does the current month's revenue compare to the budgeted figures?
+- [eval_049] doc=7604.jpeg qid=q6 (1/1)
+  Q: What is the purpose of the Zugzahldrucker R28.00?
+- [eval_051] doc=9708.jpeg qid=q7 (1/1) [RERANKER BOOSTED]
+  Q: What is the purpose of specifying the account code in the contribution request?
+- [eval_055] doc=8743.jpeg qid=q10 (1/1) [RERANKER BOOSTED]
+  Q: Why is it important to observe payment timelines and billing addresses in this document?
+- [eval_056] doc=4265.jpeg qid=q11 (1/1) [RERANKER BOOSTED]
+  Q: What does the approval by a Regional Vice President suggest about the contribution process?
+- [eval_057] doc=5660.jpeg qid=q12 (1/1)
+  Q: How does the amount billed reflect the research activity during that era?
+- [eval_058] doc=533.jpeg qid=q7 (1/1) [RERANKER BOOSTED]
+  Q: What is the vendor number on the invoice?
+- [eval_062] doc=3776.jpeg qid=q6 (2/2) [RERANKER BOOSTED]
+  Q: What is the total amount of additions to the bank statement?
+- [eval_066] doc=5085.jpeg qid=q5 (2/2)
+  Q: Why is there a variation in the hourly rate of supervision between day shifts and night shifts?
+- [eval_067] doc=8238.jpeg qid=q5 (1/1) [RERANKER BOOSTED]
+  Q: What is the unit price of the services provided?
+- [eval_068] doc=8671.jpeg qid=q9 (1/1)
+  Q: Is there a cash discount available for early payment?
+- [eval_073] doc=3539.jpeg qid=q2 (1/1) [RERANKER BOOSTED]
+  Q: What is the address of the customer, The Tobacco Institute?
+- [eval_076] doc=4021.jpeg qid=q7 (2/2) [RERANKER BOOSTED]
+  Q: What does the 'NON-NEGOTIABLE' mark on the check indicate?
+- [eval_083] doc=1478.jpeg qid=q3 (1/1)
+  Q: What is the total estimated cost for all billboards listed in the document?
+- [eval_085] doc=6371.jpeg qid=q8 (1/1)
+  Q: How does the company's provision of both invoice and customer numbers facilitate communication for resolving financial matters?
+- [eval_091] doc=3805.jpeg qid=q6 (2/2) [RERANKER BOOSTED]
+  Q: How do the allocation percentages of Philip Morris and R.J. Reynolds compare to the total allocated funds?
+- [eval_096] doc=2470.jpeg qid=q7 (1/1) [RERANKER BOOSTED]
+  Q: What is the total expense for decorations at the event?
+- [eval_100] doc=3336.jpeg qid=q1 (1/1)
+  Q: What is the name of the vendor providing media services?
+- [eval_103] doc=3348.jpeg qid=q8 (1/1)
+  Q: How many billboards were advertised each month?
+- [eval_104] doc=3805.jpeg qid=q3 (1/1) [RERANKER BOOSTED]
+  Q: What is the net amount allocated to other participating organizations?
+- [eval_108] doc=74.jpeg qid=q5 (1/1) [RERANKER BOOSTED]
+  Q: Who is the Production Manager responsible for this project?
+- [eval_110] doc=9366.jpeg qid=q10 (1/1) [RERANKER BOOSTED]
+  Q: What is the role of Thomas A. Briant in the association?
+- [eval_111] doc=9071.jpeg qid=q13 (1/1) [RERANKER BOOSTED]
+  Q: What is the net total of the invoice?
+- [eval_113] doc=1355.jpeg qid=q5 (1/1)
+  Q: Why is there an increase in expenditures in December compared to November?
+- [eval_118] doc=8881.jpeg qid=q8 (1/1)
+  Q: What is the potential overall payout listed in the statement?
+- [eval_121] doc=3611.jpeg qid=q4 (1/1) [RERANKER BOOSTED]
+  Q: Who is the payee of the check?
+- [eval_123] doc=6628.jpeg qid=q5 (1/1) [RERANKER BOOSTED]
+  Q: What is the trailer number mentioned in the document?
+- [eval_124] doc=113.jpeg qid=q7 (1/1)
+  Q: What is the purpose of the deduction noted from DHS?
+- [eval_125] doc=7049.jpeg qid=q12 (1/1)
+  Q: What can be inferred about the service provided by Wayne & Speh based on the invoice amount?
+- [eval_130] doc=3945.jpeg qid=q1 (2/2)
+  Q: What is the institution that generated the Monthly State Cigaret Tax Report?
+- [eval_132] doc=1996.jpeg qid=q7 (1/1)
+  Q: What can we infer about the use of data in this document?
+- [eval_136] doc=965.jpeg qid=q8 (1/1) [RERANKER BOOSTED]
+  Q: What is the purpose of this type of document?
+- [eval_137] doc=563.jpeg qid=q7 (1/1)
+  Q: What is the Check Number and Event ID mentioned in the document?
+- [eval_139] doc=8550.jpeg qid=q11 (1/1)
+  Q: Why is it crucial to confirm the invoice amount?
+- [eval_142] doc=9666.jpeg qid=q2 (1/1)
+  Q: What is the income year in question for which the Tobacco Institute Inc has an outstanding balance?
+- [eval_143] doc=9361.jpeg qid=q8 (1/1)
+  Q: What can be inferred about the processing time of the invoice based on the invoice date and ship date?
+- [eval_144] doc=2975.jpeg qid=q4 (2/2) [RERANKER BOOSTED]
+  Q: What is the total volume shipped in December?
+- [eval_147] doc=7695.jpeg qid=q9 (1/1)
+  Q: What is the likely outcome if the action items from the meeting are not completed on time?
+- [eval_149] doc=8238.jpeg qid=q4 (1/1) [RERANKER BOOSTED]
+  Q: What is the item description of the Purchase Order?
+- [eval_150] doc=5250.jpeg qid=q6 (1/1)
+  Q: What is the special instruction for printing posters?
+- [eval_152] doc=2726.jpeg qid=q2 (2/2) [RERANKER BOOSTED]
+  Q: How much has been spent on Director/Producer/CPAs Expenses so far in the tournament?
+- [eval_153] doc=7394.jpeg qid=q11 (1/1)
+  Q: What could be the reason for the consistent reduction of estimated amount by $8,250.00 for both campaigns?
+- [eval_155] doc=7306.jpeg qid=q6 (2/2)
+  Q: What is the total billable disbursements for February 1995?
+- [eval_157] doc=1556.jpeg qid=q5 (1/1) [RERANKER BOOSTED]
+  Q: How much did the Year-to-Date Variance exceed the planned budget?
+- [eval_161] doc=3528.jpeg qid=q4 (1/1) [RERANKER BOOSTED]
+  Q: What is the payment due date for the current billing cycle?
+- [eval_162] doc=3539.jpeg qid=q9 (1/1)
+  Q: What is the phone number for corporate accounts at Giselle's Travel, Inc.?
+- [eval_165] doc=2399.jpeg qid=q1 (1/1) [RERANKER BOOSTED]
+  Q: What is the report period for this financial budget variance report?
+- [eval_166] doc=672.jpeg qid=q4 (1/1)
+  Q: What is the total spent on salaries by the end of August 1971?
+- [eval_170] doc=4895.jpeg qid=q1 (2/2) [RERANKER BOOSTED]
+  Q: What is the name of the company that issued the production bill?
+- [eval_173] doc=764.jpeg qid=q5 (3/3) [RERANKER BOOSTED]
+  Q: What is the pattern of financial entries and adjustments suggesting in the document?
+- [eval_176] doc=1064.jpeg qid=q6 (1/1)
+  Q: What is the grand total of the gross change for February 1990 advertising placements?
+- [eval_177] doc=4771.jpeg qid=q10 (1/1) [RERANKER BOOSTED]
+  Q: What is the estimated revenue from the motor vehicle licenses/fuel tax?
+- [eval_178] doc=9454.jpeg qid=q2 (1/1)
+  Q: What is the vendor number mentioned in the invoice?
+- [eval_180] doc=3980.jpeg qid=q8 (3/3) [RERANKER BOOSTED]
+  Q: How can this document inform discussions on cigarette taxation?
+- [eval_185] doc=5423.jpeg qid=q13 (1/1)
+  Q: What does the invoice indicate about the financial interactions of Borrison Laboratories?
+- [eval_190] doc=3381.jpeg qid=q1 (1/1)
+  Q: What is the total amount of pending charges for Contract Laboratory (Synthesis) - Starks Associates?
+- [eval_192] doc=2098.jpeg qid=q4 (1/1) [RERANKER BOOSTED]
+  Q: What was the policy period from January 1st, 1986 to January 1st, 1987?
+- [eval_193] doc=2543.jpeg qid=q6 (1/1) [RERANKER BOOSTED]
+  Q: Which committees is Senator Frank Watson involved with?
+- [eval_196] doc=2967.jpeg qid=q8 (2/2)
+  Q: Is there any change in funding level for the lobbyist's role across 1995 and 1996?
+- [eval_197] doc=4310.jpeg qid=q12 (1/1) [RERANKER BOOSTED]
+  Q: What does the memo/details section of the check indicate?
+- [eval_199] doc=4254.jpeg qid=q2 (1/1)
+  Q: Who is the recipient of the $500 donation?
+
+=== PARTIAL SUCCESSES (Some Gold Chunks Retrieved) ===
+- [eval_002] doc=3648.jpeg qid=q1 (1/2) [RERANKER BOOSTED]
+  Q: Who is the issuer of the check?
+- [eval_014] doc=8067.jpeg qid=q10 (1/2)
+  Q: Why is this document relevant for any audit or financial review?
+- [eval_015] doc=9078.jpeg qid=q7 (1/2)
+  Q: What is the total amount due on the billing statement?
+- [eval_020] doc=8116.jpeg qid=q6 (1/2) [RERANKER BOOSTED]
+  Q: What is the adjustment or subtraction made to the gross amount, and what could be the possible reason for it?
+- [eval_026] doc=3345.jpeg qid=q10 (1/2)
+  Q: What is the significance of the uniform monthly charges?
+- [eval_027] doc=3362.jpeg qid=q8 (1/3)
+  Q: How does the document's age impact its compliance with current tax codes?
+- [eval_038] doc=9453.jpeg qid=q6 (1/2)
+  Q: What is the difference between the 'Gross Amount' and 'Net Amount' in the document?
+- [eval_047] doc=1189.jpeg qid=q5 (1/2) [RERANKER BOOSTED]
+  Q: Which product had a noted change of $31,497.00 in 1991?
+- [eval_060] doc=3842.jpeg qid=q11 (1/2)
+  Q: What is the overall trend in the total budget from 1997 to 1998?
+- [eval_065] doc=1828.jpeg qid=q7 (1/2)
+  Q: What is the overall trend in Virginia Slims' advertising expenditure in Rochester and Omaha during 1978?
+- [eval_072] doc=877.jpeg qid=q6 (1/3) [RERANKER BOOSTED]
+  Q: What is notable about the spending in DeKalb?
+- [eval_074] doc=1301.jpeg qid=q3 (1/3)
+  Q: What is the recurring adjustment noted for the fourth quarter?
+- [eval_078] doc=9195.jpeg qid=q8 (1/2)
+  Q: Why are there handwritten calculations and dates on the invoice?
+- [eval_079] doc=7593.jpeg qid=q7 (1/2)
+  Q: What is the total cost of the goods and shipping?
+- [eval_084] doc=9463.jpeg qid=q8 (1/2)
+  Q: What are the financial implications of this order, and why is it important for budgeting and auditing?
+- [eval_088] doc=8436.jpeg qid=q1 (1/3) [RERANKER BOOSTED]
+  Q: What is the type of document being analyzed?
+- [eval_089] doc=6207.jpeg qid=q2 (1/2)
+  Q: What is the date of the invoice, and is it in a standard format?
+- [eval_094] doc=5989.jpeg qid=q5 (1/3) [RERANKER BOOSTED]
+  Q: What is the amount due mentioned in the Tax Debit Note?
+- [eval_101] doc=4771.jpeg qid=q16 (1/2) [RERANKER BOOSTED]
+  Q: Are the annualized revenue projections consistent across all tax adjustments?
+- [eval_105] doc=4816.jpeg qid=q9 (1/2)
+  Q: What does the historical context of the document imply about the research focus of the project?
+- [eval_106] doc=7766.jpeg qid=q4 (1/2)
+  Q: What services were provided by J. E. Funk Co.?
+- [eval_107] doc=5527.jpeg qid=q10 (1/3) [RERANKER BOOSTED]
+  Q: What is the potential significance of analyzing corporate contributions to education, especially in the medical field?
+- [eval_114] doc=8648.jpeg qid=q1 (1/3)
+  Q: What is the business name mentioned in the document?
+- [eval_131] doc=4953.jpeg qid=q1 (1/2)
+  Q: What is the form number of the Issue Fee Transmittal document?
+- [eval_148] doc=4817.jpeg qid=q6 (1/2)
+  Q: What type of items are being described on the invoice?
+- [eval_154] doc=5001.jpeg qid=q1 (1/2) [RERANKER BOOSTED]
+  Q: What is the business name mentioned in the document?
+- [eval_156] doc=8067.jpeg qid=q11 (1/2)
+  Q: What is the implication of the invoice being from a research laboratory to another research entity?
+- [eval_160] doc=8537.jpeg qid=q4 (1/2)
+  Q: What are the payment terms specified in the invoice?
+- [eval_169] doc=395.jpeg qid=q6 (1/2)
+  Q: What is the memo or description on the check?
+- [eval_174] doc=4285.jpeg qid=q11 (1/3) [RERANKER BOOSTED]
+  Q: How does this document contribute to historical financial analysis?
+- [eval_179] doc=9630.jpeg qid=q9 (1/2) [RERANKER BOOSTED]
+  Q: Why is it essential to verify the invoice details with internal records?
+- [eval_183] doc=4752.jpeg qid=q5 (1/2) [RERANKER BOOSTED]
+  Q: What is the trend observed in the Parimutuel Tax revenue?
+- [eval_186] doc=6983.jpeg qid=q1 (1/2)
+  Q: What is the company name mentioned in the check remittance advice?
+- [eval_188] doc=9565.jpeg qid=q8 (1/2) [RERANKER BOOSTED]
+  Q: What is the duration of the service period mentioned in the document?
+- [eval_191] doc=4767.jpeg qid=q4 (1/3)
+  Q: What is the amount of the check?
+- [eval_200] doc=4895.jpeg qid=q10 (1/2)
+  Q: What does the document reveal about the advertising industry norms in 1979?

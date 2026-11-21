@@ -19,6 +19,7 @@ from src.strategies.memory import ConversationMemory, NoMemory
 from src.strategies.prompts import DecompositionPrompt, FewShotPrompt, SimplePrompt, ZeroShotPrompt
 from src.strategies.rag import AgenticRAG, AutoRAG, CombinedRAG, MultiStepRAG, SimpleRAG, VisualRAG
 from src.strategies.search import ChromaSearch, KeywordSearch, LimitedSearch,BM25Search,HybridSearch
+from src.strategies.reranker import BGEReranker,SearchRerankerPipeline
 
 __all__ = [
     "AnswerStrategyBase",
@@ -59,4 +60,9 @@ __all__ = [
     "KeywordSearch",
     "LimitedSearch",
     "cosine_similarity",
+    "BGEReranker",
+    "SearchRerankerPipeline",
+    "BGEAPIEmbedder",
+    "BM25Search",
+    "HybridSearch"
 ]

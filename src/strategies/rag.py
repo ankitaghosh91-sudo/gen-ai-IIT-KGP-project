@@ -1,11 +1,50 @@
 """RAG routing strategies."""
 
+import inspect
 import re
 from typing import Any, Callable
 
 from src.models import Document, Evidence
 from src.strategies.base import RAGStrategyBase
 from src.strategies.search import ChromaSearch
+
+
+def _call_search(
+    search: Any,
+    query: str,
+    documents: list[Document],
+    scope: str = "global",
+    doc_id: str | None = None,
+    limit: int | None = None,
+) -> list[Evidence]:
+    sig = inspect.signature(search.search)
+    params = sig.parameters
+    accepts_kwargs = any(
+        p.kind == inspect.Parameter.VAR_KEYWORD for p in params.values()
+    )
+
+    kwargs: dict[str, Any] = {}
+    if accepts_kwargs or "documents" in params:
+        kwargs["documents"] = documents
+    if accepts_kwargs or "scope" in params:
+        kwargs["scope"] = scope
+    if accepts_kwargs or "doc_id" in params:
+        kwargs["doc_id"] = doc_id
+    if limit is not None and (accepts_kwargs or "limit" in params):
+        kwargs["limit"] = limit
+
+    if accepts_kwargs or "query" in params:
+        results = search.search(query=query, **kwargs)
+    else:
+        results = search.search(query, **kwargs)
+
+    # If the search pipeline does not handle document scoping itself, filter here.
+    if scope == "document" and doc_id and "scope" not in params and not accepts_kwargs:
+        results = [
+            item for item in results if getattr(item, "doc_id", None) == doc_id
+        ]
+
+    return results
 
 
 class SimpleRAG(RAGStrategyBase):
@@ -20,7 +59,8 @@ class SimpleRAG(RAGStrategyBase):
         scope: str = "global",
         doc_id: str | None = None,
     ) -> list[Evidence]:
-        return self.search.search(
+        return _call_search(
+            self.search,
             query=query,
             documents=documents,
             scope=scope,
@@ -32,7 +72,9 @@ class VisualRAG(RAGStrategyBase):
     def __init__(self, vision: Callable | None = None):
         self.vision = vision
 
-    def retrieve(self, query: str, documents: list[Document], image: Any = None) -> list[Evidence]:
+    def retrieve(
+        self, query: str, documents: list[Document], image: Any = None
+    ) -> list[Evidence]:
         if self.vision is None or image is None:
             return []
         return self.vision(query, image)
@@ -50,7 +92,7 @@ class CombinedRAG(RAGStrategyBase):
         image: Any = None,
         scope: str = "global",
         doc_id: str | None = None,
-) -> list[Evidence]:
+    ) -> list[Evidence]:
         return (
             self.text.retrieve(
                 query,
@@ -63,7 +105,7 @@ class CombinedRAG(RAGStrategyBase):
 
 
 class AutoRAG(CombinedRAG):
-   def retrieve(
+    def retrieve(
         self,
         query: str,
         documents: list[Document],
@@ -107,9 +149,10 @@ class MultiStepRAG(SimpleRAG):
         seen = set()
 
         for clause in [query, *clauses]:
-            for item in self.search.search(
-                clause,
-                documents,
+            for item in _call_search(
+                self.search,
+                query=clause,
+                documents=documents,
                 scope=scope,
                 doc_id=doc_id,
             ):
@@ -130,10 +173,11 @@ class AgenticRAG(SimpleRAG):
         image: Any = None,
         scope: str = "global",
         doc_id: str | None = None,
-) -> list[Evidence]:
-        found = self.search.search(
-            query,
-            documents,
+    ) -> list[Evidence]:
+        found = _call_search(
+            self.search,
+            query=query,
+            documents=documents,
             limit=8,
             scope=scope,
             doc_id=doc_id,

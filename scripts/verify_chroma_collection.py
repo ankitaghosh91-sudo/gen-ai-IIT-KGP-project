@@ -10,8 +10,8 @@ import json
 config = AppConfig.from_env()
 
 CHROMA_PATH = config.chroma_path
-#COLLECTION_NAME = config.chroma_collection
-COLLECTION_NAME = "finance_sample_500_parent_child"
+COLLECTION_NAME = config.chroma_collection
+#COLLECTION_NAME = "finance_sample_500_parent_child"
 #DOC_ID = "175.jpeg"
 
 print("Collection Name:",COLLECTION_NAME)
@@ -180,7 +180,7 @@ def verify_batch_retrieval():
     print("\n========== BATCH RETRIEVAL VERIFICATION ==========")
 
     # Path to evaluation gold set json (Parent-Child experiment)
-    gold_set_path = Path("data/evaluation/500_docs_parent_child/evaluation_gold_set_200_seed100.json")
+    gold_set_path = Path("data/evaluation/500_docs_parent_child/evaluation_gold_set_200.json")
     
     if not gold_set_path.exists():
         print(f"Error: Gold set file not found at {gold_set_path}")
@@ -190,7 +190,7 @@ def verify_batch_retrieval():
         gold_data = json.load(f)
 
     # Output path for results
-    output_path = Path("data/evaluation/500_docs_parent_child/global_retrieval_top100_seed100.txt")
+    output_path = Path("data/evaluation/500_docs_parent_child/global_retrieval_top100_today.txt")
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
     total_chunks = collection.count()
@@ -317,10 +317,95 @@ def verify_target_global_rank():
             )
 
 
+def verify_collection_chunk_sizes(
+    max_allowed: int = 350,
+    labels_path: str | None = "data/evaluation/500_docs_parent_child/evaluation_gold_set_200.json",
+) -> None:
+    print("\n========== COLLECTION CHUNK SIZE CHECK ==========")
+    print("Collection:", collection.name)
+    print("Total stored chunks:", collection.count())
+
+    results = collection.get(include=["documents", "metadatas"])
+    ids = results["ids"]
+    docs = results["documents"]
+    metas = results["metadatas"]
+
+    relevant_ids: set[str] = set()
+    if labels_path and Path(labels_path).exists():
+        raw = json.loads(Path(labels_path).read_text(encoding="utf-8"))
+        records = raw.get("questions", raw) if isinstance(raw, dict) else raw
+        for rec in records:
+            cids = rec.get("relevant_chunk_id") or []
+            if isinstance(cids, str):
+                cids = [cids]
+            for cid in cids:
+                if cid and str(cid).strip():
+                    relevant_ids.add(str(cid).strip())
+
+    all_char_lens: list[int] = []
+    all_word_lens: list[int] = []
+    over_350_all: list[tuple[int, str, int, int]] = []
+    rel_char_lens: list[int] = []
+    over_350_rel: list[tuple[int, str, int]] = []
+
+    for cid, meta, content in zip(ids, metas, docs):
+        text = content or ""
+        c_len = len(text)
+        w_len = len(text.split())
+        all_char_lens.append(c_len)
+        all_word_lens.append(w_len)
+
+        if c_len > max_allowed:
+            over_350_all.append((c_len, w_len, cid, (meta or {}).get("chunk_type")))
+
+        if cid in relevant_ids:
+            rel_char_lens.append(c_len)
+            if c_len > max_allowed:
+                over_350_rel.append((c_len, cid, text[:100]))
+
+    if all_char_lens:
+        print(
+            f"ALL chunks ({len(all_char_lens)}) -> "
+            f"min={min(all_char_lens)} chars, avg={sum(all_char_lens)/len(all_char_lens):.1f} chars, "
+            f"max={max(all_char_lens)} chars (max words={max(all_word_lens)})"
+        )
+        print(f"ALL chunks > {max_allowed} chars: {len(over_350_all)}")
+        for c_len, w_len, cid, ctype in sorted(over_350_all, reverse=True)[:10]:
+            print(f"  id={cid} | type={ctype} | chars={c_len} | words={w_len}")
+
+    if relevant_ids:
+        print(f"\nLabeled relevant IDs in gold set: {len(relevant_ids)} | Found in collection: {len(rel_char_lens)}")
+        if rel_char_lens:
+            print(
+                f"LABELED chunks -> min={min(rel_char_lens)} chars, "
+                f"avg={sum(rel_char_lens)/len(rel_char_lens):.1f} chars, max={max(rel_char_lens)} chars"
+            )
+            print(f"LABELED chunks > {max_allowed} chars: {len(over_350_rel)}")
+            for c_len, cid, preview in sorted(over_350_rel, reverse=True)[:10]:
+                print(f"  id={cid} | chars={c_len} | preview={preview!r}")
+
+
+def check():
+    config = AppConfig.from_env()
+    print("\n\nConfig:",config)
+    chroma_dir = Path(config.chroma_path)
+    if not chroma_dir.is_absolute():
+        chroma_dir = Path.cwd() / chroma_dir
+
+    print("Resolved CHROMA_PATH:", chroma_dir, "| exists:", chroma_dir.exists())
+
+    client = chromadb.PersistentClient(path=str(chroma_dir))
+    collections = client.list_collections()
+    print("Existing collections:", [c.name for c in collections])
+
+
+
 
 if __name__ == "__main__":
     #verify_chroma_collection()
-    verify_retrieval()
-    #verify_batch_retrieval()
+    #verify_retrieval()
+    verify_batch_retrieval()
     #verify_target_global_rank()
     #verify_retrieval_old()
+    #verify_collection_chunk_sizes()
+    #check()

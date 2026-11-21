@@ -25,7 +25,6 @@ from .schemas import (
 )
 
 import logging
-import time
 
 logger = logging.getLogger(__name__)
 
@@ -109,6 +108,59 @@ def startup():
         ) from exc
 
 
+def _compute_rank_gain(
+    dense_rank: int | float | None,
+    sparse_rank: int | float | None,
+    hybrid_rank: int | None,
+    rerank_rank: int | None,
+) -> tuple[int | float | None, int | None]:
+    pre_rerank = hybrid_rank
+    if pre_rerank is None:
+        candidates = [r for r in (dense_rank, sparse_rank) if r is not None]
+        pre_rerank = min(candidates) if candidates else None
+
+    if pre_rerank is None or rerank_rank is None:
+        return pre_rerank, None
+    return pre_rerank, int(pre_rerank) - int(rerank_rank)
+
+
+def _serialize_evidence(evidence_items) -> list[dict]:
+    serialized = []
+    for item in evidence_items:
+        dense_rank = getattr(item, "dense_rank", None)
+        sparse_rank = getattr(item, "sparse_rank", None)
+        hybrid_rank = getattr(item, "hybrid_rank", None)
+        rerank_rank = getattr(item, "rerank_rank", None)
+
+        pre_rerank_rank, rank_gain = _compute_rank_gain(
+            dense_rank=dense_rank,
+            sparse_rank=sparse_rank,
+            hybrid_rank=hybrid_rank,
+            rerank_rank=rerank_rank,
+        )
+        if rank_gain is None and getattr(item, "rank_gain", None) is not None:
+            rank_gain = getattr(item, "rank_gain")
+
+        serialized.append(
+            {
+                "doc_id": item.doc_id,
+                "chunk_id": getattr(item, "chunk_id", None),
+                "question": getattr(item, "question", None),
+                "answer": getattr(item, "answer", None),
+                "chunk_text": (getattr(item, "text", "") or "")[:4000],
+                "image_path": getattr(item, "image_path", None),
+                "score": round(float(getattr(item, "score", 0.0) or 0.0), 4),
+                "dense_rank": dense_rank,
+                "sparse_rank": sparse_rank,
+                "hybrid_rank": hybrid_rank,
+                "rerank_rank": rerank_rank,
+                "pre_rerank_rank": pre_rerank_rank,
+                "rank_gain": rank_gain,
+            }
+        )
+    return serialized
+
+
 def _critiques(answer: dict, evidence: list[dict]) -> list[str]:
     critiques = []
     if answer.get("should_refuse"):
@@ -121,6 +173,11 @@ def _critiques(answer: dict, evidence: list[dict]) -> list[str]:
         critiques.append("Citations were attached for retrieved evidence.")
     if evidence and all(item.get("score", 0) < 0.3 for item in evidence):
         critiques.append("Similarity scores are low; answer confidence should be treated carefully.")
+    boosted = [item for item in evidence if (item.get("rank_gain") or 0) > 0]
+    if boosted:
+        critiques.append(
+            f"Reranker promoted {len(boosted)} retrieved chunk(s) prior to answer generation."
+        )
     return critiques
 
 
@@ -224,6 +281,25 @@ def query(payload: QueryRequest):
 
     latency_ms = (perf_counter() - started) * 1000
     metrics = result["metrics"]
+    serialized_evidence = _serialize_evidence(result["evidence"])
+    trace_evidence = [
+        {
+            "doc_id": item["doc_id"],
+            "chunk_id": item["chunk_id"],
+            "question": item["question"],
+            "answer": item["answer"],
+            "chunk_text": item["chunk_text"],
+            "image_path": item["image_path"],
+            "score": item["score"],
+            "dense_rank": item["dense_rank"],
+            "sparse_rank": item["sparse_rank"],
+            "hybrid_rank": item["hybrid_rank"],
+            "rerank_rank": item["rerank_rank"],
+            "rank_gain": item["rank_gain"],
+        }
+        for item in serialized_evidence
+    ]
+
     app.state.metrics_store.insert_run(
         {
             "run_name": payload.run_name,
@@ -231,9 +307,9 @@ def query(payload: QueryRequest):
             "answer": result["answer"]["answer"],
             "route": result["route"],
             **_strategy_snapshot(app.state.config),
-            "retrieved_count": metrics.get("retrieved_count", 0),
-            "has_citation": metrics.get("has_citation", False),
-            "refused": metrics.get("refused", False),
+            "retrieved_count": metrics.get("retrieved_count", len(serialized_evidence)),
+            "has_citation": metrics.get("has_citation", bool(result["answer"].get("citations"))),
+            "refused": metrics.get("refused", bool(result["answer"].get("should_refuse"))),
             "exact_match": metrics.get("exact_match"),
             "latency_ms": latency_ms,
         }
@@ -250,48 +326,18 @@ def query(payload: QueryRequest):
             "metrics": {**metrics, "latency_ms": round(latency_ms, 2)},
             "steps": result["steps"],
             "citations": result["answer"].get("citations", []),
-            "critiques": _critiques(
-                result["answer"],
-                [
-                    {
-                        "doc_id": item.doc_id,
-                        "score": item.score,
-                    }
-                    for item in result["evidence"]
-                ],
-            ),
-            "retrieved": [
-                {
-                    "doc_id": item.doc_id,
-                    "question": item.question,
-                    "answer": item.answer,
-                    "chunk_text": item.text[:4000],
-                    "image_path": item.image_path,
-                    "score": round(item.score, 4),
-                }
-                for item in result["evidence"]
-            ],
+            "critiques": _critiques(result["answer"], serialized_evidence),
+            "retrieved": trace_evidence,
         }
     )
-    retrieved = [
-        {
-            "doc_id": item.doc_id,
-            "question": item.question,
-            "answer": item.answer,
-            "chunk_text": item.text[:4000],
-            "image_path": item.image_path,
-            "score": round(item.score, 4),
-        }
-        for item in result["evidence"]
-    ]
     return QueryResponse(
         answer=result["answer"],
         route=result["route"],
         metrics={**metrics, "latency_ms": round(latency_ms, 2)},
         steps=result["steps"],
         citations=result["answer"].get("citations", []),
-        retrieved=retrieved,
-        critiques=_critiques(result["answer"], retrieved),
+        retrieved=serialized_evidence,
+        critiques=_critiques(result["answer"], serialized_evidence),
     )
 
 

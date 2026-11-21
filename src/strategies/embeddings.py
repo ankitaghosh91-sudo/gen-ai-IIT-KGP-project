@@ -11,6 +11,10 @@ import requests
 
 from src.strategies.base import EmbedderBase
 
+from dotenv import load_dotenv
+
+load_dotenv()  # loads .env from current/parent working directory into os.environ
+
 import logging
 import time
 

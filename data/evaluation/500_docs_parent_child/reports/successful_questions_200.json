@@ -1,0 +1,3682 @@
+{
+  "total_questions": 200,
+  "complete_success_count": 79,
+  "partial_success_count": 36,
+  "combined_success_count": 115,
+  "complete_successes": [
+    {
+      "item": 1,
+      "eval_id": "eval_001",
+      "doc_id": "7767.jpeg",
+      "question_id": "q2",
+      "question": "What is the product being advertised in the mall display?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "7767.jpeg:child:0:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "7767.jpeg:child:0:1",
+          "retrieved": true,
+          "dense_rank": null,
+          "sparse_rank": 6.0,
+          "hybrid_rank": 13,
+          "rerank_rank": 3,
+          "pre_rerank_rank": 13,
+          "rank_gain": 10
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 4,
+      "eval_id": "eval_004",
+      "doc_id": "7766.jpeg",
+      "question_id": "q11",
+      "question": "What is the industry or sector that R.J. Reynolds operates in?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "7766.jpeg:child:1:2"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "7766.jpeg:child:1:2",
+          "retrieved": true,
+          "dense_rank": 6.0,
+          "sparse_rank": 4.0,
+          "hybrid_rank": 2,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 2,
+          "rank_gain": 1
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 8,
+      "eval_id": "eval_008",
+      "doc_id": "1411.jpeg",
+      "question_id": "q2",
+      "question": "What was the rate for a 6x21 ad in Tacoma?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "1411.jpeg:child:0:3"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "1411.jpeg:child:0:3",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 17,
+      "eval_id": "eval_017",
+      "doc_id": "8747.jpeg",
+      "question_id": "q3",
+      "question": "What is the address of the customer, Lorillard Research Center?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "8747.jpeg:child:0:2"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "8747.jpeg:child:0:2",
+          "retrieved": true,
+          "dense_rank": 7.0,
+          "sparse_rank": 6.0,
+          "hybrid_rank": 5,
+          "rerank_rank": 2,
+          "pre_rerank_rank": 5,
+          "rank_gain": 3
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 18,
+      "eval_id": "eval_018",
+      "doc_id": "33.jpeg",
+      "question_id": "q3",
+      "question": "What are the objectives of the Universal Trailer project?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "33.jpeg:child:0:3"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "33.jpeg:child:0:3",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 19,
+      "eval_id": "eval_019",
+      "doc_id": "1711.jpeg",
+      "question_id": "q5",
+      "question": "What are the model fees, and how much do they cost?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "1711.jpeg:child:0:2"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "1711.jpeg:child:0:2",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 19.0,
+          "hybrid_rank": 2,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 2,
+          "rank_gain": 1
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 21,
+      "eval_id": "eval_021",
+      "doc_id": "672.jpeg",
+      "question_id": "q3",
+      "question": "In what areas did the department underutilize its budget as of August 31, 1971?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "672.jpeg:child:1:2"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "672.jpeg:child:1:2",
+          "retrieved": true,
+          "dense_rank": 8.0,
+          "sparse_rank": null,
+          "hybrid_rank": 14,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 14,
+          "rank_gain": 13
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 23,
+      "eval_id": "eval_023",
+      "doc_id": "6896.jpeg",
+      "question_id": "q8",
+      "question": "Why is the voucher important for compliance and auditing?",
+      "retrieved_gold_count": 2,
+      "total_gold_count": 2,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "6896.jpeg:child:1:0",
+        "6896.jpeg:child:1:3"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "6896.jpeg:child:1:0",
+          "retrieved": true,
+          "dense_rank": 5.0,
+          "sparse_rank": null,
+          "hybrid_rank": 17,
+          "rerank_rank": 21,
+          "pre_rerank_rank": 17,
+          "rank_gain": -4
+        },
+        {
+          "gold_chunk_id": "6896.jpeg:child:1:3",
+          "retrieved": true,
+          "dense_rank": null,
+          "sparse_rank": 12.0,
+          "hybrid_rank": 26,
+          "rerank_rank": 12,
+          "pre_rerank_rank": 26,
+          "rank_gain": 14
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 28,
+      "eval_id": "eval_028",
+      "doc_id": "1434.jpeg",
+      "question_id": "q5",
+      "question": "What is the total expenditure for February to May 1987 on '12-B&H Lights'?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "1434.jpeg:child:0:2"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "1434.jpeg:child:0:2",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 29,
+      "eval_id": "eval_029",
+      "doc_id": "2726.jpeg",
+      "question_id": "q9",
+      "question": "What is the total budget for Tournament Entertainment (Meals, Cocktails, Live Entertainment, Hospitality) expenses?",
+      "retrieved_gold_count": 2,
+      "total_gold_count": 2,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "2726.jpeg:child:1:3",
+        "2726.jpeg:child:2:0"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "2726.jpeg:child:1:3",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        },
+        {
+          "gold_chunk_id": "2726.jpeg:child:2:0",
+          "retrieved": true,
+          "dense_rank": 7.0,
+          "sparse_rank": 5.0,
+          "hybrid_rank": 4,
+          "rerank_rank": 19,
+          "pre_rerank_rank": 4,
+          "rank_gain": -15
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 30,
+      "eval_id": "eval_030",
+      "doc_id": "3230.jpeg",
+      "question_id": "q8",
+      "question": "What is the significance of the 'OBACCO INSTITUTE - JC' mention?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "3230.jpeg:child:0:2"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "3230.jpeg:child:0:2",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 32,
+      "eval_id": "eval_032",
+      "doc_id": "8441.jpeg",
+      "question_id": "q6",
+      "question": "What is the card rate for the advertisement?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "8441.jpeg:child:0:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "8441.jpeg:child:0:1",
+          "retrieved": true,
+          "dense_rank": 29.0,
+          "sparse_rank": 4.0,
+          "hybrid_rank": 3,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 3,
+          "rank_gain": 2
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 34,
+      "eval_id": "eval_034",
+      "doc_id": "3842.jpeg",
+      "question_id": "q4",
+      "question": "What is the percentage increase in the budget for Harry Kaiser (OH, Federal) from 1997 to 1998?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "3842.jpeg:child:0:3"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "3842.jpeg:child:0:3",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 35,
+      "eval_id": "eval_035",
+      "doc_id": "5547.jpeg",
+      "question_id": "q9",
+      "question": "How might the monetary value of the consultation expenses be affected by inflation?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "5547.jpeg:child:0:5"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "5547.jpeg:child:0:5",
+          "retrieved": true,
+          "dense_rank": 34.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 4,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 4,
+          "rank_gain": 3
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 41,
+      "eval_id": "eval_041",
+      "doc_id": "5929.jpeg",
+      "question_id": "q9",
+      "question": "What can be inferred about the handling and review of financial documents by Philip Morris?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "5929.jpeg:child:1:3"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "5929.jpeg:child:1:3",
+          "retrieved": true,
+          "dense_rank": null,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 12,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 12,
+          "rank_gain": 11
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 43,
+      "eval_id": "eval_043",
+      "doc_id": "3501.jpeg",
+      "question_id": "q6",
+      "question": "What is the purpose of the Support Tobacco & Other Orgs-Lobbying account?",
+      "retrieved_gold_count": 2,
+      "total_gold_count": 2,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "3501.jpeg:child:0:3",
+        "3501.jpeg:child:1:3"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "3501.jpeg:child:0:3",
+          "retrieved": true,
+          "dense_rank": 9.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 3,
+          "rerank_rank": 3,
+          "pre_rerank_rank": 3,
+          "rank_gain": 0
+        },
+        {
+          "gold_chunk_id": "3501.jpeg:child:1:3",
+          "retrieved": true,
+          "dense_rank": 20.0,
+          "sparse_rank": 21.0,
+          "hybrid_rank": 11,
+          "rerank_rank": 4,
+          "pre_rerank_rank": 11,
+          "rank_gain": 7
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 44,
+      "eval_id": "eval_044",
+      "doc_id": "7087.jpeg",
+      "question_id": "q2",
+      "question": "What is the address of the customer, Smokin Joe's?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "7087.jpeg:child:0:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "7087.jpeg:child:0:1",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 2.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 45,
+      "eval_id": "eval_045",
+      "doc_id": "667.jpeg",
+      "question_id": "q5",
+      "question": "What was the budgeted amount for '612 Legal - General Domestic' item for this year?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "667.jpeg:child:0:4"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "667.jpeg:child:0:4",
+          "retrieved": true,
+          "dense_rank": 2.0,
+          "sparse_rank": 3.0,
+          "hybrid_rank": 2,
+          "rerank_rank": 2,
+          "pre_rerank_rank": 2,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 48,
+      "eval_id": "eval_048",
+      "doc_id": "3160.jpeg",
+      "question_id": "q3",
+      "question": "How does the current month's revenue compare to the budgeted figures?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "3160.jpeg:child:0:3"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "3160.jpeg:child:0:3",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 3.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 3,
+          "pre_rerank_rank": 1,
+          "rank_gain": -2
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 49,
+      "eval_id": "eval_049",
+      "doc_id": "7604.jpeg",
+      "question_id": "q6",
+      "question": "What is the purpose of the Zugzahldrucker R28.00?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "7604.jpeg:child:0:3"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "7604.jpeg:child:0:3",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 51,
+      "eval_id": "eval_051",
+      "doc_id": "9708.jpeg",
+      "question_id": "q7",
+      "question": "What is the purpose of specifying the account code in the contribution request?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "9708.jpeg:child:1:0"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "9708.jpeg:child:1:0",
+          "retrieved": true,
+          "dense_rank": 2.0,
+          "sparse_rank": 21.0,
+          "hybrid_rank": 5,
+          "rerank_rank": 2,
+          "pre_rerank_rank": 5,
+          "rank_gain": 3
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 55,
+      "eval_id": "eval_055",
+      "doc_id": "8743.jpeg",
+      "question_id": "q10",
+      "question": "Why is it important to observe payment timelines and billing addresses in this document?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "8743.jpeg:child:1:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "8743.jpeg:child:1:1",
+          "retrieved": true,
+          "dense_rank": null,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 10,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 10,
+          "rank_gain": 9
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 56,
+      "eval_id": "eval_056",
+      "doc_id": "4265.jpeg",
+      "question_id": "q11",
+      "question": "What does the approval by a Regional Vice President suggest about the contribution process?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "4265.jpeg:child:1:3"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "4265.jpeg:child:1:3",
+          "retrieved": true,
+          "dense_rank": 3.0,
+          "sparse_rank": 13.0,
+          "hybrid_rank": 7,
+          "rerank_rank": 3,
+          "pre_rerank_rank": 7,
+          "rank_gain": 4
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 57,
+      "eval_id": "eval_057",
+      "doc_id": "5660.jpeg",
+      "question_id": "q12",
+      "question": "How does the amount billed reflect the research activity during that era?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "5660.jpeg:child:1:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "5660.jpeg:child:1:1",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 58,
+      "eval_id": "eval_058",
+      "doc_id": "533.jpeg",
+      "question_id": "q7",
+      "question": "What is the vendor number on the invoice?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "533.jpeg:child:0:2"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "533.jpeg:child:0:2",
+          "retrieved": true,
+          "dense_rank": 22.0,
+          "sparse_rank": null,
+          "hybrid_rank": 40,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 40,
+          "rank_gain": 39
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 62,
+      "eval_id": "eval_062",
+      "doc_id": "3776.jpeg",
+      "question_id": "q6",
+      "question": "What is the total amount of additions to the bank statement?",
+      "retrieved_gold_count": 2,
+      "total_gold_count": 2,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "3776.jpeg:child:0:2",
+        "3776.jpeg:child:0:3"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "3776.jpeg:child:0:2",
+          "retrieved": true,
+          "dense_rank": 20.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 4,
+          "rerank_rank": 3,
+          "pre_rerank_rank": 4,
+          "rank_gain": 1
+        },
+        {
+          "gold_chunk_id": "3776.jpeg:child:0:3",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 2.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 66,
+      "eval_id": "eval_066",
+      "doc_id": "5085.jpeg",
+      "question_id": "q5",
+      "question": "Why is there a variation in the hourly rate of supervision between day shifts and night shifts?",
+      "retrieved_gold_count": 2,
+      "total_gold_count": 2,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "5085.jpeg:child:0:2",
+        "5085.jpeg:child:1:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "5085.jpeg:child:0:2",
+          "retrieved": true,
+          "dense_rank": 2.0,
+          "sparse_rank": 2.0,
+          "hybrid_rank": 2,
+          "rerank_rank": 2,
+          "pre_rerank_rank": 2,
+          "rank_gain": 0
+        },
+        {
+          "gold_chunk_id": "5085.jpeg:child:1:1",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 67,
+      "eval_id": "eval_067",
+      "doc_id": "8238.jpeg",
+      "question_id": "q5",
+      "question": "What is the unit price of the services provided?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "8238.jpeg:child:0:2"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "8238.jpeg:child:0:2",
+          "retrieved": true,
+          "dense_rank": null,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 6,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 6,
+          "rank_gain": 5
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 68,
+      "eval_id": "eval_068",
+      "doc_id": "8671.jpeg",
+      "question_id": "q9",
+      "question": "Is there a cash discount available for early payment?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "8671.jpeg:child:0:3"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "8671.jpeg:child:0:3",
+          "retrieved": true,
+          "dense_rank": 18.0,
+          "sparse_rank": 3.0,
+          "hybrid_rank": 8,
+          "rerank_rank": 13,
+          "pre_rerank_rank": 8,
+          "rank_gain": -5
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 73,
+      "eval_id": "eval_073",
+      "doc_id": "3539.jpeg",
+      "question_id": "q2",
+      "question": "What is the address of the customer, The Tobacco Institute?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "3539.jpeg:child:0:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "3539.jpeg:child:0:1",
+          "retrieved": true,
+          "dense_rank": null,
+          "sparse_rank": 12.0,
+          "hybrid_rank": 26,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 26,
+          "rank_gain": 25
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 76,
+      "eval_id": "eval_076",
+      "doc_id": "4021.jpeg",
+      "question_id": "q7",
+      "question": "What does the 'NON-NEGOTIABLE' mark on the check indicate?",
+      "retrieved_gold_count": 2,
+      "total_gold_count": 2,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "4021.jpeg:child:0:2",
+        "4021.jpeg:child:1:0"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "4021.jpeg:child:0:2",
+          "retrieved": true,
+          "dense_rank": 8.0,
+          "sparse_rank": 6.0,
+          "hybrid_rank": 7,
+          "rerank_rank": 6,
+          "pre_rerank_rank": 7,
+          "rank_gain": 1
+        },
+        {
+          "gold_chunk_id": "4021.jpeg:child:1:0",
+          "retrieved": true,
+          "dense_rank": 2.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 3,
+          "pre_rerank_rank": 1,
+          "rank_gain": -2
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 83,
+      "eval_id": "eval_083",
+      "doc_id": "1478.jpeg",
+      "question_id": "q3",
+      "question": "What is the total estimated cost for all billboards listed in the document?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "1478.jpeg:child:0:3"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "1478.jpeg:child:0:3",
+          "retrieved": true,
+          "dense_rank": 19.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 85,
+      "eval_id": "eval_085",
+      "doc_id": "6371.jpeg",
+      "question_id": "q8",
+      "question": "How does the company's provision of both invoice and customer numbers facilitate communication for resolving financial matters?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "6371.jpeg:child:1:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "6371.jpeg:child:1:1",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 91,
+      "eval_id": "eval_091",
+      "doc_id": "3805.jpeg",
+      "question_id": "q6",
+      "question": "How do the allocation percentages of Philip Morris and R.J. Reynolds compare to the total allocated funds?",
+      "retrieved_gold_count": 2,
+      "total_gold_count": 2,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "3805.jpeg:child:0:2",
+        "3805.jpeg:child:1:0"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "3805.jpeg:child:0:2",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 6.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        },
+        {
+          "gold_chunk_id": "3805.jpeg:child:1:0",
+          "retrieved": true,
+          "dense_rank": 6.0,
+          "sparse_rank": 2.0,
+          "hybrid_rank": 3,
+          "rerank_rank": 2,
+          "pre_rerank_rank": 3,
+          "rank_gain": 1
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 96,
+      "eval_id": "eval_096",
+      "doc_id": "2470.jpeg",
+      "question_id": "q7",
+      "question": "What is the total expense for decorations at the event?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "2470.jpeg:child:0:3"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "2470.jpeg:child:0:3",
+          "retrieved": true,
+          "dense_rank": 2.0,
+          "sparse_rank": null,
+          "hybrid_rank": 5,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 5,
+          "rank_gain": 4
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 100,
+      "eval_id": "eval_100",
+      "doc_id": "3336.jpeg",
+      "question_id": "q1",
+      "question": "What is the name of the vendor providing media services?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "3336.jpeg:child:0:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "3336.jpeg:child:0:1",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 21.0,
+          "hybrid_rank": 2,
+          "rerank_rank": 4,
+          "pre_rerank_rank": 2,
+          "rank_gain": -2
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 103,
+      "eval_id": "eval_103",
+      "doc_id": "3348.jpeg",
+      "question_id": "q8",
+      "question": "How many billboards were advertised each month?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "3348.jpeg:child:0:2"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "3348.jpeg:child:0:2",
+          "retrieved": true,
+          "dense_rank": 8.0,
+          "sparse_rank": 7.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 104,
+      "eval_id": "eval_104",
+      "doc_id": "3805.jpeg",
+      "question_id": "q3",
+      "question": "What is the net amount allocated to other participating organizations?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "3805.jpeg:child:0:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "3805.jpeg:child:0:1",
+          "retrieved": true,
+          "dense_rank": null,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 5,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 5,
+          "rank_gain": 4
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 108,
+      "eval_id": "eval_108",
+      "doc_id": "74.jpeg",
+      "question_id": "q5",
+      "question": "Who is the Production Manager responsible for this project?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "74.jpeg:child:0:2"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "74.jpeg:child:0:2",
+          "retrieved": true,
+          "dense_rank": 37.0,
+          "sparse_rank": 14.0,
+          "hybrid_rank": 5,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 5,
+          "rank_gain": 4
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 110,
+      "eval_id": "eval_110",
+      "doc_id": "9366.jpeg",
+      "question_id": "q10",
+      "question": "What is the role of Thomas A. Briant in the association?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "9366.jpeg:child:0:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "9366.jpeg:child:0:1",
+          "retrieved": true,
+          "dense_rank": 5.0,
+          "sparse_rank": 2.0,
+          "hybrid_rank": 3,
+          "rerank_rank": 2,
+          "pre_rerank_rank": 3,
+          "rank_gain": 1
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 111,
+      "eval_id": "eval_111",
+      "doc_id": "9071.jpeg",
+      "question_id": "q13",
+      "question": "What is the net total of the invoice?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "9071.jpeg:child:0:3"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "9071.jpeg:child:0:3",
+          "retrieved": true,
+          "dense_rank": null,
+          "sparse_rank": 10.0,
+          "hybrid_rank": 25,
+          "rerank_rank": 7,
+          "pre_rerank_rank": 25,
+          "rank_gain": 18
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 113,
+      "eval_id": "eval_113",
+      "doc_id": "1355.jpeg",
+      "question_id": "q5",
+      "question": "Why is there an increase in expenditures in December compared to November?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "1355.jpeg:child:1:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "1355.jpeg:child:1:1",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 2.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 118,
+      "eval_id": "eval_118",
+      "doc_id": "8881.jpeg",
+      "question_id": "q8",
+      "question": "What is the potential overall payout listed in the statement?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "8881.jpeg:child:0:3"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "8881.jpeg:child:0:3",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 121,
+      "eval_id": "eval_121",
+      "doc_id": "3611.jpeg",
+      "question_id": "q4",
+      "question": "Who is the payee of the check?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "3611.jpeg:child:0:0"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "3611.jpeg:child:0:0",
+          "retrieved": true,
+          "dense_rank": 14.0,
+          "sparse_rank": null,
+          "hybrid_rank": 29,
+          "rerank_rank": 11,
+          "pre_rerank_rank": 29,
+          "rank_gain": 18
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 123,
+      "eval_id": "eval_123",
+      "doc_id": "6628.jpeg",
+      "question_id": "q5",
+      "question": "What is the trailer number mentioned in the document?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "6628.jpeg:child:0:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "6628.jpeg:child:0:1",
+          "retrieved": true,
+          "dense_rank": 11.0,
+          "sparse_rank": 31.0,
+          "hybrid_rank": 2,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 2,
+          "rank_gain": 1
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 124,
+      "eval_id": "eval_124",
+      "doc_id": "113.jpeg",
+      "question_id": "q7",
+      "question": "What is the purpose of the deduction noted from DHS?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "113.jpeg:child:1:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "113.jpeg:child:1:1",
+          "retrieved": true,
+          "dense_rank": 2.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 125,
+      "eval_id": "eval_125",
+      "doc_id": "7049.jpeg",
+      "question_id": "q12",
+      "question": "What can be inferred about the service provided by Wayne & Speh based on the invoice amount?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "7049.jpeg:child:1:0"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "7049.jpeg:child:1:0",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 2.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 130,
+      "eval_id": "eval_130",
+      "doc_id": "3945.jpeg",
+      "question_id": "q1",
+      "question": "What is the institution that generated the Monthly State Cigaret Tax Report?",
+      "retrieved_gold_count": 2,
+      "total_gold_count": 2,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "3945.jpeg:child:0:0",
+        "3945.jpeg:child:0:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "3945.jpeg:child:0:0",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        },
+        {
+          "gold_chunk_id": "3945.jpeg:child:0:1",
+          "retrieved": true,
+          "dense_rank": 22.0,
+          "sparse_rank": 20.0,
+          "hybrid_rank": 4,
+          "rerank_rank": 4,
+          "pre_rerank_rank": 4,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 132,
+      "eval_id": "eval_132",
+      "doc_id": "1996.jpeg",
+      "question_id": "q7",
+      "question": "What can we infer about the use of data in this document?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "1996.jpeg:child:1:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "1996.jpeg:child:1:1",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 7.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 136,
+      "eval_id": "eval_136",
+      "doc_id": "965.jpeg",
+      "question_id": "q8",
+      "question": "What is the purpose of this type of document?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "965.jpeg:child:1:3"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "965.jpeg:child:1:3",
+          "retrieved": true,
+          "dense_rank": 5.0,
+          "sparse_rank": null,
+          "hybrid_rank": 10,
+          "rerank_rank": 3,
+          "pre_rerank_rank": 10,
+          "rank_gain": 7
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 137,
+      "eval_id": "eval_137",
+      "doc_id": "563.jpeg",
+      "question_id": "q7",
+      "question": "What is the Check Number and Event ID mentioned in the document?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "563.jpeg:child:0:3"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "563.jpeg:child:0:3",
+          "retrieved": true,
+          "dense_rank": 13.0,
+          "sparse_rank": 2.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 139,
+      "eval_id": "eval_139",
+      "doc_id": "8550.jpeg",
+      "question_id": "q11",
+      "question": "Why is it crucial to confirm the invoice amount?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "8550.jpeg:child:1:2"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "8550.jpeg:child:1:2",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 142,
+      "eval_id": "eval_142",
+      "doc_id": "9666.jpeg",
+      "question_id": "q2",
+      "question": "What is the income year in question for which the Tobacco Institute Inc has an outstanding balance?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "9666.jpeg:child:0:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "9666.jpeg:child:0:1",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 143,
+      "eval_id": "eval_143",
+      "doc_id": "9361.jpeg",
+      "question_id": "q8",
+      "question": "What can be inferred about the processing time of the invoice based on the invoice date and ship date?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "9361.jpeg:child:1:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "9361.jpeg:child:1:1",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 2.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 144,
+      "eval_id": "eval_144",
+      "doc_id": "2975.jpeg",
+      "question_id": "q4",
+      "question": "What is the total volume shipped in December?",
+      "retrieved_gold_count": 2,
+      "total_gold_count": 2,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "2975.jpeg:child:0:3",
+        "2975.jpeg:child:0:4"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "2975.jpeg:child:0:3",
+          "retrieved": true,
+          "dense_rank": 11.0,
+          "sparse_rank": 7.0,
+          "hybrid_rank": 3,
+          "rerank_rank": 2,
+          "pre_rerank_rank": 3,
+          "rank_gain": 1
+        },
+        {
+          "gold_chunk_id": "2975.jpeg:child:0:4",
+          "retrieved": true,
+          "dense_rank": 3.0,
+          "sparse_rank": 4.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 147,
+      "eval_id": "eval_147",
+      "doc_id": "7695.jpeg",
+      "question_id": "q9",
+      "question": "What is the likely outcome if the action items from the meeting are not completed on time?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "7695.jpeg:child:1:2"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "7695.jpeg:child:1:2",
+          "retrieved": true,
+          "dense_rank": 4.0,
+          "sparse_rank": 12.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 149,
+      "eval_id": "eval_149",
+      "doc_id": "8238.jpeg",
+      "question_id": "q4",
+      "question": "What is the item description of the Purchase Order?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "8238.jpeg:child:0:2"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "8238.jpeg:child:0:2",
+          "retrieved": true,
+          "dense_rank": null,
+          "sparse_rank": 3.0,
+          "hybrid_rank": 16,
+          "rerank_rank": 5,
+          "pre_rerank_rank": 16,
+          "rank_gain": 11
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 150,
+      "eval_id": "eval_150",
+      "doc_id": "5250.jpeg",
+      "question_id": "q6",
+      "question": "What is the special instruction for printing posters?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "5250.jpeg:child:0:3"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "5250.jpeg:child:0:3",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 5.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 152,
+      "eval_id": "eval_152",
+      "doc_id": "2726.jpeg",
+      "question_id": "q2",
+      "question": "How much has been spent on Director/Producer/CPAs Expenses so far in the tournament?",
+      "retrieved_gold_count": 2,
+      "total_gold_count": 2,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "2726.jpeg:child:1:0",
+        "2726.jpeg:child:1:2"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "2726.jpeg:child:1:0",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        },
+        {
+          "gold_chunk_id": "2726.jpeg:child:1:2",
+          "retrieved": true,
+          "dense_rank": 21.0,
+          "sparse_rank": null,
+          "hybrid_rank": 39,
+          "rerank_rank": 5,
+          "pre_rerank_rank": 39,
+          "rank_gain": 34
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 153,
+      "eval_id": "eval_153",
+      "doc_id": "7394.jpeg",
+      "question_id": "q11",
+      "question": "What could be the reason for the consistent reduction of estimated amount by $8,250.00 for both campaigns?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "7394.jpeg:child:1:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "7394.jpeg:child:1:1",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 155,
+      "eval_id": "eval_155",
+      "doc_id": "7306.jpeg",
+      "question_id": "q6",
+      "question": "What is the total billable disbursements for February 1995?",
+      "retrieved_gold_count": 2,
+      "total_gold_count": 2,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "7306.jpeg:child:0:2",
+        "7306.jpeg:child:0:3"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "7306.jpeg:child:0:2",
+          "retrieved": true,
+          "dense_rank": 7.0,
+          "sparse_rank": 20.0,
+          "hybrid_rank": 4,
+          "rerank_rank": 5,
+          "pre_rerank_rank": 4,
+          "rank_gain": -1
+        },
+        {
+          "gold_chunk_id": "7306.jpeg:child:0:3",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 2.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 157,
+      "eval_id": "eval_157",
+      "doc_id": "1556.jpeg",
+      "question_id": "q5",
+      "question": "How much did the Year-to-Date Variance exceed the planned budget?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "1556.jpeg:child:2:0"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "1556.jpeg:child:2:0",
+          "retrieved": true,
+          "dense_rank": 14.0,
+          "sparse_rank": null,
+          "hybrid_rank": 25,
+          "rerank_rank": 22,
+          "pre_rerank_rank": 25,
+          "rank_gain": 3
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 161,
+      "eval_id": "eval_161",
+      "doc_id": "3528.jpeg",
+      "question_id": "q4",
+      "question": "What is the payment due date for the current billing cycle?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "3528.jpeg:child:0:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "3528.jpeg:child:0:1",
+          "retrieved": true,
+          "dense_rank": null,
+          "sparse_rank": 15.0,
+          "hybrid_rank": 32,
+          "rerank_rank": 17,
+          "pre_rerank_rank": 32,
+          "rank_gain": 15
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 162,
+      "eval_id": "eval_162",
+      "doc_id": "3539.jpeg",
+      "question_id": "q9",
+      "question": "What is the phone number for corporate accounts at Giselle's Travel, Inc.?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "3539.jpeg:child:0:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "3539.jpeg:child:0:1",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 165,
+      "eval_id": "eval_165",
+      "doc_id": "2399.jpeg",
+      "question_id": "q1",
+      "question": "What is the report period for this financial budget variance report?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "2399.jpeg:child:0:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "2399.jpeg:child:0:1",
+          "retrieved": true,
+          "dense_rank": 18.0,
+          "sparse_rank": 34.0,
+          "hybrid_rank": 4,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 4,
+          "rank_gain": 3
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 166,
+      "eval_id": "eval_166",
+      "doc_id": "672.jpeg",
+      "question_id": "q4",
+      "question": "What is the total spent on salaries by the end of August 1971?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "672.jpeg:child:0:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "672.jpeg:child:0:1",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 170,
+      "eval_id": "eval_170",
+      "doc_id": "4895.jpeg",
+      "question_id": "q1",
+      "question": "What is the name of the company that issued the production bill?",
+      "retrieved_gold_count": 2,
+      "total_gold_count": 2,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "4895.jpeg:child:0:0",
+        "4895.jpeg:child:0:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "4895.jpeg:child:0:0",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 34.0,
+          "hybrid_rank": 3,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 3,
+          "rank_gain": 2
+        },
+        {
+          "gold_chunk_id": "4895.jpeg:child:0:1",
+          "retrieved": true,
+          "dense_rank": 4.0,
+          "sparse_rank": 10.0,
+          "hybrid_rank": 2,
+          "rerank_rank": 6,
+          "pre_rerank_rank": 2,
+          "rank_gain": -4
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 173,
+      "eval_id": "eval_173",
+      "doc_id": "764.jpeg",
+      "question_id": "q5",
+      "question": "What is the pattern of financial entries and adjustments suggesting in the document?",
+      "retrieved_gold_count": 3,
+      "total_gold_count": 3,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "764.jpeg:child:1:0",
+        "764.jpeg:child:1:1",
+        "764.jpeg:child:1:2"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "764.jpeg:child:1:0",
+          "retrieved": true,
+          "dense_rank": 2.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 3,
+          "pre_rerank_rank": 1,
+          "rank_gain": -2
+        },
+        {
+          "gold_chunk_id": "764.jpeg:child:1:1",
+          "retrieved": true,
+          "dense_rank": 11.0,
+          "sparse_rank": 4.0,
+          "hybrid_rank": 3,
+          "rerank_rank": 2,
+          "pre_rerank_rank": 3,
+          "rank_gain": 1
+        },
+        {
+          "gold_chunk_id": "764.jpeg:child:1:2",
+          "retrieved": true,
+          "dense_rank": null,
+          "sparse_rank": 2.0,
+          "hybrid_rank": 6,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 6,
+          "rank_gain": 5
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 176,
+      "eval_id": "eval_176",
+      "doc_id": "1064.jpeg",
+      "question_id": "q6",
+      "question": "What is the grand total of the gross change for February 1990 advertising placements?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "1064.jpeg:child:0:3"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "1064.jpeg:child:0:3",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 2.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 177,
+      "eval_id": "eval_177",
+      "doc_id": "4771.jpeg",
+      "question_id": "q10",
+      "question": "What is the estimated revenue from the motor vehicle licenses/fuel tax?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "4771.jpeg:child:2:2"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "4771.jpeg:child:2:2",
+          "retrieved": true,
+          "dense_rank": null,
+          "sparse_rank": 4.0,
+          "hybrid_rank": 8,
+          "rerank_rank": 6,
+          "pre_rerank_rank": 8,
+          "rank_gain": 2
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 178,
+      "eval_id": "eval_178",
+      "doc_id": "9454.jpeg",
+      "question_id": "q2",
+      "question": "What is the vendor number mentioned in the invoice?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "9454.jpeg:child:0:0"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "9454.jpeg:child:0:0",
+          "retrieved": true,
+          "dense_rank": 8.0,
+          "sparse_rank": 20.0,
+          "hybrid_rank": 3,
+          "rerank_rank": 8,
+          "pre_rerank_rank": 3,
+          "rank_gain": -5
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 180,
+      "eval_id": "eval_180",
+      "doc_id": "3980.jpeg",
+      "question_id": "q8",
+      "question": "How can this document inform discussions on cigarette taxation?",
+      "retrieved_gold_count": 3,
+      "total_gold_count": 3,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "3980.jpeg:child:0:0",
+        "3980.jpeg:child:0:1",
+        "3980.jpeg:child:1:2"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "3980.jpeg:child:0:0",
+          "retrieved": true,
+          "dense_rank": 2.0,
+          "sparse_rank": null,
+          "hybrid_rank": 7,
+          "rerank_rank": 5,
+          "pre_rerank_rank": 7,
+          "rank_gain": 2
+        },
+        {
+          "gold_chunk_id": "3980.jpeg:child:0:1",
+          "retrieved": true,
+          "dense_rank": 5.0,
+          "sparse_rank": 23.0,
+          "hybrid_rank": 2,
+          "rerank_rank": 6,
+          "pre_rerank_rank": 2,
+          "rank_gain": -4
+        },
+        {
+          "gold_chunk_id": "3980.jpeg:child:1:2",
+          "retrieved": true,
+          "dense_rank": null,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 6,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 6,
+          "rank_gain": 5
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 185,
+      "eval_id": "eval_185",
+      "doc_id": "5423.jpeg",
+      "question_id": "q13",
+      "question": "What does the invoice indicate about the financial interactions of Borrison Laboratories?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "5423.jpeg:child:1:2"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "5423.jpeg:child:1:2",
+          "retrieved": true,
+          "dense_rank": 11.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 2,
+          "rerank_rank": 3,
+          "pre_rerank_rank": 2,
+          "rank_gain": -1
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 190,
+      "eval_id": "eval_190",
+      "doc_id": "3381.jpeg",
+      "question_id": "q1",
+      "question": "What is the total amount of pending charges for Contract Laboratory (Synthesis) - Starks Associates?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "3381.jpeg:child:0:0"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "3381.jpeg:child:0:0",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 192,
+      "eval_id": "eval_192",
+      "doc_id": "2098.jpeg",
+      "question_id": "q4",
+      "question": "What was the policy period from January 1st, 1986 to January 1st, 1987?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "2098.jpeg:child:0:2"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "2098.jpeg:child:0:2",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": null,
+          "hybrid_rank": 9,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 9,
+          "rank_gain": 8
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 193,
+      "eval_id": "eval_193",
+      "doc_id": "2543.jpeg",
+      "question_id": "q6",
+      "question": "Which committees is Senator Frank Watson involved with?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "2543.jpeg:child:0:2"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "2543.jpeg:child:0:2",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 3.0,
+          "hybrid_rank": 2,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 2,
+          "rank_gain": 1
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 196,
+      "eval_id": "eval_196",
+      "doc_id": "2967.jpeg",
+      "question_id": "q8",
+      "question": "Is there any change in funding level for the lobbyist's role across 1995 and 1996?",
+      "retrieved_gold_count": 2,
+      "total_gold_count": 2,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "2967.jpeg:child:0:1",
+        "2967.jpeg:child:1:0"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "2967.jpeg:child:0:1",
+          "retrieved": true,
+          "dense_rank": 6.0,
+          "sparse_rank": 2.0,
+          "hybrid_rank": 2,
+          "rerank_rank": 2,
+          "pre_rerank_rank": 2,
+          "rank_gain": 0
+        },
+        {
+          "gold_chunk_id": "2967.jpeg:child:1:0",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 197,
+      "eval_id": "eval_197",
+      "doc_id": "4310.jpeg",
+      "question_id": "q12",
+      "question": "What does the memo/details section of the check indicate?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "4310.jpeg:child:0:3"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "4310.jpeg:child:0:3",
+          "retrieved": true,
+          "dense_rank": 2.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 2,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 2,
+          "rank_gain": 1
+        }
+      ],
+      "status": "complete_success"
+    },
+    {
+      "item": 199,
+      "eval_id": "eval_199",
+      "doc_id": "4254.jpeg",
+      "question_id": "q2",
+      "question": "Who is the recipient of the $500 donation?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 1,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "4254.jpeg:child:0:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "4254.jpeg:child:0:1",
+          "retrieved": true,
+          "dense_rank": 3.0,
+          "sparse_rank": 5.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 2,
+          "pre_rerank_rank": 1,
+          "rank_gain": -1
+        }
+      ],
+      "status": "complete_success"
+    }
+  ],
+  "partial_successes": [
+    {
+      "item": 2,
+      "eval_id": "eval_002",
+      "doc_id": "3648.jpeg",
+      "question_id": "q1",
+      "question": "Who is the issuer of the check?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 2,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "3648.jpeg:child:0:0",
+        "3648.jpeg:child:0:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "3648.jpeg:child:0:0",
+          "retrieved": true,
+          "dense_rank": null,
+          "sparse_rank": 11.0,
+          "hybrid_rank": 25,
+          "rerank_rank": 4,
+          "pre_rerank_rank": 25,
+          "rank_gain": 21
+        },
+        {
+          "gold_chunk_id": "3648.jpeg:child:0:1",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 14,
+      "eval_id": "eval_014",
+      "doc_id": "8067.jpeg",
+      "question_id": "q10",
+      "question": "Why is this document relevant for any audit or financial review?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 2,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "8067.jpeg:child:1:1",
+        "8067.jpeg:child:1:2"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "8067.jpeg:child:1:1",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        },
+        {
+          "gold_chunk_id": "8067.jpeg:child:1:2",
+          "retrieved": true,
+          "dense_rank": 2.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 2,
+          "pre_rerank_rank": 1,
+          "rank_gain": -1
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 15,
+      "eval_id": "eval_015",
+      "doc_id": "9078.jpeg",
+      "question_id": "q7",
+      "question": "What is the total amount due on the billing statement?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 2,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "9078.jpeg:child:0:2",
+        "9078.jpeg:child:1:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "9078.jpeg:child:0:2",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        },
+        {
+          "gold_chunk_id": "9078.jpeg:child:1:1",
+          "retrieved": true,
+          "dense_rank": 12.0,
+          "sparse_rank": 2.0,
+          "hybrid_rank": 3,
+          "rerank_rank": 4,
+          "pre_rerank_rank": 3,
+          "rank_gain": -1
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 20,
+      "eval_id": "eval_020",
+      "doc_id": "8116.jpeg",
+      "question_id": "q6",
+      "question": "What is the adjustment or subtraction made to the gross amount, and what could be the possible reason for it?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 2,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "8116.jpeg:child:0:2",
+        "8116.jpeg:child:1:2"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "8116.jpeg:child:0:2",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        },
+        {
+          "gold_chunk_id": "8116.jpeg:child:1:2",
+          "retrieved": true,
+          "dense_rank": 7.0,
+          "sparse_rank": 21.0,
+          "hybrid_rank": 4,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 4,
+          "rank_gain": 3
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 26,
+      "eval_id": "eval_026",
+      "doc_id": "3345.jpeg",
+      "question_id": "q10",
+      "question": "What is the significance of the uniform monthly charges?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 2,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "3345.jpeg:child:0:2",
+        "3345.jpeg:child:1:0"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "3345.jpeg:child:0:2",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": 22,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": 22,
+          "rank_gain": null
+        },
+        {
+          "gold_chunk_id": "3345.jpeg:child:1:0",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 27,
+      "eval_id": "eval_027",
+      "doc_id": "3362.jpeg",
+      "question_id": "q8",
+      "question": "How does the document's age impact its compliance with current tax codes?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 3,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "3362.jpeg:child:0:0",
+        "3362.jpeg:child:1:2",
+        "3362.jpeg:child:1:3"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "3362.jpeg:child:0:0",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        },
+        {
+          "gold_chunk_id": "3362.jpeg:child:1:2",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        },
+        {
+          "gold_chunk_id": "3362.jpeg:child:1:3",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 38,
+      "eval_id": "eval_038",
+      "doc_id": "9453.jpeg",
+      "question_id": "q6",
+      "question": "What is the difference between the 'Gross Amount' and 'Net Amount' in the document?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 2,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "9453.jpeg:child:0:3",
+        "9453.jpeg:child:1:3"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "9453.jpeg:child:0:3",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        },
+        {
+          "gold_chunk_id": "9453.jpeg:child:1:3",
+          "retrieved": true,
+          "dense_rank": 10.0,
+          "sparse_rank": 21.0,
+          "hybrid_rank": 6,
+          "rerank_rank": 20,
+          "pre_rerank_rank": 6,
+          "rank_gain": -14
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 47,
+      "eval_id": "eval_047",
+      "doc_id": "1189.jpeg",
+      "question_id": "q5",
+      "question": "Which product had a noted change of $31,497.00 in 1991?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 2,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "1189.jpeg:child:0:3",
+        "1189.jpeg:child:1:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "1189.jpeg:child:0:3",
+          "retrieved": true,
+          "dense_rank": 15.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 5,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 5,
+          "rank_gain": 4
+        },
+        {
+          "gold_chunk_id": "1189.jpeg:child:1:1",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 60,
+      "eval_id": "eval_060",
+      "doc_id": "3842.jpeg",
+      "question_id": "q11",
+      "question": "What is the overall trend in the total budget from 1997 to 1998?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 2,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "3842.jpeg:child:1:0",
+        "3842.jpeg:child:1:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "3842.jpeg:child:1:0",
+          "retrieved": true,
+          "dense_rank": 2.0,
+          "sparse_rank": 2.0,
+          "hybrid_rank": 2,
+          "rerank_rank": 2,
+          "pre_rerank_rank": 2,
+          "rank_gain": 0
+        },
+        {
+          "gold_chunk_id": "3842.jpeg:child:1:1",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 65,
+      "eval_id": "eval_065",
+      "doc_id": "1828.jpeg",
+      "question_id": "q7",
+      "question": "What is the overall trend in Virginia Slims' advertising expenditure in Rochester and Omaha during 1978?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 2,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "1828.jpeg:child:0:0",
+        "1828.jpeg:child:2:2"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "1828.jpeg:child:0:0",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 2,
+          "pre_rerank_rank": 1,
+          "rank_gain": -1
+        },
+        {
+          "gold_chunk_id": "1828.jpeg:child:2:2",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 72,
+      "eval_id": "eval_072",
+      "doc_id": "877.jpeg",
+      "question_id": "q6",
+      "question": "What is notable about the spending in DeKalb?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 3,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "877.jpeg:child:1:1",
+        "877.jpeg:child:2:0",
+        "877.jpeg:child:2:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "877.jpeg:child:1:1",
+          "retrieved": true,
+          "dense_rank": null,
+          "sparse_rank": 2.0,
+          "hybrid_rank": 9,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 9,
+          "rank_gain": 8
+        },
+        {
+          "gold_chunk_id": "877.jpeg:child:2:0",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        },
+        {
+          "gold_chunk_id": "877.jpeg:child:2:1",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 74,
+      "eval_id": "eval_074",
+      "doc_id": "1301.jpeg",
+      "question_id": "q3",
+      "question": "What is the recurring adjustment noted for the fourth quarter?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 3,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "1301.jpeg:child:0:4",
+        "1301.jpeg:child:1:0",
+        "1301.jpeg:child:1:2"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "1301.jpeg:child:0:4",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        },
+        {
+          "gold_chunk_id": "1301.jpeg:child:1:0",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        },
+        {
+          "gold_chunk_id": "1301.jpeg:child:1:2",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 78,
+      "eval_id": "eval_078",
+      "doc_id": "9195.jpeg",
+      "question_id": "q8",
+      "question": "Why are there handwritten calculations and dates on the invoice?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 2,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "9195.jpeg:child:1:2",
+        "9195.jpeg:child:1:3"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "9195.jpeg:child:1:2",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        },
+        {
+          "gold_chunk_id": "9195.jpeg:child:1:3",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 79,
+      "eval_id": "eval_079",
+      "doc_id": "7593.jpeg",
+      "question_id": "q7",
+      "question": "What is the total cost of the goods and shipping?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 2,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "7593.jpeg:child:0:2",
+        "7593.jpeg:child:0:3"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "7593.jpeg:child:0:2",
+          "retrieved": false,
+          "dense_rank": 23,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": 23,
+          "rank_gain": null
+        },
+        {
+          "gold_chunk_id": "7593.jpeg:child:0:3",
+          "retrieved": true,
+          "dense_rank": 4.0,
+          "sparse_rank": null,
+          "hybrid_rank": 9,
+          "rerank_rank": 15,
+          "pre_rerank_rank": 9,
+          "rank_gain": -6
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 84,
+      "eval_id": "eval_084",
+      "doc_id": "9463.jpeg",
+      "question_id": "q8",
+      "question": "What are the financial implications of this order, and why is it important for budgeting and auditing?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 2,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "9463.jpeg:child:1:1",
+        "9463.jpeg:child:1:2"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "9463.jpeg:child:1:1",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        },
+        {
+          "gold_chunk_id": "9463.jpeg:child:1:2",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 88,
+      "eval_id": "eval_088",
+      "doc_id": "8436.jpeg",
+      "question_id": "q1",
+      "question": "What is the type of document being analyzed?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 3,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "8436.jpeg:child:0:0",
+        "8436.jpeg:child:1:0",
+        "8436.jpeg:child:1:4"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "8436.jpeg:child:0:0",
+          "retrieved": true,
+          "dense_rank": 7.0,
+          "sparse_rank": null,
+          "hybrid_rank": 16,
+          "rerank_rank": 9,
+          "pre_rerank_rank": 16,
+          "rank_gain": 7
+        },
+        {
+          "gold_chunk_id": "8436.jpeg:child:1:0",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        },
+        {
+          "gold_chunk_id": "8436.jpeg:child:1:4",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 89,
+      "eval_id": "eval_089",
+      "doc_id": "6207.jpeg",
+      "question_id": "q2",
+      "question": "What is the date of the invoice, and is it in a standard format?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 2,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "6207.jpeg:child:0:1",
+        "6207.jpeg:child:1:0"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "6207.jpeg:child:0:1",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        },
+        {
+          "gold_chunk_id": "6207.jpeg:child:1:0",
+          "retrieved": true,
+          "dense_rank": null,
+          "sparse_rank": 12.0,
+          "hybrid_rank": 24,
+          "rerank_rank": 34,
+          "pre_rerank_rank": 24,
+          "rank_gain": -10
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 94,
+      "eval_id": "eval_094",
+      "doc_id": "5989.jpeg",
+      "question_id": "q5",
+      "question": "What is the amount due mentioned in the Tax Debit Note?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 3,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "5989.jpeg:child:0:1",
+        "5989.jpeg:child:0:2",
+        "5989.jpeg:child:1:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "5989.jpeg:child:0:1",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        },
+        {
+          "gold_chunk_id": "5989.jpeg:child:0:2",
+          "retrieved": true,
+          "dense_rank": 14.0,
+          "sparse_rank": null,
+          "hybrid_rank": 25,
+          "rerank_rank": 2,
+          "pre_rerank_rank": 25,
+          "rank_gain": 23
+        },
+        {
+          "gold_chunk_id": "5989.jpeg:child:1:1",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 101,
+      "eval_id": "eval_101",
+      "doc_id": "4771.jpeg",
+      "question_id": "q16",
+      "question": "Are the annualized revenue projections consistent across all tax adjustments?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 2,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "4771.jpeg:child:1:0",
+        "4771.jpeg:child:3:3"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "4771.jpeg:child:1:0",
+          "retrieved": true,
+          "dense_rank": null,
+          "sparse_rank": 20.0,
+          "hybrid_rank": 35,
+          "rerank_rank": 7,
+          "pre_rerank_rank": 35,
+          "rank_gain": 28
+        },
+        {
+          "gold_chunk_id": "4771.jpeg:child:3:3",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 105,
+      "eval_id": "eval_105",
+      "doc_id": "4816.jpeg",
+      "question_id": "q9",
+      "question": "What does the historical context of the document imply about the research focus of the project?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 2,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "4816.jpeg:child:1:0",
+        "4816.jpeg:child:1:3"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "4816.jpeg:child:1:0",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        },
+        {
+          "gold_chunk_id": "4816.jpeg:child:1:3",
+          "retrieved": true,
+          "dense_rank": 3.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 106,
+      "eval_id": "eval_106",
+      "doc_id": "7766.jpeg",
+      "question_id": "q4",
+      "question": "What services were provided by J. E. Funk Co.?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 2,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "7766.jpeg:child:0:2",
+        "7766.jpeg:child:1:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "7766.jpeg:child:0:2",
+          "retrieved": true,
+          "dense_rank": 8.0,
+          "sparse_rank": 12.0,
+          "hybrid_rank": 3,
+          "rerank_rank": 17,
+          "pre_rerank_rank": 3,
+          "rank_gain": -14
+        },
+        {
+          "gold_chunk_id": "7766.jpeg:child:1:1",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 107,
+      "eval_id": "eval_107",
+      "doc_id": "5527.jpeg",
+      "question_id": "q10",
+      "question": "What is the potential significance of analyzing corporate contributions to education, especially in the medical field?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 3,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "5527.jpeg:child:0:3",
+        "5527.jpeg:child:0:4",
+        "5527.jpeg:child:1:0"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "5527.jpeg:child:0:3",
+          "retrieved": true,
+          "dense_rank": 3.0,
+          "sparse_rank": null,
+          "hybrid_rank": 6,
+          "rerank_rank": 2,
+          "pre_rerank_rank": 6,
+          "rank_gain": 4
+        },
+        {
+          "gold_chunk_id": "5527.jpeg:child:0:4",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        },
+        {
+          "gold_chunk_id": "5527.jpeg:child:1:0",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 114,
+      "eval_id": "eval_114",
+      "doc_id": "8648.jpeg",
+      "question_id": "q1",
+      "question": "What is the business name mentioned in the document?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 3,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "8648.jpeg:child:0:0",
+        "8648.jpeg:child:0:1",
+        "8648.jpeg:child:1:0"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "8648.jpeg:child:0:0",
+          "retrieved": true,
+          "dense_rank": 2.0,
+          "sparse_rank": null,
+          "hybrid_rank": 4,
+          "rerank_rank": 26,
+          "pre_rerank_rank": 4,
+          "rank_gain": -22
+        },
+        {
+          "gold_chunk_id": "8648.jpeg:child:0:1",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        },
+        {
+          "gold_chunk_id": "8648.jpeg:child:1:0",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 131,
+      "eval_id": "eval_131",
+      "doc_id": "4953.jpeg",
+      "question_id": "q1",
+      "question": "What is the form number of the Issue Fee Transmittal document?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 2,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "4953.jpeg:child:1:0",
+        "4953.jpeg:child:1:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "4953.jpeg:child:1:0",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        },
+        {
+          "gold_chunk_id": "4953.jpeg:child:1:1",
+          "retrieved": true,
+          "dense_rank": 27.0,
+          "sparse_rank": 2.0,
+          "hybrid_rank": 4,
+          "rerank_rank": 4,
+          "pre_rerank_rank": 4,
+          "rank_gain": 0
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 148,
+      "eval_id": "eval_148",
+      "doc_id": "4817.jpeg",
+      "question_id": "q6",
+      "question": "What type of items are being described on the invoice?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 2,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "4817.jpeg:child:0:2",
+        "4817.jpeg:child:1:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "4817.jpeg:child:0:2",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        },
+        {
+          "gold_chunk_id": "4817.jpeg:child:1:1",
+          "retrieved": true,
+          "dense_rank": null,
+          "sparse_rank": 2.0,
+          "hybrid_rank": 4,
+          "rerank_rank": 34,
+          "pre_rerank_rank": 4,
+          "rank_gain": -30
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 154,
+      "eval_id": "eval_154",
+      "doc_id": "5001.jpeg",
+      "question_id": "q1",
+      "question": "What is the business name mentioned in the document?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 2,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "5001.jpeg:child:0:0",
+        "5001.jpeg:child:1:0"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "5001.jpeg:child:0:0",
+          "retrieved": true,
+          "dense_rank": 8.0,
+          "sparse_rank": null,
+          "hybrid_rank": 16,
+          "rerank_rank": 9,
+          "pre_rerank_rank": 16,
+          "rank_gain": 7
+        },
+        {
+          "gold_chunk_id": "5001.jpeg:child:1:0",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 156,
+      "eval_id": "eval_156",
+      "doc_id": "8067.jpeg",
+      "question_id": "q11",
+      "question": "What is the implication of the invoice being from a research laboratory to another research entity?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 2,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "8067.jpeg:child:0:1",
+        "8067.jpeg:child:1:0"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "8067.jpeg:child:0:1",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        },
+        {
+          "gold_chunk_id": "8067.jpeg:child:1:0",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 160,
+      "eval_id": "eval_160",
+      "doc_id": "8537.jpeg",
+      "question_id": "q4",
+      "question": "What are the payment terms specified in the invoice?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 2,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "8537.jpeg:child:0:2",
+        "8537.jpeg:child:1:2"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "8537.jpeg:child:0:2",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        },
+        {
+          "gold_chunk_id": "8537.jpeg:child:1:2",
+          "retrieved": true,
+          "dense_rank": 19.0,
+          "sparse_rank": 2.0,
+          "hybrid_rank": 4,
+          "rerank_rank": 10,
+          "pre_rerank_rank": 4,
+          "rank_gain": -6
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 169,
+      "eval_id": "eval_169",
+      "doc_id": "395.jpeg",
+      "question_id": "q6",
+      "question": "What is the memo or description on the check?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 2,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "395.jpeg:child:0:2",
+        "395.jpeg:child:1:0"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "395.jpeg:child:0:2",
+          "retrieved": true,
+          "dense_rank": 2.0,
+          "sparse_rank": 2.0,
+          "hybrid_rank": 2,
+          "rerank_rank": 3,
+          "pre_rerank_rank": 2,
+          "rank_gain": -1
+        },
+        {
+          "gold_chunk_id": "395.jpeg:child:1:0",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 174,
+      "eval_id": "eval_174",
+      "doc_id": "4285.jpeg",
+      "question_id": "q11",
+      "question": "How does this document contribute to historical financial analysis?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 3,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "4285.jpeg:child:1:0",
+        "4285.jpeg:child:1:3",
+        "4285.jpeg:child:1:4"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "4285.jpeg:child:1:0",
+          "retrieved": true,
+          "dense_rank": 13.0,
+          "sparse_rank": null,
+          "hybrid_rank": 29,
+          "rerank_rank": 22,
+          "pre_rerank_rank": 29,
+          "rank_gain": 7
+        },
+        {
+          "gold_chunk_id": "4285.jpeg:child:1:3",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        },
+        {
+          "gold_chunk_id": "4285.jpeg:child:1:4",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 179,
+      "eval_id": "eval_179",
+      "doc_id": "9630.jpeg",
+      "question_id": "q9",
+      "question": "Why is it essential to verify the invoice details with internal records?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 2,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "9630.jpeg:child:1:2",
+        "9630.jpeg:child:1:3"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "9630.jpeg:child:1:2",
+          "retrieved": true,
+          "dense_rank": null,
+          "sparse_rank": 5.0,
+          "hybrid_rank": 13,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 13,
+          "rank_gain": 12
+        },
+        {
+          "gold_chunk_id": "9630.jpeg:child:1:3",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 183,
+      "eval_id": "eval_183",
+      "doc_id": "4752.jpeg",
+      "question_id": "q5",
+      "question": "What is the trend observed in the Parimutuel Tax revenue?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 2,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "4752.jpeg:child:0:2",
+        "4752.jpeg:child:1:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "4752.jpeg:child:0:2",
+          "retrieved": true,
+          "dense_rank": 1.0,
+          "sparse_rank": 11.0,
+          "hybrid_rank": 3,
+          "rerank_rank": 2,
+          "pre_rerank_rank": 3,
+          "rank_gain": 1
+        },
+        {
+          "gold_chunk_id": "4752.jpeg:child:1:1",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 186,
+      "eval_id": "eval_186",
+      "doc_id": "6983.jpeg",
+      "question_id": "q1",
+      "question": "What is the company name mentioned in the check remittance advice?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 2,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "6983.jpeg:child:0:0",
+        "6983.jpeg:child:0:1"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "6983.jpeg:child:0:0",
+          "retrieved": true,
+          "dense_rank": 2.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        },
+        {
+          "gold_chunk_id": "6983.jpeg:child:0:1",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": 24,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": 24,
+          "rank_gain": null
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 188,
+      "eval_id": "eval_188",
+      "doc_id": "9565.jpeg",
+      "question_id": "q8",
+      "question": "What is the duration of the service period mentioned in the document?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 2,
+      "has_reranker_boost": true,
+      "gold_chunk_ids": [
+        "9565.jpeg:child:0:2",
+        "9565.jpeg:child:1:0"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "9565.jpeg:child:0:2",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        },
+        {
+          "gold_chunk_id": "9565.jpeg:child:1:0",
+          "retrieved": true,
+          "dense_rank": 3.0,
+          "sparse_rank": null,
+          "hybrid_rank": 7,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 7,
+          "rank_gain": 6
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 191,
+      "eval_id": "eval_191",
+      "doc_id": "4767.jpeg",
+      "question_id": "q4",
+      "question": "What is the amount of the check?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 3,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "4767.jpeg:child:0:1",
+        "4767.jpeg:child:0:2",
+        "4767.jpeg:child:0:3"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "4767.jpeg:child:0:1",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        },
+        {
+          "gold_chunk_id": "4767.jpeg:child:0:2",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        },
+        {
+          "gold_chunk_id": "4767.jpeg:child:0:3",
+          "retrieved": true,
+          "dense_rank": 5.0,
+          "sparse_rank": 8.0,
+          "hybrid_rank": 3,
+          "rerank_rank": 4,
+          "pre_rerank_rank": 3,
+          "rank_gain": -1
+        }
+      ],
+      "status": "partial_success"
+    },
+    {
+      "item": 200,
+      "eval_id": "eval_200",
+      "doc_id": "4895.jpeg",
+      "question_id": "q10",
+      "question": "What does the document reveal about the advertising industry norms in 1979?",
+      "retrieved_gold_count": 1,
+      "total_gold_count": 2,
+      "has_reranker_boost": false,
+      "gold_chunk_ids": [
+        "4895.jpeg:child:1:3",
+        "4895.jpeg:child:2:0"
+      ],
+      "gold_details": [
+        {
+          "gold_chunk_id": "4895.jpeg:child:1:3",
+          "retrieved": true,
+          "dense_rank": 2.0,
+          "sparse_rank": 1.0,
+          "hybrid_rank": 1,
+          "rerank_rank": 1,
+          "pre_rerank_rank": 1,
+          "rank_gain": 0
+        },
+        {
+          "gold_chunk_id": "4895.jpeg:child:2:0",
+          "retrieved": false,
+          "dense_rank": null,
+          "sparse_rank": null,
+          "hybrid_rank": null,
+          "rerank_rank": null,
+          "pre_rerank_rank": null,
+          "rank_gain": null
+        }
+      ],
+      "status": "partial_success"
+    }
+  ]
+}

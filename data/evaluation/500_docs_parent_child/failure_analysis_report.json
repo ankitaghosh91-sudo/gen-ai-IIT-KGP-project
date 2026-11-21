@@ -1,0 +1,1587 @@
+{
+  "total_questions": 180,
+  "any_strategy_miss_count": 103,
+  "counts_by_bucket": {
+    "all_strategies_none": 65,
+    "found_in_base_lost_in_hybrid": 0,
+    "found_earlier_lost_at_reranker": 15,
+    "reranker_none": 0,
+    "partial_or_other_miss": 23
+  },
+  "failures_by_bucket": {
+    "all_strategies_none": [
+      {
+        "question_number": 4,
+        "question_id": "q11",
+        "doc_id": "6080",
+        "question": "What can be inferred about the importance of legal and financial compliance in the transaction process?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "6080.jpeg:child:2:2"
+        ]
+      },
+      {
+        "question_number": 6,
+        "question_id": "q4",
+        "doc_id": "4758",
+        "question": "What is the purpose of the payment?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "4758.jpeg:child:0:1"
+        ]
+      },
+      {
+        "question_number": 8,
+        "question_id": "q1",
+        "doc_id": "8441",
+        "question": "Who is the issuer of the invoice?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "8441.jpeg:child:0:0",
+          "8441.jpeg:child:0:1"
+        ]
+      },
+      {
+        "question_number": 9,
+        "question_id": "q10",
+        "doc_id": "3229",
+        "question": "Why is it important to verify the nature of 'Support 92'?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "3229.jpeg:child:1:1"
+        ]
+      },
+      {
+        "question_number": 10,
+        "question_id": "q1",
+        "doc_id": "7936",
+        "question": "Who is the issuer of the check?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "7936.jpeg:child:0:1",
+          "7936.jpeg:child:1:2"
+        ]
+      },
+      {
+        "question_number": 11,
+        "question_id": "q11",
+        "doc_id": "8065",
+        "question": "Why is the attention to a specific individual important on the invoice?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "8065.jpeg:child:1:1"
+        ]
+      },
+      {
+        "question_number": 14,
+        "question_id": "q1",
+        "doc_id": "9312",
+        "question": "Who is the issuer of the invoice?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "9312.jpeg:child:0:1"
+        ]
+      },
+      {
+        "question_number": 20,
+        "question_id": "q10",
+        "doc_id": "921",
+        "question": "In which quarter does the total gross amount show a significant increase compared to the previous quarter?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "921.jpeg:child:1:2"
+        ]
+      },
+      {
+        "question_number": 22,
+        "question_id": "q3",
+        "doc_id": "4254",
+        "question": "What is the address listed on the donation receipt?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "4254.jpeg:child:0:1"
+        ]
+      },
+      {
+        "question_number": 27,
+        "question_id": "q4",
+        "doc_id": "5250",
+        "question": "What is the payment term for the Purchase Order?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "5250.jpeg:child:0:2"
+        ]
+      },
+      {
+        "question_number": 29,
+        "question_id": "q4",
+        "doc_id": "6799",
+        "question": "What is the quantity of the product being shipped?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "6799.jpeg:child:0:2"
+        ]
+      },
+      {
+        "question_number": 31,
+        "question_id": "q2",
+        "doc_id": "1996",
+        "question": "What type of document does this represent?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "1996.jpeg:child:0:0"
+        ]
+      },
+      {
+        "question_number": 32,
+        "question_id": "q9",
+        "doc_id": "5206",
+        "question": "What is the finance charge policy for late payments?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "5206.jpeg:child:0:2"
+        ]
+      },
+      {
+        "question_number": 33,
+        "question_id": "q6",
+        "doc_id": "9453",
+        "question": "What is the difference between the 'Gross Amount' and 'Net Amount' in the document?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "9453.jpeg:child:0:3"
+        ]
+      },
+      {
+        "question_number": 34,
+        "question_id": "q4",
+        "doc_id": "4050",
+        "question": "What are the payment terms mentioned in the document?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "4050.jpeg:child:0:1",
+          "4050.jpeg:child:0:4"
+        ]
+      },
+      {
+        "question_number": 35,
+        "question_id": "q3",
+        "doc_id": "7896",
+        "question": "What is the date of the document?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "7896.jpeg:child:0:2"
+        ]
+      },
+      {
+        "question_number": 37,
+        "question_id": "q10",
+        "doc_id": "532",
+        "question": "In what year did the request for campaign contribution take place?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "532.jpeg:child:0:1"
+        ]
+      },
+      {
+        "question_number": 41,
+        "question_id": "q6",
+        "doc_id": "8671",
+        "question": "What are the product details listed on the invoice?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "8671.jpeg:child:0:2"
+        ]
+      },
+      {
+        "question_number": 45,
+        "question_id": "q3",
+        "doc_id": "8311",
+        "question": "What is the receipt number of the sales receipt?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "8311.jpeg:child:0:1"
+        ]
+      },
+      {
+        "question_number": 47,
+        "question_id": "q2",
+        "doc_id": "3672",
+        "question": "What is the check number?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "3672.jpeg:child:0:1"
+        ]
+      },
+      {
+        "question_number": 48,
+        "question_id": "q3",
+        "doc_id": "2098",
+        "question": "Which company is mentioned in the document?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "2098.jpeg:child:0:1"
+        ]
+      },
+      {
+        "question_number": 53,
+        "question_id": "q7",
+        "doc_id": "7674",
+        "question": "What is the purpose of the start-up charges mentioned in the invoice?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "7674.jpeg:child:1:2"
+        ]
+      },
+      {
+        "question_number": 54,
+        "question_id": "q5",
+        "doc_id": "9666",
+        "question": "What is the payment due date to avoid additional interest or penalties?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "9666.jpeg:child:0:1"
+        ]
+      },
+      {
+        "question_number": 57,
+        "question_id": "q7",
+        "doc_id": "1828",
+        "question": "What is the overall trend in Virginia Slims' advertising expenditure in Rochester and Omaha during 1978?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "1828.jpeg:child:2:2"
+        ]
+      },
+      {
+        "question_number": 61,
+        "question_id": "q2",
+        "doc_id": "7896",
+        "question": "What is the attention name mentioned in the document?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "7896.jpeg:child:0:1"
+        ]
+      },
+      {
+        "question_number": 62,
+        "question_id": "q5",
+        "doc_id": "8061",
+        "question": "What is the total amount of the invoice?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "8061.jpeg:child:0:2"
+        ]
+      },
+      {
+        "question_number": 63,
+        "question_id": "q3",
+        "doc_id": "1576",
+        "question": "What is notable about the display schedule for March?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "1576.jpeg:child:1:0"
+        ]
+      },
+      {
+        "question_number": 67,
+        "question_id": "q1",
+        "doc_id": "4573",
+        "question": "What is the purpose of the check request form?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "4573.jpeg:child:0:1"
+        ]
+      },
+      {
+        "question_number": 79,
+        "question_id": "q2",
+        "doc_id": "6207",
+        "question": "What is the date of the invoice, and is it in a standard format?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "6207.jpeg:child:0:1"
+        ]
+      },
+      {
+        "question_number": 81,
+        "question_id": "q9",
+        "doc_id": "6498",
+        "question": "When was the payment received by P.M. Management Corp.?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "6498.jpeg:child:1:0"
+        ]
+      },
+      {
+        "question_number": 84,
+        "question_id": "q11",
+        "doc_id": "6983",
+        "question": "What is the purpose of this check remittance advice in financial tracking?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "6983.jpeg:child:1:3"
+        ]
+      },
+      {
+        "question_number": 86,
+        "question_id": "q9",
+        "doc_id": "8311",
+        "question": "What is the tax amount on the sales receipt?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "8311.jpeg:child:0:2"
+        ]
+      },
+      {
+        "question_number": 88,
+        "question_id": "q10",
+        "doc_id": "4294",
+        "question": "Why is it essential to continuously monitor the impacts of tax rate changes on revenue and consumer behavior?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "4294.jpeg:child:2:2"
+        ]
+      },
+      {
+        "question_number": 90,
+        "question_id": "q16",
+        "doc_id": "4771",
+        "question": "Are the annualized revenue projections consistent across all tax adjustments?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "4771.jpeg:child:3:3"
+        ]
+      },
+      {
+        "question_number": 95,
+        "question_id": "q10",
+        "doc_id": "5527",
+        "question": "What is the potential significance of analyzing corporate contributions to education, especially in the medical field?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "5527.jpeg:child:1:0"
+        ]
+      },
+      {
+        "question_number": 97,
+        "question_id": "q3",
+        "doc_id": "9311",
+        "question": "What is the due date of the invoice?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "9311.jpeg:child:0:1"
+        ]
+      },
+      {
+        "question_number": 103,
+        "question_id": "q10",
+        "doc_id": "6800",
+        "question": "What does this event ticket serve as?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "6800.jpeg:child:1:0"
+        ]
+      },
+      {
+        "question_number": 104,
+        "question_id": "q4",
+        "doc_id": "4955",
+        "question": "What is the total amount billed to the client?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "4955.jpeg:child:0:2"
+        ]
+      },
+      {
+        "question_number": 105,
+        "question_id": "q11",
+        "doc_id": "3229",
+        "question": "What does the document provide in terms of financial transaction trail?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "3229.jpeg:child:1:3"
+        ]
+      },
+      {
+        "question_number": 107,
+        "question_id": "q3",
+        "doc_id": "5056",
+        "question": "What is the shipping date mentioned in the document?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "5056.jpeg:child:0:1",
+          "5056.jpeg:child:0:2"
+        ]
+      },
+      {
+        "question_number": 109,
+        "question_id": "q9",
+        "doc_id": "4247",
+        "question": "Is the document date in the bottom section accurate?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "4247.jpeg:child:1:1"
+        ]
+      },
+      {
+        "question_number": 114,
+        "question_id": "q1",
+        "doc_id": "3980",
+        "question": "What is the title of the financial analysis document?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "3980.jpeg:child:0:1"
+        ]
+      },
+      {
+        "question_number": 115,
+        "question_id": "q9",
+        "doc_id": "2466",
+        "question": "What does this document primarily focus on?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "2466.jpeg:child:2:0"
+        ]
+      },
+      {
+        "question_number": 118,
+        "question_id": "q1",
+        "doc_id": "4953",
+        "question": "What is the form number of the Issue Fee Transmittal document?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "4953.jpeg:child:1:0"
+        ]
+      },
+      {
+        "question_number": 121,
+        "question_id": "q7",
+        "doc_id": "2781",
+        "question": "How did the company's gross profit for the current month compare to last year's figure?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "2781.jpeg:child:1:1"
+        ]
+      },
+      {
+        "question_number": 124,
+        "question_id": "q1",
+        "doc_id": "5995",
+        "question": "Who is the issuer of the debit note?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "5995.jpeg:child:0:1"
+        ]
+      },
+      {
+        "question_number": 126,
+        "question_id": "q4",
+        "doc_id": "4548",
+        "question": "What is the total amount due on the invoice?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "4548.jpeg:child:0:3"
+        ]
+      },
+      {
+        "question_number": 130,
+        "question_id": "q6",
+        "doc_id": "7027",
+        "question": "What is the description of the item sold in the commercial invoice?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "7027.jpeg:child:0:2"
+        ]
+      },
+      {
+        "question_number": 131,
+        "question_id": "q1",
+        "doc_id": "6498",
+        "question": "Who is the issuer of the payment statement?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "6498.jpeg:child:1:0"
+        ]
+      },
+      {
+        "question_number": 134,
+        "question_id": "q1",
+        "doc_id": "8131",
+        "question": "Who is the issuer of the invoice?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "8131.jpeg:child:0:0",
+          "8131.jpeg:child:0:1",
+          "8131.jpeg:child:1:0"
+        ]
+      },
+      {
+        "question_number": 141,
+        "question_id": "q11",
+        "doc_id": "3203",
+        "question": "What is the era in which the document's layout and stylistic elements are typical?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "3203.jpeg:child:1:2"
+        ]
+      },
+      {
+        "question_number": 142,
+        "question_id": "q4",
+        "doc_id": "5414",
+        "question": "What is the total amount due on the invoice?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "5414.jpeg:child:0:2"
+        ]
+      },
+      {
+        "question_number": 146,
+        "question_id": "q1",
+        "doc_id": "6452",
+        "question": "Who is the issuer of the invoice?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "6452.jpeg:child:0:1"
+        ]
+      },
+      {
+        "question_number": 147,
+        "question_id": "q8",
+        "doc_id": "7996",
+        "question": "What is the total charges mentioned in the document?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "7996.jpeg:child:0:3"
+        ]
+      },
+      {
+        "question_number": 151,
+        "question_id": "q2",
+        "doc_id": "7137",
+        "question": "What is the customer number mentioned in the document?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "7137.jpeg:child:0:1"
+        ]
+      },
+      {
+        "question_number": 154,
+        "question_id": "q1",
+        "doc_id": "7137",
+        "question": "What is the invoice date of the document?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "7137.jpeg:child:0:1"
+        ]
+      },
+      {
+        "question_number": 155,
+        "question_id": "q4",
+        "doc_id": "4185",
+        "question": "What is the date of the check?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "4185.jpeg:child:0:1"
+        ]
+      },
+      {
+        "question_number": 157,
+        "question_id": "q11",
+        "doc_id": "4285",
+        "question": "How does this document contribute to historical financial analysis?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "4285.jpeg:child:1:4"
+        ]
+      },
+      {
+        "question_number": 161,
+        "question_id": "q9",
+        "doc_id": "9630",
+        "question": "Why is it essential to verify the invoice details with internal records?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "9630.jpeg:child:1:3"
+        ]
+      },
+      {
+        "question_number": 163,
+        "question_id": "q6",
+        "doc_id": "9162",
+        "question": "What is the payment due date for the invoice?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "9162.jpeg:child:0:2"
+        ]
+      },
+      {
+        "question_number": 165,
+        "question_id": "q7",
+        "doc_id": "3629",
+        "question": "Who is the payable party for the contribution?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "3629.jpeg:child:0:4"
+        ]
+      },
+      {
+        "question_number": 169,
+        "question_id": "q8",
+        "doc_id": "9565",
+        "question": "What is the duration of the service period mentioned in the document?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "9565.jpeg:child:0:2"
+        ]
+      },
+      {
+        "question_number": 174,
+        "question_id": "q6",
+        "doc_id": "3203",
+        "question": "What is the amount of the check?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "3203.jpeg:child:0:1",
+          "3203.jpeg:child:0:2",
+          "3203.jpeg:child:1:0"
+        ]
+      },
+      {
+        "question_number": 175,
+        "question_id": "q2",
+        "doc_id": "5119",
+        "question": "What is the address of the issuer?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "5119.jpeg:child:0:1"
+        ]
+      },
+      {
+        "question_number": 178,
+        "question_id": "q5",
+        "doc_id": "1366",
+        "question": "Who was the client for this advertising campaign?",
+        "ranks": {
+          "dense": null,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "1366.jpeg:child:0:1"
+        ]
+      }
+    ],
+    "found_in_base_lost_in_hybrid": [],
+    "found_earlier_lost_at_reranker": [
+      {
+        "question_number": 3,
+        "question_id": "q6",
+        "doc_id": "5814",
+        "question": "What is the amount due as per the invoice?",
+        "ranks": {
+          "dense": null,
+          "sparse": 39,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "5814.jpeg:child:0:2",
+          "5814.jpeg:child:1:1"
+        ]
+      },
+      {
+        "question_number": 56,
+        "question_id": "q9",
+        "doc_id": "8169",
+        "question": "What does the location of the service suggest about the advertising strategy?",
+        "ranks": {
+          "dense": null,
+          "sparse": 36,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "8169.jpeg:child:1:1"
+        ]
+      },
+      {
+        "question_number": 69,
+        "question_id": "q7",
+        "doc_id": "9721",
+        "question": "What is the account code for tracking and managing campaign finances?",
+        "ranks": {
+          "dense": 32,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "9721.jpeg:child:0:2"
+        ]
+      },
+      {
+        "question_number": 71,
+        "question_id": "q7",
+        "doc_id": "7593",
+        "question": "What is the total cost of the goods and shipping?",
+        "ranks": {
+          "dense": 23,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "7593.jpeg:child:0:2"
+        ]
+      },
+      {
+        "question_number": 72,
+        "question_id": "q5",
+        "doc_id": "4285",
+        "question": "Who is the payee of the check?",
+        "ranks": {
+          "dense": null,
+          "sparse": 24,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "4285.jpeg:child:0:1"
+        ]
+      },
+      {
+        "question_number": 73,
+        "question_id": "q2",
+        "doc_id": "563",
+        "question": "Who is the intended payee of the contribution request?",
+        "ranks": {
+          "dense": null,
+          "sparse": 31,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "563.jpeg:child:0:1",
+          "563.jpeg:child:0:2"
+        ]
+      },
+      {
+        "question_number": 77,
+        "question_id": "q2",
+        "doc_id": "4874",
+        "question": "Who is the client associated with this Production Estimate report?",
+        "ranks": {
+          "dense": null,
+          "sparse": 24,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "4874.jpeg:child:0:1"
+        ]
+      },
+      {
+        "question_number": 82,
+        "question_id": "q2",
+        "doc_id": "8567",
+        "question": "Who is the vendor issuing this invoice?",
+        "ranks": {
+          "dense": null,
+          "sparse": 29,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "8567.jpeg:child:0:0",
+          "8567.jpeg:child:0:1"
+        ]
+      },
+      {
+        "question_number": 87,
+        "question_id": "q9",
+        "doc_id": "4185",
+        "question": "What is the memo information on the check?",
+        "ranks": {
+          "dense": 32,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "4185.jpeg:child:0:2"
+        ]
+      },
+      {
+        "question_number": 100,
+        "question_id": "q8",
+        "doc_id": "8432",
+        "question": "What is the payment term mentioned in the invoice?",
+        "ranks": {
+          "dense": 22,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "8432.jpeg:child:1:0"
+        ]
+      },
+      {
+        "question_number": 113,
+        "question_id": "q5",
+        "doc_id": "3037",
+        "question": "What are some potential areas of concern regarding the campaign?",
+        "ranks": {
+          "dense": null,
+          "sparse": 26,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "3037.jpeg:child:1:4"
+        ]
+      },
+      {
+        "question_number": 116,
+        "question_id": "q5",
+        "doc_id": "4021",
+        "question": "Who is the payee of the check?",
+        "ranks": {
+          "dense": 26,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "4021.jpeg:child:0:1",
+          "4021.jpeg:child:1:1"
+        ]
+      },
+      {
+        "question_number": 120,
+        "question_id": "q2",
+        "doc_id": "7324",
+        "question": "What is the address of the issuer?",
+        "ranks": {
+          "dense": 32,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "7324.jpeg:child:0:1"
+        ]
+      },
+      {
+        "question_number": 150,
+        "question_id": "q2",
+        "doc_id": "9366",
+        "question": "What is the purpose of the financial statement?",
+        "ranks": {
+          "dense": null,
+          "sparse": 28,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "9366.jpeg:child:0:2"
+        ]
+      },
+      {
+        "question_number": 168,
+        "question_id": "q3",
+        "doc_id": "394",
+        "question": "What is the amount of the contribution requested?",
+        "ranks": {
+          "dense": 36,
+          "sparse": null,
+          "hybrid": null,
+          "reranker": null
+        },
+        "relevant_chunk_ids": [
+          "394.jpeg:child:0:2"
+        ]
+      }
+    ],
+    "reranker_none": [],
+    "partial_or_other_miss": [
+      {
+        "question_number": 2,
+        "question_id": "q1",
+        "doc_id": "3648",
+        "question": "Who is the issuer of the check?",
+        "ranks": {
+          "dense": null,
+          "sparse": 11,
+          "hybrid": 25,
+          "reranker": 2
+        },
+        "relevant_chunk_ids": [
+          "3648.jpeg:child:0:0",
+          "3648.jpeg:child:0:1"
+        ]
+      },
+      {
+        "question_number": 5,
+        "question_id": "q1",
+        "doc_id": "8974",
+        "question": "What is the name of the company that issued the invoice?",
+        "ranks": {
+          "dense": 20,
+          "sparse": null,
+          "hybrid": 39,
+          "reranker": 18
+        },
+        "relevant_chunk_ids": [
+          "8974.jpeg:child:0:0",
+          "8974.jpeg:child:0:1"
+        ]
+      },
+      {
+        "question_number": 19,
+        "question_id": "q3",
+        "doc_id": "672",
+        "question": "In what areas did the department underutilize its budget as of August 31, 1971?",
+        "ranks": {
+          "dense": 8,
+          "sparse": null,
+          "hybrid": 14,
+          "reranker": 4
+        },
+        "relevant_chunk_ids": [
+          "672.jpeg:child:1:2"
+        ]
+      },
+      {
+        "question_number": 21,
+        "question_id": "q8",
+        "doc_id": "6896",
+        "question": "Why is the voucher important for compliance and auditing?",
+        "ranks": {
+          "dense": null,
+          "sparse": 12,
+          "hybrid": 26,
+          "reranker": 12
+        },
+        "relevant_chunk_ids": [
+          "6896.jpeg:child:1:3"
+        ]
+      },
+      {
+        "question_number": 36,
+        "question_id": "q9",
+        "doc_id": "5929",
+        "question": "What can be inferred about the handling and review of financial documents by Philip Morris?",
+        "ranks": {
+          "dense": null,
+          "sparse": 1,
+          "hybrid": 12,
+          "reranker": 1
+        },
+        "relevant_chunk_ids": [
+          "5929.jpeg:child:1:3"
+        ]
+      },
+      {
+        "question_number": 49,
+        "question_id": "q10",
+        "doc_id": "8743",
+        "question": "Why is it important to observe payment timelines and billing addresses in this document?",
+        "ranks": {
+          "dense": null,
+          "sparse": 1,
+          "hybrid": 10,
+          "reranker": 1
+        },
+        "relevant_chunk_ids": [
+          "8743.jpeg:child:1:1"
+        ]
+      },
+      {
+        "question_number": 52,
+        "question_id": "q7",
+        "doc_id": "533",
+        "question": "What is the vendor number on the invoice?",
+        "ranks": {
+          "dense": 22,
+          "sparse": null,
+          "hybrid": 40,
+          "reranker": 1
+        },
+        "relevant_chunk_ids": [
+          "533.jpeg:child:0:2"
+        ]
+      },
+      {
+        "question_number": 59,
+        "question_id": "q5",
+        "doc_id": "8238",
+        "question": "What is the unit price of the services provided?",
+        "ranks": {
+          "dense": null,
+          "sparse": 1,
+          "hybrid": 6,
+          "reranker": 1
+        },
+        "relevant_chunk_ids": [
+          "8238.jpeg:child:0:2"
+        ]
+      },
+      {
+        "question_number": 65,
+        "question_id": "q2",
+        "doc_id": "3539",
+        "question": "What is the address of the customer, The Tobacco Institute?",
+        "ranks": {
+          "dense": null,
+          "sparse": 12,
+          "hybrid": 26,
+          "reranker": 1
+        },
+        "relevant_chunk_ids": [
+          "3539.jpeg:child:0:1"
+        ]
+      },
+      {
+        "question_number": 78,
+        "question_id": "q1",
+        "doc_id": "8436",
+        "question": "What is the type of document being analyzed?",
+        "ranks": {
+          "dense": 7,
+          "sparse": null,
+          "hybrid": 16,
+          "reranker": 22
+        },
+        "relevant_chunk_ids": [
+          "8436.jpeg:child:0:0",
+          "8436.jpeg:child:1:0",
+          "8436.jpeg:child:1:4"
+        ]
+      },
+      {
+        "question_number": 83,
+        "question_id": "q5",
+        "doc_id": "5989",
+        "question": "What is the amount due mentioned in the Tax Debit Note?",
+        "ranks": {
+          "dense": 14,
+          "sparse": null,
+          "hybrid": 25,
+          "reranker": 2
+        },
+        "relevant_chunk_ids": [
+          "5989.jpeg:child:0:1",
+          "5989.jpeg:child:0:2",
+          "5989.jpeg:child:1:1"
+        ]
+      },
+      {
+        "question_number": 85,
+        "question_id": "q7",
+        "doc_id": "2470",
+        "question": "What is the total expense for decorations at the event?",
+        "ranks": {
+          "dense": 2,
+          "sparse": null,
+          "hybrid": 5,
+          "reranker": 1
+        },
+        "relevant_chunk_ids": [
+          "2470.jpeg:child:0:3"
+        ]
+      },
+      {
+        "question_number": 99,
+        "question_id": "q13",
+        "doc_id": "9071",
+        "question": "What is the net total of the invoice?",
+        "ranks": {
+          "dense": null,
+          "sparse": 10,
+          "hybrid": 25,
+          "reranker": 3
+        },
+        "relevant_chunk_ids": [
+          "9071.jpeg:child:0:3"
+        ]
+      },
+      {
+        "question_number": 102,
+        "question_id": "q1",
+        "doc_id": "8648",
+        "question": "What is the business name mentioned in the document?",
+        "ranks": {
+          "dense": 2,
+          "sparse": null,
+          "hybrid": 3,
+          "reranker": 20
+        },
+        "relevant_chunk_ids": [
+          "8648.jpeg:child:0:0",
+          "8648.jpeg:child:0:1",
+          "8648.jpeg:child:1:0"
+        ]
+      },
+      {
+        "question_number": 108,
+        "question_id": "q4",
+        "doc_id": "3611",
+        "question": "Who is the payee of the check?",
+        "ranks": {
+          "dense": 14,
+          "sparse": null,
+          "hybrid": 29,
+          "reranker": 14
+        },
+        "relevant_chunk_ids": [
+          "3611.jpeg:child:0:0"
+        ]
+      },
+      {
+        "question_number": 122,
+        "question_id": "q8",
+        "doc_id": "965",
+        "question": "What is the purpose of this type of document?",
+        "ranks": {
+          "dense": 5,
+          "sparse": null,
+          "hybrid": 10,
+          "reranker": 5
+        },
+        "relevant_chunk_ids": [
+          "965.jpeg:child:1:3"
+        ]
+      },
+      {
+        "question_number": 132,
+        "question_id": "q4",
+        "doc_id": "8238",
+        "question": "What is the item description of the Purchase Order?",
+        "ranks": {
+          "dense": null,
+          "sparse": 3,
+          "hybrid": 16,
+          "reranker": 6
+        },
+        "relevant_chunk_ids": [
+          "8238.jpeg:child:0:2"
+        ]
+      },
+      {
+        "question_number": 137,
+        "question_id": "q1",
+        "doc_id": "5001",
+        "question": "What is the business name mentioned in the document?",
+        "ranks": {
+          "dense": 8,
+          "sparse": null,
+          "hybrid": 15,
+          "reranker": 9
+        },
+        "relevant_chunk_ids": [
+          "5001.jpeg:child:0:0",
+          "5001.jpeg:child:1:0"
+        ]
+      },
+      {
+        "question_number": 140,
+        "question_id": "q5",
+        "doc_id": "1556",
+        "question": "How much did the Year-to-Date Variance exceed the planned budget?",
+        "ranks": {
+          "dense": 14,
+          "sparse": null,
+          "hybrid": 25,
+          "reranker": 5
+        },
+        "relevant_chunk_ids": [
+          "1556.jpeg:child:2:0"
+        ]
+      },
+      {
+        "question_number": 144,
+        "question_id": "q4",
+        "doc_id": "3528",
+        "question": "What is the payment due date for the current billing cycle?",
+        "ranks": {
+          "dense": null,
+          "sparse": 15,
+          "hybrid": 32,
+          "reranker": 12
+        },
+        "relevant_chunk_ids": [
+          "3528.jpeg:child:0:1"
+        ]
+      },
+      {
+        "question_number": 159,
+        "question_id": "q10",
+        "doc_id": "4771",
+        "question": "What is the estimated revenue from the motor vehicle licenses/fuel tax?",
+        "ranks": {
+          "dense": null,
+          "sparse": 4,
+          "hybrid": 8,
+          "reranker": 5
+        },
+        "relevant_chunk_ids": [
+          "4771.jpeg:child:2:2"
+        ]
+      },
+      {
+        "question_number": 162,
+        "question_id": "q8",
+        "doc_id": "3980",
+        "question": "How can this document inform discussions on cigarette taxation?",
+        "ranks": {
+          "dense": null,
+          "sparse": 1,
+          "hybrid": 6,
+          "reranker": 1
+        },
+        "relevant_chunk_ids": [
+          "3980.jpeg:child:1:2"
+        ]
+      },
+      {
+        "question_number": 172,
+        "question_id": "q4",
+        "doc_id": "2098",
+        "question": "What was the policy period from January 1st, 1986 to January 1st, 1987?",
+        "ranks": {
+          "dense": 1,
+          "sparse": null,
+          "hybrid": 10,
+          "reranker": 1
+        },
+        "relevant_chunk_ids": [
+          "2098.jpeg:child:0:2"
+        ]
+      }
+    ]
+  }
+}
