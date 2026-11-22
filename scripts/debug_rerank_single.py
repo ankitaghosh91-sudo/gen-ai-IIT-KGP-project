@@ -14,9 +14,9 @@ from src.models.records import Document, QAPair
 from src.pipeline import build_strategies_from_config
 from src.strategies.reranker import BGEReranker, _extract_text
 
-QUERY = "What are the objectives of the Universal Trailer project?"
-TARGET_CHUNK_ID = "33.jpeg:child:0:3"
-TARGET_DOC_ID = "33.jpeg"
+QUERY = "Who is the payee of the check?"
+TARGET_CHUNK_ID = "3611.jpeg:child:0:0"
+TARGET_DOC_ID = "3611.jpeg"
 
 
 def _normalize_cid(cid: str | None) -> str:

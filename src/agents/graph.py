@@ -408,3 +408,33 @@ def build_agent_rag_graph(
 
 # Alias for callers expecting build_rag_graph
 build_rag_graph = build_agent_rag_graph
+
+def format_graph_ascii(compiled_graph: Any) -> str:
+    """Return an ASCII representation of the compiled LangGraph."""
+    try:
+        return compiled_graph.get_graph().draw_ascii()
+    except Exception:
+        return (
+            "START -> supervisor\n"
+            "supervisor --(query_planning / finalize)--> ...\n"
+            "query_planning -> retrieval -> evidence_analysis -> answer_generation -> verification\n"
+            "verification --(supervisor / finalize)--> ...\n"
+            "finalize -> END"
+        )
+
+
+def format_query_flow(data: dict[str, Any]) -> str:
+    """Format the per-question path from `steps`, `trace`, or `final_output.trace`."""
+    final_out = data.get("final_output") if isinstance(data.get("final_output"), dict) else {}
+    raw_steps = (
+        data.get("steps")
+        or final_out.get("trace")
+        or data.get("trace")
+        or []
+    )
+    nodes = [str(s).strip() for s in raw_steps if str(s).strip()]
+    if not nodes:
+        return "START -> supervisor -> query_planning -> retrieval -> evidence_analysis -> answer_generation -> verification -> finalize -> END"
+
+    flow = ["START"] + nodes + ["END"]
+    return " -> ".join(flow)

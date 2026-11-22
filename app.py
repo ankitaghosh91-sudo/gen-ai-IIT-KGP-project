@@ -4,6 +4,7 @@ import inspect
 import json
 import logging
 from pathlib import Path
+import time
 from typing import Any
 import uuid
 
@@ -15,6 +16,7 @@ from src.evaluation.ragas_eval import run_ragas_evaluation
 from src.logging_config import configure_logging
 from src.models.records import Document, QAPair
 from src.pipeline import build_strategies_from_config, run_pipeline
+from src.agents.graph import format_query_flow
 
 configure_logging()
 
@@ -155,6 +157,23 @@ def _is_cited_item(item: Any, cited_doc_ids: set[str], cited_chunk_ids: set[str]
     return False
 
 
+def _extract_rewritten_query(payload: Any, original_question: str) -> str | None:
+    rewritten = ""
+    if isinstance(payload, dict):
+        rewritten = str(
+            payload.get("rewritten_query")
+            or payload.get("planned_query")
+            or payload.get("query")
+            or ""
+        ).strip()
+    elif isinstance(payload, str):
+        rewritten = payload.strip()
+
+    if rewritten and rewritten != original_question.strip():
+        return rewritten
+    return None
+
+
 def _invoke_pipeline_with_stages(
     *,
     question: str,
@@ -162,20 +181,59 @@ def _invoke_pipeline_with_stages(
     session_id: str,
     image: Any,
     strategies: Any,
-    step_supervisor,
-    step_planner,
-    step_llm,
-    step_verifier,
-) -> dict:
-    def _on_stage(stage: str) -> None:
-        if stage == "supervisor":
-            step_supervisor.write("🧭 **Supervisor Agent:** Passing query to Retriever...")
-        elif stage == "planner":
-            step_planner.write("📝 **Planner Agent:** Evaluating query & checking for rewrite...")
-        elif stage == "llm":
-            step_llm.write("🤖 **Final LLM:** Generating grounded answer from evidence...")
-        elif stage == "verifier":
-            step_verifier.write("✅ **Verifier Agent:** Verifying citations & response schema...")
+    active_banner,
+    trace_box,
+    step_delay_s: float = 0.14,
+) -> tuple[dict, list[str]]:
+    trace_lines: list[str] = []
+
+    def _push_stage(active_msg: str, done_msg: str) -> None:
+        active_banner.info(active_msg)
+        if done_msg not in trace_lines:
+            trace_lines.append(done_msg)
+            trace_box.markdown("\n".join(f"- {line}" for line in trace_lines))
+        if step_delay_s > 0:
+            time.sleep(step_delay_s)
+
+    def _on_stage(stage: Any, payload: Any = None) -> None:
+        stage_name = str(stage or "").lower().strip()
+        if stage_name == "supervisor":
+            _push_stage(
+                "🧭 **Supervisor Agent working...** Routing query across pipeline stages.",
+                "🧭 **Supervisor Agent:** Routed query to pipeline.",
+            )
+        elif stage_name == "planner":
+            rewritten = _extract_rewritten_query(payload, question)
+            if rewritten:
+                _push_stage(
+                    f"📝 **Planner Agent rewriting query...** → `{rewritten}`",
+                    f"📝 **Planner Agent:** Rewrote query → `{rewritten}`",
+                )
+            else:
+                _push_stage(
+                    "📝 **Planner Agent working...** Evaluating query & search plan.",
+                    "📝 **Planner Agent:** Checked query plan.",
+                )
+        elif stage_name in {"retriever", "retrieval"}:
+            count_note = ""
+            if isinstance(payload, int):
+                count_note = f" ({payload} chunks)"
+            elif isinstance(payload, dict) and payload.get("count") is not None:
+                count_note = f" ({payload['count']} chunks)"
+            _push_stage(
+                f"🔎 **Retriever Agent working...** Searching & reranking evidence{count_note}.",
+                f"🔎 **Retriever Agent:** Retrieved evidence{count_note}.",
+            )
+        elif stage_name in {"llm", "generator", "analyst"}:
+            _push_stage(
+                "🤖 **Final LLM working...** Synthesizing grounded answer from evidence.",
+                "🤖 **Final LLM:** Generated grounded response.",
+            )
+        elif stage_name == "verifier":
+            _push_stage(
+                "✅ **Verifier Agent working...** Checking citations & grounding.",
+                "✅ **Verifier Agent:** Verified response & citations.",
+            )
 
     sig = inspect.signature(run_pipeline)
     kwargs: dict[str, Any] = {
@@ -186,7 +244,74 @@ def _invoke_pipeline_with_stages(
     if "on_stage" in sig.parameters:
         kwargs["on_stage"] = _on_stage
 
-    return run_pipeline(question, documents, **kwargs)
+    result = run_pipeline(question, documents, **kwargs)
+    return result, trace_lines
+
+
+def _replay_completed_stages(
+    *,
+    result: dict[str, Any],
+    question: str,
+    active_banner,
+    trace_box,
+    existing_lines: list[str],
+    step_delay_s: float = 0.14,
+) -> list[str]:
+    lines = list(existing_lines)
+    steps = [str(s).lower().strip() for s in (result.get("steps") or []) if s]
+    evidence_list = result.get("evidence") or []
+    answer_obj = result.get("answer") or {}
+    citations_list = _format_citations(answer_obj.get("citations") or [])
+    rewritten_query = (
+        result.get("rewritten_query")
+        or result.get("planned_query")
+        or answer_obj.get("rewritten_query")
+        or (result.get("metrics") or {}).get("rewritten_query")
+    )
+
+    stage_sequence = steps or ["supervisor", "planner", "retriever", "llm", "verifier"]
+
+    for stg in stage_sequence:
+        if any(tag in stg for tag in ("super", "route", "start")):
+            active_msg = "🧭 **Supervisor Agent working...** Routing query across pipeline stages."
+            done_msg = f"🧭 **Supervisor Agent:** Routed query ({len(evidence_list)} chunks retrieved)."
+        elif "plan" in stg or "rewrit" in stg:
+            rewritten = _extract_rewritten_query(rewritten_query, question)
+            if rewritten:
+                active_msg = f"📝 **Planner Agent rewriting query...** → `{rewritten}`"
+                done_msg = f"📝 **Planner Agent:** Rewrote query → `{rewritten}`"
+            else:
+                active_msg = "📝 **Planner Agent working...** Checking query & retrieval plan."
+                done_msg = "📝 **Planner Agent:** Checked query plan (no rewrite needed)."
+        elif "retriev" in stg or "search" in stg or "rerank" in stg:
+            active_msg = f"🔎 **Retriever Agent working...** Searching & reranking ({len(evidence_list)} chunks)."
+            done_msg = f"🔎 **Retriever Agent:** Retrieved {len(evidence_list)} evidence chunk(s)."
+        elif any(tag in stg for tag in ("llm", "generat", "answer", "analy")):
+            active_msg = "🤖 **Final LLM working...** Synthesizing grounded response."
+            done_msg = "🤖 **Final LLM:** Generated grounded answer."
+        elif "verif" in stg or "cit" in stg:
+            active_msg = "✅ **Verifier Agent working...** Checking citations & grounding."
+            if answer_obj.get("should_refuse"):
+                done_msg = (
+                    f"✅ **Verifier Agent:** Refusal verified "
+                    f"({answer_obj.get('reason') or 'insufficient evidence'})."
+                )
+            elif citations_list:
+                done_msg = f"✅ **Verifier Agent:** Verified {len(citations_list)} citation(s)."
+            else:
+                done_msg = "⚠️ **Verifier Agent:** Completed with no citations."
+        else:
+            active_msg = f"⚙️ **{stg} working...**"
+            done_msg = f"⚙️ **{stg}:** Completed."
+
+        active_banner.info(active_msg)
+        if done_msg not in lines:
+            lines.append(done_msg)
+            trace_box.markdown("\n".join(f"- {line}" for line in lines))
+        if step_delay_s > 0:
+            time.sleep(step_delay_s)
+
+    return lines
 
 
 def _render_latest_result(result: dict[str, Any]) -> None:
@@ -194,6 +319,7 @@ def _render_latest_result(result: dict[str, Any]) -> None:
     evidence_list = result.get("evidence", [])
     citations_list = _format_citations(answer_obj.get("citations") or [])
     cited_doc_ids, cited_chunk_ids = _extract_cited_keys(citations_list)
+    agent_trace = result.get("_agent_trace") or []
 
     boosted_items = []
     for item in evidence_list:
@@ -249,7 +375,12 @@ def _render_latest_result(result: dict[str, Any]) -> None:
     ]
     displayed_evidence = cited_first + other_items
 
+    st.markdown("**Graph Flow for This Query**")
+    st.code(format_query_flow(result), language="text")
     with st.expander("Pipeline details"):
+        if agent_trace:
+            st.markdown("**Agent execution trace**")
+            st.markdown("\n".join(f"- {line}" for line in agent_trace))
         st.write("Conversation history", result.get("history", []))
         st.write(" → ".join(result.get("steps", [])))
         st.json(result.get("metrics", {}))
@@ -373,66 +504,33 @@ def main():
         )
         try:
             with st.status("Multi-agent pipeline running...", expanded=True) as status_box:
-                step_supervisor = st.empty()
-                step_planner = st.empty()
-                step_llm = st.empty()
-                step_verifier = st.empty()
+                active_banner = st.empty()
+                trace_box = st.empty()
+                active_banner.info("🧭 **Supervisor Agent working...** Starting pipeline.")
 
-                step_supervisor.write("🧭 **Supervisor Agent:** Passing query to Retriever...")
-                step_planner.write("📝 **Planner Agent:** Checking if query rewrite is needed...")
-                step_llm.write("🤖 **Final LLM:** Waiting for retrieved evidence...")
-                step_verifier.write("✅ **Verifier Agent:** Waiting to verify citations...")
-
-                result = _invoke_pipeline_with_stages(
+                result, trace_lines = _invoke_pipeline_with_stages(
                     question=question,
                     documents=documents,
                     session_id=st.session_state.session_id,
                     image=image,
                     strategies=strategies,
-                    step_supervisor=step_supervisor,
-                    step_planner=step_planner,
-                    step_llm=step_llm,
-                    step_verifier=step_verifier,
+                    active_banner=active_banner,
+                    trace_box=trace_box,
+                    step_delay_s=0.14,
                 )
 
-                answer_obj = result.get("answer", {})
-                evidence_list = result.get("evidence", [])
-                citations_list = _format_citations(answer_obj.get("citations") or [])
-
-                rewritten_query = (
-                    result.get("rewritten_query")
-                    or result.get("planned_query")
-                    or answer_obj.get("rewritten_query")
-                    or (result.get("metrics") or {}).get("rewritten_query")
+                trace_lines = _replay_completed_stages(
+                    result=result,
+                    question=question,
+                    active_banner=active_banner,
+                    trace_box=trace_box,
+                    existing_lines=trace_lines,
+                    step_delay_s=0.14,
                 )
 
-                step_supervisor.write(
-                    f"🧭 **Supervisor Agent:** Passed query to Retriever ({len(evidence_list)} chunks retrieved)."
-                )
-                if (
-                    rewritten_query
-                    and str(rewritten_query).strip()
-                    and str(rewritten_query).strip() != question.strip()
-                ):
-                    step_planner.write(
-                        f"📝 **Planner Agent:** Rewrote query → `{str(rewritten_query).strip()}`"
-                    )
-                else:
-                    step_planner.write(
-                        "📝 **Planner Agent:** No query rewrite needed; used original query."
-                    )
-                step_llm.write("🤖 **Final LLM:** Generated grounded response.")
-
-                if answer_obj.get("should_refuse"):
-                    step_verifier.write(
-                        f"✅ **Verifier Agent:** Verified refusal ({answer_obj.get('reason') or 'insufficient evidence'})."
-                    )
-                elif citations_list:
-                    step_verifier.write(
-                        f"✅ **Verifier Agent:** Verified {len(citations_list)} citation(s) against evidence."
-                    )
-                else:
-                    step_verifier.write("⚠️ **Verifier Agent:** No citations present.")
+                result["_agent_trace"] = trace_lines
+                active_banner.success("✨ **Pipeline finished** — answer ready below.")
+                trace_box.markdown("\n".join(f"- {line}" for line in trace_lines))
 
                 status_box.update(
                     label="Multi-agent pipeline completed",
@@ -457,6 +555,8 @@ def main():
                 "question": question,
                 "answer": answer_obj.get("answer", ""),
                 "evidence": evidence_list,
+                "should_refuse": bool(answer_obj.get("should_refuse", False)),
+                "reason": str(answer_obj.get("reason") or ""),
             }
         )
 
