@@ -213,7 +213,6 @@ def _build_embedder(config: AppConfig):
 
 def _build_search(config: AppConfig):
     chunker = _build_chunker(config)
-    embedder = _build_embedder(config)
     parent_store = _build_parent_store(config, chunker)
 
     if config.search_strategy == "keyword":
@@ -221,6 +220,7 @@ def _build_search(config: AppConfig):
     elif config.search_strategy == "bm25":
         base = BM25Search(chunker=chunker)
     elif config.search_strategy == "chroma":
+        embedder = _build_embedder(config)
         base = ChromaSearch(
             path=config.chroma_path,
             collection_name=config.chroma_collection,
@@ -229,6 +229,7 @@ def _build_search(config: AppConfig):
             parent_store=parent_store,
         )
     elif config.search_strategy == "hybrid":
+        embedder = _build_embedder(config)
         chroma_base = ChromaSearch(
             path=config.chroma_path,
             collection_name=config.chroma_collection,
@@ -243,6 +244,7 @@ def _build_search(config: AppConfig):
             rrf_k=60,
         )
     elif config.search_strategy in ("hybrid_reranker", "hybrid-reranker"):
+        embedder = _build_embedder(config)
         chroma_base = ChromaSearch(
             path=config.chroma_path,
             collection_name=config.chroma_collection,

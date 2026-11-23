@@ -34,8 +34,24 @@
         <div><label>Vector DB</label><br /><select id="vector_db"><option value="chroma">chroma</option></select></div>
         <div><label>Vector path</label><br /><input id="vector_path" value="data/processed/chroma" /></div>
         <div><label>Vector collection</label><br /><input id="vector_collection" value="finance_sample" /></div>
-        <div><label>Embedder</label><br /><select id="embedder_strategy"><option value="hashing">hashing</option><option value="sentence_transformer">sentence_transformer</option></select></div>
-        <div><label>Chunking</label><br /><select id="chunking_strategy"><option value="whole">whole</option><option value="fixed">fixed</option><option value="paragraph">paragraph</option></select></div>
+        <div>
+          <label>Embedder</label><br />
+          <select id="embedder_strategy">
+            <option value="hashing">hashing</option>
+            <option value="sentence_transformer">sentence_transformer</option>
+            <option value="bge_api">bge_api</option>
+          </select>
+        </div>
+        <div>
+          <label>Chunking</label><br />
+          <select id="chunking_strategy">
+            <option value="whole">whole</option>
+            <option value="fixed">fixed</option>
+            <option value="paragraph">paragraph</option>
+            <option value="recursive">recursive</option>
+            <option value="parent_child">parent_child</option>
+          </select>
+        </div>
         <div><label>Chunk size</label><br /><input id="chunk_size" type="number" value="800" /></div>
         <div><label>Chunk overlap</label><br /><input id="chunk_overlap" type="number" value="100" /></div>
         <div><label>Use saved sample only (no download)</label><br />
@@ -49,6 +65,12 @@
     </div>
 
     <div class="card">
+      <p style="margin-top:0">
+        <strong>Note:</strong> <code>bge_api</code> requires embedding API credentials in environment
+        (for example <code>EMBEDDING_API_KEY</code>). <code>parent_child</code> and
+        <code>recursive</code> use <code>chunk_size</code>/<code>chunk_overlap</code> more directly than
+        <code>whole</code>/<code>paragraph</code>.
+      </p>
       <h3>Saved setup history</h3>
       <table>
         <thead>

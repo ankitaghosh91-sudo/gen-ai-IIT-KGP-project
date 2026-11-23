@@ -8,4 +8,5 @@ from src.generate.llm_adapter import LLMModelAdapter
 def build_model_callable():
     """Create the configured LLM model callable."""
     llm_client = LLMClient()
+    print(f"LLM Client: {llm_client}")
     return LLMModelAdapter(llm_client)

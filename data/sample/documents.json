@@ -44,7 +44,7 @@
         "answer": "Detailed and itemized budget planning helps in transparent financial management and accountability."
       }
     ],
-    "image_path": "data/sample/images/175.jpeg"
+    "image_path": "/Users/gauravlad/PycharmProjects/gen-ai-IIT-KGP-project-full/data/sample/images/175.jpeg"
   },
   {
     "doc_id": "3348.jpeg",
@@ -103,7 +103,7 @@
         "answer": "It suggests strong budgeting and forecasting in their advertising plan."
       }
     ],
-    "image_path": "data/sample/images/3348.jpeg"
+    "image_path": "/Users/gauravlad/PycharmProjects/gen-ai-IIT-KGP-project-full/data/sample/images/3348.jpeg"
   },
   {
     "doc_id": "1466.jpeg",
@@ -142,7 +142,7 @@
         "answer": "The estimate number has a 'revised' tag because it appears to track changes or updates in advertising expenses for a specific product"
       }
     ],
-    "image_path": "data/sample/images/1466.jpeg"
+    "image_path": "/Users/gauravlad/PycharmProjects/gen-ai-IIT-KGP-project-full/data/sample/images/1466.jpeg"
   },
   {
     "doc_id": "4573.jpeg",
@@ -193,7 +193,7 @@
         "answer": "The instruction is to mail the check as soon as possible."
       }
     ],
-    "image_path": "data/sample/images/4573.jpeg"
+    "image_path": "/Users/gauravlad/PycharmProjects/gen-ai-IIT-KGP-project-full/data/sample/images/4573.jpeg"
   },
   {
     "doc_id": "5104.jpeg",
@@ -244,7 +244,7 @@
         "answer": "The high travel expenses might be due to frequent or expensive trips made on behalf of the tobacco companies, possibly for litigation or business meetings."
       }
     ],
-    "image_path": "data/sample/images/5104.jpeg"
+    "image_path": "/Users/gauravlad/PycharmProjects/gen-ai-IIT-KGP-project-full/data/sample/images/5104.jpeg"
   },
   {
     "doc_id": "803.jpeg",
@@ -291,7 +291,7 @@
         "answer": "This structure aids in scaling the estimates based on operational requirements or project changes."
       }
     ],
-    "image_path": "data/sample/images/803.jpeg"
+    "image_path": "/Users/gauravlad/PycharmProjects/gen-ai-IIT-KGP-project-full/data/sample/images/803.jpeg"
   },
   {
     "doc_id": "8267.jpeg",
@@ -342,7 +342,7 @@
         "answer": "To review the detailed billing for a breakdown of services and to verify the charges."
       }
     ],
-    "image_path": "data/sample/images/8267.jpeg"
+    "image_path": "/Users/gauravlad/PycharmProjects/gen-ai-IIT-KGP-project-full/data/sample/images/8267.jpeg"
   },
   {
     "doc_id": "1559.jpeg",
@@ -389,7 +389,7 @@
         "answer": "An increase of $72,000 ($153,000 in 1992 to $225,000 in 1993)"
       }
     ],
-    "image_path": "data/sample/images/1559.jpeg"
+    "image_path": "/Users/gauravlad/PycharmProjects/gen-ai-IIT-KGP-project-full/data/sample/images/1559.jpeg"
   },
   {
     "doc_id": "1007.jpeg",
@@ -432,7 +432,7 @@
         "answer": "The spending is fairly consistent across the first three quarters but spikes in the fourth, suggesting strategic financial planning or market conditions influencing expenditure."
       }
     ],
-    "image_path": "data/sample/images/1007.jpeg"
+    "image_path": "/Users/gauravlad/PycharmProjects/gen-ai-IIT-KGP-project-full/data/sample/images/1007.jpeg"
   },
   {
     "doc_id": "532.jpeg",
@@ -479,6 +479,6 @@
         "answer": "1997"
       }
     ],
-    "image_path": "data/sample/images/532.jpeg"
+    "image_path": "/Users/gauravlad/PycharmProjects/gen-ai-IIT-KGP-project-full/data/sample/images/532.jpeg"
   }
 ]

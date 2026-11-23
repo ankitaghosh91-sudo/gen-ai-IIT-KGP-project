@@ -9,6 +9,7 @@ class QueryRequest(BaseModel):
     run_name: str = "interactive"
     scope: str = "global"
     doc_id: str | None = None
+    use_agent_graph: bool | None = None
 
 
 class QueryResponse(BaseModel):
@@ -19,6 +20,8 @@ class QueryResponse(BaseModel):
     citations: list[dict]
     retrieved: list[dict]
     critiques: list[str]
+    agent_trace: list[str] = []
+    execution_mode: str = "pipeline"
 
 
 class MetricsCreateRequest(BaseModel):
@@ -61,3 +64,26 @@ class EvaluationResponse(BaseModel):
     eval_run_id: int
     summary: dict
     observations: list[dict]
+
+
+class RetrievalReportRequest(BaseModel):
+    input_path: str = "data/sample_500/documents.json"
+    labels_path: str = "data/evaluation/500_docs_parent_child/evaluation_gold_set_200.json"
+    output_path: str = "data/evaluation/500_docs_parent_child/retrieval_evaluation_results_with_reranker.json"
+
+
+class RetrievalTraceRequest(BaseModel):
+    input_path: str = "data/sample_500/documents.json"
+    labels_path: str = "data/evaluation/500_docs_parent_child/evaluation_gold_set_200.json"
+    output_path: str = "data/evaluation/500_docs_parent_child/reports/retrieval_reranker_trace_200.json"
+    text_output_path: str | None = "data/evaluation/500_docs_parent_child/reports/retrieval_reranker_trace_200.txt"
+    limit: int = Field(default=25, ge=1, le=500)
+    table_rows: int = Field(default=30, ge=5, le=200)
+    reranker_top_display: int = Field(default=10, ge=1, le=100)
+    index_docs: bool = False
+
+
+class TraceAnalysisRequest(BaseModel):
+    input_path: str = "data/evaluation/500_docs_parent_child/reports/retrieval_reranker_trace_200.json"
+    output_json: str = "data/evaluation/500_docs_parent_child/reports/trace_analysis_report_200.json"
+    text_output: str | None = "data/evaluation/500_docs_parent_child/reports/retrieve_analysis_summary_200.txt"

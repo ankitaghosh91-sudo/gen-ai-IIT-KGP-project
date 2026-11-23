@@ -4,6 +4,7 @@ from pathlib import Path
 from time import perf_counter
 from contextlib import asynccontextmanager
 from collections import Counter
+import json
 
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse
@@ -13,6 +14,7 @@ from src.config import AppConfig
 from src.data import load_dataset_subset, load_saved_sample, save_sample
 from src.db import MetricsStore
 from src.pipeline import build_strategies_from_config, run_pipeline
+from src.pipeline.factory import build_agent_rag_graph
 
 from .schemas import (
     EvaluationRequest,
@@ -22,6 +24,9 @@ from .schemas import (
     QueryRequest,
     QueryResponse,
     RagSetupRequest,
+    RetrievalReportRequest,
+    RetrievalTraceRequest,
+    TraceAnalysisRequest,
 )
 
 import logging
@@ -65,6 +70,110 @@ def _ensure_state() -> None:
     startup()
 
 
+def _item_field(item, key: str, default=None):
+    if isinstance(item, dict):
+        return item.get(key, default)
+    return getattr(item, key, default)
+
+
+def _maybe_index_documents(config: AppConfig, strategies, documents) -> None:
+    if config.search_strategy not in {"chroma", "hybrid", "hybrid_reranker", "hybrid-reranker"}:
+        return
+    if not documents:
+        return
+    search = getattr(getattr(strategies, "rag", None), "text", None)
+    search = getattr(search, "search", None)
+    if search is None:
+        return
+    index_fn = getattr(search, "index_documents", None)
+    if callable(index_fn):
+        index_fn(documents)
+
+
+def _to_citation_pairs(final_output: dict, reranked_docs: list[dict]) -> list[dict]:
+    pairs = final_output.get("citation_pairs") or []
+    if pairs:
+        return [
+            {
+                "doc_id": str(item.get("doc_id", "")),
+                "chunk_id": str(item.get("chunk_id", "")),
+            }
+            for item in pairs
+            if isinstance(item, dict) and item.get("doc_id")
+        ]
+    by_chunk = {
+        str(item.get("chunk_id")): str(item.get("doc_id"))
+        for item in reranked_docs
+        if item.get("chunk_id") and item.get("doc_id")
+    }
+    citations = []
+    for chunk_id in final_output.get("citations", []) or []:
+        doc_id = by_chunk.get(str(chunk_id))
+        if doc_id:
+            citations.append({"doc_id": doc_id, "chunk_id": str(chunk_id)})
+    return citations
+
+
+def _run_agent_query(question: str, session_id: str, expected_answer: str | None = None) -> dict:
+    config = app.state.config
+    graph = build_agent_rag_graph(
+        config=config,
+        rag_or_search=app.state.strategies.rag,
+        prompt_strategy=app.state.strategies.prompt,
+        documents=app.state.documents,
+        model_callable=getattr(app.state, "model_callable", None),
+    )
+    initial_state = {
+        "question": question,
+        "attachment": None,
+        "plan": {"mode": "initial_search", "focus_gaps": [], "feedback": ""},
+        "search_queries": [],
+        "doc_scope": None,
+        "candidates": [],
+        "reranked_docs": [],
+        "evidence_sufficient": False,
+        "evidence_gaps": [],
+        "draft_answer": "",
+        "should_refuse": False,
+        "refusal_reason": "",
+        "citations": [],
+        "citation_pairs": [],
+        "verified": False,
+        "verification_notes": "",
+        "attempt": 0,
+        "max_attempts": config.agent_max_attempts,
+        "trace": [],
+        "final_output": {},
+    }
+    state = graph.invoke(initial_state)
+    final_output = state.get("final_output", {})
+    reranked_docs = state.get("reranked_docs", []) or []
+    citations = _to_citation_pairs(final_output, reranked_docs)
+    answer = {
+        "answer": final_output.get("answer", ""),
+        "citations": citations,
+        "should_refuse": bool(final_output.get("should_refuse", state.get("should_refuse", False))),
+        "reason": final_output.get("refusal_reason", state.get("refusal_reason", "")),
+    }
+    metrics = {
+        "retrieved_count": len(reranked_docs),
+        "has_citation": bool(citations),
+        "refused": bool(answer["should_refuse"]),
+        "verified": bool(final_output.get("verified", state.get("verified", False))),
+    }
+    if expected_answer is not None:
+        metrics["exact_match"] = float(answer["answer"].strip().casefold() == expected_answer.strip().casefold())
+    return {
+        "answer": answer,
+        "route": "text",
+        "evidence": reranked_docs,
+        "history": app.state.strategies.memory.get(session_id),
+        "metrics": metrics,
+        "steps": list(state.get("trace", [])) or ["agent_graph_execution"],
+        "_agent_trace": list(state.get("trace", [])),
+    }
+
+
 def startup():
     config = AppConfig.from_env()
     logger.info(
@@ -80,6 +189,7 @@ def startup():
         from src.generate.generate_answer import build_model_callable
 
         model_callable = build_model_callable()
+    app.state.model_callable = model_callable
 
     app.state.strategies = build_strategies_from_config(
         config,
@@ -89,11 +199,7 @@ def startup():
 
     try:
         app.state.documents = load_saved_sample()
-
-        if config.search_strategy == "chroma":
-            app.state.strategies.rag.text.search.index_documents(
-                app.state.documents
-            )
+        _maybe_index_documents(config, app.state.strategies, app.state.documents)
 
     except FileNotFoundError as exc:
         raise RuntimeError(
@@ -127,10 +233,10 @@ def _compute_rank_gain(
 def _serialize_evidence(evidence_items) -> list[dict]:
     serialized = []
     for item in evidence_items:
-        dense_rank = getattr(item, "dense_rank", None)
-        sparse_rank = getattr(item, "sparse_rank", None)
-        hybrid_rank = getattr(item, "hybrid_rank", None)
-        rerank_rank = getattr(item, "rerank_rank", None)
+        dense_rank = _item_field(item, "dense_rank", None)
+        sparse_rank = _item_field(item, "sparse_rank", None)
+        hybrid_rank = _item_field(item, "hybrid_rank", None)
+        rerank_rank = _item_field(item, "rerank_rank", None)
 
         pre_rerank_rank, rank_gain = _compute_rank_gain(
             dense_rank=dense_rank,
@@ -138,18 +244,18 @@ def _serialize_evidence(evidence_items) -> list[dict]:
             hybrid_rank=hybrid_rank,
             rerank_rank=rerank_rank,
         )
-        if rank_gain is None and getattr(item, "rank_gain", None) is not None:
-            rank_gain = getattr(item, "rank_gain")
+        if rank_gain is None and _item_field(item, "rank_gain", None) is not None:
+            rank_gain = _item_field(item, "rank_gain")
 
         serialized.append(
             {
-                "doc_id": item.doc_id,
-                "chunk_id": getattr(item, "chunk_id", None),
-                "question": getattr(item, "question", None),
-                "answer": getattr(item, "answer", None),
-                "chunk_text": (getattr(item, "text", "") or "")[:4000],
-                "image_path": getattr(item, "image_path", None),
-                "score": round(float(getattr(item, "score", 0.0) or 0.0), 4),
+                "doc_id": _item_field(item, "doc_id", ""),
+                "chunk_id": _item_field(item, "chunk_id", None),
+                "question": _item_field(item, "question", None),
+                "answer": _item_field(item, "answer", None),
+                "chunk_text": (_item_field(item, "text", "") or "")[:4000],
+                "image_path": _item_field(item, "image_path", None),
+                "score": round(float(_item_field(item, "score", 0.0) or 0.0), 4),
                 "dense_rank": dense_rank,
                 "sparse_rank": sparse_rank,
                 "hybrid_rank": hybrid_rank,
@@ -267,15 +373,26 @@ def config():
 def query(payload: QueryRequest):
     _ensure_state()
     started = perf_counter()
+    use_agent_graph = (
+        payload.use_agent_graph
+        if payload.use_agent_graph is not None
+        else bool(app.state.config.use_multi_agent_graph)
+    )
     try:
-        result = run_pipeline(
-            question=payload.question,
-            documents=app.state.documents,
-            session_id=payload.session_id,
-            strategies=app.state.strategies,
-            scope=payload.scope,
-            doc_id=payload.doc_id,
-        )
+        if use_agent_graph:
+            result = _run_agent_query(
+                question=payload.question,
+                session_id=payload.session_id,
+            )
+        else:
+            result = run_pipeline(
+                question=payload.question,
+                documents=app.state.documents,
+                session_id=payload.session_id,
+                strategies=app.state.strategies,
+                scope=payload.scope,
+                doc_id=payload.doc_id,
+            )
     except ValueError as exc:
         raise HTTPException(status_code=400, detail=str(exc)) from exc
 
@@ -328,6 +445,8 @@ def query(payload: QueryRequest):
             "citations": result["answer"].get("citations", []),
             "critiques": _critiques(result["answer"], serialized_evidence),
             "retrieved": trace_evidence,
+            "agent_trace": result.get("_agent_trace", []),
+            "execution_mode": "agent_graph" if use_agent_graph else "pipeline",
         }
     )
     return QueryResponse(
@@ -338,6 +457,8 @@ def query(payload: QueryRequest):
         citations=result["answer"].get("citations", []),
         retrieved=serialized_evidence,
         critiques=_critiques(result["answer"], serialized_evidence),
+        agent_trace=result.get("_agent_trace", []),
+        execution_mode="agent_graph" if use_agent_graph else "pipeline",
     )
 
 
@@ -390,7 +511,13 @@ def rag_setup(payload: RagSetupRequest):
     config.chroma_path = payload.vector_path
     config.chroma_collection = payload.vector_collection
 
-    strategies = build_strategies_from_config(config)
+    model_callable = None
+    if config.answer_strategy == "llm":
+        from src.generate.generate_answer import build_model_callable
+
+        model_callable = build_model_callable()
+
+    strategies = build_strategies_from_config(config, model_callable=model_callable)
     # Force index creation by executing one search call.
     if documents and documents[0].qa_pairs:
         run_pipeline(
@@ -402,7 +529,9 @@ def rag_setup(payload: RagSetupRequest):
 
     app.state.config = config
     app.state.strategies = strategies
+    app.state.model_callable = model_callable
     app.state.documents = documents
+    _maybe_index_documents(config, strategies, documents)
     setup_id = app.state.metrics_store.insert_rag_setup(
         {
             "setup_name": payload.setup_name,
@@ -434,6 +563,7 @@ def list_rag_setups(limit: int = 30):
 @app.post("/api/evaluate", response_model=EvaluationResponse)
 def evaluate(payload: EvaluationRequest):
     _ensure_state()
+    use_agent_graph = bool(app.state.config.use_multi_agent_graph)
     datapoints = []
     for document in app.state.documents:
         for pair in document.qa_pairs:
@@ -452,13 +582,20 @@ def evaluate(payload: EvaluationRequest):
     refused = 0
     cited = 0
     for doc_id, question, expected_answer, image_path in datapoints:
-        result = run_pipeline(
-            question=question,
-            documents=app.state.documents,
-            session_id=payload.session_id,
-            expected_answer=expected_answer,
-            strategies=app.state.strategies,
-        )
+        if use_agent_graph:
+            result = _run_agent_query(
+                question=question,
+                session_id=payload.session_id,
+                expected_answer=expected_answer,
+            )
+        else:
+            result = run_pipeline(
+                question=question,
+                documents=app.state.documents,
+                session_id=payload.session_id,
+                expected_answer=expected_answer,
+                strategies=app.state.strategies,
+            )
         predicted = result["answer"]["answer"]
         is_correct = predicted.strip().casefold() == expected_answer.strip().casefold()
         has_citation = bool(result["answer"].get("citations"))
@@ -529,4 +666,80 @@ def get_evaluation(eval_run_id: int, limit: int = 300):
         item["image_url"] = _image_url(item.get("image_path", ""))
     return {
         "observations": observations,
+    }
+
+
+@app.post("/api/reports/retrieval")
+def generate_retrieval_report(payload: RetrievalReportRequest):
+    from scripts.evaluate_retrieval_strategies import evaluate_retrieval_strategies
+
+    report = evaluate_retrieval_strategies(
+        docs_path=payload.input_path,
+        labels_path=payload.labels_path,
+        output_path=payload.output_path,
+    )
+    if report is None:
+        raise HTTPException(
+            status_code=400,
+            detail="No eligible QA pairs found in labels. Check label key fields.",
+        )
+    return {
+        "output_path": payload.output_path,
+        "summary_averages": report.get("summary_averages", {}),
+        "strategies": list(report.get("detailed_results", {}).keys()),
+        "question_count": {
+            key: len(val)
+            for key, val in report.get("detailed_results", {}).items()
+        },
+    }
+
+
+@app.post("/api/reports/retrieval-trace")
+def generate_retrieval_trace(payload: RetrievalTraceRequest):
+    from scripts.debug_retrieval_reranker_trace import trace_retrieval_and_reranker
+
+    report = trace_retrieval_and_reranker(
+        docs_path=payload.input_path,
+        labels_path=payload.labels_path,
+        output_path=payload.output_path,
+        text_output_path=payload.text_output_path,
+        limit=payload.limit,
+        table_rows=payload.table_rows,
+        reranker_top_display=payload.reranker_top_display,
+        index_docs=payload.index_docs,
+    )
+    return {
+        "output_path": payload.output_path,
+        "text_output_path": payload.text_output_path,
+        "items": len(report.get("items", [])),
+        "meta": report.get("meta", {}),
+    }
+
+
+@app.post("/api/reports/trace-analysis")
+def generate_trace_analysis(payload: TraceAnalysisRequest):
+    from scripts.retrieve_analysis_script import analyze_trace, format_report
+
+    report = analyze_trace(payload.input_path)
+    summary_text = format_report(report)
+
+    output_json = Path(payload.output_json)
+    output_json.parent.mkdir(parents=True, exist_ok=True)
+    output_json.write_text(json.dumps(report, indent=2), encoding="utf-8")
+
+    if payload.text_output:
+        text_path = Path(payload.text_output)
+        text_path.parent.mkdir(parents=True, exist_ok=True)
+        text_path.write_text(summary_text, encoding="utf-8")
+
+    return {
+        "output_json": payload.output_json,
+        "text_output": payload.text_output,
+        "summary": {
+            "total_questions": report.get("total_questions", 0),
+            "complete_failure_count": report.get("complete_failure_count", 0),
+            "partial_failure_count": report.get("partial_failure_count", 0),
+            "reranker_improvement_count": report.get("reranker_improvement_count", 0),
+            "reranker_regression_count": report.get("reranker_regression_count", 0),
+        },
     }

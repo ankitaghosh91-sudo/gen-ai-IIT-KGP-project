@@ -1,18 +1,26 @@
-Total Questions Evaluated : 200
-Complete Failures         : 76
-Partial Failures          : 36
-Reranker Rank Improvements: 55
-Reranker Rank Regressions : 25
+Total Questions Evaluated : 25
+Complete Failures         : 23
+Partial Failures          : 1
+Reranker Rank Improvements: 0
+Reranker Rank Regressions : 0
 
 === COMPLETE FAILURES (No Gold Chunk Retrieved) ===
+- [eval_001] doc=7767.jpeg qid=q2 | gold=['7767.jpeg:child:0:1']
+  Q: What is the product being advertised in the mall display?
+- [eval_002] doc=3648.jpeg qid=q1 | gold=['3648.jpeg:child:0:0', '3648.jpeg:child:0:1']
+  Q: Who is the issuer of the check?
 - [eval_003] doc=5814.jpeg qid=q6 | gold=['5814.jpeg:child:0:2', '5814.jpeg:child:1:1']
   Q: What is the amount due as per the invoice?
+- [eval_004] doc=7766.jpeg qid=q11 | gold=['7766.jpeg:child:1:2']
+  Q: What is the industry or sector that R.J. Reynolds operates in?
 - [eval_005] doc=6080.jpeg qid=q11 | gold=['6080.jpeg:child:2:2']
   Q: What can be inferred about the importance of legal and financial compliance in the transaction process?
 - [eval_006] doc=8974.jpeg qid=q1 | gold=['8974.jpeg:child:0:0', '8974.jpeg:child:0:1']
   Q: What is the name of the company that issued the invoice?
 - [eval_007] doc=4758.jpeg qid=q4 | gold=['4758.jpeg:child:0:1']
   Q: What is the purpose of the payment?
+- [eval_008] doc=1411.jpeg qid=q2 | gold=['1411.jpeg:child:0:3']
+  Q: What was the rate for a 6x21 ad in Tacoma?
 - [eval_009] doc=8441.jpeg qid=q1 | gold=['8441.jpeg:child:0:0', '8441.jpeg:child:0:1']
   Q: Who is the issuer of the invoice?
 - [eval_010] doc=3229.jpeg qid=q10 | gold=['3229.jpeg:child:1:0', '3229.jpeg:child:1:1']
@@ -21,196 +29,27 @@ Reranker Rank Regressions : 25
   Q: Who is the issuer of the check?
 - [eval_013] doc=8065.jpeg qid=q11 | gold=['8065.jpeg:child:1:1']
   Q: Why is the attention to a specific individual important on the invoice?
+- [eval_014] doc=8067.jpeg qid=q10 | gold=['8067.jpeg:child:1:1', '8067.jpeg:child:1:2']
+  Q: Why is this document relevant for any audit or financial review?
 - [eval_016] doc=9312.jpeg qid=q1 | gold=['9312.jpeg:child:0:1']
   Q: Who is the issuer of the invoice?
+- [eval_017] doc=8747.jpeg qid=q3 | gold=['8747.jpeg:child:0:2']
+  Q: What is the address of the customer, Lorillard Research Center?
+- [eval_018] doc=33.jpeg qid=q3 | gold=['33.jpeg:child:0:3']
+  Q: What are the objectives of the Universal Trailer project?
+- [eval_019] doc=1711.jpeg qid=q5 | gold=['1711.jpeg:child:0:2']
+  Q: What are the model fees, and how much do they cost?
+- [eval_020] doc=8116.jpeg qid=q6 | gold=['8116.jpeg:child:0:2', '8116.jpeg:child:1:2']
+  Q: What is the adjustment or subtraction made to the gross amount, and what could be the possible reason for it?
+- [eval_021] doc=672.jpeg qid=q3 | gold=['672.jpeg:child:1:2']
+  Q: In what areas did the department underutilize its budget as of August 31, 1971?
 - [eval_022] doc=921.jpeg qid=q10 | gold=['921.jpeg:child:1:2']
   Q: In which quarter does the total gross amount show a significant increase compared to the previous quarter?
+- [eval_023] doc=6896.jpeg qid=q8 | gold=['6896.jpeg:child:1:0', '6896.jpeg:child:1:3']
+  Q: Why is the voucher important for compliance and auditing?
 - [eval_024] doc=766.jpeg qid=q4 | gold=['766.jpeg:child:1:1']
   Q: How did the team leader(s) in this document impact the financial performance of the tobacco production process?
 - [eval_025] doc=4254.jpeg qid=q3 | gold=['4254.jpeg:child:0:1']
   Q: What is the address listed on the donation receipt?
-- [eval_031] doc=5250.jpeg qid=q4 | gold=['5250.jpeg:child:0:2']
-  Q: What is the payment term for the Purchase Order?
-- [eval_033] doc=6799.jpeg qid=q4 | gold=['6799.jpeg:child:0:2']
-  Q: What is the quantity of the product being shipped?
-- [eval_036] doc=1996.jpeg qid=q2 | gold=['1996.jpeg:child:0:0', '1996.jpeg:child:1:0']
-  Q: What type of document does this represent?
-- [eval_037] doc=5206.jpeg qid=q9 | gold=['5206.jpeg:child:0:2']
-  Q: What is the finance charge policy for late payments?
-- [eval_039] doc=4050.jpeg qid=q4 | gold=['4050.jpeg:child:0:1', '4050.jpeg:child:0:4']
-  Q: What are the payment terms mentioned in the document?
-- [eval_040] doc=7896.jpeg qid=q3 | gold=['7896.jpeg:child:0:2']
-  Q: What is the date of the document?
-- [eval_042] doc=532.jpeg qid=q10 | gold=['532.jpeg:child:0:1']
-  Q: In what year did the request for campaign contribution take place?
-- [eval_046] doc=8671.jpeg qid=q6 | gold=['8671.jpeg:child:0:2']
-  Q: What are the product details listed on the invoice?
-- [eval_050] doc=8311.jpeg qid=q3 | gold=['8311.jpeg:child:0:1']
-  Q: What is the receipt number of the sales receipt?
-- [eval_052] doc=3672.jpeg qid=q2 | gold=['3672.jpeg:child:0:1']
-  Q: What is the check number?
-- [eval_054] doc=2098.jpeg qid=q3 | gold=['2098.jpeg:child:0:1']
-  Q: Which company is mentioned in the document?
-- [eval_059] doc=7674.jpeg qid=q7 | gold=['7674.jpeg:child:1:2']
-  Q: What is the purpose of the start-up charges mentioned in the invoice?
-- [eval_061] doc=9666.jpeg qid=q5 | gold=['9666.jpeg:child:0:1']
-  Q: What is the payment due date to avoid additional interest or penalties?
-- [eval_064] doc=8169.jpeg qid=q9 | gold=['8169.jpeg:child:1:1']
-  Q: What does the location of the service suggest about the advertising strategy?
-- [eval_069] doc=7896.jpeg qid=q2 | gold=['7896.jpeg:child:0:1']
-  Q: What is the attention name mentioned in the document?
-- [eval_070] doc=8061.jpeg qid=q5 | gold=['8061.jpeg:child:0:2']
-  Q: What is the total amount of the invoice?
-- [eval_071] doc=1576.jpeg qid=q3 | gold=['1576.jpeg:child:1:0']
-  Q: What is notable about the display schedule for March?
-- [eval_075] doc=4573.jpeg qid=q1 | gold=['4573.jpeg:child:0:1']
-  Q: What is the purpose of the check request form?
-- [eval_077] doc=9721.jpeg qid=q7 | gold=['9721.jpeg:child:0:2']
-  Q: What is the account code for tracking and managing campaign finances?
-- [eval_080] doc=4285.jpeg qid=q5 | gold=['4285.jpeg:child:0:1']
-  Q: Who is the payee of the check?
-- [eval_082] doc=563.jpeg qid=q2 | gold=['563.jpeg:child:0:1', '563.jpeg:child:0:2', '563.jpeg:child:1:0']
-  Q: Who is the intended payee of the contribution request?
-- [eval_086] doc=4874.jpeg qid=q2 | gold=['4874.jpeg:child:0:1']
-  Q: Who is the client associated with this Production Estimate report?
-- [eval_092] doc=6498.jpeg qid=q9 | gold=['6498.jpeg:child:1:0']
-  Q: When was the payment received by P.M. Management Corp.?
-- [eval_093] doc=8567.jpeg qid=q2 | gold=['8567.jpeg:child:0:0', '8567.jpeg:child:0:1']
-  Q: Who is the vendor issuing this invoice?
-- [eval_095] doc=6983.jpeg qid=q11 | gold=['6983.jpeg:child:1:3']
-  Q: What is the purpose of this check remittance advice in financial tracking?
-- [eval_097] doc=8311.jpeg qid=q9 | gold=['8311.jpeg:child:0:2']
-  Q: What is the tax amount on the sales receipt?
-- [eval_098] doc=4185.jpeg qid=q9 | gold=['4185.jpeg:child:0:2']
-  Q: What is the memo information on the check?
-- [eval_099] doc=4294.jpeg qid=q10 | gold=['4294.jpeg:child:2:1', '4294.jpeg:child:2:2', '4294.jpeg:child:2:3']
-  Q: Why is it essential to continuously monitor the impacts of tax rate changes on revenue and consumer behavior?
-- [eval_109] doc=9311.jpeg qid=q3 | gold=['9311.jpeg:child:0:1', '9311.jpeg:child:0:3']
-  Q: What is the due date of the invoice?
-- [eval_112] doc=8432.jpeg qid=q8 | gold=['8432.jpeg:child:1:0']
-  Q: What is the payment term mentioned in the invoice?
-- [eval_115] doc=6800.jpeg qid=q10 | gold=['6800.jpeg:child:1:0']
-  Q: What does this event ticket serve as?
-- [eval_116] doc=4955.jpeg qid=q4 | gold=['4955.jpeg:child:0:2']
-  Q: What is the total amount billed to the client?
-- [eval_117] doc=3229.jpeg qid=q11 | gold=['3229.jpeg:child:1:2', '3229.jpeg:child:1:3']
-  Q: What does the document provide in terms of financial transaction trail?
-- [eval_119] doc=5056.jpeg qid=q3 | gold=['5056.jpeg:child:0:1', '5056.jpeg:child:0:2']
-  Q: What is the shipping date mentioned in the document?
-- [eval_122] doc=4247.jpeg qid=q9 | gold=['4247.jpeg:child:1:1']
-  Q: Is the document date in the bottom section accurate?
-- [eval_126] doc=3037.jpeg qid=q5 | gold=['3037.jpeg:child:1:4']
-  Q: What are some potential areas of concern regarding the campaign?
-- [eval_127] doc=3980.jpeg qid=q1 | gold=['3980.jpeg:child:0:1']
-  Q: What is the title of the financial analysis document?
-- [eval_128] doc=2466.jpeg qid=q9 | gold=['2466.jpeg:child:1:0', '2466.jpeg:child:2:0', '2466.jpeg:child:2:3']
-  Q: What does this document primarily focus on?
-- [eval_129] doc=4021.jpeg qid=q5 | gold=['4021.jpeg:child:0:1', '4021.jpeg:child:1:1']
-  Q: Who is the payee of the check?
-- [eval_133] doc=7324.jpeg qid=q2 | gold=['7324.jpeg:child:0:1']
-  Q: What is the address of the issuer?
-- [eval_134] doc=2781.jpeg qid=q7 | gold=['2781.jpeg:child:1:1', '2781.jpeg:child:2:0']
-  Q: How did the company's gross profit for the current month compare to last year's figure?
-- [eval_135] doc=3422.jpeg qid=q2 | gold=['3422.jpeg:child:0:3']
-  Q: What is the time period covered in the document?
-- [eval_138] doc=5995.jpeg qid=q1 | gold=['5995.jpeg:child:0:1']
-  Q: Who is the issuer of the debit note?
-- [eval_140] doc=3037.jpeg qid=q8 | gold=['3037.jpeg:child:1:0']
-  Q: What is the total spend reported in the document for the year 1996?
-- [eval_141] doc=4548.jpeg qid=q4 | gold=['4548.jpeg:child:0:3']
-  Q: What is the total amount due on the invoice?
-- [eval_145] doc=7027.jpeg qid=q6 | gold=['7027.jpeg:child:0:2']
-  Q: What is the description of the item sold in the commercial invoice?
-- [eval_146] doc=6498.jpeg qid=q1 | gold=['6498.jpeg:child:1:0']
-  Q: Who is the issuer of the payment statement?
-- [eval_151] doc=8131.jpeg qid=q1 | gold=['8131.jpeg:child:0:0', '8131.jpeg:child:0:1', '8131.jpeg:child:1:0']
-  Q: Who is the issuer of the invoice?
-- [eval_158] doc=3203.jpeg qid=q11 | gold=['3203.jpeg:child:1:2']
-  Q: What is the era in which the document's layout and stylistic elements are typical?
-- [eval_159] doc=5414.jpeg qid=q4 | gold=['5414.jpeg:child:0:2']
-  Q: What is the total amount due on the invoice?
-- [eval_163] doc=6452.jpeg qid=q1 | gold=['6452.jpeg:child:0:1']
-  Q: Who is the issuer of the invoice?
-- [eval_164] doc=7996.jpeg qid=q8 | gold=['7996.jpeg:child:0:3']
-  Q: What is the total charges mentioned in the document?
-- [eval_167] doc=9366.jpeg qid=q2 | gold=['9366.jpeg:child:0:2', '9366.jpeg:child:1:0']
-  Q: What is the purpose of the financial statement?
-- [eval_168] doc=7137.jpeg qid=q2 | gold=['7137.jpeg:child:0:1']
-  Q: What is the customer number mentioned in the document?
-- [eval_171] doc=7137.jpeg qid=q1 | gold=['7137.jpeg:child:0:1']
-  Q: What is the invoice date of the document?
-- [eval_172] doc=4185.jpeg qid=q4 | gold=['4185.jpeg:child:0:1']
-  Q: What is the date of the check?
-- [eval_175] doc=4816.jpeg qid=q7 | gold=['4816.jpeg:child:1:1']
-  Q: What are the payment terms mentioned in the invoice?
-- [eval_181] doc=9630.jpeg qid=q3 | gold=['9630.jpeg:child:0:2']
-  Q: What is the invoice number and date?
-- [eval_182] doc=9162.jpeg qid=q6 | gold=['9162.jpeg:child:0:2']
-  Q: What is the payment due date for the invoice?
-- [eval_184] doc=3629.jpeg qid=q7 | gold=['3629.jpeg:child:0:4']
-  Q: Who is the payable party for the contribution?
-- [eval_187] doc=394.jpeg qid=q3 | gold=['394.jpeg:child:0:2']
-  Q: What is the amount of the contribution requested?
-- [eval_194] doc=3203.jpeg qid=q6 | gold=['3203.jpeg:child:0:1', '3203.jpeg:child:0:2', '3203.jpeg:child:1:0']
-  Q: What is the amount of the check?
-- [eval_195] doc=5119.jpeg qid=q2 | gold=['5119.jpeg:child:0:1']
-  Q: What is the address of the issuer?
-- [eval_198] doc=1366.jpeg qid=q5 | gold=['1366.jpeg:child:0:1']
-  Q: Who was the client for this advertising campaign?
 
 === RERANKER RANK IMPROVEMENTS (Pre-Rerank Rank -> Rerank Rank) ===
-- [eval_058] chunk=533.jpeg:child:0:2 | dense=22.0 sparse=None hybrid=40 -> rerank=1 (gain: +39)
-- [eval_152] chunk=2726.jpeg:child:1:2 | dense=21.0 sparse=None hybrid=39 -> rerank=5 (gain: +34)
-- [eval_101] chunk=4771.jpeg:child:1:0 | dense=None sparse=20.0 hybrid=35 -> rerank=7 (gain: +28)
-- [eval_073] chunk=3539.jpeg:child:0:1 | dense=None sparse=12.0 hybrid=26 -> rerank=1 (gain: +25)
-- [eval_094] chunk=5989.jpeg:child:0:2 | dense=14.0 sparse=None hybrid=25 -> rerank=2 (gain: +23)
-- [eval_002] chunk=3648.jpeg:child:0:0 | dense=None sparse=11.0 hybrid=25 -> rerank=4 (gain: +21)
-- [eval_111] chunk=9071.jpeg:child:0:3 | dense=None sparse=10.0 hybrid=25 -> rerank=7 (gain: +18)
-- [eval_121] chunk=3611.jpeg:child:0:0 | dense=14.0 sparse=None hybrid=29 -> rerank=11 (gain: +18)
-- [eval_161] chunk=3528.jpeg:child:0:1 | dense=None sparse=15.0 hybrid=32 -> rerank=17 (gain: +15)
-- [eval_023] chunk=6896.jpeg:child:1:3 | dense=None sparse=12.0 hybrid=26 -> rerank=12 (gain: +14)
-- [eval_021] chunk=672.jpeg:child:1:2 | dense=8.0 sparse=None hybrid=14 -> rerank=1 (gain: +13)
-- [eval_179] chunk=9630.jpeg:child:1:2 | dense=None sparse=5.0 hybrid=13 -> rerank=1 (gain: +12)
-- [eval_041] chunk=5929.jpeg:child:1:3 | dense=None sparse=1.0 hybrid=12 -> rerank=1 (gain: +11)
-- [eval_149] chunk=8238.jpeg:child:0:2 | dense=None sparse=3.0 hybrid=16 -> rerank=5 (gain: +11)
-- [eval_001] chunk=7767.jpeg:child:0:1 | dense=None sparse=6.0 hybrid=13 -> rerank=3 (gain: +10)
-- [eval_055] chunk=8743.jpeg:child:1:1 | dense=None sparse=1.0 hybrid=10 -> rerank=1 (gain: +9)
-- [eval_072] chunk=877.jpeg:child:1:1 | dense=None sparse=2.0 hybrid=9 -> rerank=1 (gain: +8)
-- [eval_192] chunk=2098.jpeg:child:0:2 | dense=1.0 sparse=None hybrid=9 -> rerank=1 (gain: +8)
-- [eval_043] chunk=3501.jpeg:child:1:3 | dense=20.0 sparse=21.0 hybrid=11 -> rerank=4 (gain: +7)
-- [eval_088] chunk=8436.jpeg:child:0:0 | dense=7.0 sparse=None hybrid=16 -> rerank=9 (gain: +7)
-- [eval_136] chunk=965.jpeg:child:1:3 | dense=5.0 sparse=None hybrid=10 -> rerank=3 (gain: +7)
-- [eval_154] chunk=5001.jpeg:child:0:0 | dense=8.0 sparse=None hybrid=16 -> rerank=9 (gain: +7)
-- [eval_174] chunk=4285.jpeg:child:1:0 | dense=13.0 sparse=None hybrid=29 -> rerank=22 (gain: +7)
-- [eval_188] chunk=9565.jpeg:child:1:0 | dense=3.0 sparse=None hybrid=7 -> rerank=1 (gain: +6)
-- [eval_067] chunk=8238.jpeg:child:0:2 | dense=None sparse=1.0 hybrid=6 -> rerank=1 (gain: +5)
-- [eval_173] chunk=764.jpeg:child:1:2 | dense=None sparse=2.0 hybrid=6 -> rerank=1 (gain: +5)
-- [eval_180] chunk=3980.jpeg:child:1:2 | dense=None sparse=1.0 hybrid=6 -> rerank=1 (gain: +5)
-- [eval_047] chunk=1189.jpeg:child:0:3 | dense=15.0 sparse=1.0 hybrid=5 -> rerank=1 (gain: +4)
-- [eval_056] chunk=4265.jpeg:child:1:3 | dense=3.0 sparse=13.0 hybrid=7 -> rerank=3 (gain: +4)
-- [eval_096] chunk=2470.jpeg:child:0:3 | dense=2.0 sparse=None hybrid=5 -> rerank=1 (gain: +4)
-- [eval_104] chunk=3805.jpeg:child:0:1 | dense=None sparse=1.0 hybrid=5 -> rerank=1 (gain: +4)
-- [eval_107] chunk=5527.jpeg:child:0:3 | dense=3.0 sparse=None hybrid=6 -> rerank=2 (gain: +4)
-- [eval_108] chunk=74.jpeg:child:0:2 | dense=37.0 sparse=14.0 hybrid=5 -> rerank=1 (gain: +4)
-- [eval_017] chunk=8747.jpeg:child:0:2 | dense=7.0 sparse=6.0 hybrid=5 -> rerank=2 (gain: +3)
-- [eval_020] chunk=8116.jpeg:child:1:2 | dense=7.0 sparse=21.0 hybrid=4 -> rerank=1 (gain: +3)
-- [eval_035] chunk=5547.jpeg:child:0:5 | dense=34.0 sparse=1.0 hybrid=4 -> rerank=1 (gain: +3)
-- [eval_051] chunk=9708.jpeg:child:1:0 | dense=2.0 sparse=21.0 hybrid=5 -> rerank=2 (gain: +3)
-- [eval_157] chunk=1556.jpeg:child:2:0 | dense=14.0 sparse=None hybrid=25 -> rerank=22 (gain: +3)
-- [eval_165] chunk=2399.jpeg:child:0:1 | dense=18.0 sparse=34.0 hybrid=4 -> rerank=1 (gain: +3)
-- [eval_032] chunk=8441.jpeg:child:0:1 | dense=29.0 sparse=4.0 hybrid=3 -> rerank=1 (gain: +2)
-- [eval_170] chunk=4895.jpeg:child:0:0 | dense=1.0 sparse=34.0 hybrid=3 -> rerank=1 (gain: +2)
-- [eval_177] chunk=4771.jpeg:child:2:2 | dense=None sparse=4.0 hybrid=8 -> rerank=6 (gain: +2)
-- [eval_180] chunk=3980.jpeg:child:0:0 | dense=2.0 sparse=None hybrid=7 -> rerank=5 (gain: +2)
-- [eval_004] chunk=7766.jpeg:child:1:2 | dense=6.0 sparse=4.0 hybrid=2 -> rerank=1 (gain: +1)
-- [eval_019] chunk=1711.jpeg:child:0:2 | dense=1.0 sparse=19.0 hybrid=2 -> rerank=1 (gain: +1)
-- [eval_062] chunk=3776.jpeg:child:0:2 | dense=20.0 sparse=1.0 hybrid=4 -> rerank=3 (gain: +1)
-- [eval_076] chunk=4021.jpeg:child:0:2 | dense=8.0 sparse=6.0 hybrid=7 -> rerank=6 (gain: +1)
-- [eval_091] chunk=3805.jpeg:child:1:0 | dense=6.0 sparse=2.0 hybrid=3 -> rerank=2 (gain: +1)
-- [eval_110] chunk=9366.jpeg:child:0:1 | dense=5.0 sparse=2.0 hybrid=3 -> rerank=2 (gain: +1)
-- [eval_123] chunk=6628.jpeg:child:0:1 | dense=11.0 sparse=31.0 hybrid=2 -> rerank=1 (gain: +1)
-- [eval_144] chunk=2975.jpeg:child:0:3 | dense=11.0 sparse=7.0 hybrid=3 -> rerank=2 (gain: +1)
-- [eval_173] chunk=764.jpeg:child:1:1 | dense=11.0 sparse=4.0 hybrid=3 -> rerank=2 (gain: +1)
-- [eval_183] chunk=4752.jpeg:child:0:2 | dense=1.0 sparse=11.0 hybrid=3 -> rerank=2 (gain: +1)
-- [eval_193] chunk=2543.jpeg:child:0:2 | dense=1.0 sparse=3.0 hybrid=2 -> rerank=1 (gain: +1)
-- [eval_197] chunk=4310.jpeg:child:0:3 | dense=2.0 sparse=1.0 hybrid=2 -> rerank=1 (gain: +1)
