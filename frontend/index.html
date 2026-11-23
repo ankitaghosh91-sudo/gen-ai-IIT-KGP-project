@@ -14,6 +14,10 @@
       table { border-collapse: collapse; width: 100%; font-size: 0.9rem; }
       th, td { border: 1px solid #ddd; padding: 0.35rem; text-align: left; vertical-align: top; }
       th { background: #f6f6f6; }
+      .thumb { max-width: 180px; max-height: 180px; border: 1px solid #ddd; border-radius: 6px; display: block; }
+      .image-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+      .image-item { border: 1px solid #ddd; border-radius: 8px; padding: 0.6rem; width: 220px; }
+      .image-caption { font-size: 0.82rem; margin-top: 0.35rem; word-break: break-all; }
     </style>
   </head>
   <body>
@@ -40,6 +44,14 @@
         <textarea id="question" placeholder="Ask a finance document question"></textarea>
       </div>
       <div class="row">
+        <label for="useAgentGraph">Execution mode</label><br />
+        <select id="useAgentGraph">
+          <option value="">Use server default</option>
+          <option value="false">Pipeline</option>
+          <option value="true">Agent graph</option>
+        </select>
+      </div>
+      <div class="row">
         <button id="askBtn">Ask</button>
         <a href="/dashboard" style="margin-left: 1rem">Open trace dashboard</a>
         <a href="/evaluation" style="margin-left: 1rem">Open evaluation dashboard</a>
@@ -55,6 +67,13 @@
       <pre id="critiques">[]</pre>
       <h4>Steps</h4>
       <pre id="steps">[]</pre>
+      <h4>Agent trace</h4>
+      <pre id="agentTrace">[]</pre>
+    </div>
+
+    <div class="card">
+      <h3>Cited document images</h3>
+      <div id="citedImages" class="image-grid">No cited image yet.</div>
     </div>
 
     <div class="card">
@@ -68,7 +87,7 @@
             <th>Question matched</th>
             <th>Answer candidate</th>
             <th>Chunk text</th>
-            <th>Image path</th>
+            <th>Image</th>
           </tr>
         </thead>
         <tbody id="retrievedBody"></tbody>
@@ -76,6 +95,13 @@
     </div>
 
     <script>
+      function toImageUrl(imagePath) {
+        if (!imagePath) return "";
+        const fileName = String(imagePath).split("/").pop();
+        if (!fileName) return "";
+        return `/sample-images/${fileName}`;
+      }
+
       document.getElementById("askBtn").addEventListener("click", async () => {
         const question = document.getElementById("question").value.trim();
         if (!question) return;
@@ -84,6 +110,9 @@
           session_id: document.getElementById("sessionId").value || "ui-session",
           run_name: document.getElementById("runName").value || "interactive-ui"
         };
+        const mode = document.getElementById("useAgentGraph").value;
+        if (mode === "true") payload.use_agent_graph = true;
+        if (mode === "false") payload.use_agent_graph = false;
         const response = await fetch("/api/query", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -95,13 +124,44 @@
           return;
         }
         document.getElementById("answer").textContent =
-          `${data.answer.answer}\n\nCitations: ${JSON.stringify(data.citations)}`;
+          `${data.answer.answer}\n\nMode: ${data.execution_mode}\n\nCitations: ${JSON.stringify(data.citations)}`;
         document.getElementById("metrics").textContent = JSON.stringify(data.metrics, null, 2);
         document.getElementById("critiques").textContent = JSON.stringify(data.critiques, null, 2);
         document.getElementById("steps").textContent = JSON.stringify(data.steps, null, 2);
+        document.getElementById("agentTrace").textContent = JSON.stringify(data.agent_trace || [], null, 2);
+
+        const citedContainer = document.getElementById("citedImages");
+        citedContainer.innerHTML = "";
+        const retrievedByDoc = new Map((data.retrieved || []).map(item => [item.doc_id, item]));
+        const seen = new Set();
+        (data.citations || []).forEach((citation) => {
+          const docId = citation.doc_id;
+          const row = retrievedByDoc.get(docId);
+          const imageUrl = toImageUrl(row?.image_path);
+          const key = `${docId}::${imageUrl}`;
+          if (!imageUrl || seen.has(key)) return;
+          seen.add(key);
+          const item = document.createElement("div");
+          item.className = "image-item";
+          item.innerHTML = `
+            <a href="${imageUrl}" target="_blank" rel="noopener noreferrer">
+              <img class="thumb" src="${imageUrl}" alt="Cited image ${docId}" />
+            </a>
+            <div class="image-caption"><strong>${docId}</strong><br/>${row?.image_path || ""}</div>
+          `;
+          citedContainer.appendChild(item);
+        });
+        if (citedContainer.innerHTML.trim() === "") {
+          citedContainer.textContent = "No cited image available for this response.";
+        }
+
         const body = document.getElementById("retrievedBody");
         body.innerHTML = "";
         data.retrieved.forEach((row, idx) => {
+          const imageUrl = toImageUrl(row.image_path);
+          const imageCell = imageUrl
+            ? `<a href="${imageUrl}" target="_blank" rel="noopener noreferrer"><img class="thumb" src="${imageUrl}" alt="Retrieved image ${row.doc_id}" /></a><div class="image-caption">${row.image_path || ""}</div>`
+            : "";
           const tr = document.createElement("tr");
           tr.innerHTML = `
             <td>${idx + 1}</td>
@@ -110,7 +170,7 @@
             <td>${row.question}</td>
             <td>${row.answer}</td>
             <td>${row.chunk_text}</td>
-            <td>${row.image_path || ""}</td>
+            <td>${imageCell}</td>
           `;
           body.appendChild(tr);
         });

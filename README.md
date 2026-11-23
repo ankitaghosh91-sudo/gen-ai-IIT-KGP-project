@@ -45,6 +45,7 @@ The app now builds strategies from config automatically. Set these keys in `.env
 - `GET /api/health` — service status + loaded document count
 - `GET /api/config` — active strategy configuration
 - `POST /api/query` — run end-to-end pipeline and store metrics
+  - optional body field: `use_agent_graph=true|false` to force multi-agent graph vs classic pipeline per request
 - `GET /api/metrics` — list recent run rows for dashboard comparison
 - `POST /api/metrics` — insert manual comparison rows
 - `GET /api/traces` — query trace rows with retrieved chunks, scores, citations, critiques, and steps
@@ -53,6 +54,9 @@ The app now builds strategies from config automatically. Set these keys in `.env
 - `POST /api/evaluate` — evaluate on subset and save summary + per-datapoint observations
 - `GET /api/evaluations` — evaluation run summaries
 - `GET /api/evaluations/{id}` — observation rows for one evaluation run
+- `POST /api/reports/retrieval` — run retrieval strategy comparison report (dense/sparse/hybrid/hybrid+reranker)
+- `POST /api/reports/retrieval-trace` — generate retrieval+reranker trace report JSON/text
+- `POST /api/reports/trace-analysis` — generate failure/rank-shift analysis from a trace report
 
 For offline/classroom demos, `POST /api/rag/setup` supports `use_saved_sample=true` to skip downloading and index the already saved local sample.
 

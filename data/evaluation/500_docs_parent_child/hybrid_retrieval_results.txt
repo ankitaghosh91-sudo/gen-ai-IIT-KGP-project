@@ -4,8 +4,8 @@ Question ID: q2
 Expected Document: 7767.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 7767.jpeg:child:0:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [10, 19, 20]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [23]
 
 ==================================================
 
@@ -15,8 +15,8 @@ Question ID: q1
 Expected Document: 3648.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 3648.jpeg:child:0:0
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [7, 28, 47]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [8]
 
 ==================================================
 
@@ -26,8 +26,8 @@ Question ID: q6
 Expected Document: 5814.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 5814.jpeg:child:0:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [78]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [54]
 
 ==================================================
 
@@ -38,7 +38,7 @@ Expected Document: 7766.jpeg
 Correct Document Retrieved: True
 Expected Chunk: None
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [2, 3, 5, 12, 30]
+Matching Document Ranks: [1]
 
 ==================================================
 
@@ -48,8 +48,8 @@ Question ID: q11
 Expected Document: 6080.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 6080.jpeg:child:2:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [25]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [94]
 
 ==================================================
 
@@ -57,10 +57,10 @@ Matching Document Ranks: [25]
 Query: What is the name of the company that issued the invoice?
 Question ID: q1
 Expected Document: 8974.jpeg
-Correct Document Retrieved: True
+Correct Document Retrieved: False
 Expected Chunk: 8974.jpeg:child:0:0
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [43]
+Matching Document Ranks: []
 
 ==================================================
 
@@ -81,8 +81,8 @@ Question ID: q2
 Expected Document: 1411.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 1411.jpeg:child:0:3
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 2, 3, 5, 28]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [2]
 
 ==================================================
 
@@ -90,10 +90,10 @@ Matching Document Ranks: [1, 2, 3, 5, 28]
 Query: Who is the issuer of the invoice?
 Question ID: q1
 Expected Document: 8441.jpeg
-Correct Document Retrieved: False
+Correct Document Retrieved: True
 Expected Chunk: 8441.jpeg:child:0:0
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: []
+Matching Document Ranks: [39]
 
 ==================================================
 
@@ -103,8 +103,8 @@ Question ID: q10
 Expected Document: 3229.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 3229.jpeg:child:1:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 4, 52]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [33]
 
 ==================================================
 
@@ -115,7 +115,7 @@ Expected Document: 7247.jpeg
 Correct Document Retrieved: True
 Expected Chunk: None
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [1, 7, 25, 37, 51, 89]
+Matching Document Ranks: [10]
 
 ==================================================
 
@@ -123,10 +123,10 @@ Matching Document Ranks: [1, 7, 25, 37, 51, 89]
 Query: Who is the issuer of the check?
 Question ID: q1
 Expected Document: 7936.jpeg
-Correct Document Retrieved: False
+Correct Document Retrieved: True
 Expected Chunk: 7936.jpeg:child:0:1
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: []
+Matching Document Ranks: [15]
 
 ==================================================
 
@@ -136,8 +136,8 @@ Question ID: q11
 Expected Document: 8065.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 8065.jpeg:child:1:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 7]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [7]
 
 ==================================================
 
@@ -147,8 +147,8 @@ Question ID: q10
 Expected Document: 8067.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 8067.jpeg:child:1:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [40]
 
 ==================================================
 
@@ -159,7 +159,7 @@ Expected Document: 9078.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 9078.jpeg:child:0:2
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [3, 33]
+Matching Document Ranks: [30]
 
 ==================================================
 
@@ -180,8 +180,8 @@ Question ID: q3
 Expected Document: 8747.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 8747.jpeg:child:0:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [5, 76]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [38]
 
 ==================================================
 
@@ -191,8 +191,8 @@ Question ID: q3
 Expected Document: 33.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 33.jpeg:child:0:3
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 9, 10, 12, 28]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [22]
 
 ==================================================
 
@@ -202,8 +202,8 @@ Question ID: q5
 Expected Document: 1711.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 1711.jpeg:child:0:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 2, 25]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [19]
 
 ==================================================
 
@@ -213,8 +213,8 @@ Question ID: q6
 Expected Document: 8116.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 8116.jpeg:child:1:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [4]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [41]
 
 ==================================================
 
@@ -224,8 +224,8 @@ Question ID: q3
 Expected Document: 672.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 672.jpeg:child:1:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 8, 18, 21, 25, 51, 90]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [26]
 
 ==================================================
 
@@ -235,8 +235,8 @@ Question ID: q10
 Expected Document: 921.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 921.jpeg:child:1:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [14, 17, 20, 21]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [29]
 
 ==================================================
 
@@ -246,8 +246,8 @@ Question ID: q8
 Expected Document: 6896.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 6896.jpeg:child:1:3
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [37, 47, 49]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [10]
 
 ==================================================
 
@@ -258,7 +258,7 @@ Expected Document: 766.jpeg
 Correct Document Retrieved: True
 Expected Chunk: None
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [1, 33]
+Matching Document Ranks: [24]
 
 ==================================================
 
@@ -269,7 +269,7 @@ Expected Document: 4254.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 4254.jpeg:child:0:1
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [2, 9]
+Matching Document Ranks: [29]
 
 ==================================================
 
@@ -279,8 +279,8 @@ Question ID: q10
 Expected Document: 3345.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 3345.jpeg:child:1:0
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 18]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [20]
 
 ==================================================
 
@@ -290,8 +290,8 @@ Question ID: q8
 Expected Document: 3362.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 3362.jpeg:child:1:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [28]
 
 ==================================================
 
@@ -301,8 +301,8 @@ Question ID: q5
 Expected Document: 1434.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 1434.jpeg:child:0:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 4, 65]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [2]
 
 ==================================================
 
@@ -312,8 +312,8 @@ Question ID: q9
 Expected Document: 2726.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 2726.jpeg:child:1:3
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 2, 3, 4, 6, 8, 9, 10, 47]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [4]
 
 ==================================================
 
@@ -324,7 +324,7 @@ Expected Document: 3230.jpeg
 Correct Document Retrieved: True
 Expected Chunk: None
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [1]
+Matching Document Ranks: [29]
 
 ==================================================
 
@@ -335,7 +335,7 @@ Expected Document: 5250.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 5250.jpeg:child:0:2
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [13, 85]
+Matching Document Ranks: [38]
 
 ==================================================
 
@@ -345,8 +345,8 @@ Question ID: q6
 Expected Document: 8441.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 8441.jpeg:child:0:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 3, 97]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [3]
 
 ==================================================
 
@@ -357,7 +357,7 @@ Expected Document: 6799.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 6799.jpeg:child:0:2
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [73]
+Matching Document Ranks: [74]
 
 ==================================================
 
@@ -367,8 +367,8 @@ Question ID: q4
 Expected Document: 3842.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 3842.jpeg:child:0:3
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 2, 3, 6, 16]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [1]
 
 ==================================================
 
@@ -379,7 +379,7 @@ Expected Document: 5547.jpeg
 Correct Document Retrieved: True
 Expected Chunk: None
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [2, 4, 7, 26]
+Matching Document Ranks: [1]
 
 ==================================================
 
@@ -401,7 +401,7 @@ Expected Document: 5206.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 5206.jpeg:child:0:2
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [1]
+Matching Document Ranks: [29]
 
 ==================================================
 
@@ -412,7 +412,7 @@ Expected Document: 9453.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 9453.jpeg:child:0:3
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [6, 7]
+Matching Document Ranks: [25]
 
 ==================================================
 
@@ -420,10 +420,10 @@ Matching Document Ranks: [6, 7]
 Query: What are the payment terms mentioned in the document?
 Question ID: q4
 Expected Document: 4050.jpeg
-Correct Document Retrieved: False
+Correct Document Retrieved: True
 Expected Chunk: 4050.jpeg:child:0:1
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: []
+Matching Document Ranks: [73]
 
 ==================================================
 
@@ -444,8 +444,8 @@ Question ID: q9
 Expected Document: 5929.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 5929.jpeg:child:1:3
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [24]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [4]
 
 ==================================================
 
@@ -456,7 +456,7 @@ Expected Document: 532.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 532.jpeg:child:0:1
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [6, 20, 31, 63]
+Matching Document Ranks: [37]
 
 ==================================================
 
@@ -466,8 +466,8 @@ Question ID: q6
 Expected Document: 3501.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 3501.jpeg:child:0:3
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [3, 11, 31, 72, 92]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [28]
 
 ==================================================
 
@@ -477,8 +477,8 @@ Question ID: q2
 Expected Document: 7087.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 7087.jpeg:child:0:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 2, 51]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [1]
 
 ==================================================
 
@@ -488,8 +488,8 @@ Question ID: q5
 Expected Document: 667.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 667.jpeg:child:0:4
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 2, 3, 6, 36]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [1]
 
 ==================================================
 
@@ -497,10 +497,10 @@ Matching Document Ranks: [1, 2, 3, 6, 36]
 Query: What are the product details listed on the invoice?
 Question ID: q6
 Expected Document: 8671.jpeg
-Correct Document Retrieved: False
+Correct Document Retrieved: True
 Expected Chunk: 8671.jpeg:child:0:2
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: []
+Matching Document Ranks: [94]
 
 ==================================================
 
@@ -510,8 +510,8 @@ Question ID: q5
 Expected Document: 1189.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 1189.jpeg:child:0:3
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [4, 13, 46]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [1]
 
 ==================================================
 
@@ -521,8 +521,8 @@ Question ID: q3
 Expected Document: 3160.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 3160.jpeg:child:0:3
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 5, 6, 8, 24, 83]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [19]
 
 ==================================================
 
@@ -532,8 +532,8 @@ Question ID: q6
 Expected Document: 7604.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 7604.jpeg:child:0:3
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 24, 33, 52]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [31]
 
 ==================================================
 
@@ -544,7 +544,7 @@ Expected Document: 8311.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 8311.jpeg:child:0:1
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [1, 4, 51]
+Matching Document Ranks: [32]
 
 ==================================================
 
@@ -554,8 +554,8 @@ Question ID: q7
 Expected Document: 9708.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 9708.jpeg:child:1:0
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [5, 30, 70, 81]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [25]
 
 ==================================================
 
@@ -563,10 +563,10 @@ Matching Document Ranks: [5, 30, 70, 81]
 Query: What is the check number?
 Question ID: q2
 Expected Document: 3672.jpeg
-Correct Document Retrieved: False
+Correct Document Retrieved: True
 Expected Chunk: 3672.jpeg:child:0:1
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: []
+Matching Document Ranks: [70]
 
 ==================================================
 
@@ -598,8 +598,8 @@ Question ID: q10
 Expected Document: 8743.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 8743.jpeg:child:1:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [22]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [28]
 
 ==================================================
 
@@ -609,8 +609,8 @@ Question ID: q11
 Expected Document: 4265.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 4265.jpeg:child:1:3
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [7, 30, 31]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [10]
 
 ==================================================
 
@@ -620,8 +620,8 @@ Question ID: q12
 Expected Document: 5660.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 5660.jpeg:child:1:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 56]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [9]
 
 ==================================================
 
@@ -631,8 +631,8 @@ Question ID: q7
 Expected Document: 533.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 533.jpeg:child:0:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [11]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [82]
 
 ==================================================
 
@@ -642,8 +642,8 @@ Question ID: q7
 Expected Document: 7674.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 7674.jpeg:child:1:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [97]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [31]
 
 ==================================================
 
@@ -654,7 +654,7 @@ Expected Document: 3842.jpeg
 Correct Document Retrieved: True
 Expected Chunk: None
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [1, 3, 9, 18]
+Matching Document Ranks: [3]
 
 ==================================================
 
@@ -665,7 +665,7 @@ Expected Document: 9666.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 9666.jpeg:child:0:1
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [1, 9, 31, 44]
+Matching Document Ranks: [1]
 
 ==================================================
 
@@ -675,8 +675,8 @@ Question ID: q6
 Expected Document: 3776.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 3776.jpeg:child:0:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 2, 4, 9]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [27]
 
 ==================================================
 
@@ -687,7 +687,7 @@ Expected Document: 8096.jpeg
 Correct Document Retrieved: True
 Expected Chunk: None
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [1]
+Matching Document Ranks: [76]
 
 ==================================================
 
@@ -697,8 +697,8 @@ Question ID: q9
 Expected Document: 8169.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 8169.jpeg:child:1:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [72, 82]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [7]
 
 ==================================================
 
@@ -708,8 +708,8 @@ Question ID: q7
 Expected Document: 1828.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 1828.jpeg:child:2:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 2, 3, 44]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [35]
 
 ==================================================
 
@@ -719,8 +719,8 @@ Question ID: q5
 Expected Document: 5085.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 5085.jpeg:child:1:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 2]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [1]
 
 ==================================================
 
@@ -730,8 +730,8 @@ Question ID: q5
 Expected Document: 8238.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 8238.jpeg:child:0:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [13]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [4]
 
 ==================================================
 
@@ -741,8 +741,8 @@ Question ID: q9
 Expected Document: 8671.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 8671.jpeg:child:0:3
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 8]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [9]
 
 ==================================================
 
@@ -750,10 +750,10 @@ Matching Document Ranks: [1, 8]
 Query: What is the attention name mentioned in the document?
 Question ID: q2
 Expected Document: 7896.jpeg
-Correct Document Retrieved: False
+Correct Document Retrieved: True
 Expected Chunk: 7896.jpeg:child:0:1
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: []
+Matching Document Ranks: [100]
 
 ==================================================
 
@@ -774,8 +774,8 @@ Question ID: q3
 Expected Document: 1576.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 1576.jpeg:child:1:0
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 9, 12, 22]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [3]
 
 ==================================================
 
@@ -785,8 +785,8 @@ Question ID: q6
 Expected Document: 877.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 877.jpeg:child:2:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 2, 14]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [22]
 
 ==================================================
 
@@ -796,8 +796,8 @@ Question ID: q2
 Expected Document: 3539.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 3539.jpeg:child:0:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [2]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [42]
 
 ==================================================
 
@@ -807,8 +807,8 @@ Question ID: q3
 Expected Document: 1301.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 1301.jpeg:child:0:4
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 21]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [6]
 
 ==================================================
 
@@ -819,7 +819,7 @@ Expected Document: 4573.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 4573.jpeg:child:0:1
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [1, 72]
+Matching Document Ranks: [33]
 
 ==================================================
 
@@ -829,8 +829,8 @@ Question ID: q7
 Expected Document: 4021.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 4021.jpeg:child:1:0
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 7]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [33]
 
 ==================================================
 
@@ -840,8 +840,8 @@ Question ID: q7
 Expected Document: 9721.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 9721.jpeg:child:0:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [8, 45, 58, 76]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [38]
 
 ==================================================
 
@@ -851,8 +851,8 @@ Question ID: q8
 Expected Document: 9195.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 9195.jpeg:child:1:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [12]
 
 ==================================================
 
@@ -862,8 +862,8 @@ Question ID: q7
 Expected Document: 7593.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 7593.jpeg:child:0:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 5, 15]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [31]
 
 ==================================================
 
@@ -873,8 +873,8 @@ Question ID: q5
 Expected Document: 4285.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 4285.jpeg:child:0:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [31, 63]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [6]
 
 ==================================================
 
@@ -885,7 +885,7 @@ Expected Document: 6215.jpeg
 Correct Document Retrieved: True
 Expected Chunk: None
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [5, 36]
+Matching Document Ranks: [7]
 
 ==================================================
 
@@ -895,8 +895,8 @@ Question ID: q2
 Expected Document: 563.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 563.jpeg:child:0:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [4, 27, 62]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [28]
 
 ==================================================
 
@@ -906,8 +906,8 @@ Question ID: q3
 Expected Document: 1478.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 1478.jpeg:child:0:3
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 9, 13, 30, 72]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [23]
 
 ==================================================
 
@@ -917,8 +917,8 @@ Question ID: q8
 Expected Document: 9463.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 9463.jpeg:child:1:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 17]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [12]
 
 ==================================================
 
@@ -928,7 +928,7 @@ Question ID: q8
 Expected Document: 6371.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 6371.jpeg:child:1:1
-Exact Target Chunk Retrieved: True
+Exact Target Chunk Retrieved: False
 Matching Document Ranks: [1]
 
 ==================================================
@@ -939,8 +939,8 @@ Question ID: q2
 Expected Document: 4874.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 4874.jpeg:child:0:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 18]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [22]
 
 ==================================================
 
@@ -951,7 +951,7 @@ Expected Document: 113.jpeg
 Correct Document Retrieved: True
 Expected Chunk: None
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [1, 4, 19, 52]
+Matching Document Ranks: [20]
 
 ==================================================
 
@@ -959,10 +959,10 @@ Matching Document Ranks: [1, 4, 19, 52]
 Query: What is the type of document being analyzed?
 Question ID: q1
 Expected Document: 8436.jpeg
-Correct Document Retrieved: True
+Correct Document Retrieved: False
 Expected Chunk: 8436.jpeg:child:0:0
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [22]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: []
 
 ==================================================
 
@@ -973,7 +973,7 @@ Expected Document: 6207.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 6207.jpeg:child:0:1
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [31]
+Matching Document Ranks: [77]
 
 ==================================================
 
@@ -984,7 +984,7 @@ Expected Document: 3779.jpeg
 Correct Document Retrieved: True
 Expected Chunk: None
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [1, 2, 3, 4, 5, 7]
+Matching Document Ranks: [1]
 
 ==================================================
 
@@ -994,8 +994,8 @@ Question ID: q6
 Expected Document: 3805.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 3805.jpeg:child:0:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 3, 5, 82]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [2]
 
 ==================================================
 
@@ -1006,7 +1006,7 @@ Expected Document: 6498.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 6498.jpeg:child:1:0
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [1]
+Matching Document Ranks: [8]
 
 ==================================================
 
@@ -1017,7 +1017,7 @@ Expected Document: 8567.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 8567.jpeg:child:0:1
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [63]
+Matching Document Ranks: [98]
 
 ==================================================
 
@@ -1028,7 +1028,7 @@ Expected Document: 5989.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 5989.jpeg:child:0:1
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [1, 19, 27]
+Matching Document Ranks: [1]
 
 ==================================================
 
@@ -1038,8 +1038,8 @@ Question ID: q11
 Expected Document: 6983.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 6983.jpeg:child:1:3
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [2, 15]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [32]
 
 ==================================================
 
@@ -1049,8 +1049,8 @@ Question ID: q7
 Expected Document: 2470.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 2470.jpeg:child:0:3
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 2, 4, 11, 20, 58]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [27]
 
 ==================================================
 
@@ -1060,8 +1060,8 @@ Question ID: q9
 Expected Document: 8311.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 8311.jpeg:child:0:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [28, 36, 90, 100]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [33]
 
 ==================================================
 
@@ -1071,8 +1071,8 @@ Question ID: q9
 Expected Document: 4185.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 4185.jpeg:child:0:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [20, 26, 27]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [15]
 
 ==================================================
 
@@ -1082,8 +1082,8 @@ Question ID: q10
 Expected Document: 4294.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 4294.jpeg:child:2:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 2, 7, 68]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [1]
 
 ==================================================
 
@@ -1093,8 +1093,8 @@ Question ID: q1
 Expected Document: 3336.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 3336.jpeg:child:0:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [2, 23]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [36]
 
 ==================================================
 
@@ -1104,8 +1104,8 @@ Question ID: q16
 Expected Document: 4771.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 4771.jpeg:child:3:3
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 25, 27, 36, 41, 42, 48, 72, 100]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [18]
 
 ==================================================
 
@@ -1126,8 +1126,8 @@ Question ID: q8
 Expected Document: 3348.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 3348.jpeg:child:0:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 55, 77]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [3]
 
 ==================================================
 
@@ -1137,8 +1137,8 @@ Question ID: q3
 Expected Document: 3805.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 3805.jpeg:child:0:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [8]
 
 ==================================================
 
@@ -1148,8 +1148,8 @@ Question ID: q9
 Expected Document: 4816.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 4816.jpeg:child:1:3
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [42]
 
 ==================================================
 
@@ -1159,8 +1159,8 @@ Question ID: q4
 Expected Document: 7766.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 7766.jpeg:child:0:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 2, 3, 70]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [1]
 
 ==================================================
 
@@ -1170,8 +1170,8 @@ Question ID: q10
 Expected Document: 5527.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 5527.jpeg:child:1:0
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 15, 92]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [2]
 
 ==================================================
 
@@ -1181,8 +1181,8 @@ Question ID: q5
 Expected Document: 74.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 74.jpeg:child:0:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [5]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [1]
 
 ==================================================
 
@@ -1193,7 +1193,7 @@ Expected Document: 9311.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 9311.jpeg:child:0:1
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [64, 70]
+Matching Document Ranks: [87]
 
 ==================================================
 
@@ -1203,8 +1203,8 @@ Question ID: q10
 Expected Document: 9366.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 9366.jpeg:child:0:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 2, 3, 4, 6, 9, 30, 35, 36, 43]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [42]
 
 ==================================================
 
@@ -1214,8 +1214,8 @@ Question ID: q13
 Expected Document: 9071.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 9071.jpeg:child:0:3
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [12]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [62]
 
 ==================================================
 
@@ -1223,10 +1223,10 @@ Matching Document Ranks: [12]
 Query: What is the payment term mentioned in the invoice?
 Question ID: q8
 Expected Document: 8432.jpeg
-Correct Document Retrieved: True
+Correct Document Retrieved: False
 Expected Chunk: 8432.jpeg:child:1:0
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [51]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: []
 
 ==================================================
 
@@ -1236,8 +1236,8 @@ Question ID: q5
 Expected Document: 1355.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 1355.jpeg:child:1:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 2]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [2]
 
 ==================================================
 
@@ -1248,7 +1248,7 @@ Expected Document: 8648.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 8648.jpeg:child:0:1
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [5]
+Matching Document Ranks: [27]
 
 ==================================================
 
@@ -1258,8 +1258,8 @@ Question ID: q10
 Expected Document: 6800.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 6800.jpeg:child:1:0
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 2, 3, 4, 5, 21, 57]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [1]
 
 ==================================================
 
@@ -1280,8 +1280,8 @@ Question ID: q11
 Expected Document: 3229.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 3229.jpeg:child:1:3
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 82]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [33]
 
 ==================================================
 
@@ -1291,8 +1291,8 @@ Question ID: q8
 Expected Document: 8881.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 8881.jpeg:child:0:3
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 4, 25, 56]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [2]
 
 ==================================================
 
@@ -1303,7 +1303,7 @@ Expected Document: 5056.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 5056.jpeg:child:0:1
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [7, 33]
+Matching Document Ranks: [41]
 
 ==================================================
 
@@ -1314,7 +1314,7 @@ Expected Document: 5765.jpeg
 Correct Document Retrieved: True
 Expected Chunk: None
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [7]
+Matching Document Ranks: [1]
 
 ==================================================
 
@@ -1324,8 +1324,8 @@ Question ID: q4
 Expected Document: 3611.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 3611.jpeg:child:0:0
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [2, 18]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [47]
 
 ==================================================
 
@@ -1335,8 +1335,8 @@ Question ID: q9
 Expected Document: 4247.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 4247.jpeg:child:1:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [8]
 
 ==================================================
 
@@ -1346,8 +1346,8 @@ Question ID: q5
 Expected Document: 6628.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 6628.jpeg:child:0:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [9, 62]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [7]
 
 ==================================================
 
@@ -1357,8 +1357,8 @@ Question ID: q7
 Expected Document: 113.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 113.jpeg:child:1:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 10, 37]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [33]
 
 ==================================================
 
@@ -1368,8 +1368,8 @@ Question ID: q12
 Expected Document: 7049.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 7049.jpeg:child:1:0
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 5]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [6]
 
 ==================================================
 
@@ -1379,8 +1379,8 @@ Question ID: q5
 Expected Document: 3037.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 3037.jpeg:child:1:4
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [61]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [49]
 
 ==================================================
 
@@ -1391,7 +1391,7 @@ Expected Document: 3980.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 3980.jpeg:child:0:1
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [28]
+Matching Document Ranks: [9]
 
 ==================================================
 
@@ -1399,10 +1399,10 @@ Matching Document Ranks: [28]
 Query: What does this document primarily focus on?
 Question ID: q9
 Expected Document: 2466.jpeg
-Correct Document Retrieved: True
+Correct Document Retrieved: False
 Expected Chunk: 2466.jpeg:child:2:0
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [37]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: []
 
 ==================================================
 
@@ -1412,8 +1412,8 @@ Question ID: q5
 Expected Document: 4021.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 4021.jpeg:child:0:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [4, 7, 28, 34, 92]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [30]
 
 ==================================================
 
@@ -1423,8 +1423,8 @@ Question ID: q1
 Expected Document: 3945.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 3945.jpeg:child:0:0
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 4, 13]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [5]
 
 ==================================================
 
@@ -1435,7 +1435,7 @@ Expected Document: 4953.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 4953.jpeg:child:1:0
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [1, 4]
+Matching Document Ranks: [1]
 
 ==================================================
 
@@ -1445,8 +1445,8 @@ Question ID: q7
 Expected Document: 1996.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 1996.jpeg:child:1:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 5, 25]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [10]
 
 ==================================================
 
@@ -1456,8 +1456,8 @@ Question ID: q2
 Expected Document: 7324.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 7324.jpeg:child:0:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [58]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [46]
 
 ==================================================
 
@@ -1467,8 +1467,8 @@ Question ID: q7
 Expected Document: 2781.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 2781.jpeg:child:1:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 2, 3, 4, 11]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [13]
 
 ==================================================
 
@@ -1487,10 +1487,10 @@ Matching Document Ranks: []
 Query: What is the purpose of this type of document?
 Question ID: q8
 Expected Document: 965.jpeg
-Correct Document Retrieved: True
+Correct Document Retrieved: False
 Expected Chunk: 965.jpeg:child:1:3
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [4]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: []
 
 ==================================================
 
@@ -1500,8 +1500,8 @@ Question ID: q7
 Expected Document: 563.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 563.jpeg:child:0:3
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [30]
 
 ==================================================
 
@@ -1512,7 +1512,7 @@ Expected Document: 5995.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 5995.jpeg:child:0:1
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [2, 6]
+Matching Document Ranks: [38]
 
 ==================================================
 
@@ -1522,8 +1522,8 @@ Question ID: q11
 Expected Document: 8550.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 8550.jpeg:child:1:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [10]
 
 ==================================================
 
@@ -1531,10 +1531,10 @@ Matching Document Ranks: [1]
 Query: What is the total spend reported in the document for the year 1996?
 Question ID: q8
 Expected Document: 3037.jpeg
-Correct Document Retrieved: True
+Correct Document Retrieved: False
 Expected Chunk: None
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [5]
+Matching Document Ranks: []
 
 ==================================================
 
@@ -1542,10 +1542,10 @@ Matching Document Ranks: [5]
 Query: What is the total amount due on the invoice?
 Question ID: q4
 Expected Document: 4548.jpeg
-Correct Document Retrieved: True
+Correct Document Retrieved: False
 Expected Chunk: 4548.jpeg:child:0:3
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [75, 96]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: []
 
 ==================================================
 
@@ -1555,8 +1555,8 @@ Question ID: q2
 Expected Document: 9666.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 9666.jpeg:child:0:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 35]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [5]
 
 ==================================================
 
@@ -1566,8 +1566,8 @@ Question ID: q8
 Expected Document: 9361.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 9361.jpeg:child:1:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [36]
 
 ==================================================
 
@@ -1577,8 +1577,8 @@ Question ID: q4
 Expected Document: 2975.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 2975.jpeg:child:0:3
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 3, 4, 7, 17, 20]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [4]
 
 ==================================================
 
@@ -1589,7 +1589,7 @@ Expected Document: 7027.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 7027.jpeg:child:0:2
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [4, 27, 35]
+Matching Document Ranks: [31]
 
 ==================================================
 
@@ -1600,7 +1600,7 @@ Expected Document: 6498.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 6498.jpeg:child:1:0
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [2, 28]
+Matching Document Ranks: [35]
 
 ==================================================
 
@@ -1611,7 +1611,7 @@ Expected Document: 7695.jpeg
 Correct Document Retrieved: True
 Expected Chunk: None
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [1, 2]
+Matching Document Ranks: [30]
 
 ==================================================
 
@@ -1622,7 +1622,7 @@ Expected Document: 4817.jpeg
 Correct Document Retrieved: True
 Expected Chunk: None
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [10, 68]
+Matching Document Ranks: [37]
 
 ==================================================
 
@@ -1632,8 +1632,8 @@ Question ID: q4
 Expected Document: 8238.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 8238.jpeg:child:0:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 25, 37]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [1]
 
 ==================================================
 
@@ -1643,8 +1643,8 @@ Question ID: q6
 Expected Document: 5250.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 5250.jpeg:child:0:3
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 18]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [41]
 
 ==================================================
 
@@ -1665,8 +1665,8 @@ Question ID: q2
 Expected Document: 2726.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 2726.jpeg:child:1:0
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 2, 3, 4, 9, 29, 42]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [23]
 
 ==================================================
 
@@ -1676,8 +1676,8 @@ Question ID: q11
 Expected Document: 7394.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 7394.jpeg:child:1:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 15, 18, 20]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [17]
 
 ==================================================
 
@@ -1685,10 +1685,10 @@ Matching Document Ranks: [1, 15, 18, 20]
 Query: What is the business name mentioned in the document?
 Question ID: q1
 Expected Document: 5001.jpeg
-Correct Document Retrieved: True
+Correct Document Retrieved: False
 Expected Chunk: 5001.jpeg:child:0:0
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [18]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: []
 
 ==================================================
 
@@ -1698,8 +1698,8 @@ Question ID: q6
 Expected Document: 7306.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 7306.jpeg:child:0:3
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 4, 18]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [3]
 
 ==================================================
 
@@ -1709,8 +1709,8 @@ Question ID: q11
 Expected Document: 8067.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 8067.jpeg:child:1:0
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [25]
 
 ==================================================
 
@@ -1720,8 +1720,8 @@ Question ID: q5
 Expected Document: 1556.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 1556.jpeg:child:2:0
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [3, 5, 40, 59]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [13]
 
 ==================================================
 
@@ -1731,8 +1731,8 @@ Question ID: q11
 Expected Document: 3203.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 3203.jpeg:child:1:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [2]
 
 ==================================================
 
@@ -1754,7 +1754,7 @@ Expected Document: 8537.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 8537.jpeg:child:0:2
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [4]
+Matching Document Ranks: [65]
 
 ==================================================
 
@@ -1764,8 +1764,8 @@ Question ID: q4
 Expected Document: 3528.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 3528.jpeg:child:0:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 42, 52]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [4]
 
 ==================================================
 
@@ -1775,8 +1775,8 @@ Question ID: q9
 Expected Document: 3539.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 3539.jpeg:child:0:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 13, 95]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [22]
 
 ==================================================
 
@@ -1795,10 +1795,10 @@ Matching Document Ranks: []
 Query: What is the total charges mentioned in the document?
 Question ID: q8
 Expected Document: 7996.jpeg
-Correct Document Retrieved: False
+Correct Document Retrieved: True
 Expected Chunk: 7996.jpeg:child:0:3
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: []
+Matching Document Ranks: [16]
 
 ==================================================
 
@@ -1808,8 +1808,8 @@ Question ID: q1
 Expected Document: 2399.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 2399.jpeg:child:0:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 5, 68]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [26]
 
 ==================================================
 
@@ -1819,8 +1819,8 @@ Question ID: q4
 Expected Document: 672.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 672.jpeg:child:0:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 3, 4, 6, 51, 86]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [25]
 
 ==================================================
 
@@ -1830,8 +1830,8 @@ Question ID: q2
 Expected Document: 9366.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 9366.jpeg:child:0:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [33, 62]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [60]
 
 ==================================================
 
@@ -1842,7 +1842,7 @@ Expected Document: 7137.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 7137.jpeg:child:0:1
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [1]
+Matching Document Ranks: [8]
 
 ==================================================
 
@@ -1852,8 +1852,8 @@ Question ID: q6
 Expected Document: 395.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 395.jpeg:child:0:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [2, 79]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [5]
 
 ==================================================
 
@@ -1863,8 +1863,8 @@ Question ID: q1
 Expected Document: 4895.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 4895.jpeg:child:0:0
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 2, 3, 52]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [32]
 
 ==================================================
 
@@ -1875,7 +1875,7 @@ Expected Document: 7137.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 7137.jpeg:child:0:1
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [2, 82]
+Matching Document Ranks: [45]
 
 ==================================================
 
@@ -1886,7 +1886,7 @@ Expected Document: 4185.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 4185.jpeg:child:0:1
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [33, 67]
+Matching Document Ranks: [18]
 
 ==================================================
 
@@ -1896,8 +1896,8 @@ Question ID: q5
 Expected Document: 764.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 764.jpeg:child:1:0
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 3, 10]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [34]
 
 ==================================================
 
@@ -1907,8 +1907,8 @@ Question ID: q11
 Expected Document: 4285.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 4285.jpeg:child:1:4
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [21, 56]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [4]
 
 ==================================================
 
@@ -1929,8 +1929,8 @@ Question ID: q6
 Expected Document: 1064.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 1064.jpeg:child:0:3
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 3, 5, 13, 53]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [26]
 
 ==================================================
 
@@ -1940,8 +1940,8 @@ Question ID: q10
 Expected Document: 4771.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 4771.jpeg:child:2:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 2, 3, 17, 32, 68]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [22]
 
 ==================================================
 
@@ -1949,10 +1949,10 @@ Matching Document Ranks: [1, 2, 3, 17, 32, 68]
 Query: What is the vendor number mentioned in the invoice?
 Question ID: q2
 Expected Document: 9454.jpeg
-Correct Document Retrieved: True
+Correct Document Retrieved: False
 Expected Chunk: 9454.jpeg:child:0:0
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [3]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: []
 
 ==================================================
 
@@ -1973,8 +1973,8 @@ Question ID: q8
 Expected Document: 3980.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 3980.jpeg:child:1:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [2, 4, 5, 31, 35]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [3]
 
 ==================================================
 
@@ -1993,10 +1993,10 @@ Matching Document Ranks: []
 Query: What is the payment due date for the invoice?
 Question ID: q6
 Expected Document: 9162.jpeg
-Correct Document Retrieved: False
+Correct Document Retrieved: True
 Expected Chunk: 9162.jpeg:child:0:2
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: []
+Matching Document Ranks: [52]
 
 ==================================================
 
@@ -2006,8 +2006,8 @@ Question ID: q5
 Expected Document: 4752.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 4752.jpeg:child:0:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 3, 5, 9, 17, 29]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [9]
 
 ==================================================
 
@@ -2018,7 +2018,7 @@ Expected Document: 3629.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 3629.jpeg:child:0:4
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [28, 36, 91]
+Matching Document Ranks: [43]
 
 ==================================================
 
@@ -2028,8 +2028,8 @@ Question ID: q13
 Expected Document: 5423.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 5423.jpeg:child:1:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 2, 4, 9]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [1]
 
 ==================================================
 
@@ -2039,8 +2039,8 @@ Question ID: q1
 Expected Document: 6983.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 6983.jpeg:child:0:0
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 47]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [38]
 
 ==================================================
 
@@ -2050,8 +2050,8 @@ Question ID: q3
 Expected Document: 394.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 394.jpeg:child:0:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [2, 33, 60, 75]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [11]
 
 ==================================================
 
@@ -2062,7 +2062,7 @@ Expected Document: 9565.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 9565.jpeg:child:0:2
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [4]
+Matching Document Ranks: [94]
 
 ==================================================
 
@@ -2073,7 +2073,7 @@ Expected Document: 664.jpeg
 Correct Document Retrieved: True
 Expected Chunk: None
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [1, 2, 7, 10, 23]
+Matching Document Ranks: [19]
 
 ==================================================
 
@@ -2083,8 +2083,8 @@ Question ID: q1
 Expected Document: 3381.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 3381.jpeg:child:0:0
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 2, 3, 14, 18, 23]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [1]
 
 ==================================================
 
@@ -2095,7 +2095,7 @@ Expected Document: 4767.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 4767.jpeg:child:0:1
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [3, 81]
+Matching Document Ranks: [46]
 
 ==================================================
 
@@ -2105,8 +2105,8 @@ Question ID: q4
 Expected Document: 2098.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 2098.jpeg:child:0:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [4, 6, 75]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [26]
 
 ==================================================
 
@@ -2116,8 +2116,8 @@ Question ID: q6
 Expected Document: 2543.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 2543.jpeg:child:0:2
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 2, 3, 4, 5]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [28]
 
 ==================================================
 
@@ -2128,7 +2128,7 @@ Expected Document: 3203.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 3203.jpeg:child:0:1
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [7]
+Matching Document Ranks: [10]
 
 ==================================================
 
@@ -2136,10 +2136,10 @@ Matching Document Ranks: [7]
 Query: What is the address of the issuer?
 Question ID: q2
 Expected Document: 5119.jpeg
-Correct Document Retrieved: False
+Correct Document Retrieved: True
 Expected Chunk: 5119.jpeg:child:0:1
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: []
+Matching Document Ranks: [33]
 
 ==================================================
 
@@ -2149,8 +2149,8 @@ Question ID: q8
 Expected Document: 2967.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 2967.jpeg:child:1:0
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 2, 3, 4, 5, 7, 66]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [1]
 
 ==================================================
 
@@ -2160,8 +2160,8 @@ Question ID: q12
 Expected Document: 4310.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 4310.jpeg:child:0:3
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [2, 39]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [2]
 
 ==================================================
 
@@ -2172,7 +2172,7 @@ Expected Document: 1366.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 1366.jpeg:child:0:1
 Exact Target Chunk Retrieved: False
-Matching Document Ranks: [38]
+Matching Document Ranks: [82]
 
 ==================================================
 
@@ -2182,8 +2182,8 @@ Question ID: q2
 Expected Document: 4254.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 4254.jpeg:child:0:1
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 2, 70]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [28]
 
 ==================================================
 
@@ -2193,8 +2193,8 @@ Question ID: q10
 Expected Document: 4895.jpeg
 Correct Document Retrieved: True
 Expected Chunk: 4895.jpeg:child:1:3
-Exact Target Chunk Retrieved: True
-Matching Document Ranks: [1, 7, 91]
+Exact Target Chunk Retrieved: False
+Matching Document Ranks: [24]
 
 ==================================================
 

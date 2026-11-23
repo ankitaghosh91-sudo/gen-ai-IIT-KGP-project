@@ -111,12 +111,6 @@ class DatasetAnswer(AnswerStrategyBase):
 
         question_terms = meaningful_words(question)
         evidence_doc_ids = {item.doc_id for item in evidence}
-        chunk_by_doc = {
-            item.doc_id: item.chunk_id
-            for item in evidence
-            if item.chunk_id is not None
-        }
-
         best_match = None
         best_overlap = 0
 
@@ -141,13 +135,9 @@ class DatasetAnswer(AnswerStrategyBase):
         if not answer:
             return refusal("The matching dataset answer is empty.")
 
-        citation: dict[str, str] = {"doc_id": doc_id}
-        if chunk_by_doc.get(doc_id) is not None:
-            citation["chunk_id"] = chunk_by_doc[doc_id]
-
         return {
             "answer": answer,
-            "citations": [citation],
+            "citations": [{"doc_id": doc_id}],
             "should_refuse": False,
             "reason": "",
         }

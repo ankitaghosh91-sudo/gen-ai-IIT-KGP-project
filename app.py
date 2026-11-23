@@ -23,6 +23,22 @@ configure_logging()
 logger = logging.getLogger(__name__)
 
 
+def _maybe_index_documents(strategies: Any, documents: list[Document], config: AppConfig) -> None:
+    if config.search_strategy not in {"chroma", "hybrid", "hybrid_reranker", "hybrid-reranker"}:
+        return
+    if not documents:
+        return
+
+    search = getattr(getattr(strategies, "rag", None), "text", None)
+    search = getattr(search, "search", None)
+    if search is None:
+        return
+
+    index_fn = getattr(search, "index_documents", None)
+    if callable(index_fn):
+        index_fn(documents)
+
+
 def _sanitize_chunk_id(value: Any) -> str | None:
     if value is None:
         return None
@@ -35,6 +51,7 @@ def _sanitize_chunk_id(value: Any) -> str | None:
 
 def _load_documents_from_500_or_default() -> tuple[list, str]:
     sample_500_path = Path("data/sample_500/documents.json")
+    print(f'sample_500_path: {sample_500_path} :: {sample_500_path.exists()}')
     if sample_500_path.exists():
         raw_docs = json.loads(sample_500_path.read_text(encoding="utf-8"))
         documents = [
@@ -56,6 +73,7 @@ def _load_documents_from_500_or_default() -> tuple[list, str]:
             )
             for entry in raw_docs
         ]
+        print(f"len: {len(documents)}")
         return documents, str(sample_500_path)
 
     return load_saved_sample(), "default_sample"
@@ -87,6 +105,7 @@ def load_app():
         config,
         model_callable=model_callable,
     )
+    # _maybe_index_documents(strategies, documents, config)
 
     logger.info(
         "PIPELINE_INITIALIZED | source=%s | documents=%d | answerer=%s | rag=%s",

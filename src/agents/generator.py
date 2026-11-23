@@ -14,13 +14,19 @@ def _docs_to_evidence(docs: list[dict[str, Any]], max_docs: int) -> list[Evidenc
         text = (doc.get("text") or "").strip()
         if not text:
             continue
-        items.append(
-            Evidence(
-                doc_id=str(doc.get("doc_id") or ""),
-                chunk_id=str(doc.get("chunk_id") or ""),
-                text=text,
-            )
-        )
+        ev = Evidence.__new__(Evidence)
+        ev.doc_id = str(doc.get("doc_id") or "")
+        ev.text = text
+        ev.question = ""
+        ev.answer = ""
+        ev.image_path = None
+        ev.score = float(doc.get("score", 0.0) or 0.0)
+        ev.chunk_id = str(doc.get("chunk_id") or "")
+        ev.dense_rank = doc.get("dense_rank")
+        ev.sparse_rank = doc.get("sparse_rank")
+        ev.hybrid_rank = doc.get("hybrid_rank")
+        ev.rerank_rank = doc.get("rerank_rank")
+        items.append(ev)
     return items
 
 

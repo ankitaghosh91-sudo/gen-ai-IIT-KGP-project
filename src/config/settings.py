@@ -16,30 +16,34 @@ def _load_local_env(path: str = ".env") -> None:
             os.environ.setdefault(key.strip(), value.strip())
 
 
+def _get_bool_env(name: str, default: bool) -> bool:
+    raw = os.getenv(name)
+    if raw is None:
+        return default
+    return raw.strip().lower() in {"1", "true", "yes", "on"}
+
+
 @dataclass
 class AppConfig:
-    #search_strategy: str = "hybrid_reranker"
-    search_strategy: str = "hybrid_reranker"  # updated default or supported option
-    reranker_model: str = "BAAI/bge-reranker-base" # or large
+    search_strategy: str = "chroma"
+    reranker_model: str = "BAAI/bge-reranker-base"
     rag_strategy: str = "auto"
     prompt_strategy: str = "simple"
-    answer_strategy: str = "llm"
+    answer_strategy: str = "dataset"
     use_multi_agent_graph: bool = False
     agent_max_attempts: int = 2
     agent_top_k: int = 5
     memory_strategy: str = "conversation"
     evaluator_strategy: str = "simple"
-    chunking_strategy: str = "parent_child"
-    embedder_strategy: str = "bge_api"
-    #embedding_model_name: str = "sentence-transformers/all-MiniLM-L6-v2"
-    embedding_model_name: str = "bge-small-en-v1.5"
+    chunking_strategy: str = "whole"
+    embedder_strategy: str = "hashing"
+    embedding_model_name: str = "sentence-transformers/all-MiniLM-L6-v2"
     chroma_path: str = "data/processed/chroma"
-    #chroma_collection: str = "finance_sample"
-    chroma_collection: str = "finance_sample_500_parent_child"
+    chroma_collection: str = "finance_sample"
     metrics_db_path: str = "data/processed/metrics.sqlite3"
-    chunk_size: int = 350
-    chunk_overlap: int = 50
-    retrieval_limit: int = 40
+    chunk_size: int = 800
+    chunk_overlap: int = 100
+    retrieval_limit: int = 4
 
     @classmethod
     def from_env(cls) -> "AppConfig":
@@ -49,9 +53,9 @@ class AppConfig:
             rag_strategy=os.getenv("RAG_STRATEGY", cls.rag_strategy),
             prompt_strategy=os.getenv("PROMPT_STRATEGY", cls.prompt_strategy),
             answer_strategy=os.getenv("ANSWER_STRATEGY", cls.answer_strategy),
-            use_multi_agent_graph=os.getenv("USE_MULTI_AGENT_GRAPH", cls.use_multi_agent_graph),
-            agent_max_attempts=os.getenv("AGENT_MAX_ATTEMPTS", cls.agent_max_attempts),
-            agent_top_k=os.getenv("AGENT_TOP_K", cls.agent_top_k),
+            use_multi_agent_graph=_get_bool_env("USE_MULTI_AGENT_GRAPH", cls.use_multi_agent_graph),
+            agent_max_attempts=int(os.getenv("AGENT_MAX_ATTEMPTS", str(cls.agent_max_attempts))),
+            agent_top_k=int(os.getenv("AGENT_TOP_K", str(cls.agent_top_k))),
             memory_strategy=os.getenv("MEMORY_STRATEGY", cls.memory_strategy),
             evaluator_strategy=os.getenv("EVALUATOR_STRATEGY", cls.evaluator_strategy),
             chunking_strategy=os.getenv("CHUNKING_STRATEGY", cls.chunking_strategy),
